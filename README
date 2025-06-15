@@ -1,0 +1,4 @@
+SETUP STEPS:
+1. download LM Studio from https://lmstudio.ai/
+2. add zypgermodel (zephyr-7b-beta-q4_k_m.gguf) it (can chnage according to your need) 
+3. in the terminal section on local server, and cprs for security
