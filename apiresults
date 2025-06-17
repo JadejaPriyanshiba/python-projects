@@ -1,0 +1,7 @@
+-------------------- TOPICS -----------------
+0.) Basic definitions: determinant function, determinant matrix, cofactor, minor, matrix order, permutation.
+1.) Algebraic properties: linearity, product rule for determinants; determinant of blocks and partitioned matrices, unitriangular matrices.
+2.) Elementary row operations: pivot element, augmented matrix, equivalence, row echelon, reduced row echelon form, solutions of systems of linear equations.
+3.) Applications: area of parallelograms, cross product of vectors, Cramer's rule, volume of parallelepipped, general determinant formulas.
+4.) General properties: Jacobian matrix, absolute value and magnitude, non-singular matrix, eigenvalues and eigenvectors, characteristics polynomial; principal submatrices and minors.
+5.) Determinant of special matrices: triangular matrices, symmetric matrices, antisymmetric matrices, orthogonal matrices, permutations matrices, diagonal matrices, tridiagonal matrices.
