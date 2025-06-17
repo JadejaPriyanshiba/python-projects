@@ -1,20 +1,23 @@
 import requests
 from config import config as cg
-
+from services import generate_pdf as genPDF
+from main import connectLocalModel
 def callModel(prompt):
-    token = cg.getValue("TOKEN")
-    apiurl = cg.getValue("API_URL")
-    headers = {"Authorization": f"Bearer {token}"}
+    # token = cg.getValue("TOKEN")
+    # apiurl = cg.getValue("API_URL")
+    # headers = {"Authorization": f"Bearer {token}"}
 
-    payload = {
-        "inputs" : prompt
-    }
-    response = requests.post(apiurl, headers=headers, json=payload)
-    if(response.status_code!=200):
-        print("somthing went wrong coulbnt load response")
-        return response
+    # payload = {
+    #     "inputs" : prompt
+    # }
+    # response = requests.post(apiurl, headers=headers, json=payload)
+    # # if(response.status_code!=200):
+    # #     print("somthing went wrong coulbnt load response")
+    # #     return response
+    # print(str(response))
+    # return response.json()
+    connectLocalModel(prompt)
     
-    return response.json()
 
 def convertIntoArray(data):
     lines = data.strip().split('\n')
@@ -44,20 +47,34 @@ Topics:
         print(str(topics.index(item))+".) "+item)
     return topics
 
+def getExplanation(topic):
+    prompt = f"""Explain the topic of {topic} in a clear and structured way. 
+Break it down into key subtopics or components. 
+For each subtopic, give a simple explanation, relevant examples, and, where appropriate, analogies or real-world applications to make the concept easier to understand. 
+Use bullet points or headings to organize the information. 
+Make sure the explanation is beginner-friendly and flows logically from one part to the next."""
+    response = callModel(prompt)
+    answer = response[0]['generated_text']
+    print(answer)
+    return answer
 
-from pathlib import Path
+if __name__ == "__main__":
+    title = input("For what topic do you want your notes?: ")
 
-env_path = Path(__file__).parent.parent / '.env'
-print("from 2 "+str(env_path))
+    topics = getTopics(title)
+    answers = []
+    for topic in topics:
+        answer = getExplanation(topic)
+        answers.append(answer)
 
-title = input("For what topic do you want your notes?: ")
+    genPDF.generatePDF(topics, answers, title)
+    
+    # with open("apiresults", "w") as f:
+    #     f.write("-------------------- TOPICS -----------------\n")
 
-topics = getTopics(title)
+    #     for item in topics:
+    #         f.write(str(topics.index(item))+".) "+item)
+    #         f.write("\n")
+    #         f.write(answers[topics.index(item)])
+    #         f.write("\n\n\n")
 
-
-with open("apiresults", "w") as f:
-    f.write("-------------------- TOPICS -----------------\n")
-
-    for item in topics:
-        f.write(str(topics.index(item))+".) "+item)
-        f.write("\n")
