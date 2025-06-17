@@ -16,7 +16,7 @@ def callModel(prompt):
     # #     return response
     # print(str(response))
     # return response.json()
-    connectLocalModel(prompt)
+    return connectLocalModel(prompt)
     
 
 def convertIntoArray(data):
@@ -41,21 +41,31 @@ Do not add extra explanation — just give the clean short few words list.
 Topics:
 """
     response = callModel(prompt)
-    topics = convertIntoArray(response[0]['generated_text'])
-    print(response[0]['generated_text'])
+    topics = convertIntoArray(response['choices'][0]['text'].strip())
+    print(response['choices'][0]['text'].strip())
     for item in topics:
         print(str(topics.index(item))+".) "+item)
     return topics
 
 def getExplanation(topic):
-    prompt = f"""Explain the topic of {topic} in a clear and structured way. 
-Break it down into key subtopics or components. 
-For each subtopic, give a simple explanation, relevant examples, and, where appropriate, analogies or real-world applications to make the concept easier to understand. 
-Use bullet points or headings to organize the information. 
-Make sure the explanation is beginner-friendly and flows logically from one part to the next."""
+    prompt = f"""
+Explain the topic: "{topic}" in a clear, structured, and beginner-friendly way.
+
+- Break it down into key subtopics or components.
+- For each subtopic, provide a brief explanation and, where useful, an example or analogy.
+- Use bullet points or headings.
+- Avoid repeating instructions or filler text.
+- End with a summary of key points.
+
+Start directly:
+"""
     response = callModel(prompt)
-    answer = response[0]['generated_text']
-    print(answer)
+    
+    if response is None or 'choices' not in response:
+        raise Exception("Invalid response from model")
+
+    answer = response['choices'][0].get('text', '').strip()
+    print(f"Explanation for {topic}:\n{answer}\n")
     return answer
 
 if __name__ == "__main__":
@@ -69,12 +79,12 @@ if __name__ == "__main__":
 
     genPDF.generatePDF(topics, answers, title)
     
-    # with open("apiresults", "w") as f:
-    #     f.write("-------------------- TOPICS -----------------\n")
+    with open("apiresults.txt", "w") as f:
+        f.write("-------------------- TOPICS -----------------\n")
 
-    #     for item in topics:
-    #         f.write(str(topics.index(item))+".) "+item)
-    #         f.write("\n")
-    #         f.write(answers[topics.index(item)])
-    #         f.write("\n\n\n")
+        for item in topics:
+            f.write(str(topics.index(item))+".) "+item)
+            f.write("\n")
+            f.write(answers[topics.index(item)])
+            f.write("\n\n\n")
 

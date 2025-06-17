@@ -1,5 +1,34 @@
 THIS IS STILL A ON GOING PROJECT DIR, BUT AIMED TO CREATE USER FRIENDLY DAILY USABLE, PY EXPERIMENTAL PROJECTS
 SETUP STEPS:
 1. download LM Studio from https://lmstudio.ai/
-2. add zypgermodel (zephyr-7b-beta-q4_k_m.gguf) it (can chnage according to your need) 
-3. in the terminal section on local server, and cprs for security
+2. add zephyr model (zephyr-7b-beta-q4_k_m.gguf) it (can change according to your need) 
+3. in the terminal section on local server, and CORS for security
+
+## 🚀 Project Setup
+
+### 🐧 For macOS/Linux users:
+
+Make sure you have Python 3 installed.
+
+1. Open a terminal.
+2. Run:
+    ```bash
+    make setup
+    ```
+
+If you don't have make, you can also run the setup script directly:
+$ bash setup.sh
+
+### 🪟 For macOS/Linux users:
+
+# Option 1: Using setup.bat (Recommended)
+1. Open Command Prompt (cmd).
+2. Navigate to the project directory.
+3. Run:
+    $ setup.bat
+
+# Option 2: Using PowerShell
+1. Open PowerShell.
+2. Navigate to the project directory.
+3. Run:
+    $ .\setup.ps1

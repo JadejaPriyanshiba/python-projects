@@ -13,7 +13,7 @@ def connectLocalModel(prompt):
     response = requests.post(url, json=payload)
 
     if response.status_code == 200:
-        return response.json()['choices'][0]['text'].strip()
+        return response.json()
     else:
         raise Exception(f"Error: {response.status_code} - {response.text}")
     
@@ -32,7 +32,7 @@ Do not add extra explanation — just give the clean short few words list.
         "Generate long, accurate, well-structured, and exam-ready notes with proper formatting, bullet points, and clear explanations.\n\n"
     )
     response = connectLocalModel(get_topics)
-
+    response = response['choices'][0]['text'].strip()
 def parse_bullet_list_to_array(raw_output: str):
     lines = raw_output.strip().split('\n')
     items = []
