@@ -1,21 +1,6 @@
 import requests
+from config import connect as con
 
-def connectLocalModel(prompt):
-    url = "http://localhost:1234/v1/completions"
-    full_prompt = f"{prompt}"
-    payload = {
-        "prompt": full_prompt,
-        "temperature": 0.7,
-        "max_tokens": 1024,
-        # "stop": ["Title:"],
-    }
-
-    response = requests.post(url, json=payload)
-
-    if response.status_code == 200:
-        return response.json()
-    else:
-        raise Exception(f"Error: {response.status_code} - {response.text}")
     
 def generate_notes(title):
     
@@ -31,8 +16,8 @@ Do not add extra explanation — just give the clean short few words list.
     get_explanation=(
         "Generate long, accurate, well-structured, and exam-ready notes with proper formatting, bullet points, and clear explanations.\n\n"
     )
-    response = connectLocalModel(get_topics)
-    response = response['choices'][0]['text'].strip()
+    response = con.callLocalModel(get_topics)
+    response = response
 def parse_bullet_list_to_array(raw_output: str):
     lines = raw_output.strip().split('\n')
     items = []

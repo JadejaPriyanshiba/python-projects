@@ -1,7 +1,8 @@
 import requests
-from config import config as cg
+from config import connect as con
 from services import generate_pdf as genPDF
-from main import connectLocalModel
+
+
 def callModel(prompt):
     # token = cg.getValue("TOKEN")
     # apiurl = cg.getValue("API_URL")
@@ -16,11 +17,11 @@ def callModel(prompt):
     # #     return response
     # print(str(response))
     # return response.json()
-    return connectLocalModel(prompt)
+    return con.callLocalModel(prompt)
     
 
 def convertIntoArray(data):
-    lines = data.strip().split('\n')
+    lines = data.split('\n')
     items = []
     for line in lines:
         line = line.strip()
@@ -41,8 +42,8 @@ Do not add extra explanation — just give the clean short few words list.
 Topics:
 """
     response = callModel(prompt)
-    topics = convertIntoArray(response['choices'][0]['text'].strip())
-    print(response['choices'][0]['text'].strip())
+    topics = convertIntoArray(response)
+    print(response)
     for item in topics:
         print(str(topics.index(item))+".) "+item)
     return topics
@@ -61,10 +62,10 @@ Start directly:
 """
     response = callModel(prompt)
     
-    if response is None or 'choices' not in response:
+    if response is None:
         raise Exception("Invalid response from model")
 
-    answer = response['choices'][0].get('text', '').strip()
+    answer = response
     print(f"Explanation for {topic}:\n{answer}\n")
     return answer
 
@@ -81,7 +82,11 @@ if __name__ == "__main__":
     
     with open("apiresults.txt", "w") as f:
         f.write("-------------------- TOPICS -----------------\n")
-
+        
+        for item in topics:
+            f.write(str(topics.index(item))+".) "+item)
+            f.write("\n")
+        
         for item in topics:
             f.write(str(topics.index(item))+".) "+item)
             f.write("\n")

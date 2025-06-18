@@ -8,7 +8,7 @@ source .venv/bin/activate
 
 echo "Installing dependencies using pyproject.toml..."
 pip install --upgrade pip
-pip install reportlab, python-dotenv, requests
+pip install reportlab python-dotenv requests transformers accelerate google-generativeai
 
 echo 
 echo "Setup complete."

@@ -6,7 +6,7 @@ Write-Host "Activating virtual environment..."
 
 Write-Host "Installing dependencies using pyproject.toml..."
 pip install --upgrade pip
-pip install reportlab, python-dotenv, requests
+pip install reportlab python-dotenv requests transformers accelerate google-generativeai
 
 Write-Host "Setup complete."
 
