@@ -1,0 +1,643 @@
+-------------------- TOPICS -----------------
+0.) Degrees and radians
+1.) Angle relationships (complementary, supplementary)
+2.) Right triangle trigonometry (SOH CAH TOA)
+3.) Law of sines and cosines
+4.) Trigonometric identities
+5.) Solving triangles using multiple angles
+6.) Graphing trigonometric functions
+7.) Converting between decimal degrees, degrees/minutes/seconds, and radians
+8.) Using a calculator for trig functions
+9.) Periods of Trigonometric functions
+10.) Allied & Compound Angles, Multiple-Submultiples angles
+11.) Sum and factor formula
+0.) Degrees and radians
+In mathematics, two fundamental measurements are degrees and radians. Degrees measure angles in everyday terms, whereas radians are used to calculate circular functions such as sinusoidal waves or the movement of wheels or gears. Both systems have their uses, but it's essential to know when to apply each one.
+
+1. Understanding Degrees:
+- An angle is measured in degrees by dividing a circle into 360 equal parts called degrees.
+- A full circle is equivalent to 360 degrees.
+- Degree measurements are easy to understand and visualize because they relate to everyday concepts like clock times or temperature readings.
+- For example, if you see a clock displaying 12:00, it indicates an angle of 0 degrees; the hour hand points straight up, while the minute and second hands align at the top.
+
+2. Understanding Radians:
+- An angle is measured in radians by dividing a circle into an infinite number of equal parts called radians.
+- A full circle equals 2π (approximately 6.28) radians.
+- Radian measurements are more precise and accurate for mathematical calculations because they represent angles in their purest, most fundamental form.
+- For instance, if you calculate the distance traveled by a wheel rotating at a constant speed, you'll need to use radian measurements since they reflect the exact angle between two points on the wheel's circumference.
+
+3. Converting Degrees to Radians:
+- To change an angle from degrees to radians, divide the number of degrees by 180 and multiply it by π (approximately 3.14).
+- For example, if you want to calculate the radian measurement for an angle of 90 degrees, you'd apply this formula: 90° = 5π/12 radians.
+
+4. Converting Radians to Degrees:
+- To change an angle from radians back to degrees, multiply the number of radians by 180 and divide it by π (approximately 3.14).
+- Let's say you're trying to determine the degree measurement for an angle that equals π/2 radians. Using this formula: π/2 radians = 90 degrees.
+
+5. Common Applications of Degrees and Radians:
+- Degree measurements are commonly used in everyday situations, such as telling time on a clock or measuring the temperature with a thermometer.
+- Radian measurements are essential for mathematical calculations involving circular functions, like calculating the distance traveled by wheels or gears rotating at a constant speed.
+
+6. Understanding When to Use Each Measurement:
+- Degrees are appropriate when working on problems that involve everyday scenarios, where visualizing an angle's size is crucial.
+- Radians are more suitable for mathematical calculations concerning circular functions because they provide greater precision and accuracy.
+
+In conclusion, degrees and radians both measure angles in different ways. Understanding the nuances of each system is essential to make accurate calculations depending on the situation's specific needs. By breaking down key concepts into digestible subtopics, providing examples and analogies, and summarizing critical points, you can better understand these fundamental measurements in mathematics.
+
+
+1.) Angle relationships (complementary, supplementary)
+In geometry, angles are formed when two lines intersect at a point. The measure of an angle is the number of degrees it subtends at the intersection point. Two types of angle relationships that are important to understand are complementary and supplementary angles.
+
+Complementary Angles:
+- Definition: Two angles are called complementary if the sum of their measures is 90 degrees.
+- Example: In a rectangle, the smaller angle formed by two adjacent sides is always complementary to the larger angle formed by the same sides (see figure below).
+- Analogy: Complementary angles are like a pair of socks - they go well together and complete each other's measure.
+
+Supplementary Angles:
+- Definition: Two angles are called supplementary if the sum of their measures is 180 degrees.
+- Example: In a straight line, any two adjacent angles formed by two intersecting lines are always supplementary (see figure below).
+- Analogy: Supplementary angles are like a puzzle - they fit together to form a complete picture of 180 degrees.
+
+How do complementary and supplementary angles differ in their relationship to other angles?
+- Complementary angles are related to right angles (90 degrees), while supplementary angles are related to straight lines (180 degrees).
+- Complementary angles always add up to a right angle, while supplementary angles always add up to a straight line.
+- In real life situations, complementary and supplementary angles can be seen in the construction of buildings or the measurement of angles on a compass.
+
+In summary:
+Complementary angles are pairs of angles that total 90 degrees, while supplementary angles are pairs of angles that total 180 degrees. Understanding these relationships is important for solving problems involving angles and lines in geometry.
+
+
+2.) Right triangle trigonometry (SOH CAH TOA)
+Right triangle trigonometry is a branch of mathematics that deals with the relationship between the sides and angles of right triangles. In these types of triangles, one angle measures exactly 90 degrees. The most common applications of right triangle trigonometry can be found in fields such as surveying, engineering, construction, and astronomy.
+
+SOH CAH TOA (Sine, Cosine, Tangent)
+
+The three main trigonometric functions used in right triangles are sine (sin), cosine (cos), and tangent (tan). These functions relate the side lengths of a triangle to its angles. Here's how they work:
+
+1. Sine (sin): The sine function is defined as the ratio of the length of the side opposite the given angle to the length of the hypotenuse. In other words, it represents the amount by which a line rotated around the right angle of a right triangle extends beyond the hypotenuse.
+
+- Example: Consider a right triangle with a 45-degree angle at the top and side lengths of 3 units and 4 units for the adjacent and opposite sides, respectively. To find the sine of the 45-degree angle, we divide the length of the opposite side (4) by the length of the hypotenuse (3): sin(45) = 0.707
+
+2. Cosine (cos): The cosine function is defined as the ratio of the length of the adjacent side to the length of the hypotenuse. It represents the amount by which a line rotated around the right angle of a right triangle falls short of the hypotenuse.
+
+- Example: Continuing with our previous example, to find the cosine of the 45-degree angle, we divide the length of the adjacent side (3) by the length of the hypotenuse (3): cos(45) = 0.707
+
+3. Tangent (tan): The tangent function is defined as the ratio of the length of the opposite side to the length of the adjacent side. It represents the amount by which a line rotated around the right angle of a right triangle rises above or falls below the horizontal line through the adjacent side.
+
+- Example: Using our previous example, to find the tangent of the 45-degree angle, we divide the length of the opposite side (4) by the length of the adjacent side (3): tan(45) = 1
+
+The Relationships between SOH CAH TOA
+
+While each function is defined independently, there are relationships between them that can be used to find missing values in a right triangle. Here's how they work:
+
+- Sine and Cosine: Since the sum of all angles in any triangle must equal 180 degrees, we can use the formula cos(x) = sin(90 - x) to find the cosine of an angle if we know its sine. Similarly, using the formula sin(x) = cos(90 - x), we can find the sine of an angle if we know its cosine.
+
+- Tangent: Using the Pythagorean theorem (c² = a² + b²) and the definitions of sin and cos, we can derive the formula tan(x) = sin(x) / cos(x). This means that we can find the tangent of an angle if we know its sine or cosine.
+
+- Reciprocal Functions: Since the functions sine, cosine, and tangent are ratios, they have reciprocals that can be used to find missing values in a right triangle. Specifically, the reciprocal of sin(x) is csc(x), the reciprocal of cos(x) is sec(x), and the reciprocal of tan(x) is cot(x).
+
+Real-World Applications
+
+The concepts of right triangle trigonometry are used in a wide variety of real-world applications. Here are just a few examples:
+
+- Construction: When building a structure, surveyors use right triangles to determine the distance between points and ensure that structures are level.
+
+- Engineering: Engineers use right triangles to calculate the angle at which pipes should be bent in order to prevent water flow issues or to optimize equipment placement for maximum efficiency.
+
+- Astronomy: In astronomy, right triangles are used to measure the altitude of celestial bodies and to determine their positions relative to the observer's location on Earth.
+
+In Conclusion
+
+Right triangle trigonometry is an essential part of mathematics that has many practical applications in everyday life. Understanding the
+
+
+3.) Law of sines and cosines
+In trigonometry, the Law of Sines and Law of Cosines are two important formulas that help to find the unknown sides and angles in a triangle when only some of its measurements are known. These laws provide alternative methods for solving triangles beyond the more commonly used Law of Cosines formula. In this article, we will explain both laws with examples.
+
+Law of Sines:
+The Law of Sines is a formula that relates the lengths of the sides and angles in any triangle. It allows us to find an unknown side if we know two other sides and the angle opposite one of them or it enables us to calculate an unknown angle if we can measure two sides and an included angle. The formula for the Law of Sines is:
+
+a / sin(A) = b / sin(B) = c / sin(C)
+
+where a, b, and c are the lengths of the sides, and A, B, and C are the angles opposite those sides. This formula shows that the ratio of the length of a side to the sine of its corresponding angle is constant for any triangle.
+
+Example:
+Let's say we have a triangle with side b = 12 cm, side c = 18 cm, and angle B = 45 degrees. We want to find the length of side a. By using the Law of Sines formula, we can set up an equation as follows:
+
+sin(A) = (b sin(C)) / c
+
+Substituting our given values into this formula, we get:
+
+sin(A) = (12 sin(45)) / 18
+
+Simplifying the expression and solving for A, we obtain:
+
+A = arcsin(0.75)
+
+A is approximately equal to 0.52 radians or 30 degrees. Therefore, using the Law of Sines, we can find an unknown side or angle in a triangle when two other sides and angles are given.
+
+Law of Cosines:
+The Law of Cosines is another formula used to calculate the lengths of the sides of a triangle when only some of its measurements are known. This law applies when one angle and two sides, or all three sides, of a triangle are provided. The formula for the Law of Cosines is:
+
+c^2 = a^2 + b^2 - 2ab cos(C)
+
+where c is the length of the side opposite angle C, while a and b represent the lengths of the other two sides. This formula shows that the square of the length of one side is equal to the sum of the squares of the other two sides minus twice their product multiplied by the cosine of the included angle.
+
+Example:
+Let's say we have a triangle with side c = 21 cm, side b = 17 cm, and angle C = 105 degrees. We want to find the length of side a. By using the Law of Cosines formula, we can set up an equation as follows:
+
+a^2 = 21^2 + 17^2 - 2 * 21 * 17 * cos(45)
+
+Simplifying the expression and solving for a, we obtain:
+
+a = sqrt(506)
+
+a is approximately equal to 22.5 cm. Therefore, using the Law of Cosines, we can find an unknown side in a triangle when two sides and angle opposite one of them are provided.
+
+In summary, both the Law of Sines and Law of Cosines provide alternative methods for solving triangles beyond the more commonly used Law of Cosines formula. While they have different applications, both formulas allow us to find unknown sides or angles in a triangle when only some of its measurements are given.
+
+
+4.) Trigonometric identities
+Trigonometric Identities – A Beginner’s Guide
+
+When it comes to trigonometry, identities are a set of equations that link different functions together. They help us simplify complex expressions into simpler and more manageable ones. In this guide, we will take a look at some basic and complex trigonometric identities, explain their meaning, and provide examples where necessary.
+
+1. Basic Trigonometric Identities
+
+These are the fundamental relationships between trigonometric functions that are true for any angle. They include:
+
+a) Pythagorean Identity (Cosine):
+
+cos²θ + sin²θ = 1
+
+This identity is an expression of the Pythagorean theorem in terms of trigonometric functions. It shows how cosine and sine are related to each other through an angle. For example, if we know that sinθ is 0.8 and we want to find the value of cosθ, we can use this identity:
+
+cos²θ = 1 - sin²θ
+
+cosθ = ±√(1 - sin²θ)
+
+b) Pythagorean Identity (Sine):
+
+sin²θ + cos²θ = 1
+
+This formula is the converse of the previous one. It relates the sine and cosine functions through the same angle, but this time it's the cosine function that comes first in terms of the Pythagorean theorem. Here's an example:
+
+cos²θ = 1 - sin²θ
+
+cosθ = ±√(1 - sin²θ)
+
+c) Pythagorean Identity (Tangent):
+
+tan²θ + 1 = sec²θ
+
+This identity allows us to find the value of the secant function in terms of the tangent and the angle. It's also known as the inverse of the cotangent formula:
+
+cot²θ + 1 = csc²θ
+
+2. Reciprocal Trigonometric Identities
+
+These formulas are used to change a trigonometric function into its reciprocal, which is simply the inverse of that function. They include:
+
+a) Reciprocal of Sine (Cosecant):
+
+cscθ = 1/sinθ
+
+b) Reciprocal of Cosine (Secant):
+
+secθ = 1/cosθ
+
+c) Reciprocal of Tangent (Cotangent):
+
+cotθ = 1/tanθ
+
+3. Double Angle Formulas
+
+These formulas are used to simplify expressions involving double angles, or twice the original angle. They include:
+
+a) Double Angle Formula for Sinusoid:
+
+sin(2θ) = 2sinθcosθ
+
+b) Double Angle Formula for Cosine:
+
+cos(2θ) = cos²θ - sin²θ
+
+c) Double Angle Formula for Tangent:
+
+tan(2θ) = (2tanθ)/(1-tan²θ)
+
+4. Half Angle Formulas
+
+These formulas are used to simplify expressions involving half angles, or angles that are halved from their original value. They include:
+
+a) Half Angle Formula for Sine:
+
+sin(θ/2) = ±√((1 + cosθ)/2)
+
+b) Half Angle Formula for Cosine:
+
+cos(θ/2) = ±√((1 - cosθ)/2)
+
+c) Half Angle Formula for Tangent:
+
+tan(θ/2) = sinθ/(1 + cosθ) or cot(θ/2) = 1/tanθ
+
+5. Trigonometric Identities Involving Products and Sums
+
+These formulas are used to simplify expressions involving products and sums of trigonometric functions. They include:
+
+a) Product Formula for Cosine and Sine:
+
+cosθsinφ = (1/2)[sin(θ + phi) - sin(θ - phi)]
+
+b) Sum-to-Product Formula for Sine and Cosine:
+
+sin(θ + phi) = sinθcosφ + cosθsinφ
+
+cos(θ + phi) = cosθcosφ - sinθsinφ
+
+c) Product Formula for Tangent and Cotangent:
+
+tanθcotφ = tanθ - cotφ or cotθtanφ = cotθ - tanφ
+
+In conclusion, trigonometric identities are essential in simplifying complex expressions into simpler
+
+
+5.) Solving triangles using multiple angles
+Solving Triangles Using Multiple Angles
+
+In mathematics, a triangle is a three-sided polygon that has three angles and three sides. Solving triangles is the process of finding the missing side or angle of a triangle when other sides and angles are known. In this tutorial, we will discuss how to solve triangles using multiple angles.
+
+Understanding Multiple Angles
+
+A multiple-angle triangle is a type of triangle where two or more angles are given, but not all three sides. The name “multiple angles” refers to the fact that there can be more than one pair of opposite angles known in this type of triangle. Let’s see an example:
+
+In the diagram above, we know angles A and C, but side b is unknown. To find the missing side, we need to use the Law of Cosines or the Law of Sines. In this tutorial, we will focus on using the Law of Cosines because it is more versatile.
+
+The Law of Cosines
+
+The Law of Cosines is a formula that helps us calculate the length of any missing side in a triangle when two sides and an included angle are known. The formula looks like this:
+
+c2 = a2 + b2 - 2abcos(C)
+
+Where:
+
+- c represents the length of the unknown side
+- a and b represent the lengths of the known sides (opposite angles A and B, respectively)
+- C is the included angle between sides a and b
+
+Let’s apply this formula to our example:
+
+In the diagram above, we know that angle A is 60 degrees, angle C is 120 degrees, and side a is 8 cm long. Our task is to find the length of side b. We can substitute these values into the Law of Cosines formula:
+
+b2 = 82 + 12cm2 - 2 * 8 * 12cos(120)
+
+Simplifying, we get:
+
+b2 = 768 - 1944sin2(60)
+
+We can use a calculator to find the value of sin(60):
+
+sin(60) = 0.866
+
+sin2(60) = (0.866)^2 = 0.753
+
+Now we have everything we need to calculate side b:
+
+b2 = 768 - 1944 * 0.753
+
+Simplifying, we get:
+
+b2 = 1008 - 1449
+
+b2 = -441
+
+Since a square root is a positive number, but our value for b2 is negative, it means that there is no real solution to this problem. In other words, it’s impossible to find the length of side b using the Law of Cosines. This happens when the angle C is greater than 180 degrees or less than 0 degrees.
+
+In such a case, we cannot use the Law of Cosines and should instead use the Law of Sines.
+
+The Law of Sines
+
+The Law of Sines is another formula that helps us calculate the length of any missing side in a triangle when two sides and an included angle are known. The formula looks like this:
+
+sin(a)/a = sin(b)/b = sin(c)/c
+
+Where:
+
+- a, b, and c represent the lengths of the sides opposite angles A, B, and C, respectively
+
+Let’s apply this formula to our example:
+
+In the diagram above, we know that angle A is 60 degrees, angle C is 120 degrees, and side a is 8 cm long. Our task is still to find the length of side b. We can substitute these values into the Law of Sines formula:
+
+sin(60)/8 = sin(b)/b
+
+Now we need to isolate b:
+
+b = (b sin(60)) / sin(b)
+
+Since the sine function is always positive or zero, we can take the square root of both sides:
+
+sqrt(b) = sqrt((8 * sin(60)) / sin(b))
+
+Simplifying, we get:
+
+sqrt(b) = (12 * sin(60)) / sin(b) ^ 0.5
+
+Now we have everything we need to calculate side b using a calculator:
+
+b = (14.43)^2
+
+b = 207.69 cm^2
+
+We can take the square root of both sides to find the value of
+
+
+6.) Graphing trigonometric functions
+In mathematics, graphing trigonometric functions is the process of creating a visual representation of these mathematical equations. Trigonometric functions are used to describe relationships between angles and sides in right triangles. They have important applications in fields such as physics, engineering, and architecture. In this tutorial, we will explore how to graph trigonometric functions step by step, starting with the basics and moving towards more complex techniques.
+
+1. Understanding Trigonometric Functions:
+- Sine (sin): The sine of an angle is the ratio of the length of the side opposite the angle to the length of the hypotenuse in a right triangle. It is represented by the symbol sin. For example, sin(30) is approximately 0.5.
+- Cosine (cos): The cosine of an angle is the ratio of the length of the adjacent side to the length of the hypotenuse in a right triangle. It is represented by the symbol cos. For example, cos(30) is approximately 0.866.
+- Tangent (tan): The tangent of an angle is the ratio of the length of the opposite side to the length of the adjacent side in a right triangle. It is represented by the symbol tan. For example, tan(30) is approximately 0.577.
+
+2. Graphing Sin:
+- To graph sin, start with an x-axis that represents angles measured in radians (often labeled from -π to π). The y-axis will represent the values of sin as the function is applied to each angle.
+- Plot points for a few key angles to help visualize the shape of the curve. For example, sin(0) = 0, sin(π/6) = 1/2, and sin(π/3) = sqrt(3)/2.
+- Connect the dots with a smooth curve to create the sine wave. The graph should have a period of 2π radians (or 360 degrees).
+
+3. Graphing Cos:
+- To graph cos, start with an x-axis that represents angles measured in radians. The y-axis will represent the values of cos as the function is applied to each angle.
+- Plot points for a few key angles to help visualize the shape of the curve. For example, cos(0) = 1, cos(π/6) = sqrt(3)/2, and cos(π/3) = 1/2.
+- Connect the dots with a smooth curve to create the cosine wave. The graph should have a period of 2π radians.
+
+4. Graphing Tan:
+- To graph tan, start with an x-axis that represents angles measured in radians. The y-axis will represent the values of tan as the function is applied to each angle.
+- Plot points for a few key angles to help visualize the shape of the curve. For example, tan(0) = 0, tan(π/4) = 1, and tan(π/2) = infinity (the vertical asymptote).
+- Connect the dots with a smooth curve, being careful to avoid plotting points where tan is undefined (at odd integer multiples of π). The graph should have a period of π radians.
+
+5. Shifting and Scaling Trigonometric Functions:
+- To shift or scale a trigonometric function, apply the same operation to both the x-axis and y-axis simultaneously. For example, adding 2 to every angle will shift the entire curve to the right by 2 units on the x-axis (and the corresponding y-values).
+- To create a horizontal shift, simply add or subtract a value from the angle measure. For example, sin(x - π/6) will result in a graph that is shifted to the left by one-sixth of a period (approximately 30 degrees).
+- To create a vertical shift, apply a constant value to the function output. For example, sin(x) + 2 will result in a graph that is shifted upward by 2 units on the y-axis.
+- To scale the entire curve vertically or horizontally, multiply or divide the function output by a constant factor. For example, sin(2x) will result in a graph that is stretched vertically by a factor of 2 (since it is equivalent to sin(x) * 2).
+
+6. Combining Trigonometric Functions:
+- To create more complex graphs, combine multiple trigonometric functions using algebraic operations. For example, sin(x) + cos(x) will result in a graph that has both s
+
+
+7.) Converting between decimal degrees, degrees/minutes/seconds, and radians
+Converting between Different Coordinate Systems in Navigation
+
+When we navigate using maps and GPS devices, we often use different coordinate systems to represent locations on the Earth's surface. These systems help us to easily understand and communicate our location to others. In this lesson, we will learn how to convert between three commonly used coordinate systems: decimal degrees (DD), degrees/minutes/seconds (DM/DMS), and radians (rad).
+
+1. Understanding Decimal Degrees (DD)
+Decimal Degrees is a system of representing latitude and longitude in which the numbers are expressed as decimal fractions instead of degrees, minutes, and seconds. For example:
+
+Latitude: 42.3650° N or 42° 21' 90" N can be represented in Decimal Degrees as follows:
+
+- Decimal Degrees (DD): 42.6083° N or +42.6083°
+
+In decimal degrees, the latitude and longitude values are represented as decimal fractions between -90 and 90 for latitudes and -180 to 180 for longitudes respectively. Here's an analogy that might help: Think of decimal degrees as a digital clock that displays time in hours and minutes, but instead of using AM/PM or 12-hour format, it uses the decimal equivalent of hours and minutes. For example, 3 PM would be represented as 15:00 (or 15:00:00 for three decimal places).
+
+2. Understanding Degrees/Minutes/Seconds (DM/DMS)
+The degrees/minutes/seconds system is another way of representing latitudes and longitudes in which the values are broken down into degrees, minutes, and seconds. Here's an analogy that might help: Think of degrees/minutes/seconds as a traditional analog clock with 12 hour format. Each hour on the clock is represented by a degree (0° to 360°) and each minute is a fraction of a degree (0' to 60').
+
+For example, the latitude and longitude values for New York City in degrees/minutes/seconds are:
+
+- Latitude: 40° 42' 37" N or +40.7105° N
+- Longitude: 74° 00' 08" W or -74.0019° W
+
+In this system, the latitude value ranges from -90 to 90 degrees, and longitude values range from -180 to 180 degrees. Here's an analogy: Think of degrees/minutes/seconds as a traditional analog clock with a 24-hour format. Each degree on this clock represents one hour, each minute is a fraction of an hour (0' to 60'), and each second is a smaller fraction of a minute (0" to 60").
+
+3. Understanding Radians (rad)
+Radians represent another way of measuring angles that uses mathematical values between -π and +π radians instead of degrees, minutes, and seconds. Here's an analogy: Think of radians as the measurements for angles on a circle in terms of its radius. For example, a 45-degree angle is represented by a radian value of 0.785398163 radians (or approximately π/4 radians).
+
+Radians are commonly used in mathematics and trigonometry because they provide a more direct relationship between angles and mathematical functions, making calculations easier and more efficient. Here's an analogy: Think of radians as measurements for angles on a circle using the radius as the unit of measurement instead of degrees or minutes. For example, a 45-degree angle would be represented by a value of approximately 0.785398163 radians (or approximately π/4 radians).
+
+How to Convert between Different Coordinate Systems
+
+Converting between coordinate systems is important because it allows us to communicate our location more easily and accurately with others who may be using a different system. Here's how to convert between decimal degrees, degrees/minutes/seconds, and radians:
+
+1. Converting Decimal Degrees (DD) to Degrees/Minutes/Seconds (DM/DMS)
+To convert decimal degrees to degrees/minutes/seconds, follow these steps:
+
+- Multiply the decimal value for minutes by 60 to get seconds. For example:
+    - Decimal Minutes: 23.5
+    - Seconds: 23
+
+
+8.) Using a calculator for trig functions
+Using a Calculator for Trig Functions
+
+Trigonometric functions are essential in various fields, including physics, engineering, and computer graphics. However, calculating these functions by hand can be time-consuming and challenging, particularly when dealing with complex angles. In such cases, using a scientific calculator can provide an efficient and accurate solution.
+
+This guide will explain how to use a calculator for trigonometric functions, covering the basics and progressing to more complex concepts. The explanations will be presented in a clear and beginner-friendly manner with examples and analogies where helpful.
+
+1. Basic Trig Functions: Sine, Cosine, and Tangent
+
+The sine (sin), cosine (cos), and tangent (tan) functions represent the relationships between the sides and angles of a right triangle. On a calculator, these functions are accessed using the "sh" key, which stands for sinh, cosh, and tanh (hyperbolic trig functions). To avoid confusion, we will only use the letters SIN, COS, and TAN to represent the basic trigonometric functions.
+
+To calculate the sine, cosine, or tangent of an angle:
+
+- Press the "mode" key on your calculator to select the "degree" mode (this is typically represented by a degree symbol °).
+- Enter the angle in degrees using the number keys and press the "=" key.
+- Press the SIN, COS, or TAN key, depending on which function you want to use.
+- The calculator will display the result of the function.
+
+For example:
+
+- To find the sine of 30°, enter 30 and press "=" followed by "sin" and "=" again. The result should be around 0.5.
+- To find the cosine of 120°, enter 120 and press "=" followed by "cos" and "=" again. The result should be around -0.86.
+- To find the tangent of 45°, enter 45 and press "=" followed by "tan" and "=" again. The result should be around 1.
+
+2. Finding Trig Functions for Multiple Angles
+
+When dealing with multiple angles, it can be convenient to use the "store" and "recall" keys on your calculator to store values and perform calculations later. Here's how:
+
+- Press the "STO" key followed by the number key that represents the angle you want to store (e.g., STO 1 for angle 1).
+- To retrieve the value, press the "RECALL" key followed by the number key representing the storage location (e.g., RCL 1).
+- You can also perform calculations using this stored value, such as finding the sine of a second angle that's twice the first angle:
+   - Store the initial angle using STO 1.
+   - Press "2nd" to switch to the secondary function key (represented by the "2nd" key on your calculator).
+   - Press "VAR" followed by "N" to select variable n as a new variable.
+   - Enter "STO 1 + 360" and press "ENTER". This will store a second copy of the initial angle in variable n, but with an additional 360 degrees to make it twice the original angle.
+   - Press "SIN" followed by "VAR" and "N" to perform the sine calculation using the new value stored in variable n.
+
+3. Solving Trig Equations
+
+When dealing with trig equations, it's crucial to remember that angles can be measured in both degrees and radians. Here's how to convert between these two measurement systems:
+
+- To convert from degrees to radians:
+   - Press the "mode" key on your calculator to select the "radian" mode (represented by a lowercase r).
+   - Enter the angle in degrees using the number keys and press the "=" key.
+   - Press the "DEG" key followed by "RAD" and press "ENTER". This will convert the degree value to radians.
+- To convert from radians to degrees:
+   - Press the "mode" key on your calculator to select the "degree" mode (represented by a degree symbol °).
+   - Enter the angle in radians using the number keys and press the "=" key.
+   - Press the "RAD" key followed by "DEG" and press "ENTER". This will convert the radian value to degrees.
+
+To solve trig equations, follow
+
+
+9.) Periods of Trigonometric functions
+Periods of Trigonometric Functions
+
+Trigonometry is the branch of mathematics that deals with relationships between angles and sides in triangles. In this chapter, we will be discussing trigonometric functions and their periods. Trigonometric functions are mathematical functions that relate an angle of a right-angled triangle to two of its sides, which are called the sine, cosine, and tangent of the angle.
+
+1. Sine Function
+The sine function is represented by sin(x). It returns the y-coordinate of the point where the terminal side of an angle intersects the unit circle, and it repeats itself every 2π radians or 360 degrees. Therefore, the period of the sine function is 2π radians or 360 degrees.
+
+For example, sin(0) = 0, sin(π/2) = 1, sin(π) = 0, and sin(3π/2) = -1.
+
+2. Cosine Function
+The cosine function is represented by cos(x). It returns the x-coordinate of the point where the terminal side of an angle intersects the unit circle, and it repeats itself every 2π radians or 360 degrees. Therefore, the period of the cosine function is also 2π radians or 360 degrees.
+
+For example, cos(0) = 1, cos(π/2) = 0, cos(π) = -1, and cos(3π/2) = 0.
+
+3. Tangent Function
+The tangent function is represented by tan(x). It returns the y-coordinate of the point where the perpendicular bisector of the angle intersects the unit circle, and it repeats itself every π radians or 180 degrees. Therefore, the period of the tangent function is π radians or 180 degrees.
+
+For example, tan(0) = 0, tan(π/4) = 1, tan(π/2) = undefined, and tan(3π/4) = -1.
+
+4. Relationship between Trigonometric Functions
+The sine and cosine functions are related by the formula sin²x + cos²x = 1. This is called the Pythagorean identity because it relates to the Pythagorean theorem, which states that in a right-angled triangle, the square of the length of the hypotenuse (the longest side) is equal to the sum of the squares of the lengths of the other two sides.
+
+The tangent function is related to the sine and cosine functions by the formulas tan(x) = sin(x)/cos(x) and cot(x) = 1/tan(x). The cotangent function, represented by cot(x), returns the reciprocal of the tangent function.
+
+5. Applications of Trigonometric Functions
+Trigonometric functions have various real-world applications, including:
+
+a. Navigation: Trigonometry is used to calculate the position of ships and aircraft based on the angle and distance measurements between known points.
+
+b. Astronomy: Trigonometry is essential in astronomy to calculate the positions of celestial bodies, such as stars, planets, and moons.
+
+c. Engineering: Trigonometry is applied in many engineering fields, such as architecture, civil engineering, electrical engineering, and mechanical engineering, to design buildings, bridges, circuits, and machines.
+
+d. Physics: Trigonometry is an essential part of physics, particularly in calculating forces, velocities, accelerations, and energies based on angles and distances.
+
+6. Solving Trigonometric Equations
+To solve trigonometric equations, you need to isolate the variable by using inverse functions or algebraic methods such as combining like terms, factoring, and completing the square. Here's an example:
+
+Solve sin(x) = 0.5 for x.
+
+a. Using the inverse function: sin⁻¹(0.5) gives us the angle whose sine is 0.5, which is approximately 30 degrees.
+
+b. Using algebraic methods: We can also solve this equation by setting up a system of equations using the identity sin²x + cos²x = 1.
+
+sin(x) = 0.5
+cos²(x) = 1 - sin²(x)
+cos(x) = ±√(1 - 0.25)
+x = ±arccos
+
+
+10.) Allied & Compound Angles, Multiple-Submultiples angles
+Allied & Compound Angles
+
+When you add or subtract angles that are not adjacent to each other, they are called allied angles. In this section, we will learn about the formulas for finding allied angles and how to use them in real-world situations.
+
+Compound Angles:
+
+Compound angles refer to two or more angles added together. Finding compound angles involves breaking down the larger angle into its constituent parts (smaller angles) and then adding them up.
+
+Formula for Finding a Compound Angle:
+
+To find the measure of a compound angle, you first need to determine the measure of the smaller angle(s). Then, follow these steps:
+
+1. Draw a circle.
+2. Label one end of your ray as point A and call it x.
+3. Measure the smaller angle at point A. Label this measurement y.
+4. Measure the larger angle at point A. Call it z.
+5. Draw a line from point B on the circumference of the circle to point C, which is the intersection point of the ray and the larger angle.
+6. The measure of the compound angle is x plus y degrees.
+
+Example:
+Find the measure of the compound angle in the following diagram:
+
+[Insert image of a circle with two angles labeled as "A" and "B". A line connects their intersection point to another point on the circumference labeled "C". The smaller angle, labeled "x", is approximately 60 degrees. The larger angle, labeled "y", is approximately 120 degrees.]
+
+Steps:
+1. Draw a circle.
+2. Label point A as x and measure it at 60 degrees.
+3. Measure the larger angle, y, at point A to be approximately 120 degrees.
+4. Draw a line from point B on the circumference of the circle to point C, which is the intersection point of the ray and the larger angle.
+5. The measure of the compound angle is x plus y degrees, which in this case would be approximately 180 degrees (60 + 120).
+
+Multiple-Submultiples angles:
+
+Multiple-submultiple angles refer to finding an unknown angle when you know both a larger and smaller angle. The formula for finding multiple-submultiple angles is as follows:
+
+Formula for Finding Multiple-Submultiple Angles:
+
+To find the measure of a multiple-submultiple angle, follow these steps:
+
+1. Draw a circle.
+2. Label one end of your ray as point A and call it x.
+3. Measure the smaller angle at point A. Call it y.
+4. Measure the larger angle at point A. Call it z.
+5. Divide the larger angle, z, by the smaller angle, y.
+6. Label the intersection point of the ray and the larger angle as point C.
+7. Draw a line from point B on the circumference of the circle to point C.
+8. The measure of the multiple-submultiple angle is x multiplied by the quotient found in step 5 (z divided by y).
+
+Example:
+Find the measure of the multiple-submultiple angle in the following diagram:
+
+[Insert image of a circle with two angles labeled as "A" and "B". A line connects their intersection point to another point on the circumference labeled "C". The smaller angle, labeled "x", is approximately 30 degrees. The larger angle, labeled "y", is approximately 150 degrees.]
+
+Steps:
+1. Draw a circle.
+2. Label point A as x and measure it at 30 degrees.
+3. Measure the larger angle, y, at point A to be approximately 150 degrees.
+4. Divide the larger angle, y, by the smaller angle, x (150 divided by 30). This gives us a quotient of approximately 5.
+5. Label the intersection point of the ray and the larger angle as point C.
+6. Draw a line from point B on the circumference of the circle to point C.
+7. The measure of the multiple-submultiple angle is x multiplied by the quotient found in step 4 (z divided by y). In this case, it would be approximately 150 degrees (30 times 5).
+
+In conclusion, allied and compound angles are important concepts in mathematics that allow us to find unknown angles when we know one or more smaller angles. The formulas for finding these angles can be used in real-world situations to solve problems related to construction, engineering, and physics. Understanding multiple-submultiple angles is also essential as
+
+
+11.) Sum and factor formula
+The sum formula helps us find the value of angles in polygons that are not regular. The factor formula, on the other hand, is used to expand binomials into their component terms. In this guide, we'll explore both formulas and provide examples to help clarify their applications.
+
+Sum Formula:
+The sum formula for angles in a polygon can be expressed as follows:
+
+(Number of sides - 2) x 180° = Sum of interior angles
+
+For example, let's say we have a pentagon (five-sided polygon). Using the sum formula, we can calculate the measure of each internal angle like this:
+
+(5 - 2) x 180° = 720°
+
+Each internal angle measures 144°.
+
+An analogy to help understand the sum formula is imagining a clock face. The outside edge represents all the angles inside the polygon, and each vertex (point where sides meet) is a "hand" pointing inward. If we subtract two hands (the first and last), since they are opposite each other, then we're left with the remaining four hands (angles) that add up to a full 360°. By multiplying this number by 180° (half the measure of an entire circle), we arrive at the total sum of interior angles for any polygon.
+
+Factor Formula:
+The factor formula, also known as binomial expansion or FOIL method, is used to expand expressions like (x + y)^2 into their component terms. Here's how it works:
+
+(a + b)² = a² + 2ab + b²
+
+To break this down:
+- First term (F): a²
+- Outside terms (O): ab and ba
+- Inside terms (I): ab and ba
+- Last term (L): b²
+
+Let's say we want to find the value of (3x - 2y)^4. Using the factor formula, we can expand the expression as follows:
+
+(3x - 2y) ^4 = (3x) ^4 + 4(3x)(-2y)(3x - 2y) ^2 + 6(-2y)(-2y)(3x)^2 + (-2y) ^4
+
+Here's how we arrived at this formula:
+
+- First term (F): (3x) ^4
+- Outside terms (O): 4(3x)(-2y)(3x - 2y) ^2
+- Inside terms (I): 6(-2y)(-2y)(3x)^2
+- Last term (L): (-2y) ^4
+
+An analogy for the factor formula is building blocks. The base block is the first term, then we add blocks that have a connection on both sides (outside terms), followed by blocks that connect in the middle but not at the ends (inside terms). Finally, we have a last set of blocks that connect only at their ends (last term). By expanding each term into its component blocks, we can see how the expression breaks down into smaller parts.
+
+Summary:
+In summary, the sum formula helps us calculate the measures of interior angles in polygons, while the factor formula expands binomials into their component terms. By breaking these concepts down into key subtopics and using analogies to clarify their applications, we can better understand how they work and apply them in real-world scenarios. Remember, practice makes perfect!
+
+

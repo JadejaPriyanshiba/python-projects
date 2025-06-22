@@ -1,7 +1,7 @@
 import re
-
+from generals import array
 # validate topics given, modify list accordingly
-class validateTopics:
+class ValidateTopics:
     topicsByAI = []
 
     instructions = """ ~~~~ INSTRUCTIONS ~~~~
@@ -9,6 +9,7 @@ class validateTopics:
 ~ Enter 'ok' if the list seems perfect,
 ~ Enter 'instruct' to get instructions again,
 ~ Enter 'recap' for instruction summary, 
+~ Enter 'list' for printing list again, 
 
 ~ to add a topic at last enter 'a:' and new topic name, like 'a: this is the new topic',
 ~ to add a topic at specific index enter 'a' with index and new topic name, like 'a3: this is the new topic',
@@ -29,6 +30,8 @@ class validateTopics:
     instruction_recap=""" ~~~~ INSTRUCTIONS RECAP ~~~~
 ~ 'ok'
 ~ 'instruct'
+~ 'recap'
+~ 'list'
 ~ ADD:
     1. a: new topic at last
     2. a2: new topic at a index
@@ -53,59 +56,141 @@ class validateTopics:
         
         self.__printList()
         print(self.instructions)
+        self.__getAndProcessInput()
     
     def __getAndProcessInput(self):
         flag = True
+        text = "No Change made"
         while flag:
-            key = input("Enter your input: ").strip().lower()
+            key = input("Enter your input: ").strip()
 
             # if the list is perfect
             if(key == "ok"):
                 flag = False
-            
+                text = "generating notes"
             # if user wants instructions again
             elif(key == "instruct"):
                 print(self.instructions)
-            
+                text = ""
             # if wants instruction recap
             elif(key == 'recap'):
                 print(self.instruction_recap)
-
+                text = ""
+            #printing list again
+            elif(key == "list"):
+                self.__printList()
             # if addition
             elif(key[0]=='a'):
                 self.__manageAdd(key)
-            
+                text = "Added topic to list"
+            # if multiple addition
+            elif(re.fullmatch(r'^\[(a\d+: [^\]]+)\](,\[(a\d+: [^\]]+)\])*$', key)):
+                self.__manageMultipleAdd(key)
+                text = "Added topics to list"
             # if removal
             elif(key[0]=='r'):
                 self.__manageRemove(key)
-            
+                text = "Removed topic from list"
             # if sequence change
             elif(key[0].isnumeric and re.match(r"^\d+(->|<->)\d+$", key)):
                 self.__manageSequence(key)
-            
+                text = "Changed sequence of the list"
             # modify topics 
             elif(key[0]=='m'):
-                pass
-            
+                self.__manageModify(key)
+                text = "Modified topic of the list"
+            # manage multiple modify
+            elif(re.fullmatch(r'^\[(m\d+: [^\]]+)\](,\[(m\d+: [^\]]+)\])*$', key)):
+                self.__manageMultipleModify(key)
+                text = "Modified topics of the list"
             # if none of it matches
             else:
                 print("Invalid input")
 
+            # reprinting list for verfication
+            if(text!=""):
+                self.__printList(text=text)
+
     def __manageAdd(self, key):
-        pass
-    def __manageModify(self,key):
-        pass
-    def __manageRemove(self, key):
-        pass
-    def __manageMultiple(self, key):
-        pass
-    def __manageSequence(self, key):
-        pass
-
-
-
+        key = str(key)
         
+        # add at first
+        if(key[0:2]=="a:"):
+            topic = key[2:]
+            self.topicsByAI.append(topic.strip())
+        # add at index
+        elif (key[1].isnumeric):
+            index = int(key[1])-1
+            topic = key[3:].strip()
+            self.topicsByAI.insert(index, topic)
+        else:
+            print("Invalid format, something went wrong, your key: ",key)
+
+    # manage multiple adds
+    def __manageMultipleAdd(self, key):
+        key = str(key)
+        topicsToAdd = key.split(key,"],[")
+
+        # handle each topic
+        for i in topicsToAdd:
+            i = i.replace("[","").replace("]","").strip()
+            self.__manageAdd(i)
     
+    # manage single modify
+    def __manageModify(self,key):
+        key = str(key)
+        
+        if (key[0]=="m" and key[1].isnumeric):
+            index = int(key[1])-1
+            topic = key[3:].strip()
+            self.topicsByAI[index] = topic
+        else:
+            print("Invalid format, something went wrong, your key: ",key)
+    
+    # manage multiple modifications
+    def __manageMultipleModify(self, key):
+        key = str(key)
+        topicsToAdd = key.split(key,"],[")
+
+        # handle each topic
+        for i in topicsToAdd:
+            i = i.replace("[","").replace("]","").strip()
+            self.__manageModify(i)
+
+    # manage removals
+    def __manageRemove(self, key):
+        key = str(key)
+        indexes = key.split(",")
+        tempList = self.topicsByAI
+        # loping and removing
+        for i in indexes:
+            if(i[0]=="r" and i[1].isnumeric()):
+                index = int(i[1])-1
+                tempList.remove(self.topicsByAI[index])
+            else:
+                print(f"invalid format in {key}, {i}")
+        self.topicsByAI = tempList
+    
+    # manage sequence
+    def __manageSequence(self, key):
+        key = str(key).strip()
+
+        if(key[0].isnumeric() and key[-1].isnumeric()):
+            index1 = key[0]
+            index2 = key[-1]
+                
+            # if interchange
+            if(len(key)==4 and key.find("<->")!= -1):
+                value1 = key[index1]
+                key[index1] = key[index2]
+                key[index2] = value1
+            # interchange the values
+            elif(len(key)==3 and key.find("->")!=-1):
+                self.topicsByAI = array.moveElement(self.topicsByAI, index1, index2)
+        else:
+            print("Invalid format, you key was: ", key)
+        
+    # print topic list
     def __printList(self, text= "These topics covered will be: "):
 
         print(text)
