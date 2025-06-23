@@ -16906,3 +16906,848 @@ Radians are the coherent, natural unit for angular measurement, fundamentally li
 15.) Periods of Trigonometric functions
 16.) Allied & Compound Angles, Multiple-Submultiples angles
 17.) Sun and factor formulaes
+1.) Angles and Angle Measurement (Degrees and Radians)
+Angles and angle measurement are fundamental concepts in geometry and trigonometry that enable us to describe and analyze the relationships between lines, curves, and shapes. Angles can be measured using either degrees or radians, each system having its advantages and disadvantages depending on the context of the application. In this article, we will explore angles and angle measurement from their definitions to practical applications in real-world scenarios.
+
+1. Definition of an Angle
+An angle is formed by two rays (or line segments) meeting at a common endpoint called the vertex. The ray that extends further out from the vertex is called the initial side, and the other ray is called the terminal side. The measure of an angle is defined as the amount of rotation needed to sweep one ray around to coincide with the other ray.
+
+2. Types of Angles
+Angles are classified based on their measure:
+- Acute angles: measures less than 90 degrees (e.g., 30 degrees).
+- Right angles: measures exactly 90 degrees (e.g., a corner in a room).
+- Obtuse angles: measures between 90 and 180 degrees (e.g., the angle between two parallel roads that meet at an intersection).
+- Straight angles: measures exactly 180 degrees (e.g., a straight line).
+- Reflex angles: measures more than 180 degrees but less than 360 degrees (e.g., a door frame with the hinges on the outside).
+
+3. Degree Measurement
+The degree measure is the most commonly used system in everyday life, education, and engineering because it is intuitively easy to visualize angles as parts of a circle. The degree measure ranges from 0 degrees to 360 degrees, and each degree represents a fraction of a full circle (i.e., 1 degree = 1/360th of the circle).
+
+Examples:
+- A protractor is a device used to measure angles in degrees.
+- In navigation, degrees are used to determine the latitude and longitude coordinates of a location on Earth.
+- In computer graphics, degrees are used to specify rotations and transformations in 2D and 3D environments.
+
+4. Radian Measurement
+The radian measure is a more mathematical approach to measuring angles because it is based on the length of an arc (i.e., the curved part of a circle) subtended by an angle, rather than visualizing angles as parts of a circle. The radian measure ranges from 0 radians to 2π radians, where one radian equals approximately 57.29 degrees.
+
+Examples:
+- In physics and engineering, radians are used to describe circular motion (e.g., the rotation of a wheel), as well as trigonometric functions like sine, cosine, and tangent.
+- In astronomy, radians are used to measure angles between celestial objects, such as the position of the moon relative to the sun.
+- In programming languages, radians are often used for mathematical operations because they are more accurate than degrees due to the limitations of decimal arithmetic.
+
+5. Applications of Angles and Angle Measurement
+Angles and angle measurement have a wide range of applications in various fields:
+- Architecture: angles are used to design buildings, roofs, and structures.
+- Navigation: angles are used to determine the directions and locations of ships, planes, and vehicles.
+- Astronomy: angles are used to measure the positions of celestial objects and calculate their distances.
+- Engineering: angles are used to analyze mechanical systems, such as gears, levers, and pulleys.
+- Science: angles are used to describe physical phenomena, such as light refraction, sound waves, and electric fields.
+
+6. Conversion between Degrees and Radians
+Although degrees and radians are two different ways of measuring angles, they can be converted from one system to the other using simple mathematical formulas:
+- To convert degrees to radians, use the formula: radians = (degrees * π) / 180.
+- To convert radians to degrees, use the formula: degrees = (radians * 180) / π.
+
+7. Summary of Key Points
+In summary, angles and angle measurement are critical concepts in geometry and trigonometry that enable us to analyze relationships between lines, curves, and shapes. Degree and radian measurements are two different systems for measuring angles, each with its advantages and disadvantages depending on the context of the application. Understanding how to convert between degrees and radians is essential because they are used in
+
+
+2.) Unit Circle Definition
+The unit circle is a circle with a radius of 1 unit (or radius of length 1). It is used in trigonometry to visualize and understand the relationships between angles, sides, and trigonometric functions like sine, cosine, and tangent.
+
+Importance of the Unit Circle:
+1. Understanding the unit circle helps us to grasp the concept of trigonometric functions as ratios of side lengths in right triangles.
+2. It provides a visual representation of angles and their corresponding function values.
+3. The unit circle simplifies calculations by eliminating the need for dealing with radii or circumferences that vary from triangle to triangle.
+4. It helps us understand periodicity and symmetry properties of trigonometric functions.
+5. Lastly, it facilitates understanding the inverse trigonometric functions like arcsine, arccosine, and arctangent.
+
+Key Subtopics:
+1. Quadrants:
+The unit circle is divided into four quadrants based on the position of its terminal side (the side opposite the vertex or starting angle) with respect to the positive x-axis. These quadrants are labeled as I, II, III, and IV. The first quadrant covers angles between 0° and 90°, second quadrant covers angles between 90° and 180°, third quadrant covers angles between 180° and 270°, and the fourth quadrant covers angles between 270° and 360°.
+
+2. Coordinates:
+The coordinates of any point on the unit circle can be found using its angle in radians or degrees. To find the x-coordinate (horizontal distance from the origin), we use the cosine function, while to find the y-coordinate (vertical distance from the origin), we use the sine function. If the angle is in degrees, we first convert it into radians using the conversion factor of 180° = π radians.
+
+3. Trigonometric Functions:
+The unit circle provides a visual representation of trigonometric functions like sine, cosine, and tangent. These functions are represented as ratios of side lengths in right triangles. In the context of the unit circle, these functions can be thought of as the y-coordinate (for sine), x-coordinate (for cosine), or ratio of y:x (for tangent) for angles measured counterclockwise from the positive x-axis.
+
+4. Periodicity and Symmetry:
+The unit circle helps us understand the periodicity and symmetry properties of trigonometric functions. All three functions repeat themselves after a complete revolution of 360°, which is equivalent to 2π radians. The sine function exhibits symmetry about the y-axis (y = -x), while the cosine function shows symmetry about both x and y-axis (y = x). The tangent function displays symmetry only along the x-axis (x = y or x = -y) due to its vertical asymptotes.
+
+5. Inverse Functions:
+Inverse trigonometric functions like arcsine, arccosine, and arctangent find their application in determining angles based on function values. On the unit circle, these inverse functions can be visualized as the angle between the x-axis and a point on the circle. The inverse sine, cosine, and tangent functions have domains of [-1, 1] for their input values while their ranges cover all angles between -π/2 and π/2 radians for sine, between -π and π radians for cosine, and between -π/2 and π/2 radians for tangent.
+
+In conclusion, the unit circle is a fundamental tool in trigonometry that provides us with a visual representation of angles and their corresponding function values. It simplifies calculations by eliminating the need to deal with varying radii or circumferences from triangle to triangle. The unit circle helps us understand periodicity, symmetry, inverse functions, and quadrants, making it an essential concept for all trigonometric applications.
+
+
+3.) Basic Trigonometric Ratios (SOH CAH TOA)
+Trigonometry is the study of relationships between angles and sides in triangles. In this article, we will be focusing on the basic trigonometric ratios SOH CAH TOA. These formulas are used to find the missing side or angle in a right-angled triangle when one side and two angles (or vice versa) are known.
+
+SOH CAH TOA - Basic Trigonometric Ratios:
+
+Before we dive into the formulas, let's first understand what each abbreviation represents.
+
+• SOH: Sine (sin) of an angle is equal to the opposite side divided by the hypotenuse (hyp).
+  Example: If we have a right-angled triangle with an angle of 30 degrees and the opposite side is 6 cm, then the sine of 30 degrees (sin30) is equal to 6 cm divided by the length of the hypotenuse (c). C is not given here so we can't find the value of sin30 exactly.
+
+• CAH: Cosine (cos) of an angle is equal to the adjacent side divided by the hypotenuse (hyp).
+  Example: In our right-angled triangle, the adjacent side is 8 cm long. Therefore, cos30 is equal to 8 cm divided by the length of the hypotenuse (c). Again, c is not given here so we can't find the value of cos30 exactly.
+
+• TOA: Tangent (tan) of an angle is equal to the opposite side divided by the adjacent side (opp/adj).
+  Example: In our right-angled triangle, the tangent of 30 degrees (tan30) is equal to the length of the opposite side (6 cm) divided by the length of the adjacent side (8 cm).
+
+Let's see how we can use these formulas to find missing sides or angles in right-angled triangles.
+
+Finding Missing Sides:
+
+1. If you know sin and c, then use the formula: opposite = sin * hypotenuse
+   Example: In our right-angled triangle, if we know that sin30 is 0.5 and the length of the hypotenuse (c) is 12 cm, then the value of the opposite side (opp) can be calculated using the formula: opp = sin30 * c = 0.5 * 12 = 6 cm.
+
+2. If you know cos and c, then use the formula: adjacent = cos * hypotenuse
+   Example: In our right-angled triangle, if we know that cos30 is 0.8 and the length of the hypotenuse (c) is 12 cm, then the value of the adjacent side (adj) can be calculated using the formula: adj = cos30 * c = 0.8 * 12 = 9.6 cm.
+
+Finding Missing Angles:
+
+1. If you know sin and opp, then use the formula: angle = arcsin(sin)
+   Example: In our right-angled triangle, if we know that sin30 is 0.5 and the opposite side (opp) is 6 cm, then we can find the value of the angle using the inverse sine function: angle = arcsin(0.5) = 30 degrees.
+
+2. If you know cos and adj, then use the formula: angle = arccos(cos)
+   Example: In our right-angled triangle, if we know that cos30 is 0.8 and the adjacent side (adj) is 9.6 cm, then we can find the value of the angle using the inverse cosine function: angle = arccos(0.8) = 30 degrees.
+
+3. If you know tan and opp/adj, then use the formula: angle = arctan(tan)
+   Example: In our right-angled triangle, if we know that tan30 is 1 (opp=6 cm, adj=9.6 cm), then we can find the value of the angle using the inverse tangent function: angle = arctan(1) = 30 degrees.
+
+In summary, SOH CAH TOA are essential formulas in trigonometry for finding missing sides and angles in right-angled triangles. By applying these formulas, we can solve a variety of real-world problems related to engineering, physics, and architecture.
+
+
+4.) Primary Trigonometric Functions (Sine, Cosine, Tangent)
+Primary Trigonometric Functions (Sine, Cosine, Tangent)
+
+In trigonometry, three important functions are used to describe the relationships between angles and sides in right triangles. These functions are known as sine, cosine, and tangent (abbreviated as sin, cos, and tan). In this article, we will discuss each of these functions in detail, including definitions, formulas, and examples.
+
+Sine Function
+
+The sine function is represented by the lower case letter "sin" with an argument inside parentheses. The argument is typically an angle measure in degrees or radians. When the unit circle is used to visualize a right triangle, the sine function is equal to the length of the side opposite the angle, divided by the hypotenuse (the longest side). Mathematically, this relationship can be expressed as:
+
+sin(θ) = y / x
+
+Where θ represents the angle in radians or degrees, y is the length of the side opposite the angle (referred to as the "side adjacent" if we are working with a right triangle), and x is the length of the hypotenuse. For example:
+
+sin(30°) = 0.5
+
+This means that in a right triangle with an angle measure of 30 degrees, the side opposite that angle (the "side adjacent") has a length of 0.5 times the length of the hypotenuse. To find the sine of an angle using a calculator, first convert the angle measurement to radians (if necessary), then press the sin key and enter the angle value.
+
+Cosine Function
+
+The cosine function is represented by the lower case letter "cos" with an argument inside parentheses. Like the sine function, it takes an angle measure as its input. The cosine function is equal to the length of the side adjacent (the side that is next to the angle in a right triangle) divided by the hypotenuse. Mathematically, this relationship can be expressed as:
+
+cos(θ) = x / y
+
+Where θ represents the angle in radians or degrees, and x and y are the lengths of the sides adjacent and opposite the angle, respectively. For example:
+
+cos(30°) = 0.866
+
+This means that in a right triangle with an angle measure of 30 degrees, the side adjacent has a length of 0.866 times the length of the hypotenuse. To find the cosine of an angle using a calculator, first convert the angle measurement to radians (if necessary), then press the cos key and enter the angle value.
+
+Tangent Function
+
+The tangent function is represented by the lower case letter "tan" with an argument inside parentheses. Like the sine and cosine functions, it takes an angle measure as its input. The tangent function is equal to the length of the side opposite (the side that is farthest from the angle in a right triangle) divided by the length of the side adjacent. Mathematically, this relationship can be expressed as:
+
+tan(θ) = y / x
+
+Where θ represents the angle in radians or degrees, and x and y are the lengths of the sides adjacent and opposite the angle, respectively. For example:
+
+tan(30°) = 0.578
+
+This means that in a right triangle with an angle measure of 30 degrees, the side opposite has a length of 0.578 times the length of the side adjacent. To find the tangent of an angle using a calculator, first convert the angle measurement to radians (if necessary), then press the tan key and enter the angle value.
+
+Trigonometric Identities
+
+There are several relationships, known as identities, between the sine, cosine, and tangent functions. These can be used to simplify expressions involving these functions. Here are some common trigonometric identities:
+
+sin²(θ) + cos²(θ) = 1 (Pythagorean identity)
+
+cos²(θ) + tan²(θ) = 1
+
+sin(θ) = cos(θ - 90°)
+
+cos(θ) = sin(θ + 90°)
+
+tan(θ) = cot(θ - 90°)
+
+cot(θ) = tan(θ - 90°)
+
+These identities can be used to find the values of one function in terms of another, or to simplify expressions involving multiple functions. For example:
+
+sin²(30°) + cos²(3
+
+
+5.) Reciprocal Trigonometric Functions (Secant, Cosecant, Cotangent)
+Reciprocal Trigonometric Functions (Secant, Cosecant, Cotangent)
+
+In trigonometry, we often use trigonometric functions to find the unknown angles or sides of right-angled triangles. However, there are also other trigonometric functions called reciprocal trigonometric functions that can be used in certain situations. These functions are secant (sec), cosecant (csc), and cotangent (cot).
+
+Secant Function:
+
+The secant function is the reciprocal of the cosine function, which means it is the inverse of dividing 1 by the cosine value. If we represent the angle in radians as x, then the formula for secant (sec) is:
+
+sec(x) = 1/cos(x)
+
+The secant function gives us the reciprocal value of the length of the adjacent side to the hypotenuse in a right-angled triangle. Since the cosine function gives us the length of the adjacent side, the secant function is actually the ratio of the length of the hypotenuse (c) to the length of the adjacent side (b).
+
+In other words, secant(x) = c/b.
+
+Example: Let's say we have a right-angled triangle with an opposite side of 8 units and an adjacent side of 6 units. To find the hypotenuse using the secant function, we can use the formula secant(θ) = c/b to solve for c. Since our value for b is 6 units, our value for secant is:
+
+sec(θ) = c/6
+
+To isolate c, we can multiply both sides by 6:
+
+6 * sec(θ) = c
+
+c = 6 * sec(θ)
+
+Cosecant Function:
+
+The cosecant function is the reciprocal of the sinusoidal function, which means it's the inverse of dividing 1 by the sine value. If we represent the angle in radians as x, then the formula for cosecant (csc) is:
+
+csc(x) = 1/sin(x)
+
+The cosecant function gives us the reciprocal value of the length of the hypotenuse to the length of the opposite side in a right-angled triangle. Since the sine function gives us the length of the opposite side, the cosecant function is actually the ratio of the length of the hypotenuse (c) to the length of the opposite side (a).
+
+In other words, csc(x) = c/a.
+
+Example: Let's say we have a right-angled triangle with an adjacent side of 10 units and an opposite side of 8 units. To find the hypotenuse using the cosecant function, we can use the formula csc(θ) = c/a to solve for c. Since our value for a is 8 units, our value for csc is:
+
+csc(θ) = c/8
+
+To isolate c, we can multiply both sides by 8:
+
+8 * csc(θ) = c
+
+c = 8 * csc(θ)
+
+Cotangent Function:
+
+The cotangent function is the reciprocal of the tangent function, which means it's the inverse of dividing the cosine value by the sine value. If we represent the angle in radians as x, then the formula for cotangent (cot) is:
+
+cot(x) = 1/tan(x)
+
+The cotangent function gives us the reciprocal value of the ratio of the length of the adjacent side to the length of the opposite side in a right-angled triangle. Since the tangent function gives us this ratio, the cotangent function is actually the inverse of this value.
+
+Example: Let's say we have a right-angled triangle with an adjacent side of 12 units and an opposite side of 8 units. To find the ratio of the adjacent side to the opposite side using the cotangent function, we can use the formula cot(θ) = adjacent/opposite to solve for cotangent. Since our value for adjacent is 12 units and our value for opposite is 8 units, our value for cotangent is:
+
+cot(θ) = 12/8
+
+cot(θ) = 1.5
+
+Now that we understand how the secant, cosecant, and cotangent functions work, let'
+
+
+6.) Fundamental Trigonometric Identities (Pythagorean, Reciprocal, Quotient)
+Trigonometry is the branch of mathematics that deals with relationships between sides and angles in triangles. It provides us with tools to solve problems involving right angles, such as finding the height of a building, calculating distances across the Earth's surface or measuring the slope of a roof. In this article we will learn about some of the fundamental trigonometric identities that are essential for understanding and applying trigonometry.
+
+Pythagorean Identity:
+The Pythagorean theorem is probably the most well-known relationship between sides in a right triangle. It states that in any right-angled triangle, the square of the length of the hypotenuse (the longest side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides:
+c² = a² + b²
+This identity can be derived using algebraic manipulation. We start with the Pythagorean theorem and solve for c²:
+c² = a² + b²
+Next, we take the square root of both sides to find the value of c:
+c = ±√(a² + b²)
+Squaring both sides again gives us:
+c² = (±√(a² + b²))² = a² + b²
+The Pythagorean identity is another way to express this relationship. It highlights the symmetry between the sides and angles of a right triangle, and helps us simplify complex expressions involving trigonometric functions. For example:
+sin²θ + cos²θ = 1 - tan²θ (using the Pythagorean identity for sin²θ)
+
+Reciprocal Identities:
+The reciprocal identities relate the sine, cosine and tangent of an angle to their corresponding functions. These identities are useful because they allow us to convert between different types of trigonometric functions. The formulae are:
+sinθ = 1/cotθ (when cotθ is not undefined)
+cosθ = 1/tanθ (when tanθ is not undefined)
+tanθ = sinθ/cosθ (when cosθ is not zero)
+These identities can be derived by taking the reciprocals of the functions:
+sinθ = opposite/hypotenuse
+cotθ = adjacent/opposite
+tanθ = opposite/adjacent
+Reciprocal functions have a vertical asymptote where their denominator is zero. This means that some of these identities only hold true when the denominators are not equal to zero, otherwise they would be undefined. For example:
+cotθ = 1/tanθ (when tanθ is defined)
+
+Quotient Identities:
+The quotient identities relate the sine, cosine and tangent of an angle to each other, without the need for a third side. These formulas are useful when we don't have enough information about a triangle to apply the Pythagorean theorem or the reciprocal identities directly:
+tanθ = sinθ/cosθ (when cosθ is not zero)
+cotθ = cosθ/sinθ (when sinθ is not zero)
+These formulas can be derived by dividing one trigonometric function by another, using their definitions:
+tanθ = sinθ/cosθ = opposite/adjacent (from the definition of tangent)
+cotθ = cosθ/sinθ = adjacent/opposite (from the definition of cotangent)
+These identities help us to simplify expressions involving trigonometric functions, and also provide alternative ways to calculate certain values. For example:
+sin²θ + cos²θ = 1 - tan²θ (using the Pythagorean identity for sin²θ)
+cot²θ = 1/tan²θ (using the quotient identities cotθ and tanθ)
+
+Examples:
+Let's consider an example to illustrate how we can use these identities in practice. Suppose we know that the measure of one angle in a right triangle is 30 degrees, and that the length of the hypotenuse (c) is 8 units. We want to find the lengths of the other two sides (a and b).
+
+First, we use the Pythagorean theorem to calculate the length of side a:
+a² = b² + 64
+Next, we use the reciprocal function for cosine to find the length of side b when we know the measure of the adjacent angle (θ = 90 - 30 = 60 degrees):
+cos(60) = adjacent/hypotenuse
+b = hypotenuse * cos(60)
+
+Finally, we can
+
+
+7.) Solving Right-Angled Triangles
+In mathematics, we often encounter right-angled triangles, which are the triangles having one angle as 90 degrees. These triangles have some unique properties that help us to find missing sides and angles easily. In this article, we will learn how to solve right-angled triangles using trigonometry functions.
+
+Key Subtopics:
+1. Understanding Right-Angled Triangles
+2. Finding Unknown Sides Using Trigonometric Functions
+3. Calculating Heights and Distances Using Right-Angled Triangles
+4. Applying Pythagoras' Theorem in Right-angled Triangles
+5. Solving Oblique Triangles (Non-right Angle) Using Right-angled Triangles
+
+1. Understanding Right-Angled Triangles:
+In a right-angled triangle, one angle is always 90 degrees, and the other two angles can be acute or obtuse depending on the location of the vertex. The sides opposite the right angle are called hypotenuses, while the sides adjacent to the right angle are known as legs. In this section, we will learn how to identify and draw right-angled triangles.
+
+Example:
+Draw a right-angled triangle with legs of length 6 cm and 8 cm and a hypotenuse of length 10 cm.
+
+Solution:
+First, construct the right angle at one end of the 10 cm side. Now, draw perpendicular lines from the vertex of the right angle to both 6 cm and 8 cm sides. The resulting figure is a right-angled triangle with legs of length 6 cm and 8 cm and hypotenuse of length 10 cm.
+
+2. Finding Unknown Sides Using Trigonometric Functions:
+In a right-angled triangle, we can find the missing sides or angles using trigonometric functions such as sine (sin), cosine (cos), and tangent (tan). These functions help us to relate the lengths of sides in a right-angled triangle. In this section, we will learn how to use these functions to find unknown sides.
+
+Formula:
+sin(θ) = Opposite side / Hypotenuse
+cos(θ) = Adjacent side / Hypotenuse
+tan(θ) = Opposite side / Adjacent side
+
+Example:
+Find the length of the missing leg in a right-angled triangle with hypotenuse 12 cm and angle 30 degrees.
+
+Solution:
+First, find the sine of 30 degrees using a calculator or lookup table. Sin(30) = 0.5
+Now, use the formula sin(θ) = Opposite side / Hypotenuse to solve for the unknown leg:
+Leg = Hypotenuse * sin(θ) = 12 cm * 0.5 = 6 cm
+
+3. Calculating Heights and Distances Using Right-Angled Triangles:
+Right-angled triangles can be used to calculate heights of objects, distances between two points, and other measurements in real life. In this section, we will learn how to apply right-angled triangles to practical problems.
+
+Example 1:
+A vertical flagpole casts a shadow of length 6 m on the ground when the sun is at an angle of 30 degrees above the horizon. How tall is the flagpole?
+
+Solution:
+Draw a right-angled triangle with hypotenuse as the height of the flagpole, length of the shadow as the adjacent side and the angle between them as 30 degrees. Use the formula sin(θ) = Opposite side / Hypotenuse to calculate the unknown height:
+Height = Hypotenuse * cos(θ) = Shadow length / Sin(θ) = 6 m / Sin(30) = 20 m
+
+Example 2:
+A boat is sailing at a speed of 15 km/hr due east. After 4 hours, it reaches a point that is 9 km due north from its starting point. How far is the boat from its starting point?
+
+Solution:
+First, draw a right-angled triangle with hypotenuse as the distance between the starting point and the final position, length of the eastward travel as the adjacent side and the angle between them as 45 degrees. Use the formula Pythagoras' theorem to calculate the unknown distance:
+Distance = Square root of [Eastward travel^2 + Northward travel^2] = 13 km
+
+4. Applying Pythagoras' Theorem in Right-angled Tri
+
+
+8.) Law of Sines (Sine Rule)
+The Law of Sines (also known as the Sine Rule) is a formula that connects the sine functions of the angles and sides of a triangle. It allows us to find unknown side lengths or angles in a triangle when we know one angle and two side lengths, or two angles and one side length. In this article, we will explore the Law of Sines and its practical applications in mathematics and engineering.
+
+1. The Formula:
+The Law of Sines can be written as follows:
+
+sin(A)/a = sin(B)/b = sin(C)/c
+
+where A, B, C are the angles of the triangle, and a, b, c are the corresponding side lengths (see Figure 1). This formula is valid for any triangle, regardless of its shape.
+
+Figure 1: Illustration of the Law of Sines
+
+2. Solving Triangles:
+The Law of Sines allows us to find unknown angles or sides in a triangle when we know some measurements. Here are two examples:
+
+Example 1: Find angle C if a = 5, b = 7, and c = 9 (see Figure 2).
+
+Figure 2: Example 1 of the Law of Sines
+
+Solution: We can use the formula sin(C) = sin(A) * c / b to solve for angle C. Substituting our known values gives us:
+
+sin(C) = sin(30) * 9 / 7
+
+To find angle C, we need to calculate its sine value and then convert it back to degrees using the inverse sine function (arcsin). This can be done using a calculator or spreadsheet software. Here's how:
+
+sin(C) = 0.857 * 9 / 7 = 0.624
+
+C = arcsin(0.624) = 38.1°
+
+Example 2: Find side a if A = 60, B = 40, and C = 80 (see Figure 3).
+
+Figure 3: Example 2 of the Law of Sines
+
+Solution: We can use the formula sin(a) = sin(B) * b / c to solve for side a. Substituting our known values gives us:
+
+sin(a) = sin(40) * 8 / 6 (since opposite angle A is unknown)
+
+To find side a, we need to calculate its sine value and then use the inverse sine function to find its length in units. This can be done using a calculator or spreadsheet software. Here's how:
+
+sin(a) = 0.678 * 8 / 6 = 1.021
+
+a = arcsin(1.021) = 63.5° (rounded to two decimal places)
+
+3. Engineering Applications:
+The Law of Sines has many practical applications in engineering, particularly in construction and surveying. Here are a few examples:
+
+- Building construction: When building a structure with multiple levels or tiers, the Law of Sines can be used to ensure that each tier is level and aligned correctly. By measuring the angles between adjacent levels and the distances between them, engineers can calculate any necessary adjustments to ensure that the entire structure is stable and safe.
+- Road construction: When designing a road with multiple curves or bends, the Law of Sines can be used to determine the optimal radius and angle for each bend to minimize the length of the road while maintaining safety and stability. By calculating the angles between adjacent bends and the distances between them, engineers can find the best possible route for the road.
+- Surveying: When surveying a large area with multiple triangles or trapezoids, the Law of Sines can be used to calculate the exact measurements of each triangle or trapezoid based on the angles and side lengths measured at various points in the area. By applying the Law of Sines to each triangle or trapezoid separately and then connecting them together using straight lines, surveyors can create an accurate and detailed map of the area.
+
+In conclusion, the Law of Sines is a powerful formula that connects the sine functions of the angles and sides of a triangle. It allows us to solve triangles by finding unknown angles or sides when we know some measurements, and it has many practical applications in engineering and construction. By understanding the Law of Sines and how to use it, we can make more informed decisions about building structures, designing roads, and surveying areas.
+
+
+9.) Law of Cosines (Cosine Rule)
+The Law of Cosines (Cosine Rule) is a formula used to find the measures of any angle in a triangle, given the lengths of its sides. This law is also known as Heron's Formula or the Cosine Law. It is essential for solving oblique triangles, which are triangles that do not have any angles measuring 90 degrees (right angles).
+
+Key Components:
+1. Definition of Oblique Triangle
+   An oblique triangle is a type of triangle where none of its interior angles measure exactly 90 degrees. This means that all three angles in an oblique triangle are acute, obtuse or reflex.
+   
+2. Statement of the Law of Cosines (Cosine Rule)
+   The law of cosines states that in any triangle, the square of the length of the side opposite a given angle is equal to the sum of the squares of the lengths of the other two sides, minus twice the product of their lengths and the cosine of the angle between them. This formula can be written mathematically as follows:
+   c² = a² + b² - 2abcos(C)
+   
+3. Application of the Law of Cosines (Cosine Rule)
+   The law of cosines allows us to find the measure of any angle in an oblique triangle if we know the lengths of its sides. By using this formula, we can calculate one unknown angle or side length when the other two sides and an included angle are given.
+   
+Example:
+Consider the following oblique triangle ABC:
+   a = 6 cm
+   b = 8 cm
+   C = 120°
+   To find the measure of angle B, we apply the law of cosines as follows:
+   c² = a² + b² - 2abcos(C)
+   c² = 6² + 8² - 2 × 6 × 8 × cos(120°)
+   c² = 36 + 64 - 96 × (-0.5)
+   c² = 100
+   c = ±10 cm
+   
+   Now, we can find the measure of angle B using the following formula:
+   b = acos(sin(A)sin(C) + cos(A)cos(C))
+   b = (10 × sin(90° - 60°)) + (6 × cos(90° - 60°))
+   b = 5.2 sin(180°) + 4.3 cos(180°)
+   b = 90°
+   
+   Therefore, the measure of angle B is approximately 90 degrees.
+   
+Proof and Derivation:
+The law of cosines can be derived using trigonometry formulas. Let's assume that we have an oblique triangle ABC with sides a, b, and c opposite angles A, B, and C, respectively. By applying the sine rule to the triangle, we get:
+   sin(A) = (b sin(C)) / c
+   
+   Similarly, by applying the sine rule again but this time to the triangle ABC' where AC is replaced with BC', we obtain:
+   sin(B') = (a sin(C)) / b
+   
+   Now, if we draw a right triangle inside the original triangle (as shown below), then the height h of the right triangle would be equal to BC' sin(B'). Therefore, using Pythagorean theorem for this right triangle:
+   c² = h² + (BC')²
+   
+   By substituting the value of BC' in terms of b and a:
+   c² = h² + b² - 2bhsin(B)cos(C)
+   
+   Solving for h:
+   h = ±√(c² - b² + 2bhsin(B)cos(C))
+   
+   Now, using the identity sin(B') = sin(B)cos(C) - cos(B)sin(C):
+   sin(B') = sin(B)cos(C) - cos(B)sin(C)
+   Substituting this value of sin(B') in terms of b, a, and c:
+   sin(B') = (a sin(C)) / b - (c sin(A)) / b cos(C)
+   
+   Solving for sin(B):
+   sin(B) = [sin(B') + sin(A)] / [cos(C) - cos(B')cos(A)]
+   
+   Applying the inverse
+
+
+10.) Area of Triangles (using Trigonometry)
+The area of a triangle is the amount of space it takes up. In this article, we will learn how to calculate the area of a triangle using trigonometry. Trigonometry helps us understand relationships between sides and angles in triangles. Let's dive into it!
+
+Subtopic 1: Calculating the height of a triangle (using trigonometry)
+
+The height of a triangle is the vertical distance from the base to the opposite vertex, perpendicular to the base. To calculate the height using trigonometry, we use the sin function. Here's how it works:
+
+1. Find the angle opposite the side you want to find the height for (let's call this angle x). Measure it in radians.
+2. Calculate the sine of angle x. This gives us the ratio between the height and the base, as shown in Figure 1 below.
+3. Multiply the sine of angle x with the length of the base to get the height.
+
+Figure 1: Height calculation using trigonometry
+
+Example: Let's calculate the height of a triangle with base 8 cm and angle x equal to 45 degrees (0.785 radians).
+
+1. Find angle x: 45 degrees = 0.785 radians
+2. Calculate sin(x): sin(0.785) = 0.433
+3. Multiply height with base: Height = Base * sin(x)
+                              Height = 8 cm * 0.433
+                              Height = 3.46 cm
+
+Subtopic 2: Calculating the area of a triangle (using trigonometry)
+
+Now that we know how to calculate the height, let's use it to find the area of our triangle. The formula for finding the area of a triangle using trigonometry is:
+
+Area = Base * Height / 2
+
+Figure 2: Area calculation using trigonometry
+
+Example: Let's find the area of the triangle we calculated the height for in Subtopic 1. We have base 8 cm and height 3.46 cm. Let's calculate the area:
+
+Area = Base * Height / 2
+                   Area = 8 cm * 3.46 cm / 2
+                   Area = 17.9 cm²
+
+Subtopic 3: Special types of triangles (using trigonometry)
+
+Not all triangles have two known sides and an angle between them to calculate the height and area. In such cases, we need to use a different approach. Here are some examples:
+
+1. Right-angled triangle: A right-angled triangle has one angle of exactly 90 degrees (a "right" angle). We can find the missing side using the Pythagorean theorem (c² = a² + b²) or trigonometric functions like cosine and tangent.
+
+2. Equilateral triangle: An equilateral triangle has all three sides of equal length and all three angles measuring 60 degrees each. To calculate its area, we need to know the side length (s). The formula for finding its area is: Area = s² * sqrt(3) / 4
+
+In conclusion, understanding how to calculate the height and area of a triangle using trigonometry is essential in many fields, from engineering to architecture. By following the steps outlined above, you can easily calculate the missing dimensions needed for various applications. Remember that practice makes perfect, so keep working through examples until you feel comfortable with these concepts!
+
+
+11.) Double Angle Formulas
+Trigonometry is the branch of mathematics that deals with the relationships between angles and sides of triangles. It finds its applications in various fields like physics, engineering, computer graphics, navigation etc. In this article we will discuss one of the important topics of trigonometry called Double Angle Formulas.
+
+Double Angle Formulas:
+In double angle formula we find the value of a function when the angle is twice that for which we already know the function's value. For example, sin(2θ), cos(2θ) etc are the functions whose values we want to find by doubling the angles. 
+
+The formulas for finding the values of trigonometric functions in double angle forms are:
+
+1. Sin(2θ) = 2sinθcosθ
+To derive this formula, let us consider a right angled triangle with two adjacent sides as sinθ and cosθ. Now we construct another right angled triangle inside the larger triangle by joining the vertex of smaller triangle to the opposite end of larger triangle. This triangle has its hypotenuse as the side containing both smaller triangles. 
+
+The angles in this new triangle are 2θ and θ. We can see that the side opposite to angle 2θ is sinθ, and the side opposite to angle θ is cosθ. By Pythagoras theorem:
+c^2 = a^2 + b^2
+Substituting values, we get:
+c^2 = sin^2θ + cos^2θ
+Now we can find the value of c by taking square root of both sides:
+c = ±√(sin^2θ + cos^2θ)
+
+The side opposite to angle θ is cosθ. So, the value inside the parentheses is sinθ. By using identity sin^2θ + cos^2θ = 1:
+c = ±2sinθcosθ
+So, the side opposite to angle 2θ is twice the product of sinθ and cosθ. This gives us the formula for finding sin(2θ).
+
+2. Cos(2θ) = cos^2θ - sin^2θ
+For this formula, let us consider the right angled triangle from the previous example. Now, we find the value inside the parentheses:
+cos(2θ) = 1 - 2sin^2θ
+Now we can see that sin^2θ is equal to (1-cos^2θ). By substituting this in our formula for cos(2θ), we get:
+cos(2θ) = cos^2θ - (1-cos^2θ)
+Simplifying, we get the required formula.
+
+3. Tan(2θ) = (2tanθ)/(1-tan^2θ)
+For this formula, let us again consider the right angled triangle from the previous example. Now, we find the value of tan(2θ):
+tan(2θ) = sin(2θ) / cos(2θ)
+Substituting sin(2θ) and cos(2θ), we get:
+tan(2θ) = (2sinθcosθ) / (cos^2θ - sin^2θ)
+Simplifying, we get the required formula.
+
+These formulas are very useful in various applications like finding the exact position of a pendulum in motion or calculating the length of shadows during different times of the day, etc. They are also used to simplify trigonometric expressions and avoid lengthy calculations.
+
+
+12.) Half Angle Formulas
+In trigonometry, the half angle formulas are equations that relate the angles in a right triangle to their corresponding half angles. These formulas can be used to find values for functions such as sine, cosine, and tangent when only partial information is known about an angle. In this article, we will discuss the derivation of these formulas and provide examples of how they can be applied in practical situations.
+
+Derivation of Half Angle Formulas:
+
+To derive the half angle formulas, we first need to understand what a half angle is. A half angle is simply an angle that has been halved, either by dividing it in half or by adding it to its complementary angle (the angle that adds up to 90 degrees). For example, if we have an angle of 60 degrees, its half angle would be 30 degrees.
+
+Let's consider a right triangle with hypotenuse c and legs a and b as shown in Figure 1 below:
+
+Figure 1: Half Angle Formulas - Derivation
+
+The angles at the legs are labeled as x and y, respectively. Since this is a right triangle, we know that x and y add up to 90 degrees. Therefore, the half angle formula for sine can be derived as follows:
+
+sin(x/2) = sin^2(x/2) / (1 - sin^2(x/2)) ^ 1/2
+
+This equation is derived by applying the Pythagorean theorem to find the length of the hypotenuse c in terms of a and b, and then using the formula for sine:
+
+sin(x) = b / c
+
+Next, we take half of this angle and apply the double-angle formula for sine:
+
+2 sin(x/2) = sin(x)
+
+Finally, we isolate sin(x/2):
+
+sin(x/2) = sin^2(x/2) / (1 - sin^2(x/2)) ^ 1/2
+
+This equation is the half angle formula for sine. Similarly, we can derive the half angle formulas for cosine and tangent by following a similar process:
+
+cos(x/2) = (1 + sin(x)) / (1 - sin(x)) ^ 1/2
+
+tan(x/2) = sin(x/2) / (cos(x/2))
+
+These equations are less intuitive than the sine formula, but they can still be derived using similar methods. The half angle formulas allow us to find values for functions such as sine, cosine, and tangent when only partial information is known about an angle. This can be particularly useful in practical situations where we may not have access to a full measurement of an angle.
+
+Example Applications:
+
+One common application of the half angle formulas is in engineering, where they are used to calculate angles in complex mechanical systems. For example, suppose we have a rotating mechanism that moves through an angle of 120 degrees every two revolutions. We want to find the half angle at which the mechanism reaches its maximum speed. Using the sine formula, we can calculate this angle as follows:
+
+sin(60) = sin^2(30) / (1 - sin^2(30)) ^ 1/2
+
+This equation yields a value of approximately 0.87 for the half angle, which corresponds to an angle of approximately 51 degrees. By understanding how the mechanism behaves at this critical point, we can optimize its performance and ensure that it operates efficiently within its design constraints.
+
+Another application of the half angle formulas is in navigation, where they are used to calculate distances and bearings based on partial information about an angle. For example, suppose we have a vessel traveling along a coastline at a constant speed. We want to determine the distance between two points on the shore based on the angle between them and our current position. By using the half angle formulas to calculate the angles involved, we can accurately estimate the distance and bearings required to reach our destination.
+
+Conclusion:
+
+The half angle formulas are a powerful tool in trigonometry that allow us to find values for functions such as sine, cosine, and tangent when only partial information is known about an angle. By understanding how these formulas work and their practical applications, we can optimize complex mechanical systems, calculate distances and bearings during navigation, and solve a wide range of real-world problems involving angles and triangles. As always, it's important to remember that the key to mastering these concepts is practice, practice, practice! By working through examples and applying these form
+
+
+13.) Product-to-Sum and Sum-to-Product Formulas
+Trigonometry is the branch of mathematics that deals with the relationships between angles and sides in triangles, as well as certain functions of angles (such as sine, cosine, and tangent). In this article, we will be discussing two formulas from trigonometry: product-to-sum and sum-to-product formulas. These formulas are used to convert products or sums of trigonometric functions into each other, making them useful in solving various problems involving angles and triangles.
+
+Product-to-Sum Formula:
+The product-to-sum formula is used to convert the product of sine and cosine into a sum of sines and cosines. This formula is often used when finding trigonometric values for angles that are not easily calculated using a calculator or lookup table, as it allows us to break down complex products into simpler sums.
+
+Here's how the product-to-sum formula works:
+
+1. Let x be the angle whose product of sine and cosine is unknown.
+2. Use the product-to-sum formula: sin(x)cos(x) = 0.5[sin(2x) - cos(2x)].
+3. Simplify the expression inside the brackets by using the half-angle formula for sine and cosine: sin(2x) = 2sin(x)cos(x), and cos(2x) = cos²(x)-sin²(x).
+4. Substitute these expressions into the product-to-sum formula to get: sin(x)cos(x) = sin²(x) - cos²(x).
+5. Simplify further by using the Pythagorean identity sin²(x) + cos²(x) = 1, and solve for either sin(x) or cos(x):
+sin(x)cos(x) = (sin²(x) + cos²(x))cos(x) - sin²(x).
+sin(x) = sqrt{[(sin²(x) + cos²(x))cos(x) - sin²(x)]}
+cos(x) = sqrt{[sin²(x) + cos²(x)]cos(x)}
+
+Example: Find the value of sin(120°) using the product-to-sum formula.
+
+1. Use the half-angle formula for sine and cosine to find sin(60°) and cos(60°):
+sin(60°) = sqrt{3}/2, and cos(60°) = 1/2.
+2. Let x = 60° in the product-to-sum formula:
+sin(120°)cos(120°) = sin²(60°) - cos²(60°).
+3. Simplify by using the expressions for sin(60°) and cos(60°):
+sin(120°)cos(120°) = (3/4)^2 - (1/2)^2.
+4. Calculate sin(120°):
+sin(120°) = sqrt{[(3/4)^2 - (1/2)^2]}.
+
+Sum-to-Product Formula:
+The sum-to-product formula is used to convert the sum of sines or cosines into a product. This formula is helpful when dealing with angles that are not multiples of 90°, as it allows us to break down complex sums into simpler products.
+
+Here's how the sum-to-product formula works:
+
+1. Let A and B be two angles whose sum or difference is unknown.
+2. Use the sum-to-product formula for sine: sin(A) + sin(B) = 2sin[(A+B)/2]cos[(A-B)/2].
+3. Or use the sum-to-product formula for cosine: cos(A) - cos(B) = -2sin[(A-B)/2]sin[(A+B)/2].
+4. Simplify further by using the half-angle formula for sine and cosine.
+
+Example: Find the value of sin(30° + 60°) using the sum-to-product formula for sine.
+
+1. Let A = 30° and B = 60° in the sum-to-product formula for sine:
+sin(A) + sin(B) = 2sin[(A+B)/2]cos[(A-B)/2].
+2. Calculate sin[(
+
+
+14.) Solving Trigonometric Equations
+Solving Trigonometric Equations
+
+Trigonometric equations are equations that involve trigonometric functions such as sin, cos, and tan. Solving these types of equations can be more challenging than solving algebraic equations because the inverse functions, arcsin, arccos, and arctan, need to be used inversely. This guide aims to help you understand how to solve trigonometric equations step-by-step.
+
+1. Identify what needs to be solved for:
+The first step in solving a trigonometric equation is to identify what variable needs to be found. The variable can be represented as x, y or theta (θ). For example:
+a) Find x if sin x = 0.5
+b) Find y if cos y = -0.3
+c) Find θ if tan θ = 2
+
+2. Isolate the trigonometric function:
+The next step is to isolate the trigonometric function on one side of the equation. This can be done by performing inverse functions, combining like terms, and simplifying expressions. For example:
+a) sin x = 0.5
+b) cos y = -0.3
+c) tan θ = 2
+
+3. Use inverse trigonometric functions:
+After isolating the trigonometric function, use its inverse function to find the unknown variable. For example:
+a) sin^-1 (0.5) = x
+b) cos^-1 (-0.3) = y
+c) tan^-1 (2) = θ
+
+4. Simplify expressions:
+After finding the unknown variable, simplify any remaining expressions by using identities, algebraic operations or combinations of functions. For example:
+a) x = sin^-1 (0.5)
+b) y = -cos^-1 (-0.3)
+c) θ = tan^-1 (2)
+
+5. Check the solution:
+After finding the unknown variable, substitute it back into the original equation to check if it solves the equation. If it does not solve the equation, then there may be multiple solutions or no real solutions for certain values of the trigonometric functions. For example:
+a) sin (x) = 0.5
+b) cos (y) = -0.3
+c) tan (θ) = 2
+
+Examples:
+1. Find x if sin x = -0.7:
+a) Isolate sin x: sin x = -0.7
+b) Use inverse sine function: x = sin^-1 (-0.7)
+c) Simplify the expression: x ≈ -1.2 radians or -70.36 degrees
+
+2. Find y if cos y = 0.4:
+a) Isolate cos y: cos y = 0.4
+b) Use inverse cosine function: y = cos^-1 (0.4)
+c) Simplify the expression: y ≈ -0.6 radians or -35.26 degrees
+
+3. Find θ if tan θ = 1.5:
+a) Isolate tan θ: tan θ = 1.5
+b) Use inverse tangent function: θ = tan^-1 (1.5)
+c) Simplify the expression: θ ≈ 0.64 radians or 37.29 degrees
+
+Extra interesting points:
+1. Solving trigonometric equations for multiple angles:
+a) If you want to find all solutions, draw a circle and mark the angle where the function equals the given value. Then, use the period of the function to find other angles with the same value. For example, if sin x = 0.3, then there are two possible values for x that satisfy this equation: x1 = sin^-1 (0.3) and x2 = sin^-1 (0.3) + 2π radians (or 360 degrees).
+
+2. Solving trigonometric equations with restrictions:
+a) Some trigonometric functions have limitations, such as sin (-x) = -sin x, cos (-x) = cos x, and tan (-x) = -tan x. Understanding these restrictions can help you avoid errors when solving trigonometric equations. For example, if cot θ = -0.5, then there are two possible values for θ that satisfy this equation: θ1 = cot^-1 (-0.5) or θ2 = π + cot^-1 (-0.5).
+
+3. Solving trigonometric equations using a calculator:
+
+
+15.) Trigonometric Functions
+Trigonometry is the branch of mathematics that deals with relationships between angles and sides in triangles. In this article, we'll focus on the six trigonometric functions sine (sin), cosine (cos), tangent (tan), cotangent (cot), secant (sec), and cosecant (csc).
+
+1. Sine (sin)
+The sine function is represented by sin in radians or sinx in degrees. It represents the side of a right triangle opposite the given angle. The other two sides are the hypotenuse (the longest side) and the adjacent side (the side that shares a common endpoint with the given angle). In math notation, sin(x) = opposite / hypotenuse.
+
+Example:
+In the image above, if angle x is 45 degrees, then sin(45) = oppose / hypotenuse = 1 / sqrt(2), since both the adjacent and hypotenuse sides are of length √2.
+
+2. Cosine (cos)
+The cosine function is represented by cos in radians or cosx in degrees. It represents the side of a right triangle adjacent to the given angle. The other two sides are the hypotenuse and the opposite side (the side that's opposite the given angle). In math notation, cos(x) = adjacent / hypotenuse.
+
+Example:
+In the image above, if angle x is 45 degrees, then cos(45) = adjacent / hypotenuse = sqrt(2) / sqrt(2), since both the opposite and hypotenuse sides are of length √2.
+
+3. Tangent (tan)
+The tangent function is represented by tan in radians or tanx in degrees. It represents the ratio of the opposite side to the adjacent side for a given angle. In math notation, tan(x) = opposite / adjacent.
+
+Example:
+In the image above, if angle x is 45 degrees, then tan(45) = opposite / adjacent = 1 / sqrt(2), since both the adjacent and opposite sides are of length √2.
+
+4. Cotangent (cot)
+The cotangent function is represented by cot in radians or cotx in degrees. It represents the reciprocal of the tangent function, meaning it's the opposite side divided by the adjacent side for a given angle. In math notation, cot(x) = adjacent / opposite.
+
+Example:
+In the image above, if angle x is 45 degrees, then cot(45) = adjacent / opposite = sqrt(2), since both the opposite and adjacent sides are of length √2.
+
+5. Secant (sec)
+The secant function is represented by sec in radians or secx in degrees. It represents the reciprocal of the cosine function, meaning it's the hypotenuse divided by the adjacent side for a given angle. In math notation, sec(x) = hypotenuse / adjacent.
+
+Example:
+In the image above, if angle x is 45 degrees, then sec(45) = hypotenuse / adjacent = sqrt(2), since both the adjacent and hypotenuse sides are of length √2.
+
+6. Cosecant (csc)
+The cosecant function is represented by csc in radians or cscx in degrees. It represents the reciprocal of the sin function, meaning it's the hypotenuse divided by the opposite side for a given angle. In math notation, csc(x) = hypotenuse / opposite.
+
+Example:
+In the image above, if angle x is 45 degrees, then csc(45) = hypotenuse / opposite = sqrt(2), since both the opposite and hypotenuse sides are of length √2.
+
+1. To find the missing side of a right triangle when two sides and an angle are known:
+- Use one of the six trigonometric functions to find the unknown side. For example, if you know the adjacent side (a) and the angle (θ), then use cos(θ) = adjacent / hypotenuse to solve for the hypotenuse (c).
+
+Example:
+In the image above, we want to find the length of side c when we know that a = 3 and θ = 60 degrees. Using cosine, we get:
+cos(60) = adjacent / hypotenuse
+Let x be the unknown value for hypotenuse c:
+x = adjacent / cos(60
+
+
+16.) Periods of Trigonometric functions
+Trigonometric functions are used to find the relationship between angles and sides in triangles. The most commonly used trigonometric functions are sine (sin), cosine (cos), and tangent (tan). These functions have a periodic nature, which means that they repeat their behavior at certain intervals. In this article, we will discuss the periods of these functions.
+
+1. Period of sin(x)
+The sine function repeats its values after an angle of 360 degrees (2π radians). This is known as the period of sin(x). The formula for calculating the period is:
+Period = 2π radians
+Example: Let's find the value of sin(x) at x = 180°. We know that after an angle of 180°, the sine function repeats its values. This means that sin(360°) is equal to sin(180°).
+
+2. Period of cos(x)
+The cosine function repeats its values after an angle of 360 degrees (2π radians). The period of cos(x) is the same as that of sin(x).
+Example: Let's find the value of cos(x) at x = 360°. Since the period of cos(x) is 2π radians, we can say that cos(360°) is equal to cos(0°).
+
+3. Period of tan(x)
+The tangent function repeats its values after an angle of 180 degrees (π radians). This means that tan(x + 180°) = -tan(x). The period of tan(x) is also known as the principal value period.
+Example: Let's find the value of tan(x) at x = 180°. Since the period of tan(x) is π radians, we can say that tan(360°) is equal to -tan(180°).
+
+4. Applications of Periodic Nature
+The periodic nature of trigonometric functions has many practical applications in engineering and science. Some of them are:
+- In electrical engineering, the sinusoidal waves used in power transmission have a period of 2π radians.
+- In physics, the motion of pendulums and oscillations follows a sine or cosine function with a periodic nature.
+- In computer graphics, the waveforms used to create animations and special effects also follow these functions.
+
+In conclusion, the periodic nature of trigonometric functions is an essential concept in mathematics, engineering, and science. Understanding the periods of sin(x), cos(x), and tan(x) is crucial for solving problems related to angles and sides in triangles. The practical applications of these functions also have a significant impact on various fields such as physics, electrical engineering, and computer graphics.
+
+
+17.) Allied & Compound Angles, Multiple-Submultiples angles
+Trigonometry is a branch of mathematics that deals with the relationships between angles and sides in triangles. In this tutorial, we will cover three subtopics of trigonometry which are Allied & Compound Angles, Multiple-Submultiples angles.
+
+Allied & Compound Angles:
+1) Allied Angles: When two angles are formed at the same vertex (point) and their non-common sides form a common side, they are called allied angles.
+2) Complementary Angles: When the sum of two allied angles is 90 degrees, they are called complementary angles. For example, in the given figure, θ and (90 - θ) are complementary angles.
+3) Supplementary Angles: When the sum of two allied angles is 180 degrees, they are called supplementary angles. For example, in the given figure, θ and (180 - θ) are supplementary angles.
+
+4) To find the value of a complementary or supplementary angle when one angle is known:
+a) Complementary Angles: If an angle x is complementary to another angle y, then x + y = 90 degrees. Solve for x.
+b) Supplementary Angles: If an angle x is supplementary to another angle y, then x + y = 180 degrees. Solve for x.
+
+Compound Angles:
+When we add or subtract two angles, we say it's compound angles. We can use the trigonometric functions of these angles to find the value of the compound angle.
+
+5) To find the value of a compound angle when both angles are given:
+a) Additive Compound Angle: If we add two angles, the sum is called an additive compound angle. For example, in the given figure, θ1 and θ2 are additive compound angles.
+i) The measure of an additive compound angle (θ1 + θ2) degrees can be found by adding the measures of the component angles (θ1 and θ2).
+ii) If we have to find sin(θ1 + θ2), cos(θ1 + θ2), or tan(θ1 + θ2), use the formula:
+sin(θ1 + θ2) = sinθ1cosθ2 + cosθ1sinθ2,
+cos(θ1 + θ2) = cosθ1cosθ2 - sinθ1sinθ2, and
+tan(θ1 + θ2) = (sinθ1cosθ2 + cosθ1sinθ2) / (cosθ1cosθ2 - sinθ1sinθ2).
+b) Subtractive Compound Angle: If we subtract one angle from another, the difference is called a subtractive compound angle. For example, in the given figure, θ2 - θ1 is a subtractive compound angle.
+i) The measure of a subtractive compound angle (θ2 - θ1) degrees can be found by subtracting the measures of the smaller component angle (θ1) from the larger component angle (θ2).
+ii) If we have to find sin(θ2 - θ1), cos(θ2 - θ1), or tan(θ2 - θ1), use the formula:
+sin(θ2 - θ1) = sinθ2cosθ1 - cosθ2sinθ1,
+cos(θ2 - θ1) = cosθ2cosθ1 + sinθ2sinθ1, and
+tan(θ2 - θ1) = (sinθ2cosθ1 - cosθ2sinθ1) / (cosθ2cosθ1 + sinθ2sinθ1).
+
+Multiple-Submultiples angles:
+When we multiply or divide an angle by a rational number, it's called multiple-submultiples angles. We can use the trigonometric functions of these angles to find the value of the multiple-submultiple angle.
+
+6) To find the value of a multiple-submultiple angle:
+a) Multiple Angles: If we multiply an angle by a positive integer, it is called a multiple angle. For example, in the given figure, θ and 2θ are multiple angles.
+i) The measure of a multiple angle (nθ) degrees can be found by multiplying the measure of the component angle (θ) by the absolute value of n.
+ii) If we have to find sin(nθ), cos(nθ), or tan(nθ), use the formula:
+sin(nθ) = sinθcos((n - 1
+
+
+18.) Sun and factor formulaes
+The sun is our closest star, and it plays a crucial role in our daily lives. Its warmth provides us with energy, its light allows us to see, and its movement across the sky dictates the changing patterns of day and night. In mathematics, we can model the behavior of the sun using trigonometry and geometry. This chapter will explore the relationship between the sun's position in the sky and the earth's rotation through an explanation of sun angles and factor formulae.
+
+Subtopic 1: Sun Angles
+Sun angles refer to the vertical and horizontal positions of the sun throughout the day. These angles are crucial for understanding the behavior of light, heat, and shadows on the earth's surface. The two primary angles used to describe the sun's position are the altitude angle (also known as the zenith angle) and the azimuth angle.
+
+- Altitude Angle: This is the vertical angle between the observer's eye level and the line of sight to the sun. It ranges from 0° at noon when the sun is directly overhead, to −90° (or 90°) when the sun is below the horizon in the morning or evening, respectively.
+
+  Example: If it is 1 pm and you are standing in the middle of a city, the altitude angle of the sun is approximately 64°. This means that if you draw a line from your eye level to the location of the sun, it will form an angle of 64° with the vertical.
+
+- Azimuth Angle: This is the horizontal angle between the observer's eastward direction and the line of sight to the sun. It ranges from 0° at solar noon (when the sun is directly overhead in the east) to +180° or −180°, depending on whether the sun is rising or setting, respectively.
+
+  Example: If it is 9 am and you are standing facing east, the azimuth angle of the sun is approximately 52°. This means that if you draw a line horizontally from your location to the location of the sun, it will form an angle of 52° with your eastward direction.
+
+Subtopic 2: Factor Formulae
+Factor formulae are mathematical equations used to calculate the altitude and azimuth angles of the sun at different times and locations. These formulae take into account factors such as latitude, longitude, date, and time zone, which can vary widely across the globe. Some common factor formulae include:
+
+- Altitude Formula for Equinoxes: This formula is used during the spring (March) and fall (September) equinoxes when day and night are approximately equal in length. It takes into account the observer's latitude, the time of day (in hours), and the fact that the sun is directly overhead at the equator during these times.
+
+  Formula: altitude = 90° − latitude × cos[15° × (time of day)]
+
+- Altitude Formula for Solstices: This formula is used during the summer (June) and winter (December) solstices when day or night is longer in one hemisphere than the other. It takes into account the observer's latitude, the time of year (in months), and the fact that the sun is directly overhead at the Tropic of Cancer (23.5° north) during the summer solstice or the Tropic of Capricorn (23.5° south) during the winter solstice.
+
+  Formula: altitude = sin(latitude) × sin[10.47° × (month - 6)] + cos(latitude) × sin[6.65° × (time of day − 12)]
+
+- Azimuth Formula for Equinoxes: This formula is used during the spring (March) and fall (September) equinoxes when day and night are approximately equal in length. It takes into account the observer's longitude, latitude, and the fact that the sun rises in the east and sets in the west at these times.
+
+  Formula: azimuth = 360° × (longitude − solar longitude) / 360° + (180° − latitude × tan[altitude × (π / 180°)]) % 360°
+
+- Azimuth Formula for Solstices: This formula is used during the summer (June) and winter (December) solstices when day or night is longer in one hemisphere than the other. It takes into account the observer's longitude, latitude, and the fact that the
+
+
