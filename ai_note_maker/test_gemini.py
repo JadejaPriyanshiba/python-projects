@@ -1,5 +1,5 @@
 import google.generativeai as genai
-from config import config as cg
+from ai_note_maker.config import basics as cg
 
 #### model selection
 ## gemini-2.5-pro

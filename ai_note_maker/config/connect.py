@@ -1,10 +1,10 @@
-import config as cg
+from .basics import getValue
 import requests
 import google.generativeai as genai
 
 def callAPIModel(prompt):
-    token = cg.getValue("TOKEN")
-    apiUrl = cg.getValue("API_URL")
+    token = getValue("TOKEN")
+    apiUrl = getValue("API_URL")
     headers = {"Authorization": f"Bearer {token}"}
 
     payload = {
@@ -35,7 +35,7 @@ def callLocalModel(prompt):
     
 def connectGemini2Flash(prompt, model='gemini-2.5-flash'):
     # Step 1: Configure with your API key1
-    apiKey = cg.getValue("GEMINI_TOKEN")
+    apiKey = getValue("GEMINI_TOKEN")
     genai.configure(api_key=apiKey)  # Replace with your key
 
     try:

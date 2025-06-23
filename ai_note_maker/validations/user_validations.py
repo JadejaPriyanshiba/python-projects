@@ -120,8 +120,11 @@ class ValidateTopics:
             self.topicsByAI.append(topic.strip())
         # add at index
         elif (key[1].isnumeric):
-            index = int(key[1])-1
-            topic = key[3:].strip()
+            keys = key.split(":")
+            if(not keys[0][1:].isnumeric()):
+                print("invalid format for ",key," in part ", keys)
+            index = int(keys[0][1:])-1
+            topic = keys[1].strip()
             self.topicsByAI.insert(index, topic)
         else:
             print("Invalid format, something went wrong, your key: ",key)
@@ -140,9 +143,10 @@ class ValidateTopics:
     def __manageModify(self,key):
         key = str(key)
         
-        if (key[0]=="m" and key[1].isnumeric):
-            index = int(key[1])-1
-            topic = key[3:].strip()
+        if (key[0]=="m" and key[1].isnumeric()):
+            keys = key.split(":")
+            index = int(keys[0][1:])-1
+            topic = keys[1].strip()
             self.topicsByAI[index] = topic
         else:
             print("Invalid format, something went wrong, your key: ",key)
@@ -164,8 +168,11 @@ class ValidateTopics:
         tempList = self.topicsByAI
         # loping and removing
         for i in indexes:
-            if(i[0]=="r" and i[1].isnumeric()):
-                index = int(i[1])-1
+            if(i[0]=="r" and i[1:].isnumeric()):
+                index = int(i[1:])-1
+                if(index>=len(self.topicsByAI)):
+                    print("invalid range")
+                    return
                 tempList.remove(self.topicsByAI[index])
             else:
                 print(f"invalid format in {key}, {i}")
