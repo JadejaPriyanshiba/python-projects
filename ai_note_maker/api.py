@@ -4,9 +4,9 @@ from services import generate_pdf_from_plain as genPDF
 from validations import user_validations as uvd
 
 
-isDebug = False
+isDebug = True
 getInstantProgressPDF = False
-recommendTopics = True
+recommendTopics = False
 
 def callModel(prompt, model = "local"):
     # token = cg.getValue("TOKEN")
@@ -79,7 +79,11 @@ Please:
         preDefineTopics = str(preDefineTopics)
         return preDefineTopics.replace("\n","").split(",")
 
-def getExplanation(topic, length, subject, maturity, complexity, extraNotes, title):
+def getExplanation(topic, length, subject, maturity, complexity, extraNotes, title, topicsAlreadyCovered, otherTopicsLeft):
+    model = "local"
+    topicsAlreadyCovered = list(topicsAlreadyCovered)
+    otherTopicsLeft = list(otherTopicsLeft)
+
     prompt = f"""
 Explain the topic: "{topic}" in a clear, structured, and beginner-friendly way.
 approx length of the explanations should be {length}
@@ -87,6 +91,9 @@ Subject: "{subject}",
 The main parent topic is: "{title}", write content relating to this
 Target learner level: "{maturity}",
 complexity of the content: "{complexity}"
+and the topics already covered are : {",".join(topicsAlreadyCovered)}, so don't include these topics (you can short recap things if they are referenced for current topic)
+and the topics for future are : {",".join(otherTopicsLeft)}, so don't include content of these (you can provide a context to further reference if needed)
+
 "{extraNotes}"
 - Break it down into key subtopics or components.
 - For each subtopic, provide a brief explanation and, where useful, an example or analogy.
@@ -96,7 +103,9 @@ complexity of the content: "{complexity}"
 
 Start directly:
 """
-    response = callModel(prompt)
+    if(model=="gemini"):
+        prompt += "make it a plain text only , no formatting, no #, *, for formatting for anything, bulleting you can use numbers or '-', for bolding you can use "" or '', nothing else... "
+    response = callModel(prompt, model=model)
     
     if response is None:
         raise Exception("Invalid response from model")
@@ -105,30 +114,54 @@ Start directly:
     print(f"Explanation for {topic}:\n{answer}\n")
     return answer
 
-subject = "Mathematics"
-title = "Trigonometry"
+subject = "Physics"
+title = "Electric Current"
 length = "300 lines"
 maturity = "12th grade engineering student"
-extraNotes = "add more examples, proofs, derivations, definitions, extra interesting points where needed"
+extraNotes = " make it detailed, with real life examples and interesting facts and observations one can make for better understanding"
 complexity = "from basics to in depth complex"
-preDefineTopics = """Angles and Angle Measurement (Degrees, Radians)"""
-# ,Right Triangle Trigonometry (SOH CAH TOA)
-# ,Pythagorean Theorem Applications
-# ,The Unit Circle and Reference Angles
-# ,Trigonometric Functions of Any Angle
-# ,Fundamental Trigonometric Identities (Reciprocal, Quotient, Pythagorean)
-# ,Sum and Difference Identities
-# ,Double and Half-Angle Identities
-# ,Product-to-Sum and Sum-to-Product Identities
-# ,Law of Sines
-# ,Law of Cosines
-# ,Area of Triangles using Trigonometry
-# ,Solving Trigonometric Equations
-# ,Periods of Trigonometric functions
-# ,Allied & Compound Angles, Multiple-Submultiples angles
-# ,Sum and factor formula
-# ,Summary"""
-preDefineTopics = ""
+preDefineTopics = """Angles and Angle Measurement (Degrees, Radians)
+,Right Triangle Trigonometry (SOH CAH TOA)
+,Pythagorean Theorem Applications
+,The Unit Circle and Reference Angles
+,Trigonometric Functions of Any Angle
+,Fundamental Trigonometric Identities (Reciprocal, Quotient, Pythagorean)
+,Sum and Difference Identities
+,Double and Half-Angle Identities
+,Product-to-Sum and Sum-to-Product Identities
+,Law of Sines
+,Law of Cosines
+,Area of Triangles using Trigonometry
+,Solving Trigonometric Equations
+,Periods of Trigonometric functions
+,Allied & Compound Angles, Multiple-Submultiples angles
+,Sum and factor formula
+,Summary"""
+preDefineTopics = """Introduction,
+Electric Charge: Fundamental Concepts,
+Definition of Electric Current,
+Conventional Current vs. Electron Flow,
+Drift Velocity of Electrons,
+Electric Potential and Potential Difference (Voltage),
+Electromotive Force (EMF),
+Electrical Resistance and Resistivity,
+Factors Affecting Resistance,
+Ohm's Law,
+Electrical Conductivity,
+Direct Current (DC) vs. Alternating Current (AC),
+Simple Electric Circuits,
+Series and Parallel Combinations of Resistors,
+Kirchhoff's Current Law (KCL),
+Kirchhoff's Voltage Law (KVL),
+Electric field, electric potential, electric flux,
+Capacitance and capacitors,
+parallel plate capacitors,
+series and parallel combination of capacitors,
+Electrical Power,
+Electrical Energy,
+Joule Heating Effect,
+Summary, formula sheet, tips and tricks
+"""
 
 if __name__ == "__main__":
 
@@ -153,7 +186,7 @@ if __name__ == "__main__":
     answers = []
 
     for i, topic in enumerate(topics):
-        answer = getExplanation(topic, length, subject, maturity, complexity, extraNotes, title)
+        answer = getExplanation(topic, length, subject, maturity, complexity, extraNotes, title, topics[:i], topics[i+1:])
         answers.append(answer)
 
         # Save as .txt

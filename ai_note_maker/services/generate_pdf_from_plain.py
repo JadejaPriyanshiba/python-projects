@@ -6,7 +6,8 @@ from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer
 from reportlab.lib.units import inch
 
 def generatePDF(topics, answers, title):
-    pdf_file = f"{title}_notes.pdf"
+    title = str(title)
+    pdf_file = f"{title.lower().replace(" ","_")}_notes.pdf"
     doc = SimpleDocTemplate(pdf_file, pagesize=A4,
                             rightMargin=40, leftMargin=40,
                             topMargin=60, bottomMargin=40)

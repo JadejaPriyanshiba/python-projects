@@ -1,10 +1,11 @@
 THIS IS STILL A ON GOING PROJECT DIR, BUT AIMED TO CREATE USER FRIENDLY DAILY USABLE, PY EXPERIMENTAL PROJECTS
+
+## 🚀 Project Setup for AI NOTE MAKER
+
 SETUP STEPS:
 1. download LM Studio from https://lmstudio.ai/
 2. add zephyr model (zephyr-7b-beta-q4_k_m.gguf) it (can change according to your need) 
 3. in the terminal section on local server, and CORS for security
-
-## 🚀 Project Setup
 
 ### 🐧 For macOS/Linux users:
 
