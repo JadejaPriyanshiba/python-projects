@@ -33,13 +33,13 @@ def callLocalModel(prompt):
     else:
         raise Exception(f"Error: {response.status_code} - {response.text}")
     
-def connectGemini2Flash(prompt, model='gemini-2.5-flash'):
+def connectGemini2Flash(prompt, model_name='gemini-2.5-flash'):
     # Step 1: Configure with your API key1
     apiKey = getValue("GEMINI_TOKEN")
     genai.configure(api_key=apiKey)  # Replace with your key
 
     try:
-        model = genai.GenerativeModel("gemini-2.5-flash")
+        model = genai.GenerativeModel(model_name)
         response = model.generate_content(prompt)
         print(response.text)
         return response.text

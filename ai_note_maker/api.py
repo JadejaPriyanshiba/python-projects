@@ -79,8 +79,7 @@ Please:
         preDefineTopics = str(preDefineTopics)
         return preDefineTopics.replace("\n","").split(",")
 
-def getExplanation(topic, length, subject, maturity, complexity, extraNotes, title, topicsAlreadyCovered, otherTopicsLeft):
-    model = "local"
+def getExplanation(topic, length, subject, maturity, complexity, extraNotes, title, topicsAlreadyCovered, otherTopicsLeft, model = "local"):
     topicsAlreadyCovered = list(topicsAlreadyCovered)
     otherTopicsLeft = list(otherTopicsLeft)
 
@@ -104,7 +103,7 @@ and the topics for future are : {",".join(otherTopicsLeft)}, so don't include co
 Start directly:
 """
     if(model=="gemini"):
-        prompt += "make it a plain text only , no formatting, no #, *, for formatting for anything, bulleting you can use numbers or '-', for bolding you can use "" or '', nothing else... "
+        prompt += "make it a plain text only , no formatting, no #, *, for formatting for anything, bulleting you can use numbers or '-', nothing else... "
     response = callModel(prompt, model=model)
     
     if response is None:
@@ -114,54 +113,71 @@ Start directly:
     print(f"Explanation for {topic}:\n{answer}\n")
     return answer
 
-subject = "Physics"
-title = "Electric Current"
-length = "300 lines"
-maturity = "12th grade engineering student"
-extraNotes = " make it detailed, with real life examples and interesting facts and observations one can make for better understanding"
-complexity = "from basics to in depth complex"
-preDefineTopics = """Angles and Angle Measurement (Degrees, Radians)
-,Right Triangle Trigonometry (SOH CAH TOA)
-,Pythagorean Theorem Applications
-,The Unit Circle and Reference Angles
-,Trigonometric Functions of Any Angle
-,Fundamental Trigonometric Identities (Reciprocal, Quotient, Pythagorean)
-,Sum and Difference Identities
-,Double and Half-Angle Identities
-,Product-to-Sum and Sum-to-Product Identities
-,Law of Sines
-,Law of Cosines
-,Area of Triangles using Trigonometry
-,Solving Trigonometric Equations
-,Periods of Trigonometric functions
-,Allied & Compound Angles, Multiple-Submultiples angles
-,Sum and factor formula
-,Summary"""
-preDefineTopics = """Introduction,
-Electric Charge: Fundamental Concepts,
-Definition of Electric Current,
-Conventional Current vs. Electron Flow,
-Drift Velocity of Electrons,
-Electric Potential and Potential Difference (Voltage),
-Electromotive Force (EMF),
-Electrical Resistance and Resistivity,
-Factors Affecting Resistance,
-Ohm's Law,
-Electrical Conductivity,
-Direct Current (DC) vs. Alternating Current (AC),
-Simple Electric Circuits,
-Series and Parallel Combinations of Resistors,
-Kirchhoff's Current Law (KCL),
-Kirchhoff's Voltage Law (KVL),
-Electric field, electric potential, electric flux,
-Capacitance and capacitors,
-parallel plate capacitors,
-series and parallel combination of capacitors,
-Electrical Power,
-Electrical Energy,
-Joule Heating Effect,
-Summary, formula sheet, tips and tricks
+subject = "Fundamentals of Artificial Intelligence"
+title = "Introduction To Artificial Intelligence"
+length = "150 lines"
+maturity = "3rd year computer engineering student"
+extraNotes = "Form it simple to understand, not lengthy, to the points, but more of knowledge with real life examples. Add extra fun facts and extra knowledge spots."
+complexity = "from the basics to in depth real coding knowledge and concepts"
+wantGemini = True
+preDefineTopics = """What is Artificial Intelligence?,
+History and Evolution of AI,
+AI vs. Machine Learning vs. Deep Learning,
+Types of AI (Narrow. General. Super),
+Intelligent Agents and Environments,
+Simply overview of steps to create a AI model,
+AI Ethics, Bias, and Fairness,
+AI Societal Impact and Future,
+AI Development Frameworks (Python and other Libraries),
+The AI problem,
+The underlying Assumptions,
+AI techniques,
+The level of model,
+Criteria for success,
+Real-world AI Applications and Case Studies
 """
+# preDefineTopics = """Angles and Angle Measurement (Degrees, Radians)
+# ,Right Triangle Trigonometry (SOH CAH TOA)
+# ,Pythagorean Theorem Applications
+# ,The Unit Circle and Reference Angles
+# ,Trigonometric Functions of Any Angle
+# ,Fundamental Trigonometric Identities (Reciprocal, Quotient, Pythagorean)
+# ,Sum and Difference Identities
+# ,Double and Half-Angle Identities
+# ,Product-to-Sum and Sum-to-Product Identities
+# ,Law of Sines
+# ,Law of Cosines
+# ,Area of Triangles using Trigonometry
+# ,Solving Trigonometric Equations
+# ,Periods of Trigonometric functions
+# ,Allied & Compound Angles, Multiple-Submultiples angles
+# ,Sum and factor formula
+# ,Summary"""
+# preDefineTopics = """Introduction,
+# Electric Charge: Fundamental Concepts,
+# Definition of Electric Current,
+# Conventional Current vs. Electron Flow,
+# Drift Velocity of Electrons,
+# Electric Potential and Potential Difference (Voltage),
+# Electromotive Force (EMF),
+# Electrical Resistance and Resistivity,
+# Factors Affecting Resistance,
+# Ohm's Law,
+# Electrical Conductivity,
+# Direct Current (DC) vs. Alternating Current (AC),
+# Simple Electric Circuits,
+# Series and Parallel Combinations of Resistors,
+# Kirchhoff's Current Law (KCL),
+# Kirchhoff's Voltage Law (KVL),
+# Electric field, electric potential, electric flux,
+# Capacitance and capacitors,
+# parallel plate capacitors,
+# series and parallel combination of capacitors,
+# Electrical Power,
+# Electrical Energy,
+# Joule Heating Effect,
+# Summary, formula sheet, tips and tricks
+# """
 
 if __name__ == "__main__":
 
@@ -173,7 +189,7 @@ if __name__ == "__main__":
         complexity = input("How much complexity do you want (basic, simple. medium, in depth, complex): ")
         extraNotes = input("any extra notes?: ")
         preDefineTopics = input("Do you have any predefined list of topics? if no then press 'Enter' or 'Return' yes then enter them separated with commas, (topic1, new topic 2): ").strip()
-        
+        wantGemini = True if int(input("do you want gemini? (1/0): ")) == 1 else False
     topics = getTopics(title, subject, maturity, preDefineTopics, complexity, extraNotes)
     
     with open(f"{title.lower().replace(" ","_")}.txt", "a") as f:
@@ -186,7 +202,7 @@ if __name__ == "__main__":
     answers = []
 
     for i, topic in enumerate(topics):
-        answer = getExplanation(topic, length, subject, maturity, complexity, extraNotes, title, topics[:i], topics[i+1:])
+        answer = getExplanation(topic, length, subject, maturity, complexity, extraNotes, title, topics[:i], topics[i+1:], model= "gemini" if wantGemini else "local")
         answers.append(answer)
 
         # Save as .txt
