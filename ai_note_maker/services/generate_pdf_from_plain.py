@@ -1,9 +1,10 @@
+import os
 import re
 from reportlab.lib.pagesizes import A4
 from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, PageBreak
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.units import inch
-
+from PyPDF2 import PdfMerger
 def format_text(text):
 
     # Escape special HTML characters
@@ -59,29 +60,50 @@ def generatePDF(topics, answers, title):
 
 
 # Utility to generate topic-wise questions PDF
-def generate_topicwise_questions_pdf(title, all_questions):
-    filename = f"{title.lower().replace(' ', '_')}_topicwise_questions.pdf"
-    doc = SimpleDocTemplate(filename, pagesize=A4, rightMargin=40, leftMargin=40, topMargin=60, bottomMargin=40)
+
+def generate_topicwise_questions_pdf(title, questions, answers, topic):
+    from uuid import uuid4
     styles = getSampleStyleSheet()
+
+    filename = f"{title.lower().replace(' ', '_')}_topicwise_questions.pdf"
+    temp_filename = f"temp_{uuid4().hex}.pdf"  # Temporary file to hold new content
+
     story = []
 
-    current_topic = None
+    # Add topic heading
+    story.append(Paragraph(f"<font size=16 color='#003399'><b>Topic: {topic}</b></font>", styles["Heading2"]))
+    story.append(Spacer(1, 0.2 * inch))
 
-    for q in all_questions:
-        if q['topic'] != current_topic:
-            if current_topic is not None:
-                story.append(Spacer(1, 0.3 * inch))
-            current_topic = q['topic']
-            story.append(Paragraph(f"<b>Topic: {current_topic}</b>", styles['Heading2']))
-            story.append(Spacer(1, 0.1 * inch))
-
-        story.append(Paragraph(q["text"], styles["BodyText"]))
-        story.append(Spacer(1, 0.1 * inch))
-        story.append(Paragraph(f"Answer: {q['answer']}", styles["BodyText"]))
+    for q in questions:
+        story.append(Paragraph(f"<font size=11>{q.strip()}</font>", styles["BodyText"]))
+        story.append(Spacer(1, 0.2 * inch))
+    story.append(Spacer(1, 0.3 * inch))
+    story.append(Paragraph(f"<font size=11>Answers</font>", styles["BodyText"]))
+    story.append(Spacer(1, 0.2 * inch))
+    for a in answers:
+        q = a["q_no"]
+        ans = a["answer"]
+        story.append(Paragraph(f"<font size=11>{q}. {ans}</font>", styles["BodyText"]))
         story.append(Spacer(1, 0.2 * inch))
 
+    # Generate new content into a temp PDF
+    doc = SimpleDocTemplate(temp_filename, pagesize=A4, rightMargin=40, leftMargin=40, topMargin=60, bottomMargin=40)
     doc.build(story)
+
+    if os.path.exists(filename):
+        # Merge existing file with new temp content
+        merger = PdfMerger()
+        merger.append(filename)         # Old content
+        merger.append(temp_filename)    # New content
+        merger.write(filename)          # Overwrite with merged content
+        merger.close()
+        os.remove(temp_filename)        # Clean up temp file
+    else:
+        # If file doesn't exist, just rename the temp file as final
+        os.rename(temp_filename, filename)
+
     return filename
+
 
 # Utility to generate final question paper with optional answer key
 def generate_final_questionpaper_pdf(title, final_paper, answer_key=None):

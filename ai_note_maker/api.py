@@ -380,6 +380,9 @@ if __name__ == "__main__":
                         "topic": topic
                     })
 
+                print("generating topic vise question paper")
+                # generating topic vise PDF
+                ans = genPDF.generate_topicwise_questions_pdf(title, result["questions"], result["answers"], topic)
 
         # Step 3: Build Final Question Paper (Random)
         # random.shuffle(all_questions)
@@ -427,9 +430,6 @@ if __name__ == "__main__":
 
         # save final paper pdf 
         ans = genPDF.generate_final_questionpaper_pdf(title=title, final_paper=final_paper, answer_key=answer_key)
-        
-        print("generating topic vise question paper")
-        # generating topic vise PDF
-        ans = genPDF.generate_topicwise_questions_pdf(title, all_questions)
+
 
 
