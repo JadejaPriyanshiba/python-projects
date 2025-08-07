@@ -1,6 +1,6 @@
 import re
 from reportlab.lib.pagesizes import A4
-from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer
+from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, PageBreak
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.units import inch
 
@@ -56,3 +56,54 @@ def generatePDF(topics, answers, title):
 
     doc.build(story)
     print(f"PDF generated: {pdf_file}")
+
+
+# Utility to generate topic-wise questions PDF
+def generate_topicwise_questions_pdf(title, all_questions):
+    filename = f"{title.lower().replace(' ', '_')}_topicwise_questions.pdf"
+    doc = SimpleDocTemplate(filename, pagesize=A4, rightMargin=40, leftMargin=40, topMargin=60, bottomMargin=40)
+    styles = getSampleStyleSheet()
+    story = []
+
+    current_topic = None
+
+    for q in all_questions:
+        if q['topic'] != current_topic:
+            if current_topic is not None:
+                story.append(Spacer(1, 0.3 * inch))
+            current_topic = q['topic']
+            story.append(Paragraph(f"<b>Topic: {current_topic}</b>", styles['Heading2']))
+            story.append(Spacer(1, 0.1 * inch))
+
+        story.append(Paragraph(q["text"], styles["BodyText"]))
+        story.append(Spacer(1, 0.1 * inch))
+        story.append(Paragraph(f"Answer: {q['answer']}", styles["BodyText"]))
+        story.append(Spacer(1, 0.2 * inch))
+
+    doc.build(story)
+    return filename
+
+# Utility to generate final question paper with optional answer key
+def generate_final_questionpaper_pdf(title, final_paper, answer_key=None):
+    filename = f"{title.lower().replace(' ', '_')}_final_question_paper.pdf"
+    doc = SimpleDocTemplate(filename, pagesize=A4, rightMargin=40, leftMargin=40, topMargin=60, bottomMargin=40)
+    styles = getSampleStyleSheet()
+    story = []
+
+    story.append(Paragraph("<b>FINAL QUESTION PAPER</b>", styles['Title']))
+    story.append(Spacer(1, 0.3 * inch))
+
+    for i, q in enumerate(final_paper):
+        story.append(Paragraph(q, styles["BodyText"]))
+        story.append(Spacer(1, 0.2 * inch))
+
+    if answer_key:
+        story.append(PageBreak())
+        story.append(Paragraph("<b>ANSWER KEY</b>", styles['Title']))
+        story.append(Spacer(1, 0.3 * inch))
+        for ans in answer_key:
+            story.append(Paragraph(ans, styles["BodyText"]))
+            story.append(Spacer(1, 0.1 * inch))
+
+    doc.build(story)
+    return filename
