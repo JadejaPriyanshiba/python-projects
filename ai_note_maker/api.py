@@ -6,9 +6,9 @@ from services import generate_pdf_from_plain as genPDF
 from validations import user_validations as uvd
 
 
-isDebug = True
+isDebug = False
 getInstantProgressPDF = False
-recommendTopics = False
+recommendTopics = True
 getQuestions = True
 getNotes = False
 def callModel(prompt, model = "local"):

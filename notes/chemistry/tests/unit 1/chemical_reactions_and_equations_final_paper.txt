@@ -1,0 +1,1608 @@
+FINAL QUESTION PAPER
+
+1. 194. Differentiate between a neutralization reaction and a precipitation reaction, considering reactants and products.
+
+2. 1. Which of the following is an example of a physical change?
+(a) Burning of magnesium ribbon
+(b) Digestion of food
+(c) Evaporation of water
+(d) Rusting of iron
+
+3. 69. Why is it important for the state symbol of a substance to accurately reflect its physical state under the reaction conditions, rather than just its common state at room temperature?
+
+4. 252. Refrigeration helps in preventing rancidity mainly by:
+(a) Introducing inert gases into the food.
+(b) Reducing the rate of chemical reactions, including oxidation.
+(c) Absorbing moisture from the food.
+(d) Converting fats into indigestible forms.
+
+5. 2. A chemical change is characterized by:
+(a) Change in state only
+(b) Formation of new substances
+(c) No change in chemical composition
+(d) Easy reversibility
+
+6. 179. An unknown solution contains either BaCl2 or FeCl3. When a few drops of aqueous sodium sulfate are added, a white precipitate forms. If sodium hydroxide solution is then added to the remaining solution, no further precipitate forms. Which compound was originally in the unknown solution?
+(a) BaCl2
+(b) FeCl3
+(c) Both BaCl2 and FeCl3
+(d) Neither BaCl2 nor FeCl3
+
+7. 237. Give an example of a metal that forms a passive, protective oxide layer on its surface, thereby preventing further corrosion.
+
+8. 176. Hard water often contains dissolved calcium ions (Ca2+). When soap is used in hard water, it reacts with Ca2+ ions to form an insoluble solid, causing "soap scum." This process is an example of a:
+(a) Neutralization reaction.
+(b) Combustion reaction.
+(c) Precipitation reaction.
+(d) Redox reaction.
+
+9. 27. A chemical reaction produces a solid that settles out of a liquid solution. This solid is known as a:
+(a) Reactant
+(b) Product
+(c) Precipitate
+(d) Catalyst
+
+10. 226. Which of the following best describes corrosion?
+(a) The process of an alloy forming from two or more metals.
+(b) The natural process which converts a refined metal to a more stable form, such as its oxide, hydroxide, or sulfide.
+(c) The process of extracting metals from their ores.
+(d) The chemical reaction where a substance loses electrons to an oxidizing agent.
+
+11. 99. Balance the following chemical equation:
+Al(s) + H2SO4(aq) -> Al2(SO4)3(aq) + H2(g)
+
+12. 187. Explain why neutralization reactions are often classified as a specific type of double displacement reaction.
+
+13. 163. For a double displacement reaction to occur and be observable, at least one of the products must typically be:
+a) A strong acid
+b) A strong base
+c) Insoluble (precipitate), a gas, or a covalent molecule like water
+d) An element in its standard state
+
+14. 102. Balance the following chemical equation:
+FeS2(s) + O2(g) -> Fe2O3(s) + SO2(g)
+
+15. 184. Which of the following statements is true about the spectator ions in the neutralization reaction between HCl and NaOH?
+(a) H+ and OH- are spectator ions.
+(b) Na+ and Cl- are spectator ions.
+(c) H+ and Cl- are spectator ions.
+(d) Na+ and OH- are spectator ions.
+
+16. 26. Which characteristic would you NOT expect to observe when an acid reacts with a base (neutralization reaction)?
+(a) Change in temperature
+(b) Formation of water
+(c) Evolution of gas
+(d) Formation of salt
+
+17. 47. When methane (CH4) burns in oxygen (O2) to produce carbon dioxide (CO2) and water (H2O), which of the following represents the products of this reaction?
+a) CH4 and O2
+b) CO2 and H2O
+c) CH4 only
+d) O2 only
+
+18. 44. A solution of an acid is mixed with a solution of a base. This reaction typically produces salt and water. This type of reaction is known as:
+(a) Oxidation reaction
+(b) Precipitation reaction
+(c) Neutralization reaction
+(d) Redox reaction
+
+19. 48. According to the Law of Conservation of Mass, the total mass of the reactants in a chemical reaction must be:
+a) Less than the total mass of the products
+b) Greater than the total mass of the products
+c) Equal to the total mass of the products
+d) Unrelated to the total mass of the products
+
+20. 254. A student observes that a packet of chips left open for a few days develops a bitter taste and foul smell. This phenomenon is best explained as:
+(a) Fermentation due to yeast
+(b) Polymerization of starch
+(c) Oxidative rancidity of oils
+(d) Hydrolytic breakdown of proteins
+
+21. 64. Consider the balanced chemical equation: AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq). What does the state symbol (s) next to AgCl indicate about the reaction?
+(a) AgCl is a gas
+(b) AgCl is a liquid
+(c) AgCl is a soluble solid
+(d) AgCl is a precipitate
+
+22. 158. A student mixes two aqueous solutions, and a yellow precipitate is immediately observed. If one of the solutions was aqueous lead(II) nitrate, which of the following could have been the other solution?
+a) Potassium nitrate
+b) Sodium chloride
+c) Potassium iodide
+d) Calcium bromide
+
+23. 42. In the reaction: CuO(s) + H2(g) -> Cu(s) + H2O(l), which species is being reduced?
+(a) CuO
+(b) H2
+(c) Cu
+(d) H2O
+
+24. 7. Dissolving salt in water is considered a physical change because:
+(a) New chemical bonds are formed between salt and water.
+(b) The salt completely disappears.
+(c) The chemical identity of salt and water remains unchanged.
+(d) Heat is always released during the process.
+
+25. 245. Antioxidants are substances added to fatty foods to:
+(a) Promote bacterial growth
+(b) Increase their calorific value
+(c) Slow down the oxidation process
+(d) Enhance their color
+
+26. 101. Balance the following chemical equation, including state symbols:
+Aqueous solutions of lead(II) nitrate and potassium iodide react to form solid lead(II) iodide and aqueous potassium nitrate.
+
+27. 171. Which of the following combinations of aqueous solutions will most likely produce a precipitate?
+(a) Sodium nitrate and potassium chloride
+(b) Ammonium chloride and lithium nitrate
+(c) Barium chloride and sodium carbonate
+(d) Nitric acid and potassium hydroxide
+
+28. 251. Which statement correctly describes the role of an antioxidant in preventing rancidity?
+(a) It reacts with water to form an insoluble precipitate.
+(b) It acts as a reducing agent, donating electrons to free radicals.
+(c) It physically coats the food, preventing oxygen contact.
+(d) It acts as an oxidizing agent, deactivating enzymes.
+
+29. 18. A student mixes two colorless solutions, lead(II) nitrate and potassium iodide, and observes the immediate formation of a bright yellow solid. This observation indicates which characteristic of a chemical reaction?
+(a) Evolution of gas
+(b) Change in temperature
+(c) Formation of precipitate
+(d) Change in color
+
+30. 16. Which of the following is NOT typically considered an observable characteristic of a chemical reaction?
+(a) Evolution of gas
+(b) Change in shape
+(c) Formation of a precipitate
+(d) Change in temperature
+
+31. 36. What are the coefficients x, y, and z required to balance the following chemical equation?
+x Fe + y O2 -> z Fe2O3
+(a) x=2, y=3, z=1
+(b) x=4, y=3, z=2
+(c) x=1, y=1, z=1
+(d) x=3, y=2, z=1
+
+32. 52. When the equation for the decomposition of hydrogen peroxide (H2O2) into water (H2O) and oxygen (O2) is balanced, what is the ratio of reactant (H2O2) to one of its products (O2)?
+a) 1:1
+b) 2:1
+c) 1:2
+d) 2:2
+
+33. 211. Which of the following best describes an exothermic reaction?
+a) A reaction that absorbs heat from its surroundings.
+b) A reaction that releases heat to its surroundings.
+c) A reaction that requires continuous heat input to proceed.
+d) A reaction that results in a decrease in temperature of the system.
+
+34. 228. The chemical formula for rust is approximately:
+(a) FeO
+(b) Fe2O3.xH2O
+(c) Fe(OH)2
+(d) FeS
+
+35. 242. Which of the following is a characteristic sign of rancidity in food?
+(a) Increased moisture content
+(b) Sweet taste
+(c) Unpleasant smell and taste
+(d) Brittleness
+
+36. 172. A precipitation reaction is a specific type of double displacement reaction where:
+(a) A gas is evolved and escapes from the solution.
+(b) Two soluble ionic compounds react to form one or more insoluble products.
+(c) Heat is absorbed from the surroundings.
+(d) An acid and a base react to form salt and water.
+
+37. 12. A precipitation reaction, where an insoluble solid forms from two soluble reactants, is a clear example of:
+(a) A physical change
+(b) A chemical change
+(c) An endothermic process only
+(d) A reversible process
+
+38. 127. When ferrous sulfate (FeSO4) crystals are heated, they decompose to produce ferric oxide (Fe2O3), sulfur dioxide (SO2), and sulfur trioxide (SO3). This reaction exhibits:
+a) Formation of two gaseous products and one solid product.
+b) A change in the oxidation state of iron from +2 to +3.
+c) An exothermic process.
+d) Both a and b.
+
+39. 164. When aqueous solutions of potassium carbonate (K2CO3) and nitric acid (HNO3) are mixed, a double displacement reaction occurs. Which statement about the products formed is correct?
+a) Potassium nitrate, water, and oxygen gas are formed.
+b) Potassium nitrate and carbon dioxide gas are formed.
+c) Potassium nitrate, water, and carbon dioxide gas are formed.
+d) Potassium carbonate and nitric acid remain unreacted, as no reaction occurs.
+
+40. 121. Which statement best describes a decomposition reaction?
+a) Two or more reactants combine to form a single product.
+b) A single reactant breaks down to form two or more simpler products.
+c) An element replaces another element in a compound.
+d) Two compounds exchange ions to form new compounds.
+
+41. 193. Give two practical applications of neutralization reactions in daily life or industry, other than antacids.
+
+42. 156. Which of the following reactions is an example of a neutralization reaction, which is a specific type of double displacement reaction?
+a) 2H2(g) + O2(g) -> 2H2O(l)
+b) HCl(aq) + NaOH(aq) -> NaCl(aq) + H2O(l)
+c) Fe(s) + CuSO4(aq) -> FeSO4(aq) + Cu(s)
+d) AgNO3(aq) + KCl(aq) -> AgCl(s) + KNO3(aq)
+
+43. 112. When iron filings are mixed with sulfur powder and heated, a black solid is formed. This is a combination reaction. What type of energy change is typically associated with such a reaction that forms a stable product?
+(a) Endothermic, requiring continuous heat input.
+(b) Exothermic, releasing heat.
+(c) Neither endothermic nor exothermic.
+(d) Depends on the amount of catalyst used.
+
+44. 240. Discuss one significant economic impact and one environmental impact of corrosion.
+
+45. 100. Balance the following chemical equation:
+P4(s) + O2(g) -> P2O5(s)
+
+46. 89. A student mixes 25.0 mL of 0.5 M hydrochloric acid (HCl) with 25.0 mL of 0.5 M sodium hydroxide (NaOH) in a beaker. The reaction is: HCl(aq) + NaOH(aq) -> NaCl(aq) + H2O(l). If the initial total mass of the reactants and the beaker was 150.0 g, what would be the expected total mass of the products and the beaker after the reaction, assuming it occurs in a closed system? Justify your answer.
+
+47. 90. Discuss the significance of the Law of Conservation of Mass in the historical development of chemistry and its role in establishing chemistry as a quantitative science.
+
+48. 86. When 100.0 g of lead (II) nitrate solution is mixed with 50.0 g of potassium iodide solution, a yellow precipitate of lead (II) iodide is formed along with potassium nitrate in solution. If 23.0 g of lead (II) iodide precipitate is collected and filtered, and 120.0 g of potassium nitrate solution remains, what is the total mass of the products, and does this align with the Law of Conservation of Mass?
+
+49. 111. Which of the following compounds can be formed by the combination of two simpler compounds?
+(a) H2O
+(b) NH4Cl
+(c) CO2
+(d) NaCl
+
+50. 116. When sulfur dioxide gas (SO2) reacts with oxygen gas (O2) in the presence of a catalyst, sulfur trioxide (SO3) is formed. This reaction represents:
+(a) An element combining with a compound.
+(b) Two compounds combining.
+(c) Two elements combining.
+(d) A compound decomposing.
+
+51. 134. Identify the decomposition reaction among the following:
+a) NaOH(aq) + HCl(aq) -> NaCl(aq) + H2O(l)
+b) 2KClO3(s) -> 2KCl(s) + 3O2(g)
+c) Zn(s) + H2SO4(aq) -> ZnSO4(aq) + H2(g)
+d) N2(g) + 3H2(g) -> 2NH3(g)
+
+52. 248. Rancidity due to the action of microorganisms that produce lipases is known as:
+(a) Oxidative rancidity
+(b) Hydrolytic rancidity
+(c) Ketonic rancidity
+(d) Photolytic rancidity
+
+53. 29. Rancidity, the spoilage of fats and oils, is typically observed as a change in:
+(a) Physical state and solubility
+(b) Odor and taste
+(c) Density and melting point
+(d) Volume and pressure
+
+54. 82. In a reaction, 10.0 g of calcium carbonate (CaCO3) decomposes upon heating to produce 5.6 g of calcium oxide (CaO) and carbon dioxide (CO2) gas. Calculate the mass of carbon dioxide produced.
+
+55. 174. In a balanced chemical equation for a precipitation reaction, what state symbol is commonly used to denote the precipitate?
+(a) (aq)
+(b) (g)
+(c) (l)
+(d) (s)
+
+56. 190. What is the net ionic equation for the neutralization reaction between any strong acid and any strong base?
+
+57. 149. Which of the following halogens will displace bromine from an aqueous solution of potassium bromide?
+(a) Iodine
+(b) Chlorine
+(c) Fluorine
+(d) Both (b) and (c)
+
+58. 117. What are the correct stoichiometric coefficients for the reactants to balance the following combination reaction: Al + O2 -> Al2O3?
+(a) 2, 3
+(b) 4, 3
+(c) 3, 2
+(d) 1, 1
+
+59. 74. In which of the following scenarios would a reactant's state symbol change from its standard room temperature state due to unusual reaction conditions?
+(a) A solid reactant is heated until it melts before reacting.
+(b) A gas reactant is bubbled through a liquid solution.
+(c) A solid reactant dissolves in water to form an aqueous solution.
+(d) A liquid reactant is used as a solvent for another reactant.
+
+60. 229. Explain how galvanization prevents the rusting of iron.
+
+61. 133. The decomposition of hydrogen peroxide (H2O2) into water and oxygen can be accelerated by adding manganese dioxide (MnO2). In this reaction, MnO2 acts as a:
+a) Reactant.
+b) Product.
+c) Catalyst.
+d) Inhibitor.
+
+62. 191. Complete and balance the following equation, including state symbols:
+Al(OH)3(s) + H2SO4(aq) ->
+
+63. 135. Which factor is most crucial in determining whether a compound will undergo thermal decomposition at a specific temperature?
+a) The concentration of the reactant.
+b) The strength of the chemical bonds within the compound.
+c) The presence of a catalyst.
+d) The pressure of the surroundings.
+
+64. 157. In the double displacement reaction between aqueous silver nitrate (AgNO3) and aqueous sodium chloride (NaCl), which product is the insoluble precipitate?
+a) Sodium nitrate
+b) Silver chloride
+c) Silver nitrate
+d) Sodium chloride
+
+65. 38. When potassium chlorate (KClO3) is heated, it decomposes to form potassium chloride (KCl) and oxygen gas (O2). This is an example of a:
+(a) Combination reaction
+(b) Decomposition reaction
+(c) Displacement reaction
+(d) Neutralization reaction
+
+66. 177. Which of the following reactions is NOT a precipitation reaction?
+(a) AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq)
+(b) K2CO3(aq) + CaCl2(aq) -> CaCO3(s) + 2KCl(aq)
+(c) NaOH(aq) + HCl(aq) -> NaCl(aq) + H2O(l)
+(d) FeSO4(aq) + 2NaOH(aq) -> Fe(OH)2(s) + Na2SO4(aq)
+
+67. 128. Which of the following is NOT a characteristic feature of decomposition reactions?
+a) A single compound breaks down.
+b) Energy is usually required to break bonds.
+c) Multiple products are formed from one reactant.
+d) Two reactants combine to form a single product.
+
+68. 9. Which of the following processes is exothermic and indicates a chemical change?
+(a) Melting of ice
+(b) Boiling of water
+(c) Burning of natural gas
+(d) Sublimation of dry ice
+
+69. 239. Corrosion is often described as an electrochemical process. Briefly explain what this means in the context of rusting.
+
+70. 107. When magnesium ribbon burns in air, it combines with oxygen to form magnesium oxide. The balanced chemical equation for this reaction is:
+(a) Mg + O2 -> MgO
+(b) 2Mg + O2 -> 2MgO
+(c) Mg + 2O -> MgO2
+(d) 2Mg + O -> Mg2O
+
+71. 170. In the precipitation reaction between aqueous silver nitrate and aqueous sodium chloride, what are the spectator ions?
+(a) Ag+ and Cl-
+(b) Na+ and NO3-
+(c) Ag+ and Na+
+(d) Cl- and NO3-
+
+72. 43. Which of the following observations indicates an endothermic reaction?
+(a) The reaction mixture becomes warmer.
+(b) The temperature of the surroundings increases.
+(c) Heat energy is absorbed from the surroundings.
+(d) The reaction vessel feels hot to the touch.
+
+73. 31. Which of the following is an example of a chemical change?
+(a) Melting of ice
+(b) Sublimation of dry ice
+(c) Rusting of an iron nail
+(d) Dissolving salt in water
+
+74. 17. When a small piece of sodium metal is dropped into water, it reacts vigorously, producing heat and a gas that catches fire. Which characteristic of chemical reactions is most evident in this observation?
+(a) Change in color and formation of precipitate
+(b) Evolution of gas and change in temperature
+(c) Change in state and change in shape
+(d) Formation of precipitate and change in color
+
+75. 98. Balance the following chemical equation:
+C4H10(g) + O2(g) -> CO2(g) + H2O(l)
+
+76. 81. Consider the characteristics of a chemical reaction where new substances are formed. How does the Law of Conservation of Mass reconcile with the formation of entirely new substances with different properties?
+a) The atoms themselves are destroyed and new ones created, but their total mass remains constant.
+b) The atoms are rearranged, not created or destroyed, ensuring the total mass of atoms before and after the reaction is the same.
+c) The law only applies to the conservation of energy, not mass, in chemical reactions.
+d) New substances have entirely different masses than the reactants, which violates the law.
+
+77. 25. The process of respiration in living organisms is characterized by the release of energy. This indicates that respiration is an example of an:
+(a) Endothermic reaction
+(b) Exothermic reaction
+(c) Precipitation reaction
+(d) Neutralization reaction
+
+78. 160. What is the net ionic equation for the neutralization reaction between aqueous nitric acid (HNO3) and aqueous potassium hydroxide (KOH)?
+a) HNO3(aq) + KOH(aq) -> KNO3(aq) + H2O(l)
+b) H+(aq) + NO3-(aq) + K+(aq) + OH-(aq) -> K+(aq) + NO3-(aq) + H2O(l)
+c) H+(aq) + OH-(aq) -> H2O(l)
+d) K+(aq) + NO3-(aq) -> KNO3(aq)
+
+79. 201. Which of the following is a reducing agent?
+(a) O2
+(b) F2
+(c) Na
+(d) Cl2
+
+80. 78. A student observes that when a burning candle is placed in an inverted jar, the flame eventually extinguishes, and the mass of the candle decreases. Which statement correctly accounts for this observation in relation to the Law of Conservation of Mass?
+a) The Law of Conservation of Mass is violated because mass is lost as the candle burns.
+b) The decrease in candle mass is due to the physical change of melting wax, not a chemical reaction.
+c) The products of combustion (carbon dioxide and water vapor) have escaped into the atmosphere, so the mass appears to decrease but is conserved in a closed system.
+d) The oxygen inside the jar is converted into heat, thus reducing the total mass.
+
+81. 215. When an exothermic reaction occurs in a sealed container, what typically happens to the temperature of the container and its contents?
+a) The temperature decreases because energy is absorbed.
+b) The temperature increases because energy is released.
+c) The temperature remains constant because energy is conserved.
+d) The temperature fluctuates unpredictably.
+
+82. 62. Explain the primary reason for including state symbols in a chemical equation.
+
+83. 76. Which of the following statements best describes the Law of Conservation of Mass?
+a) In a chemical reaction, the total mass of the products is always greater than the total mass of the reactants.
+b) Matter can be created or destroyed, but not transformed, during a chemical reaction.
+c) The total mass of the reactants equals the total mass of the products in a closed system.
+d) The mass of an individual atom changes during a chemical reaction.
+
+84. 146. Four metals W, X, Y, and Z are tested for their reactivity.
+- X displaces Y from its salt solution.
+- W displaces X from its salt solution.
+- Y displaces Z from its salt solution.
+What is the correct order of reactivity from most to least reactive?
+(a) W > X > Y > Z
+(b) X > W > Y > Z
+(c) W > Y > X > Z
+(d) Z > Y > X > W
+
+85. 234. Differentiate between 'rusting' and 'corrosion'.
+
+86. 71. State symbols can sometimes provide clues about the type of reaction occurring. Explain how the presence of (s) on the product side of a double displacement reaction equation indicates a specific type of reaction.
+
+87. 150. Which of the following statements about state symbols in displacement reactions is incorrect?
+(a) The displacing metal is usually in solid state (s).
+(b) The displaced metal often forms a solid precipitate (s).
+(c) The salt solutions are typically in aqueous state (aq).
+(d) Hydrogen displaced from acids is always in liquid state (l).
+
+88. 83. Describe a simple experiment that could be performed in a school laboratory to demonstrate the Law of Conservation of Mass. Include the necessary apparatus and expected observations.
+
+89. 140. Consider the reaction: Zn(s) + Pb(NO3)2(aq) -> Zn(NO3)2(aq) + Pb(s). In this reaction, the species that is oxidized is:
+(a) Zn(s)
+(b) Pb(NO3)2(aq)
+(c) Zn(NO3)2(aq)
+(d) Pb(s)
+
+90. 181. Which of the following is a product of a typical neutralization reaction?
+(a) Carbon dioxide
+(b) Salt and water
+(c) Hydrogen gas
+(d) Oxygen gas
+
+91. 173. The primary driving force for the formation of a precipitate in an aqueous solution is typically:
+(a) The formation of a gaseous product.
+(b) The formation of water molecules.
+(c) The insolubility of one of the product compounds.
+(d) A significant temperature change in the reaction mixture.
+
+92. 8. When a piece of zinc is added to hydrochloric acid, hydrogen gas is evolved and zinc chloride is formed. This is an example of a:
+(a) Physical change only
+(b) Chemical change only
+(c) Both physical and chemical change
+(d) Nuclear change
+
+93. 185. Define neutralization reaction and state its general word equation.
+
+94. 161. In the reaction between aqueous copper(II) sulfate and aqueous sodium hydroxide, which results in the formation of copper(II) hydroxide precipitate and aqueous sodium sulfate, what are the spectator ions?
+a) Cu2+ and SO4 2-
+b) Na+ and OH-
+c) SO4 2- and Na+
+d) Cu2+ and OH-
+
+95. 195. A student observes that when a certain acid is mixed with a certain base, the test tube feels warm to the touch. What term describes this type of reaction in terms of energy change, and why is this often the case for neutralization reactions?
+
+96. 108. The reaction of quicklime (calcium oxide) with water to form slaked lime (calcium hydroxide) is an example of a combination reaction. What is a prominent characteristic observed during this reaction?
+(a) Formation of a precipitate
+(b) Absorption of heat from the surroundings
+(c) Release of a significant amount of heat
+(d) Production of a gas with effervescence
+
+97. 118. Which of the following is NOT an example of a combination reaction?
+(a) Burning of coal: C(s) + O2(g) -> CO2(g)
+(b) Formation of water: 2H2(g) + O2(g) -> 2H2O(l)
+(c) Rusting of iron: 4Fe(s) + 3O2(g) -> 2Fe2O3(s)
+(d) Heating of lead nitrate: 2Pb(NO3)2(s) -> 2PbO(s) + 4NO2(g) + O2(g)
+
+98. 65. Differentiate between the state symbols (l) and (aq) in the context of chemical equations, providing an example for each.
+
+99. 103. When sodium hydroxide solution is added to iron(III) chloride solution, a precipitate of iron(III) hydroxide and aqueous sodium chloride are formed. Write the balanced chemical equation for this reaction, including state symbols.
+
+100. 80. How does the Law of Conservation of Mass apply to physical changes, such as the melting of ice or the evaporation of water?
+
+101. 96. The balanced equation 2N2O5(g) -> 4NO2(g) + O2(g) represents which type of chemical reaction?
+(a) Combination reaction
+(b) Decomposition reaction
+(c) Displacement reaction
+(d) Double displacement reaction
+General Questions
+
+102. 175. According to the Law of Conservation of Mass, when aqueous solutions of two different salts react to form a precipitate, the total mass of the products (precipitate + soluble product) will be:
+(a) Less than the total mass of the reactants.
+(b) Greater than the total mass of the reactants.
+(c) Exactly equal to the total mass of the reactants.
+(d) Unpredictable and depends on the specific reaction.
+
+103. 21. A glowing splint is used to test a gas produced during a chemical reaction. If the splint extinguishes, the gas is likely carbon dioxide. This test identifies which characteristic of the reaction?
+(a) Change in temperature
+(b) Evolution of gas
+(c) Formation of precipitate
+(d) Change in mass
+
+104. 218. For a chemical reaction, the enthalpy change (delta H) is given as -500 kJ/mol. This indicates that the reaction is:
+a) Endothermic, absorbing 500 kJ/mol of energy.
+b) Exothermic, releasing 500 kJ/mol of energy.
+c) A decomposition reaction, requiring 500 kJ/mol of energy.
+d) A reversible reaction, with no net energy change.
+
+105. 131. If 100 g of calcium carbonate (CaCO3) completely decomposes according to the equation CaCO3(s) -> CaO(s) + CO2(g), what is the approximate mass of carbon dioxide gas produced? (Atomic masses: Ca=40, C=12, O=16)
+a) 44 g
+b) 56 g
+c) 100 g
+d) 22 g
+
+106. 73. Discuss how state symbols might be affected or might need to be carefully considered when a reaction is performed at an elevated temperature, for instance, above the boiling point of water.
+
+107. 162. How does a double displacement reaction fundamentally differ from a single displacement reaction?
+a) Double displacement involves the exchange of ions, while single displacement involves one element replacing another.
+b) Double displacement always forms a precipitate, while single displacement always forms a gas.
+c) Double displacement requires a catalyst, while single displacement does not.
+d) Double displacement releases energy, while single displacement absorbs energy.
+
+108. 5. The tarnishing of silver involves the formation of silver sulfide. This process is best classified as a:
+(a) Physical change
+(b) Nuclear change
+(c) Chemical change
+(d) Sublimation process
+
+109. 153. When an acid reacts with an active metal carbonate, a double displacement reaction occurs, which typically results in the evolution of a gas. Which gas is commonly produced in such a reaction?
+a) Hydrogen gas
+b) Oxygen gas
+c) Carbon dioxide gas
+d) Nitrogen gas
+
+110. 92. According to the Law of Conservation of Mass, a chemical equation must be balanced because:
+(a) It ensures that the number of atoms of each element is the same on both sides of the equation.
+(b) It indicates the physical states of reactants and products.
+(c) It determines the rate of the reaction.
+(d) It specifies whether the reaction is exothermic or endothermic.
+
+111. 222. Many decomposition reactions, such as the thermal decomposition of limestone (calcium carbonate), require heating to proceed. This suggests that these reactions are generally:
+a) Exothermic, releasing heat upon decomposition.
+b) Endothermic, absorbing heat for decomposition.
+c) Redox reactions, involving electron transfer.
+d) Reversible, easily reforming the original compound.
+
+112. 244. To prevent rancidity, potato chips are often flushed with an inert gas. Which gas is commonly used for this purpose?
+(a) Oxygen
+(b) Carbon dioxide
+(c) Nitrogen
+(d) Hydrogen
+
+113. 168. When aqueous solutions of barium chloride (BaCl2) and sodium sulfate (Na2SO4) are mixed, a precipitate is formed. What is the chemical formula of this precipitate?
+(a) NaCl
+(b) BaSO4
+(c) BaCl2
+(d) Na2SO4
+
+114. 119. The process of making cement clinker involves the combination of various raw materials like limestone and clay at high temperatures. Which of the following describes the overall nature of such a reaction where complex compounds are formed from simpler ones?
+(a) Double displacement
+(b) Precipitation
+(c) Combination
+(d) Neutralization
+
+115. 45. The process by which fats and oils in food materials are oxidized, leading to changes in smell and taste, is known as:
+(a) Corrosion
+(b) Hydrogenation
+(c) Rancidity
+(d) Saponification
+
+116. 139. Chlorine gas is bubbled through a solution of potassium iodide. Which of the following observations is expected?
+(a) Formation of a white precipitate
+(b) Solution turns brown
+(c) Evolution of a pungent gas
+(d) No visible change
+
+117. 11. The breaking of a glass bottle is a physical change because:
+(a) The glass absorbs heat.
+(b) The chemical composition of the glass remains the same.
+(c) New chemical bonds are formed.
+(d) It is an irreversible process.
+
+118. 130. A substance 'X' undergoes decomposition when heated to form a solid 'Y' and a gas 'Z'. If 'Z' relights a glowing splint, then 'X' could be:
+a) Calcium carbonate.
+b) Potassium chlorate.
+c) Hydrogen peroxide.
+d) Silver bromide.
+
+119. 120. Consider the combination reaction: A + B -> AB. If this reaction is highly exothermic, what does this imply about the stability of the product AB compared to the reactants A and B?
+(a) AB is less stable than A and B, as energy is released.
+(b) AB is more stable than A and B, as energy is released.
+(c) The stability of AB is independent of the energy released.
+(d) The reaction is likely to be reversible, favoring the reactants.
+
+120. 221. A disposable cold pack used for first aid typically contains ammonium nitrate and water. When these are mixed, the pack becomes cold. This indicates that the reaction is:
+a) Exothermic, due to the release of heat.
+b) Endothermic, due to the absorption of heat.
+c) A physical change, as no new substances are formed.
+d) A neutralization reaction, releasing cold.
+
+121. 10. In a chemical equation, state symbols like (s), (l), (g), (aq) are used to represent:
+(a) The type of reaction
+(b) The physical state of reactants and products
+(c) The energy change involved
+(d) Whether the change is physical or chemical
+
+122. 53. Consider the combination reaction between magnesium (Mg) and oxygen (O2) to form magnesium oxide (MgO). In this reaction:
+a) Magnesium oxide is the only reactant.
+b) Oxygen is the only product.
+c) Magnesium and oxygen are the reactants, and magnesium oxide is the product.
+d) Magnesium is the product, and oxygen is the reactant.
+
+123. 37. The reaction in which two or more reactants combine to form a single product is called a:
+(a) Decomposition reaction
+(b) Displacement reaction
+(c) Combination reaction
+(d) Double displacement reaction
+
+124. 255. In the context of oxidation-reduction reactions, the oxygen molecules causing rancidity act as:
+(a) Reducing agents
+(b) Catalysts
+(c) Oxidizing agents
+(d) Neutralizing agents
+
+125. 249. Storing food in airtight containers helps prevent rancidity by:
+(a) Increasing the temperature
+(b) Removing moisture content
+(c) Limiting exposure to oxygen
+(d) Promoting acid production
+
+126. 87. Distinguish between an open system and a closed system in the context of verifying the Law of Conservation of Mass during a chemical reaction. Provide an example of a reaction where using an open system might lead to a misleading conclusion about mass conservation.
+
+127. 223. The neutralization reaction between a strong acid and a strong base in aqueous solution is typically accompanied by a noticeable increase in temperature. This classifies neutralization as a type of:
+a) Endothermic reaction.
+b) Decomposition reaction.
+c) Exothermic reaction.
+d) Precipitation reaction.
+
+128. 169. Consider the reaction: Pb(NO3)2(aq) + 2KI(aq) -> PbI2(s) + 2KNO3(aq). Which of the following statements is true about this reaction?
+(a) It is a combination reaction.
+(b) Potassium nitrate is the precipitate.
+(c) Lead(II) iodide is the insoluble product.
+(d) It is a neutralization reaction.
+
+129. 114. How does a combination reaction fundamentally differ from a decomposition reaction?
+(a) Combination reactions involve heat absorption, while decomposition reactions release heat.
+(b) Combination reactions result in a single product from multiple reactants, while decomposition reactions involve a single reactant breaking into multiple products.
+(c) Combination reactions always produce a gas, while decomposition reactions always produce a solid.
+(d) Combination reactions are always reversible, while decomposition reactions are always irreversible.
+
+130. 200. The process of corrosion, such as rusting of iron, is an example of:
+(a) Decomposition reaction
+(b) Double displacement reaction
+(c) Redox reaction
+(d) Neutralization reaction
+
+131. 41. Consider the balanced chemical equation: 2Al(s) + 3H2SO4(aq) -> Al2(SO4)3(aq) + 3H2(g). If 0.6 moles of H2SO4 react completely, how many moles of Al2(SO4)3 will be produced?
+(a) 0.1 moles
+(b) 0.2 moles
+(c) 0.3 moles
+(d) 0.6 moles
+
+132. 208. When hydrogen is added to a substance, it is considered:
+(a) Oxidation
+(b) Reduction
+(c) Hydrolysis
+(d) Dehydrogenation
+
+133. 110. According to the Law of Conservation of Mass, if 4.0 g of hydrogen gas reacts completely with 32.0 g of oxygen gas to form water, what mass of water is expected to be produced?
+(a) 28.0 g
+(b) 36.0 g
+(c) 32.0 g
+(d) 4.0 g
+
+134. 54. The decomposition of calcium carbonate (CaCO3) upon heating produces calcium oxide (CaO) and carbon dioxide (CO2). What are the products of this decomposition reaction?
+a) CaCO3 only
+b) CaO and CO2
+c) CaCO3 and CO2
+d) CaO only
+
+135. 85. How does the Law of Conservation of Mass specifically relate to decomposition reactions, where a single reactant breaks down into two or more simpler products?
+
+136. 115. Predict the product when carbon (C) burns completely in excess oxygen (O2).
+(a) CO
+(b) C2O3
+(c) CO2
+(d) C3O2
+
+137. 253. Consider the following methods used to prevent rancidity:
+I. Adding antioxidants like BHA and BHT.
+II. Storing food in the dark.
+III. Flusing with nitrogen gas.
+IV. Keeping food at room temperature.
+Which of these methods are effective in preventing rancidity?
+(a) I, II, and III only
+(b) I and IV only
+(c) II, III, and IV only
+(d) All of the above
+
+138. 166. Which of the following is a characteristic observation that indicates a precipitation reaction has occurred?
+(a) The solution becomes warm.
+(b) A gas is produced and bubbles are seen.
+(c) A solid separates from the solution.
+(d) The color of the solution changes from clear to dark.
+
+139. 55. In the single displacement reaction where zinc (Zn) reacts with copper(II) sulfate (CuSO4) solution, what are the products formed?
+a) ZnSO4 and Cu
+b) CuZn and SO4
+c) ZnS and CuO4
+d) ZnCuSO4
+
+140. 93. When the equation Fe2O3(s) + CO(g) -> Fe(s) + CO2(g) is balanced, the sum of the coefficients of the reactants is:
+(a) 3
+(b) 4
+(c) 5
+(d) 6
+
+141. 225. Which statement correctly differentiates between a physical change and a chemical reaction in terms of energy?
+a) Physical changes always involve larger energy changes than chemical reactions.
+b) Chemical reactions always release energy, while physical changes always absorb energy.
+c) Both physical changes and chemical reactions can involve absorption or release of energy.
+d) Energy changes only occur in chemical reactions, not in physical changes.
+
+142. 147. A student wants to store a solution of copper sulfate. Which of the following containers would be most suitable to prevent any reaction?
+(a) Zinc container
+(b) Iron container
+(c) Aluminium container
+(d) Glass container
+
+143. 189. When phenolphthalein indicator is added to an acidic solution, it remains colorless. Describe the color change observed if a base is slowly added to this acidic solution until neutralization occurs.
+
+144. 46. In a balanced chemical equation, the substances that undergo a chemical change and are written on the left side of the arrow are called:
+a) Products
+b) Residues
+c) Reactants
+d) Catalysts
+
+145. 97. Explain the importance of balancing a chemical equation with reference to the Law of Conservation of Mass.
+
+146. 88. When iron rusts, it combines with oxygen from the air to form iron oxides, and the rusted object appears to gain mass. Which of the following statements correctly explains this phenomenon in relation to the Law of Conservation of Mass?
+a) Rusting is a physical change, so mass is not conserved.
+b) The oxygen atoms are converted into iron atoms, leading to a mass increase.
+c) The mass gain is due to the incorporation of oxygen atoms from the atmosphere into the iron, so the total mass of the iron and oxygen combined remains constant.
+d) The Law of Conservation of Mass does not apply to slow chemical reactions like rusting.
+
+147. 216. A student observes that when two chemicals are mixed, the temperature of the mixture drops significantly. This observation indicates that the reaction is:
+a) Exothermic, as heat is being released.
+b) Endothermic, as heat is being absorbed.
+c) Neutral, as there is no change in energy.
+d) A physical change, not a chemical reaction.
+
+148. 206. What is the change in oxidation state of chromium in the following reaction: Cr2O7^2- -> Cr^3+?
+(a) From +6 to +3 (reduction)
+(b) From +3 to +6 (oxidation)
+(c) From +7 to +3 (reduction)
+(d) From +6 to +3 (oxidation)
+
+149. 94. Which of the following equations is correctly balanced?
+(a) KClO3 -> KCl + O2
+(b) 2KClO3 -> 2KCl + 3O2
+(c) KClO3 -> KCl + 3O2
+(d) 2KClO3 -> KCl + 3O2
+
+150. 155. When aqueous barium chloride reacts with aqueous sodium sulfate, a white precipitate is formed. Which balanced chemical equation correctly represents this reaction, including state symbols?
+a) BaCl2(aq) + NaSO4(aq) -> BaSO4(s) + NaCl(aq)
+b) BaCl2(aq) + Na2SO4(aq) -> BaSO4(s) + 2NaCl(aq)
+c) BaCl(aq) + NaSO4(aq) -> BaSO4(s) + NaCl(aq)
+d) BaCl2(aq) + Na2SO4(aq) -> BaS(s) + 2NaCl(aq) + O2(g)
+
+151. 14. When iron (Fe) reacts with oxygen (O2) to form iron oxide (Fe2O3), this process is a:
+(a) Physical change because no new elements are formed.
+(b) Chemical change because new substances with different properties are formed.
+(c) Physical change because the mass is conserved.
+(d) Chemical change because it is a reversible process.
+
+152. 141. A metal X can displace metal Y from its salt solution, but cannot displace metal Z from its salt solution. The order of reactivity of these metals from most reactive to least reactive is:
+(a) X > Y > Z
+(b) Z > X > Y
+(c) Y > X > Z
+(d) Z > Y > X
+
+153. 235. Which of the following factors would generally slow down the rate of corrosion of an iron object?
+(a) Presence of dissolved salts in water.
+(b) High humidity.
+(c) Painting the surface of the iron object.
+(d) Contact with a more reactive metal like magnesium.
+
+154. 217. In a chemical equation, how is the heat released in an exothermic reaction typically represented?
+a) As a reactant on the left side of the equation.
+b) As a product on the right side of the equation.
+c) As a catalyst above the arrow.
+d) As a negative sign next to the arrow.
+
+155. 20. When iron nails are left exposed to moist air for a long time, they develop a reddish-brown flaky coating. This phenomenon is an example of corrosion. Which characteristic of a chemical reaction is primarily observed here?
+(a) Evolution of gas
+(b) Change in state
+(c) Change in color
+(d) Formation of precipitate
+
+156. 219. If a reaction has a positive enthalpy change (delta H > 0), it signifies that the reaction:
+a) Releases energy to the surroundings.
+b) Is spontaneous at all temperatures.
+c) Absorbs energy from the surroundings.
+d) Is always a combustion reaction.
+
+157. 24. When copper powder is heated in air, it forms a black substance. The black substance is copper(II) oxide. This change involves:
+(a) Evolution of gas
+(b) Formation of precipitate
+(c) Change in color
+(d) Change in physical state only
+
+158. 106. Which of the following best describes a combination reaction?
+(a) A reaction in which a single reactant breaks down to form two or more simpler products.
+(b) A reaction in which two or more reactants combine to form a single product.
+(c) A reaction in which one element replaces another element in a compound.
+(d) A reaction in which two compounds exchange ions to form two new compounds.
+
+159. 204. Rancidity in food items is primarily caused by:
+(a) Hydrolysis of fats and oils
+(b) Oxidation of fats and oils
+(c) Reduction of fats and oils
+(d) Polymerization of fats and oils
+
+160. 105. A student attempted to balance the reaction: Mg(s) + N2(g) -> Mg3N2(s) and wrote 2Mg + N2 -> Mg3N2. Identify the error in the student's attempt and provide the correct balanced equation.
+
+161. 182. The reaction between a strong acid and a strong base is generally:
+(a) Endothermic
+(b) Exothermic
+(c) Neither exothermic nor endothermic
+(d) Reversible
+
+162. 70. Which of the following equations correctly represents the formation of a precipitate?
+(a) H2SO4(aq) + 2NaOH(aq) -> Na2SO4(aq) + 2H2O(l)
+(b) CaCl2(aq) + Na2CO3(aq) -> CaCO3(s) + 2NaCl(aq)
+(c) Zn(s) + 2HCl(aq) -> ZnCl2(aq) + H2(g)
+(d) N2(g) + 3H2(g) -> 2NH3(g)
+
+163. 125. Silver chloride decomposes into silver metal and chlorine gas when exposed to sunlight. This type of decomposition reaction is used in:
+a) Electroplating.
+b) Black and white photography.
+c) Combustion.
+d) Neutralization reactions.
+
+164. 227. State the two essential conditions required for the rusting of iron.
+
+165. 151. Which of the following balanced chemical equations represents a double displacement reaction?
+a) 2Mg(s) + O2(g) -> 2MgO(s)
+b) AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq)
+c) Zn(s) + CuSO4(aq) -> ZnSO4(aq) + Cu(s)
+d) CaCO3(s) -> CaO(s) + CO2(g)
+
+166. 159. The removal of calcium ions, which cause hardness in water, by adding sodium carbonate is an example of a double displacement reaction. What is the precipitate formed in this process?
+a) Sodium carbonate
+b) Calcium carbonate
+c) Sodium hydroxide
+d) Calcium hydroxide
+
+167. 207. Which of the following statements is true for a redox reaction?
+(a) Oxidation and reduction always occur simultaneously.
+(b) Oxidation always precedes reduction.
+(c) Only oxidation occurs.
+(d) Only reduction occurs.
+
+168. 250. The unpleasant odor associated with rancid butter is primarily due to the breakdown of triglycerides into:
+(a) Sugars
+(b) Amino acids
+(c) Short-chain fatty acids and glycerol
+(d) Complex carbohydrates
+
+169. 136. Which of the following reactions is an example of a displacement reaction?
+(a) CaCO3(s) -> CaO(s) + CO2(g)
+(b) 2H2(g) + O2(g) -> 2H2O(l)
+(c) Mg(s) + CuSO4(aq) -> MgSO4(aq) + Cu(s)
+(d) NaCl(aq) + AgNO3(aq) -> AgCl(s) + NaNO3(aq)
+
+170. 4. When a substance undergoes a chemical change, its mass:
+(a) Increases
+(b) Decreases
+(c) Remains conserved
+(d) Cannot be determined
+
+171. 39. Zinc metal reacts with copper sulfate solution to form zinc sulfate solution and copper metal. This type of reaction is classified as a:
+(a) Double displacement reaction
+(b) Decomposition reaction
+(c) Displacement reaction
+(d) Neutralization reaction
+
+172. 122. Decomposition reactions are typically:
+a) Exothermic, releasing heat.
+b) Endothermic, absorbing heat or energy.
+c) Neither exothermic nor endothermic.
+d) Initiated by light only.
+
+173. 66. A student is balancing the equation for the complete combustion of methane. Methane is a gas, and oxygen is a gas. The products are carbon dioxide gas and liquid water. Write the complete balanced chemical equation for this reaction including all necessary state symbols.
+
+174. 6. Which of the following observations typically indicates a chemical reaction has occurred?
+(a) A substance changes from solid to liquid.
+(b) A gas is produced.
+(c) The volume of a substance increases.
+(d) A substance changes shape.
+
+175. 145. When a strip of copper is placed in a solution of silver nitrate, a reaction occurs. What are the products of this reaction?
+(a) CuNO3 and Ag
+(b) Cu(NO3)2 and Ag
+(c) CuNO3 and AgNO3
+(d) No reaction occurs
+
+176. 224. When liquid water freezes to form ice, energy is released to the surroundings. This physical change is therefore considered:
+a) An endothermic process.
+b) An exothermic process.
+c) A sublimation process.
+d) A chemical reaction.
+
+177. 154. Predict the products of the double displacement reaction between aqueous lead(II) nitrate (Pb(NO3)2) and aqueous potassium iodide (KI).
+a) PbI(s) + KNO3(aq)
+b) PbI2(s) + KNO3(aq)
+c) Pb(NO3)2(s) + K2I(aq)
+d) PbK(s) + INO3(aq)
+
+178. 137. Which of the following metals will NOT displace hydrogen from dilute hydrochloric acid?
+(a) Zinc
+(b) Magnesium
+(c) Copper
+(d) Iron
+
+179. 148. In the displacement reaction, A + BX -> AX + B, for the reaction to proceed spontaneously, which condition must generally be met?
+(a) A must be less reactive than B.
+(b) AX must be more soluble than BX.
+(c) A must be more reactive than B.
+(d) B must be a non-metal.
+
+180. 167. Which of the following ionic compounds is most likely to form a precipitate when mixed with an aqueous solution containing chloride ions?
+(a) Sodium nitrate
+(b) Potassium sulfate
+(c) Silver(I) nitrate
+(d) Ammonium bromide
+
+181. 178. When aqueous solutions of iron(III) chloride (FeCl3) and sodium hydroxide (NaOH) are mixed, the precipitate formed is:
+(a) FeCl3
+(b) NaCl
+(c) Fe(OH)3
+(d) NaOH
+
+182. 126. Consider the balanced chemical equation for the decomposition of potassium chlorate (KClO3) to potassium chloride (KCl) and oxygen gas (O2). What are the coefficients for KClO3, KCl, and O2 respectively?
+a) 1, 1, 3
+b) 2, 2, 3
+c) 2, 2, 6
+d) 2, 1, 3
+
+183. 59. If a chemical reaction releases heat energy into the surroundings, it is classified as an exothermic reaction. In such reactions, the energy content of the products is typically:
+a) Higher than the energy content of the reactants.
+b) Lower than the energy content of the reactants.
+c) Equal to the energy content of the reactants.
+d) Unrelated to the energy content of the reactants.
+
+184. 230. Identify the oxidizing agent and the reducing agent in the process of rusting of iron.
+
+185. 188. A farmer observes that the soil in his field is too acidic. What common substance could he add to neutralize the soil, and why is this an example of a neutralization reaction?
+
+186. 57. When an acid reacts with a base in a neutralization reaction, the characteristic products formed are:
+a) Only salt
+b) Only water
+c) Salt and water
+d) Acid and base
+
+187. 22. Which of the following describes a situation where a chemical change has definitely occurred, based on typical observations?
+(a) Ice melting into water
+(b) Sugar dissolving in water
+(c) Rusting of an iron gate
+(d) Water boiling into steam
+
+188. 34. A student adds a small piece of calcium metal to water in a beaker. They observe vigorous bubbling and the beaker feels warm to the touch. Which characteristic of a chemical reaction is NOT explicitly mentioned in this observation?
+(a) Evolution of gas
+(b) Change in temperature
+(c) Formation of a precipitate
+(d) Production of heat
+
+189. 113. In the reaction 2Na(s) + Cl2(g) -> 2NaCl(s), which of the following statements is correct regarding the oxidation states?
+(a) Sodium is oxidized from +1 to 0.
+(b) Chlorine is reduced from 0 to -1.
+(c) Both sodium and chlorine are oxidized.
+(d) This is not a redox reaction.
+
+190. 205. Consider the reaction: Zn(s) + CuSO4(aq) -> ZnSO4(aq) + Cu(s). In this reaction, copper undergoes:
+(a) Oxidation
+(b) Reduction
+(c) Neither oxidation nor reduction
+(d) Both oxidation and reduction
+
+191. 142. Which of the following statements is TRUE regarding a displacement reaction?
+(a) A less reactive element displaces a more reactive element from its compound.
+(b) The reacting species must always be in aqueous solution.
+(c) It is a type of redox reaction where oxidation and reduction occur simultaneously.
+(d) Two different compounds react to form two new compounds.
+
+192. 152. In a typical double displacement reaction, what is often the visible evidence that a chemical change has occurred, especially in precipitation reactions?
+a) Change in temperature (exothermic or endothermic)
+b) Formation of a new solid (precipitate)
+c) Release of light energy
+d) Increase in volume of the solution
+
+193. 197. In the reaction Fe2O3 + 3CO -> 2Fe + 3CO2, which substance is oxidized?
+(a) Fe2O3
+(b) CO
+(c) Fe
+(d) CO2
+
+194. 138. When iron filings are added to a copper sulfate solution, the correct balanced chemical equation for the reaction that occurs is:
+(a) Fe(s) + CuSO4(aq) -> FeSO4(aq) + Cu(s)
+(b) 2Fe(s) + 3CuSO4(aq) -> Fe2(SO4)3(aq) + 3Cu(s)
+(c) Fe(s) + CuS(aq) -> FeS(aq) + Cu(s)
+(d) Fe(s) + CuSO4(aq) -> FeCu(s) + SO4(aq)
+
+195. 210. Which of the following reactions is NOT a redox reaction?
+(a) C(s) + O2(g) -> CO2(g)
+(b) AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq)
+(c) 2KClO3(s) -> 2KCl(s) + 3O2(g)
+(d) 2Na(s) + Cl2(g) -> 2NaCl(s)
+
+196. 50. One of the characteristics indicating a chemical reaction has occurred is the formation of a precipitate. A precipitate is typically a:
+a) Soluble solid product formed in a gaseous reaction.
+b) Gaseous product formed from two liquid reactants.
+c) Insoluble solid product formed from two soluble reactants in solution.
+d) Liquid product formed from two solid reactants.
+
+197. 246. Which of the following conditions accelerates the process of rancidity?
+(a) Low temperature
+(b) Exclusion of light
+(c) Presence of moisture and air
+(d) Vacuum packaging
+
+198. 72. Identify and correct the error in state symbol usage in the following equation:
+Zn(aq) + CuSO4(s) -> ZnSO4(aq) + Cu(s)
+
+199. 238. Write a balanced chemical equation for the formation of the green coating on copper objects exposed to moist air for a long time. (Assume the coating is basic copper carbonate, CuCO3.Cu(OH)2).
+
+200. 192. During a neutralization titration, if a strong acid is completely neutralized by a strong base, what will be the pH of the resulting solution? Explain your answer.
+
+201. 56. A common example of a double displacement reaction is the reaction between silver nitrate (AgNO3) and sodium chloride (NaCl). Which product forms a white precipitate in this reaction?
+a) Sodium nitrate (NaNO3)
+b) Silver chloride (AgCl)
+c) Sodium silver (NaAg)
+d) Chlorine nitrate (ClNO3)
+
+202. 67. In the reaction Fe(s) + H2SO4(aq) -> FeSO4(aq) + H2(g), what does the state symbol (g) next to H2 signify?
+(a) Hydrogen is dissolved in water.
+(b) Hydrogen is a solid.
+(c) Hydrogen is released as a gas.
+(d) Hydrogen is in its liquid state.
+
+203. 198. An oxidizing agent is a substance that:
+(a) undergoes oxidation.
+(b) causes reduction of another substance.
+(c) gains hydrogen.
+(d) loses electrons.
+
+204. 35. The Law of Conservation of Mass states that mass is neither created nor destroyed in a chemical reaction. How does this law relate to balancing chemical equations?
+(a) It ensures that the total number of atoms on the reactant side equals the total number of atoms on the product side.
+(b) It ensures that the sum of the masses of reactants is less than the sum of the masses of products.
+(c) It ensures that the chemical reaction proceeds spontaneously.
+(d) It ensures that the reaction is reversible.
+
+205. 209. In the reaction MnO2 + 4HCl -> MnCl2 + Cl2 + 2H2O, which element is oxidized?
+(a) Mn
+(b) O
+(c) H
+(d) Cl
+
+206. 144. Which of the following reactions involves the displacement of hydrogen by a metal from water?
+(a) 2Na(s) + 2H2O(l) -> 2NaOH(aq) + H2(g)
+(b) Mg(s) + 2HCl(aq) -> MgCl2(aq) + H2(g)
+(c) 2Al(s) + 6H2O(l) -> 2Al(OH)3(s) + 3H2(g) (steam)
+(d) Both (a) and (c)
+
+207. 84. Which statement is TRUE regarding the Law of Conservation of Mass and chemical equations?
+a) The number of molecules on the reactant side must always equal the number of molecules on the product side.
+b) The sum of the coefficients on the reactant side must equal the sum of the coefficients on the product side.
+c) The total number of atoms of each element must be equal on both sides of a chemical equation.
+d) The state symbols (s), (l), (g), (aq) must always be included for the law to apply.
+
+208. 51. In the chemical equation 2Na(s) + Cl2(g) -> 2NaCl(s), what do the state symbols (s) and (g) indicate for the reactants?
+a) (s) means solid product, (g) means gaseous product.
+b) (s) means soluble reactant, (g) means general reactant.
+c) (s) means solid reactant, (g) means gaseous reactant.
+d) (s) means standard reactant, (g) means vigorous reactant.
+
+209. 243. The process of rancidity is an example of a:
+(a) Displacement reaction
+(b) Decomposition reaction
+(c) Oxidation reaction
+(d) Neutralization reaction
+
+210. 95. When aqueous sodium carbonate reacts with aqueous calcium chloride, calcium carbonate precipitate and aqueous sodium chloride are formed. The balanced equation for this reaction is:
+(a) Na2CO3(aq) + CaCl2(aq) -> CaCO3(s) + NaCl(aq)
+(b) NaCO3(aq) + CaCl(aq) -> CaCO3(s) + NaCl(aq)
+(c) Na2CO3(aq) + CaCl2(aq) -> CaCO3(s) + 2NaCl(aq)
+(d) NaCO3(aq) + CaCl2(aq) -> CaCO3(s) + 2NaCl(aq)
+
+211. 241. Rancidity in food items is primarily caused by:
+(a) Hydrolysis of carbohydrates
+(b) Oxidation of fats and oils
+(c) Polymerization of proteins
+(d) Reduction of vitamins
+
+212. 49. Which of the following statements best describes the relationship between physical changes and the formation of new products?
+a) Physical changes always result in the formation of new chemical products.
+b) Physical changes alter the chemical composition, creating new products.
+c) Physical changes involve a change in state or form, but do not create new chemical products.
+d) Physical changes are reversible and produce different chemical products upon reversal.
+
+213. 75. Barium chloride solution reacts with sodium sulfate solution to form a white precipitate of barium sulfate and a solution of sodium chloride. Write the complete balanced chemical equation for this reaction, including all appropriate state symbols.
+
+214. 132. Which of the following reactions is NOT an example of a decomposition reaction?
+a) 2H2O(l) -> 2H2(g) + O2(g)
+b) C6H12O6(s) -> 6C(s) + 6H2O(g)
+c) CuSO4.5H2O(s) -> CuSO4(s) + 5H2O(g)
+d) Fe(s) + CuSO4(aq) -> FeSO4(aq) + Cu(s)
+
+215. 202. When an atom loses electrons, it is said to be:
+(a) Reduced
+(b) Oxidized
+(c) Neutralized
+(d) Precipitated
+
+216. 232. Gold and Platinum are often referred to as 'noble metals' due to their resistance to corrosion. This resistance is primarily because:
+(a) They are very heavy metals.
+(b) They have very low reactivity and do not easily react with oxygen or moisture.
+(c) They form a protective oxide layer immediately upon exposure to air.
+(d) They are excellent conductors of electricity.
+
+217. 186. Write a balanced chemical equation for the neutralization reaction between acetic acid (CH3COOH) and potassium hydroxide (KOH). Include state symbols.
+
+218. 109. Identify the combination reaction among the following chemical equations:
+(a) 2KClO3(s) -> 2KCl(s) + 3O2(g)
+(b) Zn(s) + CuSO4(aq) -> ZnSO4(aq) + Cu(s)
+(c) N2(g) + 3H2(g) -> 2NH3(g)
+(d) AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq)
+
+219. 28. When zinc granules are added to dilute hydrochloric acid, hydrogen gas is produced along with zinc chloride. Which observation confirms the occurrence of a chemical reaction?
+(a) Zinc granules getting dissolved
+(b) Formation of bubbles
+(c) Hydrochloric acid becoming less concentrated
+(d) The container becoming cooler
+
+220. 233. Anodising is a method used to protect aluminium from corrosion. Briefly describe the process of anodising and how it prevents corrosion.
+
+221. 236. Both corrosion and rancidity involve oxidation reactions. Explain one key difference between the two processes in terms of the substances affected and the resulting change.
+
+222. 124. The decomposition of water into hydrogen and oxygen gas by passing an electric current through it is known as:
+a) Photolysis.
+b) Thermolysis.
+c) Electrolysis.
+d) Displacement.
+
+223. 247. When fats and oils become rancid, they typically produce compounds like aldehydes and ketones. This change is classified as:
+(a) A physical change
+(b) A reversible change
+(c) A chemical change
+(d) A phase transition
+
+224. 33. When hydrochloric acid (HCl) reacts with solid magnesium (Mg) to produce hydrogen gas (H2) and aqueous magnesium chloride (MgCl2), what are the correct state symbols for hydrogen and magnesium chloride, respectively?
+(a) H2(g) and MgCl2(s)
+(b) H2(l) and MgCl2(aq)
+(c) H2(g) and MgCl2(aq)
+(d) H2(aq) and MgCl2(g)
+
+225. 213. Which of these common processes is an example of an exothermic change?
+a) Melting of ice.
+b) Photosynthesis in plants.
+c) Burning of natural gas.
+d) Evaporation of water.
+
+226. 61. Which of the following state symbols correctly represents a substance dissolved in water?
+(a) (l)
+(b) (s)
+(c) (aq)
+(d) (g)
+
+227. 58. In the redox reaction: Fe2O3(s) + 3CO(g) -> 2Fe(s) + 3CO2(g), which species is the reduced product?
+a) Fe2O3
+b) CO
+c) Fe
+d) CO2
+
+228. 15. The process of photosynthesis, where plants convert carbon dioxide and water into glucose and oxygen, is an example of:
+(a) A physical change involving energy absorption.
+(b) A chemical change involving the formation of new substances.
+(c) A purely physical process due to phase changes.
+(d) A process where the chemical composition of reactants remains unchanged.
+
+229. 129. During the thermal decomposition of lead nitrate (Pb(NO3)2), a brown gas is evolved. This brown gas is:
+a) Nitrogen gas (N2).
+b) Nitric oxide (NO).
+c) Nitrogen dioxide (NO2).
+d) Dinitrogen tetroxide (N2O4).
+
+230. 165. A double displacement reaction that produces water and a salt from an acid and a base is specifically classified as which type of reaction?
+a) Precipitation reaction
+b) Decomposition reaction
+c) Neutralization reaction
+d) Redox reaction
+
+231. 196. Which of the following processes involves the gain of oxygen?
+(a) Reduction
+(b) Oxidation
+(c) Neutralization
+(d) Displacement
+
+232. 68. When solid calcium carbonate is heated strongly, it decomposes to form solid calcium oxide and carbon dioxide gas. Write the chemical equation for this reaction, including state symbols.
+
+233. 104. Consider the unbalanced equation: NH3(g) + O2(g) -> NO(g) + H2O(g). Balance this equation and state the mole ratio of NO produced to O2 consumed.
+
+234. 180. A student mixes equal volumes of 0.1 M solutions of Pb(NO3)2 and KCl. Which of the following observations is expected?
+(a) No reaction occurs.
+(b) A white precipitate forms.
+(c) A colorless solution results.
+(d) A gas is evolved.
+
+235. 77. Explain why balancing chemical equations is a direct consequence and application of the Law of Conservation of Mass.
+
+236. 3. Which statement is TRUE regarding a physical change?
+(a) Energy is always absorbed.
+(b) The chemical identity of the substance changes.
+(c) It is generally reversible.
+(d) New chemical bonds are formed.
+
+237. 123. When calcium carbonate is heated strongly, it decomposes to form calcium oxide and carbon dioxide. This process is an example of:
+a) Electrolytic decomposition.
+b) Photolytic decomposition.
+c) Thermal decomposition.
+d) Combination reaction.
+
+238. 79. When 24.3 g of magnesium ribbon is burned in air, it combines with oxygen to form 40.3 g of magnesium oxide. Calculate the mass of oxygen that reacted.
+
+239. 32. In the reaction: Silver nitrate (aq) + Sodium chloride (aq) -> Silver chloride (s) + Sodium nitrate (aq), which substances are the reactants?
+(a) Silver chloride and Sodium nitrate
+(b) Silver nitrate and Sodium chloride
+(c) Silver nitrate and Silver chloride
+(d) Sodium chloride and Sodium nitrate
+
+240. 183. What is the pH of the solution formed when a strong acid completely neutralizes a strong base?
+(a) Less than 7
+(b) Equal to 7
+(c) Greater than 7
+(d) Depends on the specific acid and base
+
+241. 143. Which of the following reactions, involving magnesium, is an example of a displacement reaction?
+(a) 2Mg(s) + O2(g) -> 2MgO(s)
+(b) MgO(s) + 2HCl(aq) -> MgCl2(aq) + H2O(l)
+(c) Mg(s) + 2HCl(aq) -> MgCl2(aq) + H2(g)
+(d) MgCl2(aq) + 2NaOH(aq) -> Mg(OH)2(s) + 2NaCl(aq)
+
+242. 19. Which of the following reactions is characterized by an increase in temperature, indicating an exothermic process?
+(a) Dissolving ammonium chloride in water
+(b) Mixing baking soda and vinegar
+(c) Combustion of methane gas
+(d) Photosynthesis in plants
+
+243. 212. An endothermic reaction is characterized by:
+a) A net release of energy in the form of heat.
+b) A net absorption of energy from the surroundings.
+c) An increase in the temperature of the reaction mixture.
+d) The formation of stronger bonds than the bonds broken.
+
+244. 199. What is the oxidation state of sulfur in H2SO4?
+(a) +2
+(b) +4
+(c) +6
+(d) +8
+
+245. 23. During an experiment, solid calcium carbonate is heated strongly. A gas is evolved that turns limewater milky. This observation demonstrates:
+(a) A physical change involving gas evolution.
+(b) A chemical change involving gas evolution.
+(c) A change in state without chemical reaction.
+(d) Formation of a precipitate.
+
+246. 40. When an aqueous solution of lead(II) nitrate is mixed with an aqueous solution of potassium iodide, a yellow precipitate of lead(II) iodide is formed. This is an example of a:
+(a) Combination reaction
+(b) Precipitation reaction
+(c) Oxidation reaction
+(d) Single displacement reaction
+
+247. 203. In the reaction 2H2S + SO2 -> 3S + 2H2O, which substance acts as the oxidizing agent?
+(a) H2S
+(b) SO2
+(c) S
+(d) H2O
+
+248. 220. In an endothermic reaction, the energy required to break bonds in the reactants is:
+a) Less than the energy released when new bonds form in the products.
+b) Equal to the energy released when new bonds form in the products.
+c) Greater than the energy released when new bonds form in the products.
+d) Independent of the energy released from bond formation.
+
+249. 63. Write the appropriate state symbol for each of the following substances under standard room conditions (25 degrees C, 1 atm):
+(i) Liquid water
+(ii) Oxygen gas
+(iii) Solid sodium chloride
+(iv) Glucose dissolved in water
+
+250. 231. Is corrosion considered a physical change or a chemical change? Justify your answer.
+
+251. 60. Rancidity is a process where fats and oils, especially in food, undergo oxidation. The unpleasant smell and taste associated with rancid food are due to the formation of:
+a) Simple sugars and proteins.
+b) Volatile aldehydes and ketones.
+c) Long-chain saturated fatty acids.
+d) Inorganic salts and water.
+
+252. 30. Consider the reaction: 2SO2(g) + O2(g) -> 2SO3(g). This reaction occurs spontaneously with the release of heat. Which characteristic is most directly implied by the word "spontaneously" and the release of heat?
+(a) Evolution of gas and change in color
+(b) Change in temperature (exothermic)
+(c) Formation of precipitate
+(d) Change in state from gas to liquid
+
+253. 91. The balanced chemical equation for the reaction of hydrogen gas with oxygen gas to form water is:
+(a) H2 + O2 -> H2O
+(b) 2H2 + O2 -> 2H2O
+(c) H2 + 2O2 -> 2H2O
+(d) 2H2 + 2O2 -> 2H2O
+
+254. 214. Which of the following processes is primarily endothermic?
+a) Respiration in living organisms.
+b) The setting of concrete.
+c) The decomposition of calcium carbonate.
+d) The combustion of magnesium ribbon.
+
+255. 13. Which of the following characteristics is NOT typically associated with a chemical change?
+(a) Irreversibility
+(b) Significant energy change
+(c) Change in physical state only
+(d) Formation of a precipitate
+
+
+ANSWER KEY
+
+1. Neutralization reaction: Reactants are typically an acid and a base, and the products are a salt and water. There is typically no precipitate formed, as the products are often soluble or water itself.
+2. (c)
+3. Because the physical state can significantly influence the reaction pathway, rate, or even whether a reaction occurs. For example, a solid might need to be melted or dissolved to react effectively, or a gas might only react under specific pressure conditions.
+4. (b)
+5. (b)
+6. (a)
+7. Aluminium (or Chromium).
+8. (c)
+9. (c)
+10. (b)
+11. 2Al(s) + 3H2SO4(aq) -> Al2(SO4)3(aq) + 3H2(g)
+12. Neutralization reactions involve the exchange of ions between the acid and the base. The hydrogen ion (H+) from the acid combines with the hydroxide ion (OH-) from the base to form water, while the remaining cation from the base and anion from the acid combine to form a salt. This pattern of ion exchange between two compounds to form two new compounds is characteristic of a double displacement reaction.
+13. (c)
+14. 4FeS2(s) + 11O2(g) -> 2Fe2O3(s) + 8SO2(g)
+15. (b)
+16. (c)
+17. (b)
+18. (c)
+19. (c)
+20. (c)
+21. (d)
+22. (c)
+23. (a)
+24. (c)
+25. (c)
+26. Pb(NO3)2(aq) + 2KI(aq) -> PbI2(s) + 2KNO3(aq)
+27. (c)
+28. (b)
+29. (c)
+30. (b)
+31. (b)
+32. (b)
+33. (b)
+34. (b)
+35. (c)
+36. (b)
+37. (b)
+38. (d)
+39. (c)
+40. (b)
+41. 1. Toothpaste: Contains mild bases (e.g., sodium bicarbonate) to neutralize acids produced by bacteria in the mouth, preventing tooth decay.
+42. (b)
+43. (b)
+44. Economic: High costs for replacement and repair of corroded infrastructure. Environmental: Release of toxic corrosion products and resource depletion from manufacturing replacements.
+45. P4(s) + 5O2(g) -> 2P2O5(s)
+46. The expected total mass of the products and the beaker would remain 150.0 g. This is because the reaction occurs in a closed system, and the Law of Conservation of Mass states that mass is neither created nor destroyed in a chemical reaction; it is merely rearranged. Therefore, the total mass before and after the reaction must be conserved.
+47. The Law of Conservation of Mass, primarily formulated by Antoine Lavoisier, shifted chemistry from a qualitative to a quantitative science. Before its acceptance, ideas like phlogiston theory (mass loss during burning) were prevalent. Lavoisier's meticulous experiments demonstrating mass conservation provided a fundamental principle, allowing chemists to accurately predict product masses, balance equations, and understand stoichiometry, thereby laying the groundwork for modern chemical theory and experimentation.
+48. Total mass of products = Mass of lead(II) iodide + Mass of potassium nitrate solution = 23.0 g + 120.0 g = 143.0 g. Total mass of reactants = Mass of lead(II) nitrate solution + Mass of potassium iodide solution = 100.0 g + 50.0 g = 150.0 g. This does not align, which implies either the remaining solution mass given (120g) includes the mass of the precipitate that was separated, or it's a trick question where a portion of the potassium nitrate solution was also separated. Assuming the question meant 120.0 g *of only the potassium nitrate solution* was recovered after separation of precipitate: 150.0g (reactants) vs 143.0g (products). This implies some mass was unaccounted for or the numbers are not perfectly balanced for an ideal scenario. A more direct answer considering LCM: The total mass of products (including any gas or solution formed) must equal the total mass of the reactants if no substance escaped. Given 150.0 g of reactants, the total mass of products should also be 150.0 g.
+49. (b)
+50. (a)
+51. (b)
+52. (b)
+53. (b)
+54. 4.4 g
+55. (d)
+56. H+(aq) + OH-(aq) -> H2O(l)
+57. (d)
+58. (b)
+59. (a)
+60. Zinc, being more reactive than iron, preferentially oxidizes, protecting the iron (sacrificial protection).
+61. (c)
+62. 2Al(OH)3(s) + 3H2SO4(aq) -> Al2(SO4)3(aq) + 6H2O(l)
+63. (b)
+64. (b)
+65. (b)
+66. (c)
+67. (d)
+68. (c)
+69. It involves formation of anode and cathode regions on the metal surface, with electron and ion transfer in presence of an electrolyte (water).
+70. (b)
+71. (b)
+72. (c)
+73. (c)
+74. (b)
+75. 2C4H10(g) + 13O2(g) -> 8CO2(g) + 10H2O(l)
+76. (b)
+77. (b)
+78. (c)
+79. (c)
+80. (c)
+81. (b)
+82. To indicate the physical state of reactants and products under reaction conditions, which helps in predicting reaction outcomes, understanding reaction mechanisms, and interpreting observations like precipitation or gas evolution.
+83. (c)
+84. (a)
+85. Corrosion is general deterioration of material; rusting is specific corrosion of iron due to oxygen and water.
+86. The presence of (s) on the product side of a double displacement reaction equation, especially when two aqueous reactants combine, indicates that an insoluble solid, known as a precipitate, has formed. This type of reaction is specifically called a precipitation reaction.
+87. (d)
+88. Apparatus: Conical flask, rubber stopper, small test tube, thread, barium chloride solution, sodium sulfate solution, weighing balance. Procedure: Pour barium chloride solution into the flask and sodium sulfate solution into the test tube. Carefully suspend the test tube inside the flask using a thread, ensuring the solutions do not mix. Stopper the flask. Weigh the entire apparatus. Tilt the flask to mix the solutions and observe the precipitation. Weigh the apparatus again. Expected observation: The mass before and after mixing remains the same.
+89. (a)
+90. (b)
+91. (c)
+92. (b)
+93. A neutralization reaction is a chemical reaction in which an acid and a base react quantitatively with each other to form a salt and water.
+94. (c)
+95. This describes an exothermic reaction. Neutralization reactions are typically exothermic because the formation of stable covalent bonds in water (H2O) from the H+ and OH- ions releases a significant amount of energy, which is generally greater than the energy required to break the bonds in the original acid and base.
+96. (c)
+97. (d)
+98. (l) denotes a pure substance in its liquid state, e.g., H2O(l) for liquid water. (aq) denotes a substance dissolved in water, forming an aqueous solution, e.g., NaCl(aq) for sodium chloride dissolved in water.
+99. FeCl3(aq) + 3NaOH(aq) -> Fe(OH)3(s) + 3NaCl(aq)
+100. In physical changes, the total mass of the substance remains constant because the chemical identity of the substance does not change; only its form or state changes, so no atoms are lost or gained.
+101. (b)
+102. (c)
+103. (b)
+104. (b)
+105. (a)
+106. If a reaction is performed at an elevated temperature, especially above the boiling point of water (100 degrees C), water would exist as a gas (steam) rather than a liquid. Similarly, substances that are typically solid or liquid at room temperature might become liquids or gases, respectively, at higher temperatures. State symbols must then reflect these changes (e.g., H2O(g) instead of H2O(l)), as the physical state directly impacts the reaction's kinetics and mechanisms.
+107. (a)
+108. (c)
+109. (c)
+110. (a)
+111. (b)
+112. (c)
+113. (b)
+114. (c)
+115. (c)
+116. (b)
+117. (b)
+118. (b)
+119. (b)
+120. (b)
+121. (b)
+122. (c)
+123. (c)
+124. (c)
+125. (c)
+126. An open system allows matter (and energy) to escape or enter, potentially leading to an apparent change in mass during a reaction (e.g., gas escaping or entering). A closed system prevents matter exchange, ensuring that any mass change observed is due to the transformation of substances within the system, thus allowing for verification of mass conservation. Example: Burning magnesium in an open beaker. The mass of the solid product (magnesium oxide) will appear to be greater than the initial mass of magnesium because oxygen from the air (reactant) has been incorporated.
+127. (c)
+128. (c)
+129. (b)
+130. (c)
+131. (b)
+132. (b)
+133. (b)
+134. (b)
+135. The total mass of the simpler products formed must be equal to the mass of the original single reactant that decomposed.
+136. (c)
+137. (a)
+138. (c)
+139. (a)
+140. (b)
+141. (c)
+142. (d)
+143. It will turn pink.
+144. (c)
+145. Balancing ensures that the number of atoms of each element on the reactant side is equal to the number of atoms of the same element on the product side. This is crucial because the Law of Conservation of Mass states that mass is neither created nor destroyed in a chemical reaction.
+146. (c)
+147. (b)
+148. (a)
+149. (b)
+150. (b)
+151. (b)
+152. (b)
+153. (c)
+154. (b)
+155. (c)
+156. (c)
+157. (c)
+158. (b)
+159. (b)
+160. The error is that the student did not balance the magnesium atoms correctly. In Mg3N2, there are 3 magnesium atoms, but the student only placed a coefficient of 2 in front of Mg. The correct balanced equation is: 3Mg(s) + N2(g) -> Mg3N2(s).
+161. (b)
+162. (b)
+163. (b)
+164. Oxygen and water (moisture).
+165. (b)
+166. (b)
+167. (a)
+168. (c)
+169. (c)
+170. (c)
+171. (c)
+172. (b)
+173. CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l)
+174. (b)
+175. (b)
+176. (b)
+177. (b)
+178. (c)
+179. (c)
+180. (c)
+181. (c)
+182. (b)
+183. (b)
+184. Oxidizing agent: Oxygen; Reducing agent: Iron.
+185. He could add slaked lime (calcium hydroxide, Ca(OH)2) or quicklime (calcium oxide, CaO). This is a neutralization reaction because the basic calcium hydroxide or calcium oxide reacts with the acidic components in the soil to form a salt and water, thereby increasing the soil pH.
+186. (c)
+187. (c)
+188. (c)
+189. (b)
+190. (b)
+191. (c)
+192. (b)
+193. (b)
+194. (a)
+195. (b)
+196. (c)
+197. (c)
+198. Error: Zn is shown as (aq) but zinc is a solid metal. CuSO4 is shown as (s) but it should be (aq) as it reacts as a solution. Corrected Equation: Zn(s) + CuSO4(aq) -> ZnSO4(aq) + Cu(s)
+199. 2Cu(s) + H2O(l) + CO2(g) + O2(g) -> CuCO3.Cu(OH)2(s)
+200. The pH of the resulting solution will be equal to 7. This is because the salt formed from a strong acid and a strong base (e.g., NaCl, K2SO4) does not hydrolyze in water, meaning it does not produce excess H+ or OH- ions, leaving the solution neutral.
+201. (b)
+202. (c)
+203. (b)
+204. (a)
+205. (d)
+206. (d)
+207. (c)
+208. (c)
+209. (c)
+210. (c)
+211. (b)
+212. (c)
+213. BaCl2(aq) + Na2SO4(aq) -> BaSO4(s) + 2NaCl(aq)
+214. (d)
+215. (b)
+216. (b)
+217. CH3COOH(aq) + KOH(aq) -> CH3COOK(aq) + H2O(l)
+218. (c)
+219. (b)
+220. Electrolytic process forming a thick, protective aluminium oxide layer on the surface of aluminium.
+221. Corrosion affects metals, leading to structural degradation; Rancidity affects fats/oils in food, leading to unpleasant smell/taste.
+222. (c)
+223. (c)
+224. (c)
+225. (c)
+226. (c)
+227. (c)
+228. (b)
+229. (c)
+230. (c)
+231. (b)
+232. CaCO3(s) -> CaO(s) + CO2(g)
+233. Balanced equation: 4NH3(g) + 5O2(g) -> 4NO(g) + 6H2O(g). The mole ratio of NO produced to O2 consumed is 4:5.
+234. (b)
+235. Balancing ensures that the number of atoms of each element on the reactant side equals the number of atoms of the same element on the product side, thus demonstrating that matter (mass) is neither created nor destroyed.
+236. (c)
+237. (c)
+238. 16.0 g
+239. (b)
+240. (b)
+241. (c)
+242. (c)
+243. (b)
+244. (c)
+245. (b)
+246. (b)
+247. (b)
+248. (c)
+249. (i) (l) (ii) (g) (iii) (s) (iv) (aq)
+250. Chemical change; New substance (rust) with different properties is formed.
+251. (b)
+252. (b)
+253. (b)
+254. (c)
+255. (c)
