@@ -1,0 +1,1504 @@
+Topic: Introduction to Microprocessors
+
+Section: Multiple Choice Questions
+1.  Which of the following signals on the 8085 microprocessor is used to indicate that the current machine cycle is for memory or I/O operation?
+a)  ALE
+b)  IO/M
+c)  READY
+d)  S0/S1
+2.  The instruction LXI H, 2050H belongs to which category of the 8085 instruction set?
+a)  Data Transfer Group
+b)  Arithmetic Group
+c)  Logical Group
+d)  Branch Group
+3.  What is the addressing mode of the instruction MOV A, M?
+a)  Direct Addressing
+b)  Immediate Addressing
+c)  Register Indirect Addressing
+d)  Register Addressing
+4.  The Program Counter (PC) in the 8085 microprocessor is a 16-bit register primarily responsible for:
+a)  Storing data temporarily during arithmetic operations.
+b)  Holding the address of the next instruction to be fetched.
+c)  Keeping track of the top of the stack.
+d)  Storing the results of logical operations.
+5.  If an 8085 microprocessor system has 16 address lines and 8 data lines, what is the maximum memory capacity it can directly address?
+a)  64 KB
+b)  128 KB
+c)  256 KB
+d)  512 KB
+6.  Which of the following 8085 interrupts has the highest priority?
+a)  RST 7.5
+b)  RST 6.5
+c)  TRAP
+d)  INTR
+7.  The 8255 Programmable Peripheral Interface (PPI) chip can be configured to operate in different modes. Which mode allows bidirectional data transfer on Port A?
+a)  Mode 0
+b)  Mode 1
+c)  Mode 2
+d)  Bit Set/Reset Mode
+8.  Describe the main functional blocks of the 8085 microprocessor. Explain the role of the Arithmetic Logic Unit (ALU), the General Purpose Registers, and the Timing and Control Unit in processing an instruction.
+9.  Explain the purpose of the Address Latch Enable (ALE) signal in the 8085 microprocessor. Discuss its significance in distinguishing between address and data on the multiplexed AD0-AD7 lines during a memory read operation.
+10. Differentiate between memory-mapped I/O and I/O-mapped I/O techniques used in the 8085 microprocessor. Highlight the advantages and disadvantages of each method concerning addressing space, instruction set, and control signals.
+11. A microcomputer system based on the 8085 needs to interface a 4 KB EPROM and an 8 KB RAM. Assume the EPROM starts at address 0000H. Describe the necessary address decoding logic and major components required to interface these memories, including their starting and ending addresses.
+12. Explain the difference between hardware interrupts and software interrupts in the 8085 microprocessor. Provide one example of each and briefly describe the sequence of events the 8085 follows when acknowledging and servicing a hardware interrupt like RST 7.5.
+13. Write an 8085 assembly language program segment to perform the following:
+a)  Load the hexadecimal value 55H into register B.
+b)  Load the hexadecimal value AAH into register C.
+c)  Add the contents of register B and C. Store the final sum in register D.
+d)  Explain the status of the Carry Flag (CY) and Zero Flag (Z) after the execution of the addition operation.
+14. Describe the three basic data transfer schemes used in microprocessor systems: Programmed I/O, Interrupt-driven I/O, and Direct Memory Access (DMA). Compare their operational mechanisms, efficiency, and typical applications.
+15. Explain the concept of the Stack in the 8085 microprocessor. Illustrate its operation with an example demonstrating the effect of PUSH and POP instructions on the Stack Pointer and the contents of the stack for a pair of registers (e.g., H and L).
+
+
+Topic: Evolution of Microprocessors
+
+16
+Which of the following was a primary limitation of early 4-bit microprocessors like the Intel 4004, leading to the development of 8-bit processors?
+(a) Inability to perform arithmetic logic unit (ALU) operations.
+(b) Limited data processing capability and smaller addressable memory space.
+(c) Lack of on-chip clock generation, requiring external timing circuits.
+(d) Exclusive use of memory-mapped I/O, complicating peripheral integration.
+17
+The Intel 8080 microprocessor represented a significant evolutionary step from its predecessor, the 8008. Which of these improvements was crucial for its broader adoption?
+(a) Integration of a full 16-bit data bus.
+(b) Elimination of the need for external support chips.
+(c) Increased addressable memory from 16KB to 64KB and a more powerful instruction set.
+(d) Introduction of on-chip cache memory for faster data access.
+18
+From a system designer's perspective, a major advancement of the Intel 8085 over the 8080 microprocessor was:
+(a) Its adoption of a Harvard architecture.
+(b) The requirement for a single +5V power supply.
+(c) The inclusion of a dedicated floating-point unit (FPU).
+(d) Its ability to directly address 1MB of memory.
+19
+The 8085 microprocessor introduced on-chip features that streamlined system design by reducing the need for external components. Which of the following best exemplifies this evolutionary trend?
+(a) The integration of a Direct Memory Access (DMA) controller.
+(b) The inclusion of a dedicated interrupt controller.
+(c) The on-chip clock generator and serial I/O (SID/SOD) ports.
+(d) An expanded general-purpose register set compared to its predecessors.
+20
+The 8085 utilizes a multiplexed Address/Data bus (AD0-AD7). This architectural decision was an evolutionary trade-off primarily made to:
+(a) Increase the overall bus speed by allowing simultaneous address and data transfer.
+(b) Reduce the total number of pins on the IC package without sacrificing address space.
+(c) Facilitate easier interfacing with 16-bit memory devices.
+(d) Implement a more complex pipelined instruction fetch mechanism.
+21
+Regarding interrupt handling, the 8085 microprocessor demonstrated an evolutionary step by:
+(a) Introducing the concept of software interrupts for the first time.
+(b) Providing multiple hardware interrupt pins with vectored capabilities.
+(c) Eliminating the need for an Interrupt Service Routine (ISR).
+(d) Supporting only non-maskable interrupts to ensure critical process execution.
+22
+Considering the evolution of addressable memory space, what was the typical address bus width for the Intel 8085, and what maximum memory could it directly access?
+(a) 8-bit address bus, 256 bytes.
+(b) 16-bit address bus, 64KB.
+(c) 20-bit address bus, 1MB.
+(d) 32-bit address bus, 4GB.
+23
+The Accumulator (A register) in the 8085 plays a central role in many operations. Its prominence in 8-bit microprocessors reflects an evolutionary design choice emphasizing:
+(a) The efficient execution of complex floating-point calculations.
+(b) The optimization of arithmetic and logical operations by serving as a primary operand and result storage.
+(c) Its use as a general-purpose index register for array processing.
+(d) Its function as a dedicated program counter for subroutine calls.
+24
+In the context of microprocessor evolution, the 8085's ability to differentiate between memory and I/O operations through the IO/M signal and separate IN/OUT instructions implies:
+(a) A strict adherence to memory-mapped I/O only.
+(b) Support for both isolated I/O and memory-mapped I/O architectures.
+(c) A shift towards entirely peripheral-based memory addressing.
+(d) The elimination of a dedicated address bus for I/O devices.
+25
+The term "Microprocessor Unit" (MPU) emerged to describe chips like the 8085. What critical components, historically external, were typically NOT yet integrated onto an MPU chip itself, distinguishing it from later "Microcontroller Units" (MCUs) in the evolutionary path?
+(a) Arithmetic Logic Unit (ALU) and Control Unit.
+(b) General Purpose Registers and Program Counter.
+(c) RAM, ROM, and I/O ports.
+(d) Clock generator and Interrupt controller.
+26
+The instruction set of the 8085, an 8-bit processor, is classified as Complex Instruction Set Computer (CISC). This design philosophy at its evolutionary stage was characterized by:
+(a) A reduced number of instructions, each executing in a single clock cycle.
+(b) Simple, fixed-length instructions primarily operating on registers.
+(c) A larger number of instructions, including specialized ones, with varying formats and execution times.
+(d) Extensive use of pipelining and out-of-order execution.
+27
+The control signals generated by the 8085 (e.g., RD, WR, IO/M, S0, S1) are an evolutionary refinement to manage bus cycles. These signals primarily facilitate:
+(a) Direct memory access (DMA) requests from multiple peripherals simultaneously.
+(b) Sophisticated cache coherence protocols in multi-processor systems.
+(c) Coordinated data transfer and operation selection between the CPU, memory, and I/O devices.
+(d) Dynamic voltage and frequency scaling for power management.
+28
+The increase in pin count from early 16-pin microprocessors (like 4004) to 40-pin packages for processors like the 8080 and 8085 was primarily driven by the need for:
+(a) Dedicated pins for on-chip debuggers and test points.
+(b) Separate, non-multiplexed address and data bus lines, along with more control signals.
+(c) Higher power supply requirements for increased clock speeds.
+(d) Redundant pins for fault tolerance and error correction.
+29
+The system bus structure, comprising Address, Data, and Control buses, became standardized and efficient with processors like the 8085. This evolution was crucial because it enabled:
+(a) Autonomous operation of peripheral devices without CPU intervention.
+(b) A modular approach to system design, allowing easy integration of various memory and I/O components.
+(c) The development of multi-core processing units.
+(d) Direct communication between two external memory chips without CPU involvement.
+30
+While the 8085 primarily relies on programmed I/O and interrupt-driven I/O for data transfer, it also provides basic support for a more efficient transfer mechanism for large blocks of data. This evolutionary step is evidenced by its inclusion of pins for:
+(a) Serial communication (SID/SOD).
+(b) Hold and HLDA for Direct Memory Access (DMA).
+(c) Read (RD) and Write (WR) operations.
+(d) Reset In (RST IN) and Reset Out (RST OUT).
+
+
+Topic: 8085 Microprocessor Architecture
+
+Section: Multiple Choice Questions
+16. The 8085 Microprocessor uses a 16-bit address bus. What is the maximum memory capacity it can directly address?
+(a) 1 MB
+(b) 64 KB
+(c) 16 KB
+(d) 128 KB
+17. Which of the following signals in the 8085 Microprocessor is used to demultiplex the lower order address bus (AD0-AD7) from the data bus?
+(a) IO/Mbar
+(b) RDbar
+(c) ALE
+(d) WRbar
+18. In the 8085 Microprocessor, which of the following is NOT a general-purpose register?
+(a) B
+(b) C
+(c) H
+(d) SP
+19. The program counter (PC) in the 8085 Microprocessor is a 16-bit register. Its primary function is to:
+(a) Store the address of the current instruction being executed.
+(b) Store the data of the current instruction being executed.
+(c) Point to the next instruction to be fetched from memory.
+(d) Hold the top of the stack address.
+20. What is the function of the Timing and Control Unit in the 8085 Microprocessor architecture?
+(a) To perform arithmetic and logical operations.
+(b) To store program instructions and data.
+(c) To generate appropriate timing and control signals for all internal and external operations.
+(d) To manage input/output operations.
+21. The 8085 Microprocessor's data bus is 8-bit wide, while its address bus is 16-bit wide. How are the lower 8 bits of the address (A0-A7) handled?
+(a) They are always dedicated to memory addressing.
+(b) They are multiplexed with the data bus (D0-D7).
+(c) They are always dedicated to I/O addressing.
+(d) They are multiplexed with the control bus.
+22. Which interrupt in the 8085 Microprocessor has the highest priority and is non-maskable?
+(a) RST 7.5
+(b) RST 6.5
+(c) INTR
+(d) TRAP
+23. The S0 and S1 pins in the 8085 Microprocessor are status signals that provide information about the current machine cycle. When S1=1 and S0=0, what machine cycle is indicated?
+(a) Opcode Fetch
+(b) Memory Read
+(c) Memory Write
+(d) I/O Read
+24. Which of the following 8085 register pairs is typically used for 16-bit memory addressing?
+(a) B-C
+(b) D-E
+(c) H-L
+(d) All of the above
+25. The SID and SOD pins on the 8085 Microprocessor are primarily used for:
+(a) Direct Memory Access (DMA) operations.
+(b) Serial data communication.
+(c) Interrupt handling.
+(d) Clock synchronization.
+26. If the 8085 Microprocessor is operating with a 6 MHz external crystal frequency, what is the internal operating frequency (fosc/2)?
+(a) 12 MHz
+(b) 6 MHz
+(c) 3 MHz
+(d) 1.5 MHz
+27. What is the primary purpose of the accumulator register in the 8085 Microprocessor?
+(a) To store the address of the next instruction.
+(b) To perform arithmetic and logical operations, storing the result.
+(c) To point to the top of the stack.
+(d) To temporarily store data from memory or I/O devices.
+28. The Carry Flag (CY) in the 8085 Microprocessor's Flag Register is set when:
+(a) The result of an arithmetic operation is zero.
+(b) The result of an arithmetic operation exceeds 7 bits.
+(c) A carry is generated from the most significant bit (D7) during addition, or a borrow is generated during subtraction.
+(d) The parity of the result is even.
+29. The IO/Mbar signal in 8085 Microprocessor indicates whether the current operation is:
+(a) An interrupt operation or a memory operation.
+(b) An input/output operation or a memory operation.
+(c) An instruction fetch or a data transfer.
+(d) An external operation or an internal operation.
+30. Which of the following is a key characteristic of the 8085 Microprocessor's architecture regarding its clock speed?
+(a) It requires an external clock generator chip.
+(b) It has an on-chip clock generator but requires an external crystal or RC network.
+(c) It can generate its own clock without any external components.
+(d) Its clock speed is fixed at 3 MHz and cannot be changed.
+
+
+Topic: 8085 Pin Description
+
+31. Which of the following 8085 pins are used to provide the 16-bit address for memory and I/O operations?
+a) AD7-AD0 and A15-A8
+b) D7-D0 and A15-A8
+c) S0, S1, and IO/M
+d) RD and WR
+32. What is the primary function of the ALE signal in the 8085 microprocessor?
+a) To indicate whether the current operation is a memory access or I/O access.
+b) To latch the lower 8-bits of the address bus onto an external latch.
+c) To enable the external data bus transceivers during read operations.
+d) To acknowledge an interrupt request from a peripheral device.
+33. During an opcode fetch cycle in 8085, which bus carries the opcode and at what phase?
+a) AD7-AD0 carries the opcode after ALE goes low.
+b) A15-A8 carries the opcode before ALE goes high.
+c) D7-D0 carries the opcode when RD is active low.
+d) AD7-AD0 carries the opcode when WR is active low.
+34. Which 8085 pin combination indicates a Memory Write operation?
+a) IO/M = 1, S1 = 0, S0 = 1
+b) IO/M = 0, WR = 0
+c) IO/M = 1, RD = 0
+d) IO/M = 0, S1 = 1, S0 = 0
+35. Identify the non-maskable interrupt pin among the following 8085 pins.
+a) RST 7.5
+b) INTR
+c) TRAP
+d) RST 6.5
+36. What is the purpose of the HOLD pin in 8085?
+a) To pause the CPU's execution for a fixed duration.
+b) To request the CPU to release its buses for DMA operations.
+c) To put the CPU in a low-power sleep mode.
+d) To temporarily disable all interrupt requests.
+37. The 8085 microprocessor requires an external crystal or RC network connected to which pins to generate its internal clock?
+a) SID and SOD
+b) X1 and X2
+c) CLK OUT and RESET OUT
+d) VCC and VSS
+38. Which 8085 pin is used to send serial data out from the microprocessor?
+a) SID
+b) SOD
+c) S0
+d) S1
+39. What state does the 8085 microprocessor enter when the RESET IN pin is asserted low?
+a) It immediately halts execution and enters a power-saving mode.
+b) It loads the program counter with the address 0000H and resets internal registers.
+c) It acknowledges any pending interrupt requests.
+d) It enables the DMA controller for bus access.
+40. The multiplexing of address and data buses (AD7-AD0) in 8085 is done to:
+a) Reduce the power consumption of the chip.
+b) Increase the processing speed of the CPU.
+c) Reduce the number of physical pins required for the IC package.
+d) Allow simultaneous data and address transfer.
+41. The READY pin on the 8085 is primarily used for:
+a) Signaling the completion of an instruction execution.
+b) Synchronizing the microprocessor with slow peripheral devices.
+c) Indicating that the internal registers are ready for data transfer.
+d) Acknowledging an interrupt request from a peripheral.
+42. When an INTR (Interrupt Request) signal is received by the 8085, which signal does the microprocessor assert to acknowledge it?
+a) HOLD
+b) HLDA
+c) INTA
+d) RESET OUT
+43. Which combination of S1, S0, and IO/M indicates an Opcode Fetch cycle in the 8085?
+a) IO/M = 0, S1 = 1, S0 = 1
+b) IO/M = 1, S1 = 0, S0 = 0
+c) IO/M = 0, S1 = 0, S0 = 1
+d) IO/M = 1, S1 = 1, S0 = 0
+44. What are the nominal voltage levels for the VCC and VSS pins of the 8085 microprocessor?
+a) VCC = +3.3V, VSS = 0V
+b) VCC = +5V, VSS = -5V
+c) VCC = +5V, VSS = 0V
+d) VCC = +12V, VSS = 0V
+45. Which of the following 8085 pins is strictly an output pin from the microprocessor's perspective?
+a) RD
+b) INTR
+c) READY
+d) CLK OUT
+
+
+Topic: Functional Blocks of 8085 (ALU, Registers, Timing & Control Unit)
+
+Section: Multiple Choice Questions
+46. Which of the following is NOT considered a general-purpose register in the 8085 microprocessor?
+a) B
+b) D
+c) H
+d) SP
+47. The primary function of the Program Counter (PC) in the 8085 microprocessor is to:
+a) Store the data currently being processed by the ALU.
+b) Hold the address of the next instruction to be fetched.
+c) Point to the top of the stack memory.
+d) Keep track of the results of arithmetic and logical operations.
+48. If the 8085 ALU performs an addition operation and the result is zero, which flag in the Flag Register will be set to 1?
+a) Carry Flag (CY)
+b) Zero Flag (Z)
+c) Sign Flag (S)
+d) Parity Flag (P)
+49. The Timing and Control Unit of the 8085 microprocessor is responsible for:
+a) Performing all arithmetic and logical operations.
+b) Storing program instructions and data.
+c) Generating control signals for internal and external operations.
+d) Managing the flow of data between the CPU and I/O devices exclusively.
+50. The Address Latch Enable (ALE) signal in the 8085 microprocessor goes high during the T1 state of an instruction cycle to:
+a) Indicate that the lower 8 bits of the address bus (AD0-AD7) contain data.
+b) Latch the entire 16-bit address into external memory or peripheral devices.
+c) Decouple the address and data buses for memory operations.
+d) Allow the lower 8 bits of the address bus to be used as address.
+51. Which of the following register pairs in the 8085 can be used to store a 16-bit memory address?
+a) A and B
+b) H and L
+c) C and D
+d) A and F
+52. Besides arithmetic and logical operations, the 8085 ALU also performs:
+a) Instruction decoding and execution sequence generation.
+b) Increment/decrement operations on registers.
+c) Program flow control through conditional jumps.
+d) Data transfer between memory and I/O devices.
+53. The Instruction Register (IR) in the 8085 microprocessor temporarily holds:
+a) The address of the current instruction.
+b) The operand of the current instruction.
+c) The opcode of the instruction currently being executed.
+d) The result of the previous arithmetic operation.
+54. When a PUSH instruction is executed in the 8085, the Stack Pointer (SP) is:
+a) Incremented by one.
+b) Decremented by one.
+c) Incremented by two.
+d) Decremented by two.
+55. In the 8085 Flag Register, the Auxiliary Carry Flag (AC) is primarily used for:
+a) Indicating an overflow in the most significant bit.
+b) Supporting BCD (Binary Coded Decimal) arithmetic operations.
+c) Sign extension during data transfer operations.
+d) Detecting an even number of set bits in the result.
+56. The S0 and S1 signals generated by the Timing and Control Unit of the 8085 are used to:
+a) Select between memory and I/O operations.
+b) Indicate the type of machine cycle being performed.
+c) Control the read and write operations.
+d) Acknowledge a HOLD request from a peripheral.
+57. Which temporary register pair (not user-accessible) is often used by the 8085 during opcode fetch and execution to hold operand addresses or data?
+a) BC
+b) DE
+c) WZ
+d) HL
+58. The READY signal in the 8085 microprocessor is an input signal primarily used by the Timing and Control Unit to:
+a) Acknowledge an interrupt request.
+b) Synchronize the CPU with slow peripheral devices.
+c) Indicate that an I/O device is ready for data transfer.
+d) Reset the microprocessor's internal registers.
+59. When the HOLD signal is active (high) in the 8085, the Timing and Control Unit, upon acknowledging the request, issues the HLDA (Hold Acknowledge) signal and tristates its:
+a) Address bus, data bus, and control signals (RD, WR, IO/M).
+b) Program Counter and Stack Pointer.
+c) Internal ALU and Instruction Register.
+d) Flag Register and Accumulator.
+60. The 8085 microprocessor has a total of how many user-accessible general-purpose 8-bit registers (excluding A, F, PC, SP)?
+a) 4
+b) 6
+c) 7
+d) 8
+
+
+Topic: Memory Organization and Mapping
+
+Section: Multiple Choice Questions
+61.  What is the total addressable memory space for the 8085 microprocessor?
+(a) 16 KB
+(b) 32 KB
+(c) 64 KB
+(d) 128 KB
+62.  How many address lines does the 8085 microprocessor have for memory addressing?
+(a) 8
+(b) 16
+(c) 32
+(d) 64
+63.  A system based on 8085 requires 16KB of ROM. Which of the following ROM chips, if available in sufficient quantity, would be most efficiently utilized for a contiguous block without complex decoding?
+(a) Two 8KB ROM chips
+(b) Four 4KB ROM chips
+(c) One 16KB ROM chip
+(d) Eight 2KB ROM chips
+64.  If a 4KB EPROM (2732 equivalent) is connected to an 8085 system such that its starting address is C000H, what would be its ending address?
+(a) CFFFH
+(b) DFFFH
+(c) EFFFH
+(d) FFFFH
+65.  Which memory decoding technique assigns a unique address to each memory location, typically using all available higher-order address lines for chip selection?
+(a) Linear decoding
+(b) Partial decoding
+(c) Full decoding
+(d) Absolute decoding
+66.  To enable a memory read operation in an 8085 system, which of the following control signals must be active low?
+(a) RD and IO/M
+(b) WR and IO/M
+(c) RD and S1
+(d) WR and S0
+67.  An 8085 system needs to interface a 2KB RAM chip and a 4KB ROM chip. If the RAM is assigned the address range 8000H-87FFH, and the ROM is to be placed immediately after the RAM, what would be the starting address of the ROM?
+(a) 8800H
+(b) 9000H
+(c) A000H
+(d) 8FFFH
+68.  In a memory-mapped I/O scheme in an 8085 system, how are I/O devices primarily accessed?
+(a) Using IN and OUT instructions.
+(b) Using memory read/write instructions (e.g., LDA, STA).
+(c) Using dedicated I/O address lines and separate control signals.
+(d) Through the SID/SOD pins for serial communication.
+69.  Consider an 8085 system where a 2KB RAM chip needs to be decoded for the address range F000H-F7FFH. Which of the following address lines would be part of the chip select logic for this range?
+(a) A15, A14, A13
+(b) A15, A14, A12
+(c) A15, A14, A13, A12
+(d) A15, A14
+70.  If an 8085 system uses two 32KB ROM chips to implement a 64KB memory space, what address line would typically be used as a bank selector to differentiate between the two chips?
+(a) A0
+(b) A8
+(c) A15
+(d) IO/M
+71.  The ALE (Address Latch Enable) signal in 8085 is crucial for memory interfacing because it:
+(a) Demultiplexes the lower order address/data bus (AD0-AD7).
+(b) Enables the Read control signal during memory operations.
+(c) Selects between memory and I/O operations.
+(d) Generates the clock signal for memory chips.
+72.  An 8085 microprocessor system has 4KB of RAM. If the RAM chips used are 1KB x 8 bits, how many such chips are required to implement the 4KB RAM?
+(a) 1
+(b) 2
+(c) 4
+(d) 8
+73.  Partial memory decoding is primarily characterized by:
+(a) Every memory location having a unique physical address.
+(b) Using all available address lines for chip selection.
+(c) A memory location responding to multiple possible addresses (address aliasing).
+(d) Requiring more complex and expensive decoding logic compared to full decoding.
+74.  What is a primary advantage of memory-mapped I/O over I/O-mapped I/O in an 8085 system?
+(a) It allows a larger I/O address space (up to 256 locations).
+(b) It provides dedicated I/O instructions for faster access.
+(c) It allows the use of all memory-related instructions for I/O operations.
+(d) It simplifies the hardware decoding for I/O devices significantly.
+75.  A system contains an 8KB ROM from 0000H to 1FFFH. To expand memory, an additional 8KB ROM (2764 equivalent) needs to be placed contiguously. What would be the starting address of the second ROM chip?
+(a) 1FFFH
+(b) 2000H
+(c) 8000H
+(d) 4000H
+
+
+Topic: Memory Interfacing Techniques
+
+Section: Multiple Choice Questions
+76. In an 8085 microprocessor system, the Address Latch Enable (ALE) signal is used primarily for:
+(a) Enabling the data bus transceivers
+(b) Demultiplexing the address/data bus
+(c) Generating the memory read/write control signals
+(d) Selecting the peripheral devices
+77. An 8085 microprocessor needs to interface with a 16 KB RAM chip. How many address lines are required to uniquely address all locations in this RAM?
+(a) 14
+(b) 16
+(c) 12
+(d) 8
+78. Which of the following 8085 pins is essential for distinguishing between a memory operation and an I/O operation?
+(a) RD
+(b) WR
+(c) IO/M
+(d) S1
+79. Consider an 8085 system where a 4KB EPROM (2732) is to be interfaced. If the EPROM is partially decoded to occupy the address range from C000H to CFFFH, which of the following address lines must be directly involved in its chip selection logic?
+(a) A15, A14
+(b) A15, A13
+(c) A14, A13
+(d) A15, A12
+80. What is the main disadvantage of partial address decoding in memory interfacing for an 8085 system?
+(a) Increased hardware complexity
+(b) Slower memory access times
+(c) Multiple memory locations mapping to the same physical memory chip
+(d) Inability to interface with ROM devices
+81. To interface an 8085 with an 8Kx8 ROM chip, how many 3-to-8 line decoders (e.g., 74LS138) would be minimally required to fully decode the address space for this single ROM chip?
+(a) 1
+(b) 2
+(c) 3
+(d) 0 (if direct connection possible)
+82. During a memory write operation in an 8085-based system, which of the following control signals must be active low?
+(a) RD and IO/M
+(b) WR and IO/M
+(c) WR and S1
+(d) RD and S0
+83. An 8085 microprocessor's lower order address lines (AD0-AD7) are multiplexed with the data lines. To obtain a stable 16-bit address for memory interfacing, which external component is typically used with the ALE signal?
+(a) A buffer (e.g., 74LS245)
+(b) A latch (e.g., 74LS373)
+(c) A decoder (e.g., 74LS138)
+(d) An adder
+84. If an 8085 system uses full address decoding, what is the primary advantage over partial address decoding regarding memory space utilization?
+(a) Allows for faster data transfer
+(b) Reduces the total number of required memory chips
+(c) Prevents address contention and ensures each memory location has a unique address
+(d) Simplifies the timing diagram for memory access
+85. A memory module is designed using two 4Kx8 RAM chips. If these chips are interfaced with an 8085 such that the first chip occupies 0000H-0FFFH and the second chip occupies 1000H-1FFFH, which address line is most likely used as a chip select differentiator between the two chips?
+(a) A0
+(b) A10
+(c) A11
+(d) A12
+86. What would be the consequence if the Chip Select (CS) pin of a memory chip interfaced with an 8085 is permanently tied to ground (active low)?
+(a) The memory chip will always be in a read-only mode.
+(b) The memory chip will consume less power.
+(c) The memory chip will always be selected, potentially leading to address collisions with other devices.
+(d) The microprocessor will not be able to access the memory chip at all.
+87. In a memory read cycle of the 8085, the data from the memory chip is placed on the data bus during which phase of the cycle, relative to the RD signal?
+(a) At the rising edge of RD
+(b) While RD is high
+(c) While RD is active low
+(d) Before RD goes low
+88. Which of the following is NOT a control signal typically generated by the 8085 microprocessor for memory interfacing?
+(a) IO/M (active low)
+(b) RD (active low)
+(c) WR (active low)
+(d) CS (Chip Select)
+89. A system uses an 8085 with 64KB of total memory. If this memory is implemented using 8Kx8 EPROM chips, how many EPROM chips are required?
+(a) 4
+(b) 8
+(c) 16
+(d) 32
+90. When interfacing a memory chip with the 8085, the most significant address lines (e.g., A13-A15) are often used with a decoder (like 74LS138) for:
+(a) Providing the data input to the memory chip
+(b) Generating the clock signal for the memory chip
+(c) Generating the chip select signal for individual memory banks
+(d) Multiplexing the data bus lines
+
+
+Topic: I/O Addressing and Interfacing
+
+Section: Multiple Choice Questions
+91. Which of the following statements is true regarding I/O-mapped I/O in the 8085 microprocessor?
+a) It uses 16-bit addresses for I/O devices.
+b) The IN and OUT instructions are used for data transfer.
+c) It shares the same address space with memory.
+d) It allows direct memory access to I/O devices without CPU intervention.
+92. For an 8085 system, if a peripheral is interfaced using memory-mapped I/O, which of the following instructions can be used to read data from it?
+a) IN 80H
+b) MOV A, 8080H
+c) OUT 80H
+d) STA 8080H
+93. A full address decoding scheme for I/O devices in an 8085 system typically uses:
+a) Only lower order address lines for chip select logic.
+b) All available address lines (A0-A15) to generate unique addresses.
+c) A dedicated I/O address bus separate from the memory address bus.
+d) The S0 and S1 status signals to distinguish I/O from memory operations.
+94. The 8255 Programmable Peripheral Interface (PPI) is commonly used for I/O interfacing with the 8085. In its Mode 1 operation, Port A and Port B can support:
+a) Simple I/O without handshaking.
+b) Strobed I/O with handshaking signals.
+c) Bidirectional I/O with handshaking.
+d) Only output operations.
+95. In an 8085 system utilizing the 8255 in Mode 2, what is the primary advantage offered by this mode?
+a) It provides high-speed polled I/O operations.
+b) It supports basic input and output operations without interrupt capability.
+c) It allows bidirectional data transfer on Port A with handshaking.
+d) It enables the 8255 to function as a direct memory access (DMA) controller.
+96. When comparing programmed I/O with interrupt-driven I/O in an 8085 system, which of the following is a major advantage of interrupt-driven I/O?
+a) It requires less complex hardware for interfacing.
+b) The CPU continuously checks the status of the I/O device.
+c) It significantly reduces CPU idle time while waiting for I/O operations.
+d) It is suitable for high-speed data transfer of large blocks of data.
+97. An 8085 system needs to transfer a large block of data from an external ADC to memory without significant CPU overhead. Which data transfer scheme would be most appropriate?
+a) Programmed I/O
+b) Interrupt-driven I/O
+c) Direct Memory Access (DMA)
+d) Serial I/O using SID/SOD pins
+98. During an I/O read operation in the 8085, which control signal is asserted (goes low) by the microprocessor?
+a) MEMR (Memory Read)
+b) IOWR (I/O Write)
+c) IORD (I/O Read)
+d) ALE (Address Latch Enable)
+99. An 8085 system has two 8-bit I/O devices to be interfaced using I/O-mapped I/O at addresses 80H and 81H. Which of the following would be an appropriate minimal address decoding logic using a 74LS138 (3-to-8 line decoder) for these devices, assuming A7 is used as the most significant enable for the decoder?
+a) A7 connected to G1, A6-A4 to select inputs, and output 0 to device 1, output 1 to device 2.
+b) A7 connected to G2A, A2-A0 to select inputs, and output 0 to device 1, output 1 to device 2.
+c) A7 connected to G1, A1-A0 to select inputs, and output 0 to device 1, output 1 to device 2, with higher address lines ignored.
+d) A7 connected to G1, A5-A3 to select inputs, and output 0 to device 1, output 1 to device 2.
+100. In an 8085-based system, if an I/O device is memory-mapped, how does the CPU differentiate between accessing the I/O device and accessing a memory location?
+a) By using specific IN/OUT instructions.
+b) By asserting the IO/M' signal as high for I/O and low for memory.
+c) By interpreting the address provided, as I/O addresses are always distinct from memory addresses.
+d) By decoding the opcode of the instruction, which implicitly indicates an I/O or memory operation.
+101. The 8259 Programmable Interrupt Controller (PIC) is often used with the 8085 to handle multiple interrupt requests from various I/O devices. What is its primary function?
+a) To generate clock signals for I/O devices.
+b) To prioritize, mask, and vector multiple interrupt requests to the CPU.
+c) To provide parallel data transfer capabilities to I/O ports.
+d) To convert serial data from I/O devices into parallel data.
+102. An 8085 system requires precise timing for an external event, such as generating a square wave or counting external pulses for an I/O device. Which peripheral chip is best suited for this task?
+a) 8255 Programmable Peripheral Interface
+b) 8259 Programmable Interrupt Controller
+c) 8253/8254 Programmable Interval Timer
+d) 8279 Keyboard/Display Controller
+103. The SID and SOD pins of the 8085 microprocessor are primarily used for:
+a) Parallel data transfer with high-speed I/O devices.
+b) Synchronous serial data communication.
+c) Asynchronous serial data communication.
+d) Direct Memory Access (DMA) control.
+104. Bus contention can occur during I/O interfacing when:
+a) Multiple I/O devices are simultaneously enabled to drive the data bus.
+b) The CPU tries to access memory and an I/O device at the same time.
+c) The address bus is not properly buffered.
+d) The control bus signals are not synchronized.
+105. An 8085 system needs to interface a 1Kx8 EPROM and a 2Kx8 RAM. If the EPROM occupies memory addresses from 0000H to 03FFH, what is the starting address for the 2Kx8 RAM if it immediately follows the EPROM?
+a) 0400H
+b) 0800H
+c) 1000H
+d) 2000H
+
+
+Topic: Data Transfer Schemes (Programmed, Interrupt-Driven, DMA)
+
+106. What is the primary method used by the CPU in Programmed I/O to check the status of a peripheral device?
+a) Waiting for an interrupt signal
+b) Polling the status register repeatedly
+c) Receiving a DMA request
+d) Directly accessing the device's memory
+107. In the context of an 8085 microprocessor system, which data transfer scheme typically involves the CPU being entirely responsible for initiating, supervising, and completing every byte transfer?
+a) Interrupt-Driven I/O
+b) Direct Memory Access (DMA)
+c) Programmed I/O
+d) Serial Communication
+108. Which 8085 hardware interrupt provides a dedicated vector address (RST 7.5) and is often used for high-priority, time-critical peripheral devices to request service from the CPU?
+a) TRAP
+b) RST 5.5
+c) INTR
+d) RST 7.5
+109. When an 8085 microprocessor grants a DMA request, which control signal does it assert to acknowledge that the bus system has been relinquished?
+a) HOLD
+b) HLDA
+c) READY
+d) IO/M
+110. Consider a scenario where a high-speed hard disk needs to transfer large blocks of data (several kilobytes) to main memory with minimal CPU intervention. Which data transfer scheme is most suitable and why?
+a) Programmed I/O, due to its simplicity.
+b) Interrupt-Driven I/O, because it frees the CPU for other tasks during transfer.
+c) Direct Memory Access (DMA), as it allows peripherals to transfer data directly to memory.
+d) Serial communication, for its error-checking capabilities.
+111. What is the main disadvantage of using Programmed I/O for a slow peripheral device that updates its status infrequently?
+a) It requires complex interrupt service routines.
+b) It results in high CPU overhead due to busy-waiting or polling.
+c) It cannot handle multiple peripheral devices simultaneously.
+d) It is limited to transferring only one byte at a time.
+112. During a DMA operation in an 8085 system, what is the state of the 8085's address, data, and control buses after the HLDA signal is asserted?
+a) They remain active, controlled by the 8085 for its internal operations.
+b) They are tristated (floating) and effectively handed over to the DMA controller.
+c) Only the data bus is tristated; address and control remain active.
+d) Only the address bus is tristated; data and control remain active.
+113. An Interrupt Service Routine (ISR) is a critical component of Interrupt-Driven I/O. What is its primary function?
+a) To continuously poll the status of a peripheral device.
+b) To prepare and initiate a DMA transfer request.
+c) To handle the specific data transfer and control logic for the interrupting peripheral.
+d) To generate the clock signal for the microprocessor.
+114. Compared to Programmed I/O and Interrupt-Driven I/O, Direct Memory Access (DMA) typically exhibits the lowest software overhead for large data transfers. What is the main reason for this?
+a) DMA does not require any hardware support.
+b) The CPU is not involved in setting up the transfer.
+c) DMA offloads the data transfer management from the CPU to a dedicated controller.
+d) DMA transfers data serially, which is more efficient.
+115. In an 8085 system, if multiple peripheral devices request service simultaneously via the INTR pin, how is the priority generally determined?
+a) By the intrinsic priority of the INTR pin, which is fixed.
+b) Through a software polling mechanism within the main program.
+c) By an external hardware priority encoder or Programmable Interrupt Controller (like 8259).
+d) The 8085 randomly selects a device to service.
+116. Cycle stealing is a technique used in DMA. What characterizes it?
+a) The DMA controller takes control of the bus for an extended period, blocking the CPU.
+b) The CPU repeatedly checks a status flag while performing other tasks.
+c) The DMA controller momentarily "steals" a bus cycle to transfer one data unit, allowing the CPU to resume quickly.
+d) The CPU continuously monitors the peripheral, delaying its own operations.
+117. Which of the following is an advantage of Interrupt-Driven I/O over Programmed I/O?
+a) Simpler hardware implementation.
+b) Reduced CPU utilization for waiting states.
+c) Higher data transfer rates for burst transfers.
+d) Elimination of the need for an Interrupt Service Routine.
+118. Which data transfer scheme requires the CPU to save its current context (registers, program counter) before executing an Interrupt Service Routine?
+a) Programmed I/O
+b) Direct Memory Access (DMA)
+c) Interrupt-Driven I/O
+d) Polling I/O
+119. An 8085 system is configured to use an 8259 Programmable Interrupt Controller (PIC) to manage multiple interrupt-driven I/O devices. When the 8085 acknowledges an interrupt from the 8259, what does the 8259 typically provide to the 8085 to direct it to the correct Interrupt Service Routine?
+a) The 8259 directly provides the full 16-bit address of the ISR on the address bus.
+b) The 8259 asserts a specific RST (Restart) instruction opcode on the data bus.
+c) The 8259 places a CALL instruction opcode followed by the 16-bit ISR address on the data bus.
+d) The 8259 simply asserts the INTR line, and the 8085 automatically jumps to a predefined ISR.
+120. What is the main purpose of the READY signal in an 8085-based system, especially when dealing with slower peripheral devices during I/O operations?
+a) To initiate a DMA transfer.
+b) To request an interrupt from the CPU.
+c) To inform the CPU that the peripheral is ready for data transfer, thereby extending CPU wait states if necessary.
+d) To acknowledge that the CPU has relinquished the buses.
+
+
+Topic: 8085 Instruction Set Classification
+
+Section: Multiple Choice Questions
+121. Which of the following 8085 instructions is classified under the Data Transfer group?
+a) ADD B
+b) JMP 2000H
+c) MOV B, A
+d) ANA C
+122. An instruction like INR B belongs to which category of the 8085 instruction set?
+a) Logical Group
+b) Arithmetic Group
+c) Branch Group
+d) Stack, I/O, and Machine Control Group
+123. The 8085 instruction CMA (Complement Accumulator) is categorized under the:
+a) Data Transfer Group
+b) Arithmetic Group
+c) Logical Group
+d) Branch Group
+124. Which instruction from the following list unconditionally alters the program flow in 8085?
+a) CALL 3000H
+b) MOV A, B
+c) HLT
+d) INR M
+125. The PUSH PSW instruction is primarily classified as a:
+a) Data Transfer instruction, specifically involving the stack.
+b) Machine Control instruction, used for system state preservation.
+c) Logical instruction, manipulating flag bits.
+d) Branch instruction, altering program sequence through stack.
+126. The IN 80H instruction, used for reading data from an input port, falls under which category?
+a) Data Transfer Group
+b) I/O and Machine Control Group
+c) Arithmetic Group
+d) Branch Group
+127. Which of the following 8085 instruction types typically affects the Carry Flag (CY) based on the operation's result?
+a) Only Data Transfer Instructions
+b) Only Logical Instructions
+c) Primarily Arithmetic Instructions
+d) Only Branch Instructions
+128. Instructions like MVI B, 05H (Move Immediate to Register B) primarily use which addressing mode, and are classified as which type?
+a) Direct Addressing, Data Transfer
+b) Immediate Addressing, Data Transfer
+c) Register Addressing, Arithmetic
+d) Implied Addressing, Logical
+129. The instruction RET (Return from Subroutine) is part of the 8085 instruction set's:
+a) Data Transfer Group, as it transfers data from stack to PC.
+b) Branch Group, as it unconditionally transfers control back.
+c) Stack, I/O, and Machine Control Group, for managing program flow.
+d) Logical Group, manipulating program counter value.
+130. To halt the 8085 microprocessor's execution, which instruction from the Machine Control group is used?
+a) NOP
+b) HLT
+c) EI
+d) DI
+131. Consider the instructions XRA A and SUB A. While both can clear the Accumulator, XRA A is classified as Logical, and SUB A as Arithmetic. The primary reason for this classification is:
+a) XRA A uses immediate addressing, while SUB A uses register addressing.
+b) XRA A only affects the Zero flag, while SUB A affects all flags.
+c) XRA A performs a bitwise operation, while SUB A performs a binary subtraction operation.
+d) XRA A is a single-byte instruction, while SUB A is a two-byte instruction.
+132. The instruction LHLD 2050H (Load H-L pair direct from memory) is a multi-byte instruction and belongs to which classification group?
+a) Arithmetic Group
+b) Logical Group
+c) Data Transfer Group
+d) Branch Group
+133. Which pair of instructions from the Machine Control group is used to enable and disable the 8085's interrupt system?
+a) SIM and RIM
+b) IN and OUT
+c) EI and DI
+d) HLT and NOP
+134. The RLC (Rotate Accumulator Left) and RAR (Rotate Accumulator Right through Carry) instructions are part of which 8085 instruction classification?
+a) Arithmetic Group
+b) Logical Group
+c) Data Transfer Group
+d) Branch Group
+135. An instruction like JNC 4000H (Jump if No Carry) is a conditional branch instruction. It falls under the Branch Group. The primary characteristic of instructions in this group is that they:
+a) Always modify the contents of the Accumulator.
+b) Transfer data between registers and memory without affecting flags.
+c) Alter the sequence of program execution based on certain conditions or unconditionally.
+d) Perform bitwise logical operations on data.
+
+
+Topic: 8085 Addressing Modes
+
+136. Which addressing mode is used by the 8085 instruction "MVI A, 32H"?
+(a) Register Addressing
+(b) Immediate Addressing
+(c) Direct Addressing
+(d) Register Indirect Addressing
+137. The instruction "MOV M, C" in 8085 uses which of the following addressing modes for its destination and source operands, respectively?
+(a) Register Indirect, Register
+(b) Register, Register Indirect
+(c) Register, Direct
+(d) Direct, Register
+138. In 8085, the instruction "LDA 2050H" accesses data from memory location 2050H. What is the characteristic of the addressing mode used here?
+(a) The operand is directly specified as an 8-bit constant within the instruction.
+(b) The address of the operand is stored in a register pair.
+(c) The 16-bit memory address is provided within the instruction itself.
+(d) The operand is implicitly defined by the opcode and Accumulator.
+139. Which 8085 instruction typically operates on the Accumulator and uses Implied (or Implicit) addressing mode?
+(a) SUB B
+(b) INR L
+(c) CMA
+(d) ADC M
+140. Consider the 8085 instruction "LDAX D". Which addressing mode is primarily used to fetch the operand?
+(a) Direct Addressing
+(b) Register Addressing
+(c) Register Indirect Addressing
+(d) Immediate Addressing
+141. If the HL register pair contains 3000H, what addressing mode is used to access the operand when the instruction "ADD M" is executed in 8085?
+(a) Immediate Addressing
+(b) Direct Addressing
+(c) Register Addressing
+(d) Register Indirect Addressing
+142. Which of the following 8085 instructions uses an addressing mode where the operand data is explicitly part of the instruction itself?
+(a) LXI H, 4000H
+(b) PUSH B
+(c) STA 5000H
+(d) MOV B, A
+143. The "LHLD 2000H" instruction of the 8085 microprocessor utilizes which addressing mode to specify the source memory address for loading the HL pair?
+(a) Register Addressing
+(b) Register Indirect Addressing
+(c) Immediate Addressing
+(d) Direct Addressing
+144. What is the key characteristic of Register Addressing Mode in 8085?
+(a) The operand is a constant value included in the instruction.
+(b) The operand's memory address is specified directly in the instruction.
+(c) The operand is located in one of the general-purpose registers.
+(d) The address of the operand is formed by the contents of a register pair.
+145. The 8085 instruction "PUSH PSW" uses which addressing mode for its primary operation?
+(a) Register Addressing
+(b) Direct Addressing
+(c) Implicit/Implied Addressing
+(d) Register Indirect Addressing
+146. Identify the addressing mode used for the source operand in the instruction "ADD B" and the destination operand in "STA 6000H", respectively.
+(a) Register, Register
+(b) Register, Direct
+(c) Immediate, Direct
+(d) Direct, Register Indirect
+147. Which of the following addressing modes in 8085 typically corresponds to a 3-byte instruction?
+(a) Register Addressing
+(b) Immediate Addressing with 8-bit data
+(c) Direct Addressing
+(d) Register Indirect Addressing
+148. An 8085 program needs to load a constant value 55H into the Accumulator. Which addressing mode is most efficient for this operation?
+(a) Register Indirect Addressing (e.g., using a memory location pointed by HL)
+(b) Direct Addressing (e.g., reading from a fixed memory location 55H)
+(c) Immediate Addressing (e.g., MVI A, 55H)
+(d) Register Addressing (e.g., MOV A, B if B already has 55H)
+149. The instruction "INR M" operates on a memory location whose address is held in the HL register pair. This instruction is an example of:
+(a) Direct Addressing
+(b) Register Addressing
+(c) Immediate Addressing
+(d) Register Indirect Addressing
+150. Which 8085 instruction primarily uses Implicit addressing to modify the Program Counter by popping an address from the stack?
+(a) PUSH PSW
+(b) POP H
+(c) CALL addr
+(d) RET
+
+
+Topic: Assembly Language Programming Basics
+
+151. What is the primary purpose of an assembler in the context of 8085 assembly language programming?
+a) To convert machine code into high-level language.
+b) To translate assembly language mnemonics into machine code.
+c) To execute the assembly language program directly.
+d) To debug the 8085 microprocessor hardware.
+152. Which of the following 8085 instructions is used to load data from a memory location specified by the H-L register pair into the Accumulator?
+a) MOV A, M
+b) LDAX B
+c) LHLD 2000H
+d) LXI H, 2000H
+153. The instruction PUSH D in 8085 assembly language decrements the Stack Pointer (SP) by how many bytes before storing the register pair D-E?
+a) 1
+b) 2
+c) 4
+d) 0
+154. Consider the 8085 instruction ADI 05H. What addressing mode does this instruction primarily use for its operand?
+a) Register addressing
+b) Direct addressing
+c) Immediate addressing
+d) Implied addressing
+155. Which of the following is NOT a valid addressing mode supported by the 8085 microprocessor?
+a) Register Indirect addressing
+b) Indexed addressing
+c) Direct addressing
+d) Implied addressing
+156. If the Accumulator (A) contains 8FH and the Carry flag (CY) is set (1), what will be the value of the Accumulator after the execution of the instruction RAL?
+a) 1DH
+b) 1EH
+c) C1H
+d) C0H
+157. A subroutine is called using the CALL instruction. After the subroutine completes its execution, which instruction is used to transfer control back to the main program at the instruction immediately following CALL?
+a) JMP
+b) RET
+c) RST
+d) HLT
+158. What is the maximum addressable memory space for the 8085 microprocessor, given its 16-bit address bus?
+a) 1 KB
+b) 64 KB
+c) 1 MB
+d) 4 GB
+159. Which 8085 instruction is specifically designed to read data from an input port in I/O mapped I/O?
+a) LDA 20H
+b) MOV A, M
+c) IN 40H
+d) LHLD 5000H
+160. After the execution of the instruction SPHL, what happens to the Stack Pointer (SP) and the H-L register pair?
+a) SP copies the content of H-L, and H-L remains unchanged.
+b) H-L copies the content of SP, and SP remains unchanged.
+c) Both SP and H-L are exchanged.
+d) SP is loaded with the higher byte of H-L, and the lower byte is ignored.
+161. If the Accumulator contains 00H, what will be the status of the Zero flag (Z) and Sign flag (S) after the execution of the instruction INR A?
+a) Z=1, S=0
+b) Z=0, S=0
+c) Z=0, S=1
+d) Z=1, S=1
+162. Which of the following instructions is NOT a data transfer instruction in the 8085 instruction set?
+a) MOV
+b) LXI
+c) ADD
+d) STA
+163. The 8085 microprocessor has how many general-purpose 8-bit registers available to the programmer?
+a) 4
+b) 6
+c) 7
+d) 8
+164. In 8085, if a program needs to implement a delay loop without affecting any register contents or memory, which instruction is most suitable for simply consuming CPU cycles?
+a) NOP
+b) HLT
+c) EI
+d) DI
+165. Which 8085 instruction is used to set or reset the serial output data (SOD) pin?
+a) RIM
+b) SIM
+c) RST 7.5
+d) OUT 00H
+
+
+Topic: Stack and Subroutines
+
+166. Which of the following statements best describes the primary function of the stack in the 8085 microprocessor?
+(a) It is used to store the results of all arithmetic and logical operations performed by the ALU.
+(b) It is a Last-In, First-Out (LIFO) memory area used for temporarily storing return addresses of subroutines and contents of registers.
+(c) It serves as a dedicated area for storing the main program instructions that are currently being executed.
+(d) It acts as a high-speed cache memory to frequently accessed data for faster retrieval.
+167. The Stack Pointer (SP) in the 8085 microprocessor is a ________________ register that always points to the ________________ element of the stack.
+(a) 8-bit, next available
+(b) 16-bit, last
+(c) 16-bit, top
+(d) 8-bit, bottom
+168. Suppose the Stack Pointer (SP) holds the address 4000H. If the instruction PUSH H is executed, and the contents of register H are 77H and L are 88H, what will be the new value of the SP and where will the contents of H and L be stored?
+(a) SP = 3FFEH; H at 3FFFH, L at 3FFEH
+(b) SP = 3FFEH; H at 3FFEH, L at 3FFFH
+(c) SP = 4002H; H at 4001H, L at 4002H
+(d) SP = 3FFFH; H at 3FFFH, L at 4000H
+169. An 8085 program executes a POP D instruction. If the Stack Pointer (SP) was 2000H before the instruction, and memory locations M[2000H] contains 05H while M[2001H] contains 1AH, what will be the final contents of registers D and E, and the SP?
+(a) D = 05H, E = 1AH, SP = 2002H
+(b) D = 1AH, E = 05H, SP = 2002H
+(c) D = 05H, E = 1AH, SP = 1FFEH
+(d) D = 1AH, E = 05H, SP = 1FFEH
+170. When a CALL instruction is executed in the 8085, which of the following actions occur with respect to the Program Counter (PC) and the stack?
+(a) The current value of the PC is pushed onto the stack, and then the PC is loaded with the subroutine's starting address.
+(b) The address of the instruction immediately following the CALL instruction is pushed onto the stack, and then the PC is loaded with the subroutine's starting address.
+(c) The address of the subroutine is pushed onto the stack, and then the PC is loaded with the address of the next instruction.
+(d) No change occurs to the stack; the PC is simply loaded with the subroutine's starting address.
+171. If a RET instruction is encountered within an 8085 subroutine, and the top two bytes of the stack contain 50H at address 1500H and 20H at address 1501H (representing a 16-bit address 2050H), what will be the new value of the Program Counter (PC) and Stack Pointer (SP) if SP was initially 1500H?
+(a) PC = 1502H, SP = 2050H
+(b) PC = 2050H, SP = 1502H
+(c) PC = 1500H, SP = 2050H
+(d) PC = 2050H, SP = 14FEH
+172. In the 8085 microprocessor, during PUSH operations, the stack grows in which particular direction?
+(a) Towards higher memory addresses (incrementing addresses).
+(b) Towards lower memory addresses (decrementing addresses).
+(c) It grows upwards for return addresses and downwards for register contents.
+(d) The growth direction is configurable by software.
+173. What is a critical consequence of not having a matching POP instruction for every PUSH, or a RET for every CALL, in an 8085 program?
+(a) The microprocessor will halt immediately due to an illegal instruction error.
+(b) It can lead to stack underflow or overflow, causing unpredictable program behavior and crashes.
+(c) The execution speed of the program will significantly increase due to optimized stack operations.
+(d) Only the flag register contents will be corrupted, leaving the program flow unaffected.
+174. When an RST (Restart) instruction is executed in the 8085, how does it primarily utilize the stack?
+(a) It automatically pushes all 8 general-purpose registers (B, C, D, E, H, L) onto the stack.
+(b) It pushes the contents of the Program Counter onto the stack before branching to the restart address.
+(c) It pushes the contents of the Accumulator and Flag register onto the stack.
+(d) It does not use the stack; it simply loads the PC with the restart address.
+175. What is the maximum theoretical number of 16-bit register pairs that can be stored on the stack in the 8085 microprocessor, assuming a full 64KB (0000H to FFFFH) of addressable memory is available exclusively for stack operations?
+(a) 65536
+(b) 32768
+(c) 8192
+(d) 16384
+176. Consider the following 8085 assembly code snippet:
+LXI SP, 1100H
+LXI B, 2233H
+PUSH B
+POP H
+What are the final contents of the H and L registers, and the Stack Pointer (SP) after this sequence of instructions?
+(a) H = 22H, L = 33H, SP = 10FEH
+(b) H = 33H, L = 22H, SP = 1100H
+(c) H = 22H, L = 33H, SP = 1100H
+(d) H = 33H, L = 22H, SP = 1102H
+177. How does the 8085 microprocessor effectively manage multiple levels of subroutine nesting (subroutines calling other subroutines)?
+(a) It dedicates a separate Program Counter for each level of nesting.
+(b) It relies on the Last-In, First-Out (LIFO) nature of the stack to store and retrieve return addresses in the correct order.
+(c) The programmer must manually maintain a table of return addresses in memory.
+(d) The 8085 architecture does not support more than two levels of subroutine nesting.
+178. Which of the following is a common and flexible method for passing multiple parameters from a main program to an 8085 subroutine?
+(a) Storing all parameters in the Accumulator register.
+(b) Passing all parameters through the Flag register.
+(c) Pushing the parameters onto the stack before calling the subroutine.
+(d) Hardcoding parameters directly into the subroutine's instruction set.
+179. Which 8085 instruction is used to retrieve a 16-bit return address from the top of the stack and load it into the Program Counter, effectively returning control from a subroutine to the calling program?
+(a) JMP
+(b) CALL
+(c) RST
+(d) RET
+180. An RST 7 instruction is executed in an 8085 program. If the Program Counter (PC) held 2000H just before the instruction was fetched, and the Stack Pointer (SP) is 5000H, what will be the new value of the PC and SP after the RST 7 instruction completes its execution?
+(a) PC = 0038H, SP = 4FFEH (with 2000H pushed)
+(b) PC = 0038H, SP = 5002H (with 2000H pushed)
+(c) PC = 003CH, SP = 4FFEH (with 2001H pushed)
+(d) PC = 0038H, SP = 4FFEH (with 2001H pushed)
+
+
+Topic: 8085 Interrupt Structure
+
+181. Which of the following is NOT a hardware interrupt in the 8085 microprocessor?
+(a) TRAP
+(b) RST 7.5
+(c) INTR
+(d) RST 1
+182. Among the hardware interrupts of 8085, which one is a non-maskable interrupt?
+(a) RST 5.5
+(b) RST 6.5
+(c) TRAP
+(d) INTR
+183. Which of the following 8085 hardware interrupts are vectored interrupts?
+(a) Only INTR
+(b) TRAP, RST 7.5, RST 6.5, RST 5.5
+(c) INTR, TRAP
+(d) All hardware interrupts including INTR are inherently vectored by the 8085.
+184. What is the highest priority hardware interrupt in the 8085 microprocessor?
+(a) RST 7.5
+(b) RST 6.5
+(c) RST 5.5
+(d) TRAP
+185. When the INTR pin of the 8085 microprocessor is asserted, what is the processor's immediate response after acknowledging the interrupt?
+(a) It automatically jumps to a fixed vector address 003C H.
+(b) It generates an INT A signal to the interrupting device, waiting for an RST instruction.
+(c) It pushes the current PC onto the stack and jumps to a default address 0000 H.
+(d) It immediately services the interrupt by executing the next instruction from ROM.
+186. The INT A (Interrupt Acknowledge) signal on the 8085 is generated by the microprocessor to:
+(a) Indicate that an interrupt request on TRAP has been received.
+(b) Acknowledge a DMA request from a peripheral.
+(c) Tell the external device that the microprocessor is ready to accept the restart instruction or vector address for INTR.
+(d) Signify that the current Interrupt Service Routine (ISR) has completed execution.
+187. To enable the maskable interrupts (RST 7.5, RST 6.5, RST 5.5) in the 8085 microprocessor, which instruction must be executed?
+(a) DI (Disable Interrupts)
+(b) EI (Enable Interrupts)
+(c) RIM (Read Interrupt Masks)
+(d) SIM (Set Interrupt Masks)
+188. The TRAP interrupt in 8085 is characterized by which of the following properties?
+(a) It is edge-triggered, maskable, and non-vectored.
+(b) It is level-triggered, non-maskable, and vectored.
+(c) It is both edge and level sensitive, non-maskable, and vectored.
+(d) It is edge-triggered, maskable, and vectored.
+189. The SIM (Set Interrupt Mask) instruction in 8085 is primarily used for:
+(a) Enabling or disabling all maskable interrupts simultaneously.
+(b) Reading the current status of interrupt masks and pending interrupts.
+(c) Masking or unmasking individual maskable interrupts and setting the serial output data.
+(d) Changing the priority levels of the hardware interrupts.
+190. What is the primary function of the RIM (Read Interrupt Mask) instruction in the 8085 microprocessor?
+(a) To enable specific maskable interrupts by setting their corresponding bits.
+(b) To read the current status of interrupt masks, pending interrupts, and serial input data.
+(c) To clear all pending interrupt requests immediately.
+(d) To set the priority encoder for the next interrupt request.
+191. When an 8085 microprocessor acknowledges and responds to a hardware interrupt, what is the first action it typically performs before jumping to the Interrupt Service Routine (ISR)?
+(a) It saves the contents of all general-purpose registers onto the stack.
+(b) It loads the Program Counter (PC) with the starting address of the ISR.
+(c) It pushes the current contents of the Program Counter (PC) onto the stack.
+(d) It clears the Interrupt Enable (IE) flip-flop and then pushes the PC onto the stack.
+192. What is the dedicated vector address for the RST 7.5 hardware interrupt in the 8085 microprocessor?
+(a) 0038 H
+(b) 003C H
+(c) 002C H
+(d) 0034 H
+193. If an RST 6.5 interrupt occurs and is acknowledged by the 8085 microprocessor, what will be the new value of the Program Counter (PC) after the initial interrupt sequence completes (assuming no external RST instruction for INTR)?
+(a) 003C H
+(b) 0034 H
+(c) The address specified by the interrupting device on the data bus.
+(d) The address stored in the memory location pointed by the Stack Pointer (SP).
+194. To allow an 8085 system to handle more than the 5 hardware interrupt lines directly provided, which peripheral chip is typically interfaced?
+(a) 8255 Programmable Peripheral Interface
+(b) 8259 Programmable Interrupt Controller
+(c) 8253 Programmable Interval Timer
+(d) 8279 Keyboard/Display Controller
+195. Consider the 8085 microprocessor. If the Interrupt Enable (IE) flip-flop is set, and the interrupt mask for RST 7.5 is cleared (unmasked), what will happen if a high signal is applied to the RST 7.5 pin for a sufficient duration, and then the signal goes low?
+(a) The 8085 will acknowledge the interrupt only when the signal goes low (falling edge).
+(b) The 8085 will acknowledge the interrupt on the rising edge and store the pending request.
+(c) The 8085 will acknowledge the interrupt on the rising edge and clear the internal flag for RST 7.5 immediately.
+(d) The 8085 will acknowledge the interrupt on the rising edge of the signal and set an internal flip-flop for RST 7.5, which can then be cleared by a SIM instruction.
+
+
+Topic: Hardware and Software Interrupts
+
+Section: Multiple Choice Questions
+196. Which of the following 8085 hardware interrupts has the highest priority and is non-maskable?
+(a) RST 7.5
+(b) TRAP
+(c) INTR
+(d) RST 5.5
+197. What is the vector address for the RST 7.5 interrupt in the 8085 microprocessor?
+(a) 003C H
+(b) 0034 H
+(c) 002C H
+(d) 0024 H
+198. Which instruction is used in the 8085 to enable maskable interrupts?
+(a) DI
+(b) EI
+(c) SIM
+(d) RIM
+199. The SIM (Set Interrupt Mask) instruction in 8085 is primarily used for:
+(a) Reading the status of interrupt masks.
+(b) Setting and resetting the interrupt masks for RST 7.5, 6.5, 5.5.
+(c) Enabling and disabling the TRAP interrupt.
+(d) Acknowledging an INTR request.
+200. When a maskable interrupt is acknowledged by the 8085 microprocessor, what information is pushed onto the stack before jumping to the Interrupt Service Routine (ISR)?
+(a) The contents of the accumulator.
+(b) The contents of the program counter (PC).
+(c) The contents of the flag register.
+(d) The contents of the general-purpose registers (B, C, D, E, H, L).
+201. Which of the following is considered a non-vectored interrupt in the 8085 microprocessor?
+(a) TRAP
+(b) RST 7.5
+(c) INTR
+(d) RST 6.5
+202. The INTA (Interrupt Acknowledge) signal on the 8085 microprocessor is typically generated by the:
+(a) Peripheral device requesting the interrupt.
+(b) 8085 microprocessor itself, to acknowledge an INTR request.
+(c) External interrupt controller (e.g., 8259).
+(d) Memory unit when an interrupt occurs.
+203. The RST 7.5 interrupt in 8085 is:
+(a) Level-triggered and non-maskable.
+(b) Edge-triggered and maskable.
+(c) Level-triggered and maskable.
+(d) Edge-triggered and non-maskable.
+204. Which of the following statements best describes the difference between a hardware RST instruction (like RST 7.5) and a software RST instruction (like RST 7)?
+(a) Hardware RSTs are non-maskable, while software RSTs are maskable.
+(b) Hardware RSTs are initiated by external devices, while software RSTs are executed as part of the program.
+(c) Hardware RSTs do not push the PC onto the stack, while software RSTs do.
+(d) Hardware RSTs have a fixed vector address, while software RSTs require the programmer to specify the jump address.
+205. After a hardware interrupt (excluding TRAP) is processed by the 8085, the CPU typically returns to the main program using which instruction in the Interrupt Service Routine (ISR)?
+(a) HLT
+(b) JMP
+(c) RET
+(d) NOP
+206. When the 8085 receives an INTR request, how does it determine the vector address for the corresponding Interrupt Service Routine (ISR)?
+(a) It automatically jumps to a fixed address (e.g., 0000H).
+(b) The external device requesting the interrupt places the Opcode for an RST instruction on the data bus.
+(c) The SIM instruction pre-configures a jump address for INTR.
+(d) The microprocessor reads the vector address from a dedicated memory location.
+207. After a system RESET in 8085, what is the default state of the maskable interrupts (RST 7.5, 6.5, 5.5, INTR)?
+(a) All maskable interrupts are enabled.
+(b) All maskable interrupts are disabled.
+(c) Only RST 7.5 is enabled, others are disabled.
+(d) Only INTR is enabled, others are disabled.
+208. To selectively unmask (enable) the RST 7.5 interrupt in 8085, which register's bit needs to be set and using which instruction?
+(a) Accumulator D7, using RIM instruction.
+(b) Accumulator D6, using SIM instruction.
+(c) Accumulator D3, using SIM instruction.
+(d) Accumulator D2, using RIM instruction.
+209. If the 8085 microprocessor is executing an ISR for a maskable interrupt, and another higher priority maskable interrupt occurs, what happens?
+(a) The current ISR is immediately interrupted, and the CPU jumps to the new ISR.
+(b) The new interrupt is ignored until the current ISR completes.
+(c) The new interrupt is latched and processed only if interrupts are re-enabled within the current ISR and its priority is higher.
+(d) The CPU enters a halt state until the user intervenes.
+210. Which of the following is NOT a characteristic of the TRAP interrupt in 8085?
+(a) It is edge and level sensitive.
+(b) It is non-maskable.
+(c) It has the highest priority among all 8085 interrupts.
+(d) It can be disabled by the DI instruction.
+
+
+Topic: Interrupt Service Routines (ISRs)
+
+Section: Multiple Choice Questions
+211. The primary purpose of an Interrupt Service Routine (ISR) in an 8085 microprocessor system is to:
+(a) Continuously poll I/O devices for status changes.
+(b) Execute a specific block of code in response to an external or internal event.
+(c) Manage data transfer between memory banks via DMA.
+(d) Control the speed of the system clock.
+212. Which of the following is NOT a dedicated hardware interrupt pin available in the 8085 microprocessor?
+(a) TRAP
+(b) RST 7.5
+(c) SID
+(d) INTR
+213. The TRAP interrupt in the 8085 microprocessor is characterized by which of the following properties?
+(a) It is maskable and has the lowest priority among hardware interrupts.
+(b) It is non-maskable and edge-triggered only.
+(c) It is non-maskable, has the highest priority, and is both edge and level-triggered.
+(d) It is maskable and can be disabled by the DI instruction.
+214. To enable all maskable interrupts in the 8085 microprocessor, which instruction should be executed?
+(a) DI
+(b) EI
+(c) NOP
+(d) HLT
+215. When an RST 6.5 interrupt is acknowledged by the 8085 microprocessor, the program control is automatically transferred to the memory location:
+(a) 0030H
+(b) 0034H
+(c) 002CH
+(d) 0024H
+216. What information is automatically pushed onto the stack by the 8085 microprocessor hardware before transferring control to an ISR triggered by a hardware interrupt?
+(a) Only the contents of the Accumulator.
+(b) The contents of the Program Counter (PC) and the Flag Register.
+(c) Only the contents of the Program Counter (PC).
+(d) The contents of all general-purpose registers.
+217. Upon receiving an INTR signal, the 8085 microprocessor completes its current instruction, and then what is the next step to service this interrupt?
+(a) It immediately pushes the PC onto the stack and jumps to a fixed vector address.
+(b) It issues an INTA (Interrupt Acknowledge) signal to the interrupting device, expecting an RST instruction opcode.
+(c) It automatically pushes all registers onto the stack and then executes a NOP instruction.
+(d) It branches to the memory location 0000H.
+218. Which of the following instructions in the 8085 instruction set functions as a software interrupt when executed in a program?
+(a) CALL
+(b) JMP
+(c) RST 1
+(d) RET
+219. The SIM (Set Interrupt Mask) instruction in 8085 is primarily used for:
+(a) Enabling or disabling the serial output data (SOD) pin.
+(b) Masking and unmasking the RST 7.5, RST 6.5, and RST 5.5 interrupts.
+(c) Setting the interrupt priority level for all hardware interrupts.
+(d) Reading the current status of the interrupt enable flip-flop.
+220. Among the hardware interrupts available in the 8085 microprocessor, what is the correct order of priority from highest to lowest?
+(a) TRAP, RST 7.5, RST 6.5, RST 5.5, INTR
+(b) INTR, RST 5.5, RST 6.5, RST 7.5, TRAP
+(c) TRAP, INTR, RST 7.5, RST 6.5, RST 5.5
+(d) RST 7.5, RST 6.5, RST 5.5, TRAP, INTR
+221. An ISR (Interrupt Service Routine) is considered re-entrant if:
+(a) It can be called by multiple main programs simultaneously without data corruption.
+(b) It can be interrupted by a higher-priority interrupt, and then safely resumed after the higher-priority ISR completes.
+(c) It uses only general-purpose registers and no memory locations.
+(d) It executes only once per system reset.
+222. In a complex system using an 8085 microprocessor, an 8259 Programmable Interrupt Controller (PIC) is typically used to:
+(a) Generate the system clock signal and reset pulses.
+(b) Expand the number of available interrupt inputs for the 8085's INTR pin.
+(c) Provide direct memory access (DMA) capabilities to peripheral devices.
+(d) Handle serial data communication between the microprocessor and peripherals.
+223. Why is it crucial for an ISR to explicitly save the contents of registers it uses (other than the PC which is auto-saved by hardware) and restore them before returning?
+(a) To reduce the overall execution time of the ISR.
+(b) To prevent the ISR from being interrupted by lower-priority interrupts.
+(c) To ensure that the interrupted main program can resume execution with its original machine state.
+(d) To optimize memory usage by the stack.
+224. The RST 7.5 interrupt in the 8085 microprocessor has a unique characteristic compared to RST 6.5 and RST 5.5. What is it?
+(a) It is edge-triggered only and has an internal flip-flop to remember the interrupt request.
+(b) It is level-triggered and has the lowest priority among maskable interrupts.
+(c) It is non-maskable and cannot be disabled by the SIM instruction.
+(d) Its vector address is fixed at 0000H.
+225. Interrupt latency refers to:
+(a) The time taken by the CPU to execute the entire Interrupt Service Routine.
+(b) The delay between an interrupt request being generated and the actual start of the execution of its corresponding ISR.
+(c) The maximum number of interrupts that can be processed by the CPU per second.
+(d) The time required to save and restore the context of the CPU registers.
+
+
+Topic: Timing Diagrams (Opcode Fetch, Memory Read/Write, I/O Read/Write)
+
+226. Which of the following signals in the 8085 timing diagram is primarily responsible for demultiplexing the lower order address/data bus (AD0-AD7)?
+(a) RD
+(b) WR
+(c) ALE
+(d) IO/M
+227. During an 8085 Opcode Fetch machine cycle, how many T-states are typically involved?
+(a) 3 T-states
+(b) 4 T-states
+(c) 6 T-states
+(d) 7 T-states
+228. In an 8085 Memory Read machine cycle, which of the following combinations of control signals correctly represents the active state for reading data from memory?
+(a) IO/M = 1, RD = 0, WR = 1
+(b) IO/M = 0, RD = 0, WR = 1
+(c) IO/M = 0, RD = 1, WR = 0
+(d) IO/M = 1, RD = 1, WR = 0
+229. When the 8085 performs an I/O Write operation, the data is placed on the AD0-AD7 bus by:
+(a) The I/O device
+(b) The peripheral controller
+(c) The 8085 microprocessor
+(d) The memory unit
+230. Consider an 8085 timing diagram for an I/O Read cycle. Which segment of the cycle typically shows the I/O device placing data onto the data bus?
+(a) During T1, after ALE goes low
+(b) During T2, while RD is active low
+(c) During T3, while RD is active low
+(d) During T4, after RD goes high
+231. What is the primary difference between the address displayed on A8-A15 pins during a Memory Read cycle and an I/O Read cycle in the 8085?
+(a) A8-A15 carries the higher-order byte of the 16-bit address for Memory Read, and duplicates A0-A7 for I/O Read.
+(b) A8-A15 carries the higher-order byte of the 16-bit address for I/O Read, and duplicates A0-A7 for Memory Read.
+(c) A8-A15 always carries the higher-order byte for both Memory and I/O Read.
+(d) A8-A15 is tristated for I/O Read operations.
+232. If the READY input of the 8085 goes low during a machine cycle, what effect does it have on the timing diagram?
+(a) It causes the current machine cycle to abort.
+(b) It inserts wait states (TWAIT) between T2 and T3.
+(c) It extends the duration of T1.
+(d) It initiates a DMA transfer.
+233. Which of the following combinations of S1 and S0 status signals uniquely identifies an Opcode Fetch machine cycle in the 8085?
+(a) S1 = 0, S0 = 0
+(b) S1 = 0, S0 = 1
+(c) S1 = 1, S0 = 0
+(d) S1 = 1, S0 = 1
+234. In an 8085 Memory Write machine cycle, when does the WR signal become active (low) and for how long?
+(a) Becomes active at the start of T1 and stays low until the end of T3.
+(b) Becomes active at the start of T2 and stays low until the middle of T3.
+(c) Becomes active at the start of T3 and stays low until the end of T3.
+(d) Becomes active at the middle of T2 and stays low until the middle of T3.
+235. The 8085 Instruction MOV A,M requires 7 T-states. If the clock frequency is 2 MHz, what is the approximate time taken to execute this instruction, assuming no wait states?
+(a) 1.5 microseconds
+(b) 3.5 microseconds
+(c) 7 microseconds
+(d) 14 microseconds
+236. For the 8085, an Opcode Fetch cycle is always followed by:
+(a) An I/O Read cycle
+(b) An I/O Write cycle
+(c) A Memory Read or Memory Write cycle, or potentially another Opcode Fetch if it's a single-byte instruction.
+(d) A Bus Idle cycle.
+237. Which machine cycle type in the 8085 is generally characterized by 3 T-states and involves the CPU sending data to a peripheral?
+(a) Opcode Fetch
+(b) Memory Read
+(c) I/O Write
+(d) Memory Write
+238. In the 8085, the AD0-AD7 lines act as a multiplexed bus. During a Memory Read operation, when are these lines used to carry the lower 8 bits of the address?
+(a) During T1, when ALE is high.
+(b) During T2, when RD is low.
+(c) During T3, when RD is low.
+(d) During T1, when ALE is low.
+239. An 8085 instruction requires 10 T-states for execution. If a peripheral inserts 2 wait states during its memory access within this instruction's execution, what is the total number of T-states for this instruction's execution?
+(a) 10 T-states
+(b) 12 T-states
+(c) 14 T-states
+(d) 16 T-states
+240. What is the state of the IO/M signal during an 8085 I/O Write operation?
+(a) High (1)
+(b) Low (0)
+(c) Undefined
+(d) Alternates between high and low
+
+
+Topic: System Bus Structure (Address, Data, Control Bus)
+
+Section: Multiple Choice Questions
+241. What is the primary function of the address bus in the 8085 microprocessor system?
+(a) To carry data between the CPU and memory/IO devices
+(b) To specify the memory location or I/O port for data transfer
+(c) To transmit timing and control signals
+(d) To provide power supply to the peripherals
+242. The 8085 microprocessor has a data bus of what width?
+(a) 8 bits
+(b) 16 bits
+(c) 32 bits
+(d) 4 bits
+243. Which pins of the 8085 microprocessor are multiplexed for both address and data?
+(a) A15-A8
+(b) AD7-AD0
+(c) S0, S1
+(d) IO/M, RD, WR
+244. During a memory read operation in the 8085, how is the lower 8-bit address separated from the data on the multiplexed AD7-AD0 bus?
+(a) By using the IO/M signal
+(b) By using the S0 and S1 status signals
+(c) By latching the address during the high pulse of ALE
+(d) By the RD signal enabling the data buffer
+245. Which of the following signals is typically part of the 8085's control bus?
+(a) A10
+(b) D5
+(c) WR
+(d) VCC
+246. The IO/M signal in the 8085 microprocessor is used to:
+(a) Indicate whether the current operation is an interrupt or a normal instruction fetch.
+(b) Differentiate between memory and I/O operations.
+(c) Control the direction of data flow on the data bus.
+(d) Enable or disable external memory chips.
+247. What is the maximum memory capacity that the 8085 microprocessor can directly address?
+(a) 64 KB
+(b) 32 KB
+(c) 128 KB
+(d) 256 KB
+248. The Address Latch Enable (ALE) signal in 8085 is an output signal primarily used for:
+(a) Indicating that the processor is ready to receive an interrupt.
+(b) Latching the higher-order address byte A15-A8.
+(c) Demultiplexing the lower-order address byte AD7-AD0.
+(d) Synchronizing the data transfer between CPU and memory.
+249. In an 8085-based system, which signals are active LOW and indicate a read or write operation respectively?
+(a) RD and WR
+(b) S0 and S1
+(c) IO/M and ALE
+(d) HOLD and HLDA
+250. During which T-state of an 8085 instruction cycle is the Address Latch Enable (ALE) signal typically active high?
+(a) T1
+(b) T2
+(c) T3
+(d) T4
+251. Which of the following buses in the 8085 microprocessor is bidirectional?
+(a) Address Bus
+(b) Data Bus
+(c) Control Bus
+(d) Both Address and Data Bus
+252. If an external latch is not used with the 8085's AD7-AD0 pins, what would be the consequence for memory interfacing?
+(a) The 8085 would not be able to fetch instructions.
+(b) Only the higher 8-bit address would be available for memory.
+(c) The memory would not receive the full 16-bit address for proper selection.
+(d) The data transfer speed would significantly increase due to fewer cycles.
+253. The S0 and S1 signals of the 8085 microprocessor are used to indicate:
+(a) The size of the data being transferred (8-bit or 16-bit).
+(b) The type of machine cycle being executed (e.g., Opcode Fetch, Memory Read/Write, I/O Read/Write).
+(c) The interrupt priority level.
+(d) The status of the internal registers.
+254. Which combination best represents the control bus signals in an 8085 system for basic memory/IO operations?
+(a) A15, A8, AD7, AD0
+(b) SID, SOD, TRAP, RST7.5
+(c) IO/M, RD, WR, ALE
+(d) CLK, X1, X2, RESET IN
+255. When interfacing a 4KB EPROM with an 8085 system, how many address lines from the 8085's address bus are directly relevant for addressing within the EPROM itself?
+(a) 8
+(b) 10
+(c) 12
+(d) 16
+
+
+Topic: Clock Generation and Reset Circuitry
+
+Section: Multiple Choice Questions
+256.  The 8085 Microprocessor's internal clock frequency is derived from an external crystal oscillator. If a 6 MHz crystal is connected to the XTAL1 and XTAL2 pins, what will be the operating frequency of the 8085 CPU?
+(a) 6 MHz
+(b) 3 MHz
+(c) 1.5 MHz
+(d) 12 MHz
+257.  Which of the following pins provides the clock signal that can be used to synchronize other peripheral devices in an 8085-based system?
+(a) XTAL1
+(b) RESET OUT
+(c) CLK OUT
+(d) SYNC
+258.  The RESET IN pin of the 8085 Microprocessor is an active-
+(a) High input, requiring a high pulse for reset.
+(b) Low input, requiring a low pulse for reset.
+(c) High output, indicating a reset condition.
+(d) Low output, indicating a reset condition.
+259.  Upon a valid RESET IN signal, what is the initial value loaded into the Program Counter (PC) of the 8085 Microprocessor?
+(a) 0000H
+(b) FFFFH
+(c) 8000H
+(d) The last executed instruction address
+260.  The RESET OUT pin of the 8085 Microprocessor is primarily used for:
+(a) Providing an external clock source to peripherals.
+(b) Synchronizing external memory devices.
+(c) Resetting other peripheral chips and extending the reset pulse.
+(d) Indicating the CPU is in a halted state.
+261.  What is the typical requirement for the duration of the LOW pulse on the RESET IN pin for a proper system reset in 8085?
+(a) At least one T-state
+(b) At least three clock periods
+(c) A single clock cycle
+(d) One instruction cycle
+262.  After a RESET IN is applied and then released, the 8085 Microprocessor typically waits for how many internal clock periods (T-states) before starting to fetch the first instruction from address 0000H?
+(a) 1 T-state
+(b) 3 T-states
+(c) 6 T-states
+(d) 9 T-states
+263.  Consider an RC circuit used for power-on reset. The capacitor charges through the resistor, and the voltage across the capacitor is fed to the RESET IN pin. For a valid reset, the RESET IN pin requires a low pulse. Which configuration typically achieves this power-on reset?
+(a) Resistor to VCC, Capacitor to ground, RESET IN connected to VCC side of resistor.
+(b) Resistor to VCC, Capacitor to ground, RESET IN connected to capacitor side of resistor.
+(c) Resistor to ground, Capacitor to VCC, RESET IN connected to ground side of resistor.
+(d) Resistor to ground, Capacitor to VCC, RESET IN connected to capacitor side of resistor.
+264.  Which of the following 8085 registers or flags is NOT affected by a system reset?
+(a) Program Counter (PC)
+(b) Stack Pointer (SP)
+(c) Interrupt Enable Flip-Flop
+(d) None of the above (all are affected)
+265.  The internal clock generator circuit of the 8085 Microprocessor is essentially a frequency divider. What is the division factor applied to the external crystal frequency to generate the internal operating clock?
+(a) 1
+(b) 2
+(c) 3
+(d) 4
+266.  What is the state of the Data Bus (AD0-AD7) and Address Bus (A8-A15) immediately after a hardware reset in the 8085 Microprocessor?
+(a) All lines are tristated (high-impedance).
+(b) All lines are driven to logic HIGH.
+(c) All lines are driven to logic LOW.
+(d) The buses reflect the data/address of the first instruction fetch.
+267.  Which of the following components is NOT typically required for generating the basic clock signal for an 8085 Microprocessor?
+(a) Crystal Oscillator
+(b) Capacitor (for crystal stabilization)
+(c) Resistor (for biasing, if external oscillator circuit is used)
+(d) Logic gate (e.g., AND gate for clock gating)
+268.  If the 8085 Microprocessor is operating with an external 4 MHz crystal, what would be the frequency of the square wave observed at the CLK OUT pin?
+(a) 4 MHz
+(b) 2 MHz
+(c) 1 MHz
+(d) 8 MHz
+269.  The SYNC pin of the 8085 Microprocessor, though not directly part of clock generation, is closely related to timing and indicates:
+(a) The start of an instruction fetch cycle.
+(b) An internal interrupt acknowledgment.
+(c) A memory write operation is in progress.
+(d) The CPU is in a halt state.
+270.  A stable clock signal is crucial for the sequential operation of the 8085. Which aspect of the clock signal is most critical for reliable CPU operation?
+(a) Duty cycle
+(b) Rise and fall times
+(c) Frequency stability
+(d) All of the above
+
+
