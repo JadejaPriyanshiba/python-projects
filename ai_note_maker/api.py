@@ -4,13 +4,16 @@ import requests
 from config import connect as con
 from services import generate_pdf_from_plain as genPDF
 from validations import user_validations as uvd
+import sys
 
 
-isDebug = False
+isDebug = True
 getInstantProgressPDF = False
-recommendTopics = True
-getQuestions = True
+recommendTopics = False
+getQuestions = False
 getNotes = True
+startIndex = 0
+
 def callModel(prompt, model = "local"):
     # token = cg.getValue("TOKEN")
     # apiurl = cg.getValue("API_URL")
@@ -195,36 +198,42 @@ Only output the questions followed by the answer key. No extra explanations.
     }
 
 
-subject = "Chemistry"
-title = "Basics of Chemistry"
-length = "100 lines"
-maturity = "10th grade student"
+subject = "Organic Chemistry"
+title = "General Organic Reaction Mechanism"
+length = "200 lines"
+maturity = "12th grade biology student"
 extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, exceptions, chemical equations where needed. add extra knowledge and fun facts too."
-complexity = "from the basics to in depth knowledge"
+complexity = "from the basics and essential complexity for NEET exam (india)"
 wantGemini = True
-preDefineTopics = """Introduction to Chemistry,,
-States of Matter,,
-Classification of Matter,,
-Physical and Chemical Properties,,
-Atomic Structure,,
-Subatomic Particles,,
-Isotopes,,
-The Periodic Table Organization,,
-Basic Periodic Trends,,
-Chemical Bonding Introduction,,
-Ionic Bonding,,
-Covalent Bonding,,
-Chemical Formulas,,
-Naming Simple Compounds,,
-Chemical Equations Writing,,
-Balancing Chemical Equations,,
-Types of Chemical Reactions,,
-The Mole Concept,,
-Solutions and Solubility,,
-Concentration (Qualitative),,
-Energy in Chemical Reactions,,
-Oxidation and Reduction (Basic),,
-"""
+preDefineTopics = """Introduction to Reaction Mechanisms,,
+Bond Fission: Homolytic and Heterolytic,,
+Electron Movement: Curly Arrows,,
+Reagents: Nucleophiles and Electrophiles,,
+Electronic Displacement Effects,,
+Inductive Effect (+I, -I),,
+Resonance Effect (Mesomeric Effect, +M, -M),,
+Hyperconjugation,,
+Reactive Intermediates,,
+Carbocations (Stability, Rearrangements),,
+Carbanions (Stability),,
+Free Radicals (Stability),,
+Types of Organic Reactions,,
+Substitution Reactions,,
+Addition Reactions,,
+Elimination Reactions,,
+Rearrangement Reactions,,
+Reaction Energetics: Energy Diagrams,,
+Inversion, Retention, Racemization,,
+Nucleophilic Substitution Mechanisms (SN1 and SN2),,
+Elimination Mechanisms (E1 and E2),,
+Electrophilic Addition Mechanisms (Alkenes, Alkynes),,
+Nucleophilic Addition Mechanisms (Carbonyl Compounds),,
+Electrophilic Aromatic Substitution (EAS),,
+Electrophilc Addition Reaction,,
+Free Radical Addition Reaction,,
+Electrophilic Substitution Reaction,,
+Free Radical Substitution Reaction,,
+Tautomerism"""
 # preDefineTopics = """Angles and Angle Measurement (Degrees, Radians)
 # ,Right Triangle Trigonometry (SOH CAH TOA)
 # ,Pythagorean Theorem Applications
@@ -295,7 +304,12 @@ if __name__ == "__main__":
     questions_filename = f"{title.lower().replace(' ', '_')}_questions.txt"
     all_questions = []
 
-    for i, topic in enumerate(topics):
+    proceed = (input(f"Topic to start with is: {topics[startIndex::][0]} (1/0)")) == "1"
+    if not proceed :
+        sys.exit()
+
+    for i, topic in enumerate(topics[startIndex::]):
+        
         if getNotes:
             answer = getExplanation(topic, length, subject, maturity, complexity, extraNotes, title, topics[:i], topics[i+1:], model= "gemini" if wantGemini else "local")
             answers.append(answer)
@@ -307,7 +321,7 @@ if __name__ == "__main__":
                 f.write("\n\n\n")
 
             # Only pass topics/answers up to current index
-            genPDF.generatePDF(topics[:i+1], answers[:i+1], title)
+            genPDF.generatePDF(topics[startIndex:i+1], answers[:i+1], title+f"_from_{startIndex}")
         
         if getQuestions:
             questions_filename = f"{title.lower().replace(' ', '_')}_questions.txt"
