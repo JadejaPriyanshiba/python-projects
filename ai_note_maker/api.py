@@ -10,7 +10,7 @@ import sys
 isDebug = True
 getInstantProgressPDF = False
 recommendTopics = False
-getQuestions = False
+getQuestions = True
 getNotes = True
 startIndex = 0
 
@@ -198,84 +198,33 @@ Only output the questions followed by the answer key. No extra explanations.
     }
 
 
-subject = "Organic Chemistry"
-title = "General Organic Reaction Mechanism"
+subject = "Entrepreneurship & Start-ups"
+title = "Business Ideas and their implementation (Idea to Start-up)"
 length = "200 lines"
-maturity = "12th grade biology student"
-extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, exceptions, chemical equations where needed. add extra knowledge and fun facts too."
-complexity = "from the basics and essential complexity for NEET exam (india)"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
 wantGemini = True
-preDefineTopics = """Introduction to Reaction Mechanisms,,
-Bond Fission: Homolytic and Heterolytic,,
-Electron Movement: Curly Arrows,,
-Reagents: Nucleophiles and Electrophiles,,
-Electronic Displacement Effects,,
-Inductive Effect (+I, -I),,
-Resonance Effect (Mesomeric Effect, +M, -M),,
-Hyperconjugation,,
-Reactive Intermediates,,
-Carbocations (Stability, Rearrangements),,
-Carbanions (Stability),,
-Free Radicals (Stability),,
-Types of Organic Reactions,,
-Substitution Reactions,,
-Addition Reactions,,
-Elimination Reactions,,
-Rearrangement Reactions,,
-Reaction Energetics: Energy Diagrams,,
-Inversion, Retention, Racemization,,
-Nucleophilic Substitution Mechanisms (SN1 and SN2),,
-Elimination Mechanisms (E1 and E2),,
-Electrophilic Addition Mechanisms (Alkenes, Alkynes),,
-Nucleophilic Addition Mechanisms (Carbonyl Compounds),,
-Electrophilic Aromatic Substitution (EAS),,
-Electrophilc Addition Reaction,,
-Free Radical Addition Reaction,,
-Electrophilic Substitution Reaction,,
-Free Radical Substitution Reaction,,
-Tautomerism"""
-# preDefineTopics = """Angles and Angle Measurement (Degrees, Radians)
-# ,Right Triangle Trigonometry (SOH CAH TOA)
-# ,Pythagorean Theorem Applications
-# ,The Unit Circle and Reference Angles
-# ,Trigonometric Functions of Any Angle
-# ,Fundamental Trigonometric Identities (Reciprocal, Quotient, Pythagorean)
-# ,Sum and Difference Identities
-# ,Double and Half-Angle Identities
-# ,Product-to-Sum and Sum-to-Product Identities
-# ,Law of Sines
-# ,Law of Cosines
-# ,Area of Triangles using Trigonometry
-# ,Solving Trigonometric Equations
-# ,Periods of Trigonometric functions
-# ,Allied & Compound Angles, Multiple-Submultiples angles
-# ,Sum and factor formula
-# ,Summary"""
-# preDefineTopics = """Introduction,
-# Electric Charge: Fundamental Concepts,
-# Definition of Electric Current,
-# Conventional Current vs. Electron Flow,
-# Drift Velocity of Electrons,
-# Electric Potential and Potential Difference (Voltage),
-# Electromotive Force (EMF),
-# Electrical Resistance and Resistivity,
-# Factors Affecting Resistance,
-# Ohm's Law,
-# Electrical Conductivity,
-# Direct Current (DC) vs. Alternating Current (AC),
-# Simple Electric Circuits,
-# Series and Parallel Combinations of Resistors,
-# Kirchhoff's Current Law (KCL),
-# Kirchhoff's Voltage Law (KVL),
-# Electric field, electric potential, electric flux,
-# Capacitance and capacitors,
-# parallel plate capacitors,
-# series and parallel combination of capacitors,
-# Electrical Power,
-# Electrical Energy,
-# Joule Heating Effect,
-# Summary, formula sheet, tips and tricks
-# """
+preDefineTopics = """Discovering ideas and visualizing the business with Activity map,,
+Idea Generation (subtopic of discovering ideas),,
+Product Identification (subtopic of discovering ideas),,
+Business Plan- The Marketing Plan and Financial Plan/ Sources of Capital,,
+Business opportunity identification and evaluation,,
+Market research,,
+Questionnaire design (subtopic of Market Research),,
+Sampling (subtopic of Market Research),,
+Market survey (subtopic of Market Research),,
+Data analysis & interpretation (subtopic of Market Research),,
+Marketing Mix (4Ps- product,price, promotion place),,
+Identifying the target market (subtopic of Marketing Mix),,
+Competition evaluation and Strategy adoption (subtopic of Marketing Mix),,
+Market Segmentation (subtopic of Marketing Mix),,
+Marketing, Advertising and Branding (subtopic of Marketing Mix),,
+Digital Marketing (subtopic of Marketing Mix),,
+B2B, E-commerce and GeM(subtopic of Marketing Mix),,
+Product Terms- PLC, Mortality Curve and New product Development Steps, Inventory, Supply Chain Management,,
+Importance and concept of Innovation, Sources and Process,,
+Risk analysis and mitigation by SWOT Analysis"""
 
 if __name__ == "__main__":
 
@@ -304,7 +253,7 @@ if __name__ == "__main__":
     questions_filename = f"{title.lower().replace(' ', '_')}_questions.txt"
     all_questions = []
 
-    proceed = (input(f"Topic to start with is: {topics[startIndex::][0]} (1/0)")) == "1"
+    proceed = (input(f"Topic to start with is: {topics[startIndex::][0]} (1/0): ").strip()) == "1"
     if not proceed :
         sys.exit()
 
