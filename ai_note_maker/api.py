@@ -10,7 +10,7 @@ import sys
 isDebug = True
 getInstantProgressPDF = False
 recommendTopics = False
-getQuestions = True
+getQuestions = False
 getNotes = True
 startIndex = 0
 
@@ -198,33 +198,21 @@ Only output the questions followed by the answer key. No extra explanations.
     }
 
 
-subject = "Entrepreneurship & Start-ups"
-title = "Business Ideas and their implementation (Idea to Start-up)"
-length = "200 lines"
+subject = "Fundamentals Of Artificial Intelligence"
+title = "State Space Search and Heuristic Technique"
+length = "according to the complexity and understanding needed (but not more than 100 lines)"
 maturity = "computer engineering diploma student"
-extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and to the point points"
 complexity = "from the basics and essential complexity for theoretical knowledge too"
 wantGemini = True
-preDefineTopics = """Discovering ideas and visualizing the business with Activity map,,
-Idea Generation (subtopic of discovering ideas),,
-Product Identification (subtopic of discovering ideas),,
-Business Plan- The Marketing Plan and Financial Plan/ Sources of Capital,,
-Business opportunity identification and evaluation,,
-Market research,,
-Questionnaire design (subtopic of Market Research),,
-Sampling (subtopic of Market Research),,
-Market survey (subtopic of Market Research),,
-Data analysis & interpretation (subtopic of Market Research),,
-Marketing Mix (4Ps- product,price, promotion place),,
-Identifying the target market (subtopic of Marketing Mix),,
-Competition evaluation and Strategy adoption (subtopic of Marketing Mix),,
-Market Segmentation (subtopic of Marketing Mix),,
-Marketing, Advertising and Branding (subtopic of Marketing Mix),,
-Digital Marketing (subtopic of Marketing Mix),,
-B2B, E-commerce and GeM(subtopic of Marketing Mix),,
-Product Terms- PLC, Mortality Curve and New product Development Steps, Inventory, Supply Chain Management,,
-Importance and concept of Innovation, Sources and Process,,
-Risk analysis and mitigation by SWOT Analysis"""
+preDefineTopics = """Solving problems as state spacesearch,,
+Production system,,
+Problem characteristics,,
+Depth First Search,,
+Breadth-First Search,,
+Heuristic function,,
+Hill climbing,,
+Best First Search"""
 
 if __name__ == "__main__":
 

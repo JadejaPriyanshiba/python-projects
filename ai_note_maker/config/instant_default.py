@@ -24,8 +24,38 @@ The level of model,,
 Criteria for success,,
 Real-world AI Applications and Case Studies
 """
+# ==== OR ==== #
+"""chapter 1: Introduction to Artificial Intelligence (topics of syllabus)"""
+subject = "Fundamentals Of Artificial Intelligence"
+title = "Introduction to Artificial Intelligence"
+length = "according to the complexity and understanding needed (but not more than 100 lines)"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and to the point points"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """The AI Problem,,
+The Underlying Assumption,,
+AI Techniques,,
+The level of model,,
+Criteria for success,,
+Application of AI"""
 
-
+"""chapter 2: State Space Search and Heuristic Technique"""
+subject = "Fundamentals Of Artificial Intelligence"
+title = "State Space Search and Heuristic Technique"
+length = "according to the complexity and understanding needed (but not more than 100 lines)"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and to the point points"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Solving problems as state spacesearch,,
+Production system,,
+Problem characteristics,,
+Depth First Search,,
+Breadth-First Search,,
+Heuristic function,,
+Hill climbing,,
+Best First Search"""
 
 
 
@@ -61,3 +91,52 @@ Concentration (Qualitative),,
 Energy in Chemical Reactions,,
 Oxidation and Reduction (Basic),,
 """
+
+#### ENTREPRENEURSHIP AND STARTUPS
+
+"""chapter 1: Introduction To Entrepreneurship And Startups"""
+subject = "Entrepreneurship & Start-ups"
+title = "Introduction To Entrepreneurship And Startups"
+length = "100 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and to the point points"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Definition, Traits of an entrepreneur,,
+Functions of Entrepreneurship - Job Creation, Innovation, Inspiration, Economic Development,,
+Types of Entrepreneurship,,
+Motivation for Intrapreneurship,,
+Types of Business Structures,,
+Similarities and differences between entrepreneurs and managers.,,
+7-M Resources,,
+Micro, Small, Medium Enterprise/ MSME - Industry Registration Process,,
+Startup India, Standup India and SSIP Gujarat & Startup registration process"""
+
+"""chapter 2: Business Idea Identification And Implementation"""
+subject = "Entrepreneurship & Start-ups"
+title = "Business Ideas and their implementation (Idea to Start-up)"
+length = "200 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Discovering ideas and visualizing the business with Activity map,,
+Idea Generation (subtopic of discovering ideas),,
+Product Identification (subtopic of discovering ideas),,
+Business Plan- The Marketing Plan and Financial Plan/ Sources of Capital,,
+Business opportunity identification and evaluation,,
+Market research,,
+Questionnaire design (subtopic of Market Research),,
+Sampling (subtopic of Market Research),,
+Market survey (subtopic of Market Research),,
+Data analysis & interpretation (subtopic of Market Research),,
+Marketing Mix (4Ps- product,price, promotion place),,
+Identifying the target market (subtopic of Marketing Mix),,
+Competition evaluation and Strategy adoption (subtopic of Marketing Mix),,
+Market Segmentation (subtopic of Marketing Mix),,
+Marketing, Advertising and Branding (subtopic of Marketing Mix),,
+Digital Marketing (subtopic of Marketing Mix),,
+B2B, E-commerce and GeM(subtopic of Marketing Mix),,
+Product Terms- PLC, Mortality Curve and New product Development Steps, Inventory, Supply Chain Management,,
+Importance and concept of Innovation, Sources and Process,,
+Risk analysis and mitigation by SWOT Analysis"""
