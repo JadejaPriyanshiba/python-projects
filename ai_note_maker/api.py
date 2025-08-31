@@ -10,7 +10,7 @@ import sys
 isDebug = True
 getInstantProgressPDF = False
 recommendTopics = False
-getQuestions = False
+getQuestions = True
 getNotes = True
 startIndex = 0
 
@@ -198,21 +198,18 @@ Only output the questions followed by the answer key. No extra explanations.
     }
 
 
-subject = "Fundamentals Of Artificial Intelligence"
-title = "State Space Search and Heuristic Technique"
-length = "according to the complexity and understanding needed (but not more than 100 lines)"
-maturity = "computer engineering diploma student"
-extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and to the point points"
-complexity = "from the basics and essential complexity for theoretical knowledge too"
+subject = "Fundamentals of Artificial Intelligence"
+title = "AI Case Studies"
+length = "150 lines"
+maturity = "3rd year computer engineering student"
+extraNotes = "Form it simple to understand, not lengthy, to the points, but more of knowledge with real life examples. Add extra fun facts and extra knowledge spots."
+complexity = "from the basics to in depth real coding knowledge and concepts"
 wantGemini = True
-preDefineTopics = """Solving problems as state spacesearch,,
-Production system,,
-Problem characteristics,,
-Depth First Search,,
-Breadth-First Search,,
-Heuristic function,,
-Hill climbing,,
-Best First Search"""
+preDefineTopics = """Chatbots,,
+ChatGPT,,
+Recommendation Algorithm,,
+Digital (Voice) Assistant,,
+Virtual Face Filters"""
 
 if __name__ == "__main__":
 

@@ -1,0 +1,603 @@
+FINAL QUESTION PAPER
+
+1. 57. When an AI agent reasons about the consequences of its actions based on its current understanding of the world, it is demonstrating capabilities at the:
+(a) Implementation level
+(b) Knowledge level
+(c) Physical level
+(d) Sensory level
+
+2. 86. An AI system designed to monitor manufacturing assembly lines for defects by analyzing visual data in real-time is an application of:
+(a) Robotic Process Automation.
+(b) Natural Language Understanding.
+(c) Computer Vision.
+(d) Predictive Maintenance Scheduling.
+
+3. 20. The assumption that "all aspects of human intelligence can, in principle, be precisely described and simulated by a formal system" relates primarily to the concept of:
+(a) Embodied cognition
+(b) Computability of intelligence
+(c) Emergent intelligence
+(d) Distributed AI
+
+4. 68.  Fill in the blank: The primary operational test for whether an AI system exhibits "acting humanly" is the __________ Test.
+
+5. 40.  Natural Language Processing (NLP) techniques are primarily designed to address the AI problem related to:
+a) Visual pattern recognition
+b) Understanding and generating human language
+c) Autonomous navigation
+d) Financial market prediction
+
+6. 62.  In the context of the "rational agent" approach to AI, what is the most critical element for defining and measuring the success of an agent's actions?
+(a)  Its ability to mimic human-like emotional responses.
+(b)  Its adherence to pre-programmed ethical guidelines.
+(c)  Its performance measure, which quantifies the desirability of the environment state.
+(d)  Its computational efficiency in processing sensory input.
+
+7. 77. The AI problem of "Perception" is most directly addressed in which of these applications?
+(a) Developing a chess-playing program.
+(b) Building a system that translates speech into text.
+(c) Creating an expert system for legal advice.
+(d) Designing a route optimization algorithm for logistics.
+
+8. 66.  Which statement best describes the difference in success criteria between the "thinking rationally" and "acting rationally" approaches to AI?
+(a)  Thinking rationally focuses on logical inference and problem-solving, while acting rationally focuses on achieving optimal outcomes regardless of the thought process.
+(b)  Thinking rationally prioritizes human-like communication, while acting rationally prioritizes mimicking human thought patterns.
+(c)  Thinking rationally is measured by emotional intelligence, while acting rationally is measured by physical performance.
+(d)  There is no significant difference; both approaches use the Turing Test as their primary success criterion.
+
+9. 82. Consider an autonomous vehicle. The "level of model" used for detecting pedestrians from sensor data would primarily involve:
+(a) A symbolic model representing high-level planning.
+(b) A statistical model for predicting traffic flow.
+(c) A sub-symbolic (e.g., neural network) model for pattern recognition.
+(d) A rule-based expert system for decision making.
+
+10. 22. When framing a problem for AI using search techniques (e.g., pathfinding, game playing), an underlying assumption often made is that:
+(a) The problem state space is infinitely large and cannot be explored.
+(b) The problem can be represented as states and transitions, and a solution involves finding a path through these states.
+(c) Only heuristic information, without any explicit search, is sufficient for solving the problem.
+(d) The optimal solution is always immediately obvious without any computation.
+
+11. 33.  The technique of exploring a set of states to find a path from an initial state to a goal state is commonly known as:
+a) Abstraction
+b) Perception
+c) Search
+d) Optimization
+
+12. 70.  Briefly explain why 'robustness' is a crucial criterion for the success of AI applications deployed in dynamic real-world environments.
+
+13. 4.  When an AI system is designed to act rationally, rather than necessarily mimicking human thought processes, it is primarily focused on achieving which level of AI model?
+a) Thinking Humanly
+b) Acting Humanly
+c) Thinking Rationally
+d) Acting Rationally
+
+14. 58. A computer vision system identifying different objects in an image by processing raw pixel data and extracting features without explicit symbolic labels for initial processing is initially working towards the:
+(a) Knowledge level
+(b) Symbolic level
+(c) Sub-symbolic level
+(d) Semantic level
+
+15. 12. One of the core challenges for AI in achieving human-level intelligence is its struggle with:
+a) Performing repetitive, rule-based tasks with high accuracy.
+b) Generalizing learned knowledge from one specific domain to entirely new, unseen contexts.
+c) Storing and retrieving factual information efficiently.
+d) Executing predefined algorithms deterministically.
+
+16. 38.  The A* search algorithm is an example of a heuristic search technique that combines which two factors to guide its search?
+a) Cost from start node and estimated cost to goal node
+b) Number of nodes visited and depth of the search tree
+c) Branching factor and solution path length
+d) Memory usage and processing speed
+
+17. 18. What is a key underlying assumption in many modern machine learning approaches, particularly supervised learning?
+(a) That all intelligence requires a physical body for interaction.
+(b) That the past patterns observed in data will largely hold true for future, unseen data.
+(c) That human intelligence can be perfectly replicated through logical deduction alone.
+(d) That artificial general intelligence is an immediate and easily achievable goal.
+
+18. 19. The Turing Test, as a criterion for success in AI, implicitly assumes that:
+(a) Physical interaction is necessary for demonstrating intelligence.
+(b) Intelligence can be adequately evaluated based solely on linguistic and conversational ability.
+(c) An AI must perfectly mimic human emotional responses to be considered intelligent.
+(d) All intelligent systems must possess consciousness.
+
+19. 64.  The "Underlying Assumption" in AI, which posits that mental faculties can be modeled as computational processes, directly impacts success criteria by:
+(a)  Eliminating the need for empirical validation of AI systems.
+(b)  Guiding the development of metrics based on computational performance and logical consistency.
+(c)  Shifting focus solely to the physical embodiment of AI agents.
+(d)  Prioritizing emotional intelligence over rational decision-making.
+
+20. 56. AI techniques like search algorithms (e.g., A*, breadth-first search) operate at which primary level(s) of model description?
+(a) Only knowledge level
+(b) Symbolic and implementation levels
+(c) Only sub-symbolic level
+(d) Knowledge and physical levels
+
+21. 54. In the context of an expert system, the rules that dictate how to make a diagnosis based on symptoms represent information at the:
+(a) Data level
+(b) Sub-symbolic level
+(c) Symbolic level
+(d) Hardware level
+
+22. 73.  True or False: For an AI system, achieving maximum computational speed is always a more important success criterion than the quality of its decisions. Justify your answer.
+
+23. 80. A diagnostic AI system used in healthcare to identify diseases from patient symptoms and medical images is an example of an application primarily falling under which AI domain?
+(a) Robotics and Automation
+(b) Expert Systems and Machine Learning
+(c) Natural Language Processing and Speech Recognition
+(d) Game Playing and Planning
+
+24. 55. Why is it important for an AI developer to understand the different levels of models?
+(a) It helps in choosing the most cost-effective programming language.
+(b) It allows for a structured approach to problem-solving and selecting appropriate techniques.
+(c) It primarily facilitates the debugging process in large AI projects.
+(d) It is mainly for academic discussion and has little practical application.
+
+25. 53. Which of the following is NOT typically considered one of the primary levels of model in the study of Artificial Intelligence?
+(a) Knowledge level
+(b) Economic level
+(c) Symbolic level
+(d) Implementation level
+
+26. 21. In the context of "rational agents" in AI, what is a fundamental underlying assumption about the agent's behavior?
+(a) The agent will always seek to minimize its energy consumption.
+(b) The agent will act to maximize its expected utility based on its percepts and knowledge.
+(c) The agent's actions are entirely random and unpredictable.
+(d) The agent's primary goal is to replicate human emotional intelligence.
+
+27. 72.  List two distinct criteria, apart from accuracy, that are vital for assessing the success of an AI-powered diagnostic system in a medical setting.
+
+28. 43.  The "AI problem" often involves developing techniques to deal with situations where the environment is:
+a) Completely static and predictable
+b) Fully observable and deterministic
+c) Dynamic, uncertain, and partially observable
+d) Restricted to a closed set of predefined rules
+
+29. 27. The Physical Symbol System Hypothesis (PSSH) by Newell and Simon proposes an underlying assumption that intelligence:
+(a) Requires a physical body for interaction with the environment.
+(b) Is achieved through the ability to manipulate symbols, which is both necessary and sufficient for intelligent action.
+(c) Emerges exclusively from distributed neural networks.
+(d) Is an unexplainable, emergent property that cannot be formalized.
+
+30. 48. The definition of "symbols" and the rules for their manipulation (e.g., IF-THEN rules, logical predicates) are central to which level of AI model?
+(a) Physical level
+(b) Symbolic level
+(c) Knowledge level
+(d) Distributed level
+
+31. 52. The underlying assumption of classical AI, that intelligence can be achieved through the manipulation of discrete, meaningful entities, relates directly to the importance of the:
+(a) Sub-symbolic level
+(b) Knowledge level
+(c) Neural network level
+(d) Symbolic level
+
+32. 51. If an AI system's performance is measured by how well it achieves a specific goal, irrespective of its internal workings, this aligns most closely with evaluation at the:
+(a) Implementation level
+(b) Symbolic level
+(c) Knowledge level
+(d) Hardware level
+
+33. 74.  Consider an AI technique like Machine Learning. Explain how the concept of 'generalization' serves as a key criterion for success in such systems.
+
+34. 15. The ultimate goal of achieving Artificial General Intelligence (AGI) primarily addresses the AI problem of:
+a) Creating highly specialized AI for single tasks.
+b) Developing AI that can perform any intellectual task that a human being can.
+c) Focusing solely on improving the speed of current AI algorithms.
+d) Reducing the energy consumption of AI data centers.
+
+35. 88. For most modern AI applications, especially those based on machine learning, which resource is considered fundamental and often the most critical?
+(a) Quantum computing hardware.
+(b) Unlimited processing speed.
+(c) High-quality and abundant data.
+(d) Intuitive graphical user interfaces.
+
+36. 90. Which concept is central to the "AI Techniques" used in applications like spam filtering and medical diagnosis, where the system learns from examples?
+(a) Heuristic search.
+(b) Logic programming.
+(c) Machine Learning.
+(d) Constraint satisfaction.
+
+37. 89. A future application of AI that aims to create personalized learning paths and interactive tutoring for students is an example of AI's potential impact on:
+(a) Financial trading.
+(b) Healthcare diagnostics.
+(c) Education.
+(d) Autonomous transportation.
+
+38. 25. The "AI Problem" often revolves around defining intelligence itself. An underlying assumption often made when attempting to solve this problem is that:
+(a) Intelligence is a purely biological phenomenon unique to living organisms.
+(b) Intelligence is a property that can be abstractly defined, measured, and potentially engineered.
+(c) Only philosophical contemplation, not engineering, can address the nature of intelligence.
+(d) Intelligence can only be understood through a complete replication of the human brain's neural structure.
+
+39. 59. Which level defines the computational machinery and processes that realize the symbolic representations and their manipulation?
+(a) Cognitive level
+(b) Knowledge level
+(c) Implementation level
+(d) Abstract level
+
+40. 61.  Which of the following is considered the primary criterion for success in the "acting humanly" approach to AI, as proposed by Alan Turing?
+(a)  The agent can solve complex mathematical problems faster than a human.
+(b)  The agent can engage in a conversation indistinguishable from a human to a human interrogator.
+(c)  The agent achieves optimal outcomes in a well-defined environment.
+(d)  The agent demonstrates a comprehensive understanding of human cognitive processes.
+
+41. 85. Which of the following represents a significant limitation when applying AI in highly sensitive domains like legal decision-making?
+(a) AI systems are too expensive to develop.
+(b) AI lacks common sense and moral reasoning capabilities.
+(c) AI cannot process textual data effectively.
+(d) AI models are always perfectly transparent.
+
+42. 50. The "AI Problem" primarily addresses the challenge of creating machines that can:
+(a) Execute instructions at extremely high speeds.
+(b) Simulate human thought processes and intelligent behavior.
+(c) Store vast amounts of data efficiently.
+(d) Perform repetitive tasks without human intervention.
+
+43. 31.  What is the primary objective of employing Artificial Intelligence (AI) techniques in problem-solving?
+a) To replace human workers completely
+b) To enable machines to perform tasks that typically require human intelligence
+c) To develop faster computational hardware
+d) To store vast amounts of data efficiently
+
+44. 46. Which level of model focuses on what an intelligent agent knows and what its goals are, without specifying how that knowledge is represented or processed?
+(a) Implementation level
+(b) Symbolic level
+(c) Knowledge level
+(d) Sub-symbolic level
+
+45. 14. In the context of AI applications, a key limitation that defines "The AI Problem" in real-world deployment often involves:
+a) Over-reliance on predefined rules leading to brittleness outside specific scenarios.
+b) The inability to process structured data efficiently.
+c) Lack of access to sufficient computing power in controlled environments.
+d) Difficulty in performing simple arithmetic calculations.
+
+46. 87. The primary "AI Problem" addressed by using AI in fraud detection systems is:
+(a) Natural Language Processing.
+(b) Computer Vision.
+(c) Pattern Recognition and Anomaly Detection.
+(d) Robotics and Control.
+
+47. 17. The underlying assumption that "intelligence can be achieved through the manipulation of symbols according to rules" is most characteristic of which AI paradigm?
+(a) Connectionism
+(b) Symbolic AI
+(c) Reinforcement Learning
+(d) Evolutionary Computation
+
+48. 2.  A core underlying assumption in the pursuit of Artificial Intelligence is that:
+a) All intelligent behavior is inherently non-computational.
+b) Intelligence can be sufficiently described and simulated through computational processes.
+c) Human consciousness must be perfectly replicated for any true AI.
+d) AI development is primarily a matter of increasing processing power.
+
+49. 3.  Which of the following is a widely recognized criterion for assessing a machine's ability to exhibit intelligent behavior, particularly in natural language understanding?
+a) Moore's Law
+b) The Halting Problem
+c) The Turing Test
+d) The Von Neumann Architecture
+
+50. 71.  Describe how the 'AI Problem' influences the establishment of success criteria for an AI system.
+
+51. 13. "Moravec's Paradox" highlights the counter-intuitive observation that for AI systems:
+a) Abstract reasoning tasks are generally harder than sensory-motor skills.
+b) Tasks requiring high-level abstract reasoning are easier than low-level sensory-motor skills.
+c) All tasks are equally difficult regardless of complexity.
+d) Only tasks that are easily quantifiable can be automated.
+
+52. 83. Which of the following applications is often cited as an example demonstrating "weak AI" rather than "strong AI"?
+(a) A general-purpose robot capable of learning any human task.
+(b) A self-aware AI exhibiting human-level consciousness.
+(c) An AI that can play chess at a grandmaster level but without understanding.
+(d) An artificial general intelligence (AGI) that can reason across domains.
+
+53. 67.  For a goal-oriented AI agent, how does the 'environment' primarily influence the criteria for success?
+(a)  It defines the computational resources available to the agent.
+(b)  It dictates the sensory inputs the agent can perceive and the actions it can perform, thereby shaping what constitutes a successful outcome.
+(c)  It determines the internal architecture of the AI model.
+(d)  It solely establishes the ethical boundaries for the agent's operations.
+
+54. 78. A recommendation system that suggests products based on a user's past purchases and browsing history primarily employs which AI technique?
+(a) Natural Language Processing
+(b) Computer Vision
+(c) Machine Learning
+(d) Robotics
+
+55. 60. The "Criteria for success" in AI, such as passing the Turing Test or achieving human-level performance on specific tasks, are typically evaluated against the agent's observable behavior, which aggregates performance from which levels?
+(a) Primarily the implementation level
+(b) Primarily the symbolic level
+(c) Primarily the knowledge level
+(d) All levels contributing to the external behavior
+
+56. 75.  If an AI model is described as successful at the 'conceptual level', what does this imply about its potential practical application, and what further criteria might be needed?
+
+57. 81. When evaluating the "Criteria for Success" for an AI system designed to play a strategic board game like Go, which criterion is most relevant?
+(a) The system can explain its moves in natural language.
+(b) The system consistently beats human grandmasters.
+(c) The system has learned the rules without prior programming.
+(d) The system can adapt to completely new game rules.
+
+58. 65.  When "efficiency" is established as a key criterion for an AI system's success, it primarily refers to:
+(a)  The system's ability to operate without human intervention.
+(b)  The system's speed and resource utilization in achieving its goals.
+(c)  The system's capacity to communicate its internal state clearly.
+(d)  The system's versatility across different application domains.
+
+59. 76. Which of the following activities is LEAST likely to involve the direct application of Artificial Intelligence?
+(a) Recognizing faces in a security camera feed.
+(b) Predicting stock market trends using complex algorithms.
+(c) Performing basic arithmetic operations on a standard calculator.
+(d) Generating human-like text responses in a chatbot.
+
+60. 29. The concept of "Strong AI" implies an underlying assumption that:
+(a) AI systems can only simulate intelligence, without genuine understanding or consciousness.
+(b) A sufficiently complex and powerful AI system could possess real consciousness, minds, and understanding, indistinguishable from a human mind.
+(c) All AI systems must be physically embodied to achieve intelligence.
+(d) AI should only be used for narrow, specific tasks.
+
+61. 45.  Decision trees are an example of an AI technique that falls under which category of machine learning?
+a) Unsupervised learning
+b) Reinforcement learning
+c) Supervised learning
+d) Semi-supervised learning
+
+62. 23. Which of the following is an underlying assumption when applying AI techniques like expert systems in specific domains?
+(a) Domain knowledge is inherently subjective and cannot be codified.
+(b) Human experts in a domain possess explicit, codifiable knowledge and rules that can be extracted.
+(c) All expert systems must be capable of learning new rules autonomously.
+(d) The domain problem can only be solved using deep neural networks.
+
+63. 41.  Which of the following AI techniques is commonly used for representing uncertain knowledge and performing probabilistic reasoning?
+a) First-order logic
+b) Production rules
+c) Bayesian networks
+d) Semantic networks
+
+64. 39.  What level of AI model is typically characterized by distributed processing units (nodes) and connection strengths (weights), as seen in neural networks?
+a) Symbolic level
+b) Sub-symbolic level
+c) Abstract level
+d) Algorithmic level
+
+65. 5.  The "Frame Problem" in AI primarily refers to the challenge of:
+a) Accurately recognizing objects within an image frame.
+b) Representing and updating only the relevant changes in a dynamic world without explicitly listing everything that remains unchanged.
+c) Designing the physical frame or chassis for an AI robot.
+d) Determining the optimal frame rate for real-time AI simulations.
+
+66. 6.  In the context of self-driving cars, a significant AI problem related to perception is:
+a) Ensuring consistent internet connectivity for cloud processing.
+b) Accurately interpreting complex, dynamic real-world environments under varying conditions.
+c) Minimizing the manufacturing cost of lidar sensors.
+d) Developing more aesthetically pleasing car designs.
+
+67. 35.  Expert systems, a notable AI application, primarily utilize which AI technique to mimic human expertise and make decisions?
+a) Deep neural networks
+b) Rule-based reasoning
+c) Reinforcement learning
+d) Genetic algorithms
+
+68. 32.  Which of the following is NOT considered a fundamental AI technique used for problem-solving or intelligent behavior?
+a) Search algorithms
+b) Knowledge representation
+c) Database indexing
+d) Machine learning
+
+69. 44.  A common AI technique that involves discovering general rules or patterns from a set of examples is referred to as:
+a) Declarative programming
+b) Inductive learning
+c) Deductive reasoning
+d) Procedural abstraction
+
+70. 84. A major ethical concern in the application of AI, particularly in areas like credit scoring or hiring, is:
+(a) The speed at which AI systems process information.
+(b) The potential for algorithmic bias and discrimination.
+(c) The requirement for large datasets for training.
+(d) The computational cost of running AI models.
+
+71. 8.  Symbolic AI approaches faced challenges due to the difficulty in:
+a) Performing massive parallel computations.
+b) Creating comprehensive and consistent knowledge bases that cover all necessary aspects of a domain.
+c) Generating random numbers for probabilistic reasoning.
+d) Integrating with sensory input systems effectively.
+
+72. 9.  A prominent ethical concern associated with advanced AI, particularly in autonomous systems, relates to:
+a) The speed of data processing.
+b) The potential for AI to make biased or discriminatory decisions if trained on unrepresentative data.
+c) The cost-effectiveness of AI hardware.
+d) The complexity of AI programming languages.
+
+73. 47. When an AI system's design emphasizes the internal data structures and algorithms used to manipulate abstract representations, it is primarily operating at the:
+(a) Knowledge level
+(b) Symbolic level
+(c) Implementation level
+(d) Conceptual level
+
+74. 63.  A significant limitation of using only the Turing Test as a criterion for practical AI success is that it primarily focuses on:
+(a)  The agent's ability to learn from experience.
+(b)  The agent's capacity for complex problem-solving.
+(c)  The agent's linguistic and conversational abilities, rather than actual intelligence or utility.
+(d)  The agent's energy consumption during operation.
+
+75. 11. An AI agent designed to maximize its expected performance measure given its percept sequence and background knowledge is best described as a:
+a) Reflex Agent
+b) Goal-Based Agent
+c) Utility-Based Agent
+d) Rational Agent
+
+76. 30. Which of the following is a crucial underlying assumption for the successful application of AI in real-world scenarios, particularly concerning data-driven approaches?
+(a) That the AI model can learn effectively from any amount of data, regardless of its quality.
+(b) That the real-world environment and data distribution will remain perfectly identical to the training environment.
+(c) That relevant and sufficient high-quality data is available or can be acquired for training and validation.
+(d) That AI systems inherently possess common sense without explicit training.
+
+77. 24. The shift in AI research from attempting to build "strong AI" (general human-level intelligence) to "weak AI" (task-specific intelligence) reflects a change in which underlying assumption?
+(a) That specific tasks are inherently harder than general intelligence.
+(b) That replicating the entire spectrum of human cognitive abilities is currently intractable or unnecessary for practical applications.
+(c) That strong AI is an impossible endeavor due to fundamental limits of computation.
+(d) That weak AI systems require no data for training.
+
+78. 69.  Define 'performance measure' in the context of an AI agent's success.
+
+79. 42.  The AI technique concerned with generating a sequence of actions that an intelligent agent should execute to achieve a specified goal is known as:
+a) Perception
+b) Learning
+c) Planning
+d) Reasoning
+
+80. 34.  In the context of AI, the underlying assumption that complex intelligent behavior can be achieved by manipulating symbols and rules is central to which approach?
+a) Connectionist AI
+b) Symbolic AI
+c) Evolutionary AI
+d) Statistical AI
+
+81. 7.  The difficulty for AI systems to acquire and apply knowledge that humans consider obvious or taken for granted is known as the challenge of:
+a) The Moravec's Paradox
+b) The Common-Sense Knowledge Problem
+c) The Singularity Trap
+d) The Explainable AI Dilemma
+
+82. 36.  When evaluating the success of an AI technique in solving a specific problem, the criterion that measures how quickly a solution is found or how much computational resource is used is known as:
+a) Completeness
+b) Optimality
+c) Efficiency
+d) Soundness
+
+83. 1.  What is often considered the fundamental challenge in "The AI Problem"?
+a) Developing faster processors
+b) Defining and achieving genuine intelligence in machines
+c) Storing vast amounts of data efficiently
+d) Creating user-friendly interfaces for AI systems
+
+84. 10. The debate regarding "Strong AI" is centered on the assumption that a machine could potentially:
+a) Only simulate intelligent behavior without genuinely understanding or possessing consciousness.
+b) Achieve true consciousness and self-awareness, akin to human intelligence.
+c) Exceed human computational speed without any form of understanding.
+d) Never surpass the intelligence of its human creators.
+
+85. 26. Consider the underlying assumption that "the environment is static and completely observable". If this assumption is incorrect for a deployed AI system, what is the most likely consequence?
+(a) The AI system will automatically adapt to the dynamic environment without any issues.
+(b) The AI system's performance will degrade significantly, as its decisions may be based on outdated or incomplete information.
+(c) The AI system will simply cease to function entirely.
+(d) The AI system will gain new, unforeseen capabilities.
+
+86. 79. In the context of the "Underlying Assumption" of AI, if a system can solve a complex problem using a certain representation, it implies:
+(a) The problem is inherently simple.
+(b) Intelligence is fundamentally about computation.
+(c) Human intervention is no longer required.
+(d) The system possesses consciousness.
+
+87. 37.  Which AI technique is most closely associated with enabling systems to learn patterns and make predictions from data without being explicitly programmed for every specific task?
+a) Logic programming
+b) Machine learning
+c) Finite state automata
+d) Constraint satisfaction
+
+88. 28. When developing AI models for tasks requiring reasoning under uncertainty (e.g., medical diagnosis), a common underlying assumption is that:
+(a) All information will always be perfectly certain and complete.
+(b) Uncertainty can be explicitly represented and managed, often using probabilistic methods.
+(c) Reasoning under uncertainty is fundamentally beyond the scope of AI.
+(d) Only deterministic logic can provide reliable solutions.
+
+89. 16. Which of the following best describes an underlying assumption in Artificial Intelligence?
+(a) It is a proven fact that AI will surpass human intelligence.
+(b) It is a foundational belief or principle upon which an AI system or paradigm is built.
+(c) It is a specific algorithm used for machine learning tasks.
+(d) It is a performance metric used to evaluate AI model accuracy.
+
+90. 49. Describing a neural network by its layers, weights, and activation functions, rather than explicit rules or beliefs, is characteristic of which model level?
+(a) Knowledge level
+(b) Symbolic level
+(c) Sub-symbolic level
+(d) Behavioral level
+
+
+ANSWER KEY
+
+1. (b)
+2. (c)
+3. (b)
+4. Turing
+5. (b)
+6. (c)
+7. (b)
+8. (a)
+9. (c)
+10. (b)
+11. (c)
+12. Robustness is crucial because real-world environments are often unpredictable and subject to noise, changes, and unexpected events. A robust AI system can maintain its performance and stability despite these variations, preventing failures and ensuring reliable operation.
+13. (d)
+14. (c)
+15. (b)
+16. (a)
+17. (b)
+18. (b)
+19. (b)
+20. (b)
+21. (c)
+22. False. Justification: While speed can be important, the quality of decisions is often paramount, especially in critical applications like medical diagnosis or autonomous driving, where incorrect decisions can have severe consequences. A fast but inaccurate system is not truly successful.
+23. (b)
+24. (b)
+25. (b)
+26. (b)
+27. 1. Interpretability/Explainability: The ability of the system to provide understandable reasons for its diagnoses.
+28. (c)
+29. (b)
+30. (b)
+31. (d)
+32. (c)
+33. Generalization is a key criterion for success in Machine Learning because it measures the model's ability to perform well on new, unseen data, not just the data it was trained on. A successful model should learn underlying patterns and apply them broadly, rather than just memorizing training examples.
+34. (b)
+35. (c)
+36. (c)
+37. (c)
+38. (b)
+39. (c)
+40. (b)
+41. (b)
+42. (b)
+43. (b)
+44. (c)
+45. (a)
+46. (c)
+47. (b)
+48. (b)
+49. (c)
+50. The 'AI Problem' is essentially about creating intelligence or intelligent behavior. This problem directly influences success criteria by setting the fundamental goal: to demonstrate human-like intelligence, rational agency, or optimal problem-solving. Criteria are then developed to measure how closely an AI system achieves these aspects of intelligence.
+51. (b)
+52. (c)
+53. (b)
+54. (c)
+55. (d)
+56. If an AI model is successful at the 'conceptual level', it implies that the theoretical framework and algorithmic design are sound, and it shows promise in principle. However, for practical application, further criteria would include efficiency (computational cost), scalability (handling large datasets or complex scenarios), robustness (performance in varied real-world conditions), and user-friendliness (ease of integration and use).
+57. (b)
+58. (b)
+59. (c)
+60. (b)
+61. (c)
+62. (b)
+63. (c)
+64. (b)
+65. (b)
+66. (b)
+67. (b)
+68. (c)
+69. (b)
+70. (b)
+71. (b)
+72. (b)
+73. (c)
+74. (c)
+75. (d)
+76. (c)
+77. (b)
+78. A performance measure is a subjective or objective metric that quantifies the desirability of the sequence of environment states or the agent's behavior. It allows an AI agent to evaluate how well it is achieving its goals or performing its task.
+79. (c)
+80. (b)
+81. (b)
+82. (c)
+83. (b)
+84. (b)
+85. (b)
+86. (b)
+87. (b)
+88. (b)
+89. (b)
+90. (c)

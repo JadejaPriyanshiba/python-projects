@@ -1,0 +1,7 @@
+-------------------- TOPICS -----------------
+0.) The AI Problem
+1.) The Underlying Assumption
+2.) AI Techniques
+3.) The level of model
+4.) Criteria for success
+5.) Application of AI

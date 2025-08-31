@@ -22,8 +22,7 @@ The underlying Assumptions,,
 AI techniques,,
 The level of model,,
 Criteria for success,,
-Real-world AI Applications and Case Studies
-"""
+Real-world AI Applications and Case Studies"""
 # ==== OR ==== #
 """chapter 1: Introduction to Artificial Intelligence (topics of syllabus)"""
 subject = "Fundamentals Of Artificial Intelligence"
@@ -57,7 +56,19 @@ Heuristic function,,
 Hill climbing,,
 Best First Search"""
 
-
+"""chapter 5: AI Case Studies"""
+subject = "Fundamentals of Artificial Intelligence"
+title = "AI Case Studies"
+length = "150 lines"
+maturity = "3rd year computer engineering student"
+extraNotes = "Form it simple to understand, not lengthy, to the points, but more of knowledge with real life examples. Add extra fun facts and extra knowledge spots."
+complexity = "from the basics to in depth real coding knowledge and concepts"
+wantGemini = True
+preDefineTopics = """Chatbots,,
+ChatGPT,,
+Recommendation Algorithm,,
+Digital (Voice) Assistant,,
+Virtual Face Filters"""
 
 ##### CHEMISTRY
 """ Basics of Chemistry """

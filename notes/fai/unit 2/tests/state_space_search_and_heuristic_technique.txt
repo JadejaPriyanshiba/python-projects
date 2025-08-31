@@ -1,0 +1,9 @@
+-------------------- TOPICS -----------------
+0.) Solving problems as state spacesearch
+1.) Production system
+2.) Problem characteristics
+3.) Depth First Search
+4.) Breadth-First Search
+5.) Heuristic function
+6.) Hill climbing
+7.) Best First Search
