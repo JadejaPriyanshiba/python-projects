@@ -1,0 +1,635 @@
+FINAL QUESTION PAPER
+
+1. 44. In the context of a "Business Plan", the section that details how the product or service will be sold, advertised, and distributed is typically found in the:
+(a) Executive Summary
+(b) Financial Plan
+(c) Marketing Plan
+(d) Operations Plan
+
+2. 28. Market segmentation is the process of:
+a) Selling products to all possible customers without discrimination.
+b) Dividing a broad target market into subsets of consumers, businesses, or countries that have common needs.
+c) Calculating the total market size for a product or service.
+d) Evaluating the legal and regulatory environment for a new business.
+
+3. 83. A software start-up identifies "lack of specialized cybersecurity expertise in the current team" as a "Weakness". How should this weakness be addressed for risk mitigation?
+(a) By launching the product immediately and hoping for the best.
+(b) By acquiring or training team members in cybersecurity, or outsourcing the function.
+(c) By ignoring cybersecurity as it is a minor issue.
+(d) By focusing only on marketing the product features.
+
+4. 74. In the context of "Idea to Start-up," innovation is crucial for:
+a) Securing immediate large-scale funding without a proven concept
+b) Developing a unique value proposition and solving real problems
+c) Copying successful business models from large corporations
+d) Avoiding the need for market validation
+
+5. 16. Which of the following is typically NOT a core component of a Marketing Plan?
+a) Market research and analysis
+b) Marketing mix (4Ps) strategies
+c) Financial projections and break-even analysis
+d) Sales forecast and implementation timeline
+
+6. 26. Effective branding strategy for a tech start-up typically involves:
+a) Focusing solely on low pricing to attract customers.
+b) Creating a distinct identity, consistent messaging, and a strong value proposition for the target audience.
+c) Avoiding any form of advertising to save costs.
+d) Copying the branding of a successful competitor.
+
+7. 63. Internal sources of innovation for an organization typically include:
+a) Competitor analysis and market trends
+b) Employee suggestions and R&D activities
+c) Government regulations and policy changes
+d) Customer feedback and supplier insights
+
+8. 11. According to the Product Life Cycle (PLC) concept, a new product idea is typically introduced during which stage?
+(a) Decline
+(b) Growth
+(c) Introduction
+(d) Maturity
+
+9. 39. What is the primary purpose of identifying a "target market" for a new business idea?
+(a) To reduce the overall production costs for the product.
+(b) To focus marketing efforts on the most likely customers.
+(c) To simplify the legal registration process for the business.
+(d) To determine the total number of competitors in the industry.
+
+10. 4. A computer engineering diploma student identifies a problem where small businesses struggle with inefficient data management. Which type of business idea would directly address this using their core skills?
+(a) Opening a catering service
+(b) Developing a custom software solution for data organization
+(c) Importing and selling electronics
+(d) Providing language translation services
+
+11. 35. Identifying a market segment that is underserved or completely unserved by existing products or services is primarily a step in:
+(a) Setting up a financial budget
+(b) Developing an inventory management system
+(c) Opportunity recognition and idea generation
+(d) Finalizing product branding
+
+12. 7. Which characteristic best defines a truly innovative business idea?
+(a) It is a slight improvement on an existing product.
+(b) It is entirely new to the market or offers a significantly novel solution.
+(c) It has the lowest possible production cost.
+(d) It targets a very small, niche market segment.
+
+13. 27. The concept of "innovation" is most accurately described as:
+a) Repeating existing business models with slight modifications.
+b) The process of introducing new ideas, methods, or products that create value.
+c) Only applicable to high-tech industries and never to traditional businesses.
+d) The act of reducing product quality to lower manufacturing costs.
+
+14. 5. Before investing heavily in a new product idea, an entrepreneur conducts a "Market Survey". What is the primary purpose of this activity?
+(a) To identify potential investors
+(b) To gather data on customer needs, preferences, and market size
+(c) To determine the exact cost of production
+(d) To finalize the company's legal registration
+
+15. 32. The process of gathering and analyzing information about a market, including its customers, competitors, and trends, to validate a business idea is known as:
+(a) Financial forecasting
+(b) Market research
+(c) Product development
+(d) Supply chain management
+
+16. 29. Which of the following is an example of a "bootstrapping" method for financing a start-up?
+a) Securing a large investment from a venture capital firm.
+b) Taking out a bank loan with a fixed repayment schedule.
+c) Using personal savings and reinvesting early revenue to fund growth.
+d) Receiving a substantial government grant for research and development.
+
+17. 49. During which stage of the New Product Development (NPD) process would a start-up typically conduct concept testing with potential customers to gauge their reactions to a new product idea?
+a) Idea Generation
+b) Business Analysis
+c) Concept Development and Testing
+d) Commercialization
+
+18. 71. Which of the following would be an appropriate metric to evaluate the success of an innovation?
+a) Number of employees in the R&D department
+b) Return on Innovation (ROI) and market share gain
+c) Total advertising budget spent
+d) Number of hours spent brainstorming ideas
+
+19. 20. A Product Life Cycle (PLC) curve helps an entrepreneur to understand:
+a) The exact profit margins at each stage of the product's existence.
+b) The typical stages a product goes through from introduction to decline, guiding marketing and strategy.
+c) The legal requirements for product patenting.
+d) The total number of units that will be sold over the product's lifetime.
+
+20. 68. What is the direct impact of successful innovation on a business's market position?
+a) It leads to price wars with competitors
+b) It often creates a unique selling proposition and market differentiation
+c) It guarantees immediate market leadership without further effort
+d) It reduces the importance of marketing and sales
+
+21. 25. Venture capital firms primarily provide funding to start-ups in exchange for:
+a) A loan with a fixed interest rate and collateral.
+b) A percentage of future sales revenue without any ownership.
+c) An equity stake and often active involvement in strategic guidance.
+d) Government grants that do not require repayment.
+
+22. 64. During which stage of the innovation process would a startup typically conduct feasibility studies and build prototypes?
+a) Idea generation
+b) Idea screening
+c) Development and testing
+d) Commercialization
+
+23. 50. Which digital marketing channel would be most effective for a B2B (Business-to-Business) software-as-a-service (SaaS) start-up aiming to reach decision-makers in large enterprises?
+a) TikTok challenges
+b) LinkedIn advertising
+c) Instagram influencer marketing
+d) Pinterest boards
+
+24. 80. How does SWOT analysis contribute to competitive evaluation and strategy adoption for a new start-up?
+(a) It directly sets the product price based on competitor's offerings.
+(b) It helps identify competitor's strengths and weaknesses, informing the start-up's differentiation strategy.
+(c) It determines the target market segment without further research.
+(d) It only focuses on internal capabilities, ignoring competitors.
+
+25. 58. What distinguishes B2B (Business-to-Business) marketing from B2C (Business-to-Consumer) marketing for a start-up?
+a) B2B transactions typically involve a longer sales cycle and more rational decision-making.
+b) B2B marketing focuses solely on social media advertising.
+c) B2B products are always cheaper than B2C products.
+d) B2B marketing targets individual end-users directly.
+
+26. 86. How does a thorough SWOT analysis contribute to the "Financial Plan" by addressing potential risks?
+(a) It guarantees access to capital from specific sources.
+(b) It helps identify potential financial risks (e.g., market decline, increased competition) that need contingency planning and capital allocation.
+(c) It exclusively focuses on increasing revenue without considering costs.
+(d) It eliminates the need for any risk assessment in the financial plan.
+
+27. 3. An 'Activity Map' in business visualization primarily helps an entrepreneur to:
+(a) Calculate precise financial projections for the first year.
+(b) Detail the legal structure and registration process.
+(c) Understand and sequence the core processes and interactions within the business.
+(d) Predict customer purchasing behavior with 100% accuracy.
+
+28. 18. Equity financing differs from debt financing primarily because equity financing:
+a) Involves borrowing money that must be repaid with interest.
+b) Provides funds in exchange for ownership stake in the company.
+c) Is typically secured against the company's assets.
+d) Has a fixed repayment schedule regardless of company performance.
+
+29. 24. Which of the following is a primary financial projection that details the flow of cash into and out of the business over a specific period?
+a) Balance Sheet
+b) Income Statement (Profit & Loss)
+c) Cash Flow Statement
+d) Break-even Analysis
+
+30. 62. Which of the following is a primary reason for innovation's importance to a startup?
+a) To minimize financial risk
+b) To achieve sustainable competitive advantage
+c) To reduce production costs only
+d) To strictly follow industry standards
+
+31. 75. Why is protecting intellectual property (IP) often vital for an innovative startup?
+a) To prevent competitors from replicating their unique creations
+b) To reduce the costs associated with product development
+c) To avoid the need for extensive market research
+d) To simplify the supply chain management process
+
+32. 51. For an e-commerce start-up selling custom-built computer components, what is the primary objective of efficient Supply Chain Management (SCM)?
+a) To maximize the number of customer complaints.
+b) To minimize operational costs and ensure timely delivery of products.
+c) To increase the price of raw materials from suppliers.
+d) To eliminate the need for any inventory.
+
+33. 88. If a SWOT analysis for an existing product reveals a "Threat" from newer, innovative solutions, what concept related to "Innovation" would be a key mitigation strategy?
+(a) Decreasing the product price without any feature changes.
+(b) Investing in continuous innovation and New Product Development (NPD) to stay competitive.
+(c) Expanding into unrelated business ventures.
+(d) Reducing advertising efforts for the existing product.
+
+34. 47. In the context of the Marketing Mix (4Ps), for a start-up offering a subscription-based cloud storage service, which element primarily deals with the pricing tiers, free trial options, and payment methods?
+a) Product
+b) Price
+c) Promotion
+d) Place
+
+35. 8. For a start-up launching a new digital product, which element of the Marketing Mix (4Ps) would primarily involve strategies like search engine optimization (SEO) and social media advertising?
+(a) Product
+(b) Price
+(c) Place
+(d) Promotion
+
+36. 56. Government e-Marketplace (GeM) is an online platform primarily used for which type of transactions?
+a) Business-to-Consumer (B2C) sales
+b) Consumer-to-Consumer (C2C) exchanges
+c) Business-to-Government (B2G) procurement
+d) International trade agreements
+
+37. 10. A business idea focuses on creating an AI-powered personal tutor application. Which group would likely be its most suitable target market?
+(a) Senior citizens interested in gardening
+(b) College students and lifelong learners seeking personalized education
+(c) Construction workers needing heavy machinery
+(d) Professional athletes requiring sports equipment
+
+38. 33. When evaluating a business opportunity using SWOT analysis, internal weaknesses and external threats are primarily considered as:
+(a) Positive factors for growth
+(b) Areas for competitive advantage
+(c) Risks that need to be mitigated
+(d) Immediate profit opportunities
+
+39. 78. When using SWOT analysis for risk identification, a "Weakness" primarily helps in uncovering which type of risk?
+(a) Risks arising from external market shifts.
+(b) Risks related to internal operational deficiencies or resource gaps.
+(c) Risks posed by new competitors entering the market.
+(d) Risks associated with changing government regulations.
+
+40. 41. For a start-up, understanding the Product Life Cycle (PLC) can help in:
+(a) Predicting the exact duration of each product stage.
+(b) Strategizing marketing and product development efforts over time.
+(c) Eliminating all competition from the market.
+(d) Guaranteeing sustained profitability indefinitely.
+
+41. 82. Which aspect of the "Business Plan - The Marketing Plan" can be directly informed by the "Opportunities" identified in a SWOT analysis?
+(a) Defining the organizational structure and team roles.
+(b) Identifying target market segments and potential for new promotions.
+(c) Calculating the break-even point and required initial investment.
+(d) Detailing the legal structure of the business.
+
+42. 76. What is the primary purpose of conducting a SWOT analysis in the "Idea to Start-up" phase?
+(a) To identify all potential customers for the business idea.
+(b) To assess the internal capabilities and external environment affecting the business idea.
+(c) To calculate the projected financial returns of the start-up.
+(d) To design the marketing mix for the new product.
+
+43. 90. If a start-up's SWOT analysis reveals "Limited marketing budget" (Weakness) and "Intense competition from established players" (Threat), what type of mitigation strategy would be most appropriate?
+(a) Launching an expensive, broad-reach advertising campaign.
+(b) Focusing on niche market segmentation and digital marketing for cost-effective reach.
+(c) Ignoring the competition and hoping for organic growth.
+(d) Expanding internationally without prior market research.
+
+44. 43. Which of the following questions is most relevant when evaluating the "desirability" of a business opportunity?
+(a) Can we build this product with current technology?
+(b) Do we have the financial resources to start this business?
+(c) Is there a significant market need or demand for this solution?
+(d) Is the intellectual property fully protected?
+
+45. 85. SWOT analysis utilizes data and insights gathered from which part of the "Market Research" process to formulate its external factors?
+(a) Only internal surveys of employee satisfaction.
+(b) Data analysis and interpretation from market surveys, including competitor analysis.
+(c) Financial projections and balance sheets.
+(d) Product development costs and timelines.
+
+46. 81. In the context of New Product Development (NPD), if a SWOT analysis reveals a significant "Opportunity" in an untapped market segment, what might be the logical next step for the entrepreneur?
+(a) To delay the product launch indefinitely.
+(b) To immediately scale down production plans.
+(c) To conduct further market research and design a product addressing this opportunity.
+(d) To abandon the new product concept.
+
+47. 17. A start-up developing a new mobile application needs to estimate its initial investment for server infrastructure, software licenses, and development tools. This estimation primarily falls under which section of a Business Plan?
+a) Operations Plan
+b) Marketing Plan
+c) Financial Plan
+d) Executive Summary
+
+48. 67. For a computer engineering diploma student, which aspect highlights the role of technology in fostering innovation?
+a) Minimizing manual labor in existing processes
+b) Enabling the creation of entirely new digital products and services
+c) Reducing the need for creative thinking
+d) Standardizing all business operations
+
+49. 46. Which of the following is a primary purpose of conducting a market survey for a start-up developing a new mobile application?
+a) To finalize the company's financial budget for the next five years.
+b) To understand the potential user demand, preferences, and pain points.
+c) To register the business legally with government authorities.
+d) To determine the educational qualifications of the founding team members.
+
+50. 55. For a new tech start-up, developing a strong brand identity is crucial. What is the main benefit of a strong brand in a competitive market?
+a) It guarantees immediate high profits.
+b) It helps in differentiating the product and building customer loyalty.
+c) It eliminates the need for advertising.
+d) It reduces the product's manufacturing cost.
+
+51. 87. A computer engineering start-up relies heavily on imported electronic components. A "Threat" identified in a SWOT analysis could be:
+(a) Strong brand recognition of their own product.
+(b) A stable and reliable local supply chain.
+(c) Geopolitical instability causing disruption in the global supply chain.
+(d) A highly skilled internal R&D team.
+
+52. 53. When designing a questionnaire for market research, which type of question provides respondents with a set of predefined answers to choose from?
+a) Open-ended question
+b) Dichotomous question
+c) Scaled question
+d) Closed-ended question
+
+53. 12. In the context of a marketing plan, identifying the 'Unique Selling Proposition (USP)' for a new business idea primarily contributes to which aspect?
+(a) Defining the financial budget
+(b) Differentiating the product from competitors
+(c) Selecting the physical distribution channels
+(d) Calculating inventory levels
+
+54. 15. When assessing risks for a new business idea, which of the following is a common mitigation strategy for a "lack of market acceptance"?
+(a) Investing more heavily in production facilities
+(b) Conducting thorough market research and pilot testing
+(c) Hiring a larger sales team without prior testing
+(d) Reducing the product's price below cost
+
+55. 6. During the evaluation of a business idea, a SWOT analysis is performed. What does the 'T' in SWOT primarily represent in this context?
+(a) Target Market
+(b) Team Capabilities
+(c) Threats from external factors
+(d) Technology Adoption
+
+56. 69. How can market research primarily serve as a source for innovation ideas?
+a) By validating existing internal ideas without external input
+b) By identifying unmet customer needs, pain points, and emerging trends
+c) By solely focusing on competitor product features
+d) By proving the impossibility of new product development
+
+57. 14. An entrepreneur plans to sell handmade custom computer accessories. Which platform would be most effective for reaching a wide customer base quickly with minimal initial setup cost?
+(a) Opening a large retail store in a prime location
+(b) Participating in local craft fairs only
+(c) Utilizing an e-commerce platform like Etsy or a dedicated online store
+(d) Distributing through traditional wholesale channels
+
+58. 48. A start-up planning to launch an online educational platform for diploma computer engineering students decides to segment its market. Which of the following is a common basis for psychographic segmentation?
+a) Age and gender of students
+b) Geographic location of students
+c) Lifestyle, interests, and values of students
+d) Income level of students' parents
+
+59. 38. Before investing significant capital, an entrepreneur assesses if the potential returns from a business opportunity outweigh the risks and costs. This is part of evaluating its:
+(a) Social impact
+(b) Financial viability
+(c) Environmental sustainability
+(d) Public relations potential
+
+60. 84. During a SWOT analysis for an e-commerce platform, the increasing trend of online shopping (digitalization) is identified. This trend would typically be categorized as a(n):
+(a) Strength
+(b) Weakness
+(c) Opportunity
+(d) Threat
+
+61. 66. A manufacturing company implementing a new, more efficient assembly line technique to reduce waste and production time is an example of which type of innovation?
+a) Product innovation
+b) Service innovation
+c) Process innovation
+d) Marketing innovation
+
+62. 77. Which of the following elements of a SWOT analysis are considered internal factors of a business?
+(a) Opportunities and Threats
+(b) Strengths and Weaknesses
+(c) Market Trends and Competition
+(d) Economic Conditions and Technology
+
+63. 31. Which of the following best describes a "business opportunity"?
+(a) Any new idea for a product or service.
+(b) A favorable set of circumstances that creates a need for a new product, service, or business.
+(c) A well-researched business plan with detailed financial projections.
+(d) A patent-pending invention awaiting commercialization.
+
+64. 36. Which component of the Marketing Mix (4Ps) primarily deals with how the product or service reaches the customer, including distribution channels and logistics?
+(a) Product
+(b) Price
+(c) Promotion
+(d) Place
+
+65. 60. When an entrepreneur considers various factors like market size, growth potential, and competitive intensity to determine if a new business idea is viable, they are primarily engaged in:
+a) Risk analysis and mitigation.
+b) Business opportunity identification and evaluation.
+c) Financial planning.
+d) Product life cycle analysis.
+
+66. 79. A start-up identifies a key "Threat" during its SWOT analysis, such as a new, disruptive technology emerging. What is a common mitigation strategy derived from such an insight?
+(a) To ignore the threat and focus on existing strengths.
+(b) To develop a new product or innovate to adapt to the changing landscape.
+(c) To immediately exit the market segment.
+(d) To increase advertising spend on the current product without changes.
+
+67. 2. When identifying a product or service idea, which of these factors is most crucial for long-term viability?
+(a) Low initial investment
+(b) Existing strong competition
+(c) Addressing an unmet market need or pain point
+(d) Ease of manufacturing
+
+68. 23. Identifying the target market is crucial for a start-up because it allows for:
+a) Minimizing all operational costs to zero.
+b) Tailoring marketing messages and product features to specific customer groups.
+c) Guaranteeing immediate profitability and market dominance.
+d) Eliminating the need for any competition evaluation.
+
+69. 52. A new innovative hardware product developed by a start-up sees rapid sales growth, high profits, and increasing competition. This product is most likely in which stage of the Product Life Cycle (PLC)?
+a) Introduction
+b) Growth
+c) Maturity
+d) Decline
+
+70. 34. A key criterion for evaluating a business opportunity's viability, especially for computer engineering students developing a tech product, is often its:
+(a) Aesthetic design alone
+(b) Potential for viral marketing on social media
+(c) Technical feasibility and scalability
+(d) Lowest production cost regardless of quality
+
+71. 61. What best describes innovation in the context of entrepreneurship?
+a) Developing a new product
+b) Implementing a new or significantly improved product, service, or process
+c) Inventing something entirely new
+d) Improving existing marketing strategies
+
+72. 45. When a computer engineering student develops an innovative software solution, considering its potential to disrupt existing markets or create new ones relates directly to the concept of:
+(a) Inventory management
+(b) Business process reengineering
+(c) Innovation
+(d) Customer relationship management
+
+73. 59. Which of the following is a key objective of effective inventory management for a hardware manufacturing start-up?
+a) To always have zero stock on hand.
+b) To balance the costs of holding inventory with the risk of stockouts.
+c) To never order new raw materials.
+d) To only store finished goods.
+
+74. 57. A start-up collected survey data indicating that 70% of potential customers are willing to pay a premium for a product with enhanced security features. In Data Analysis and Interpretation, what does this finding primarily suggest?
+a) The start-up should lower its prices.
+b) There is a strong market demand for enhanced security features.
+c) The product does not need any security features.
+d) The survey was poorly designed.
+
+75. 30. The "Place" element of the Marketing Mix (4Ps) for an e-commerce platform primarily refers to:
+a) The physical location of the company's headquarters.
+b) The virtual distribution channels and accessibility of the product/service online.
+c) The pricing strategy adopted for different geographic regions.
+d) The promotional activities used to attract online visitors.
+
+76. 54. A start-up identifies a larger, established competitor in its market. To evaluate this competition and formulate a strategy, which analysis framework would be most beneficial for understanding the competitor's strengths, weaknesses, opportunities, and threats?
+a) PESTEL Analysis
+b) SWOT Analysis
+c) Porter's Five Forces
+d) Ansoff Matrix
+
+77. 1. Which of the following is a commonly used technique for generating a wide range of business ideas without initial judgment?
+(a) SWOT Analysis
+(b) Brainstorming
+(c) Market Survey
+(d) Financial Forecasting
+
+78. 19. When conducting market research for a new tech product, a well-designed questionnaire primarily aims to:
+a) Provide the full financial projections for the next five years.
+b) Generate a list of potential competitors.
+c) Gather specific data from potential customers regarding needs, preferences, and willingness to pay.
+d) Outline the company's internal operational procedures.
+
+79. 42. Digital Marketing strategies like Search Engine Optimization (SEO) and social media campaigns are crucial for a new tech start-up primarily because they:
+(a) Guarantee immediate sales regardless of product quality.
+(b) Provide cost-effective ways to reach a wide and targeted audience.
+(c) Eliminate the need for any traditional advertising methods.
+(d) Are the only legal forms of promotion for online businesses.
+
+80. 13. For a start-up developing a smart home device, managing the flow of components from suppliers to assembly and then to customers falls under which business function?
+(a) Human Resources
+(b) Marketing and Sales
+(c) Supply Chain Management
+(d) Financial Accounting
+
+81. 37. A "Proof of Concept" (POC) is most closely associated with which stage of new product development?
+(a) Market launch
+(b) Idea generation and screening
+(c) Business analysis
+(d) Technical development and testing
+
+82. 65. How does innovation primarily contribute to entrepreneurship?
+a) By ensuring immediate profit for all new ventures
+b) By creating new opportunities and value for customers
+c) By eliminating the need for a business plan
+d) By guaranteeing market monopoly
+
+83. 70. The "New Product Development Steps" directly align with which aspect of innovation?
+a) Only the conceptualization phase
+b) The entire process of bringing a novel idea to market
+c) Primarily cost reduction strategies
+d) Exclusively marketing and branding activities
+
+84. 73. A startup introducing a much simpler, cheaper alternative to an existing complex product, initially serving a niche market but eventually challenging established players, exemplifies which type of innovation?
+a) Sustaining innovation
+b) Incremental innovation
+c) Disruptive innovation
+d) Architectural innovation
+
+85. 72. Which of the following is a common barrier to innovation within an established organization?
+a) Abundance of financial resources
+b) Strong organizational culture supportive of risk-taking
+c) Resistance to change and fear of failure
+d) Clear vision and strategic direction
+
+86. 9. An entrepreneur needs seed funding to develop a prototype for a new idea. Which of the following is considered an early-stage source of capital?
+(a) Initial Public Offering (IPO)
+(b) Venture Capital
+(c) Angel Investors or personal savings
+(d) Bank Loan for large-scale operations
+
+87. 89. An entrepreneur identifies "Strong technical expertise" (Strength) and an "Expanding demand for AI-powered solutions" (Opportunity) during a SWOT analysis. Which strategic approach would best leverage this combination?
+(a) Diversifying into non-technical areas to reduce risk.
+(b) Investing in unrelated marketing campaigns.
+(c) Developing and marketing an AI-powered product that leverages their technical expertise.
+(d) Scaling down operations to preserve capital.
+
+88. 40. Which of the following is NOT a common source of business ideas?
+(a) Observing market trends and unmet needs.
+(b) Brainstorming sessions and creative thinking.
+(c) Analyzing existing products for improvements.
+(d) Randomly selecting a product from a competitor's catalog.
+
+89. 21. For a B2B (Business-to-Business) start-up selling enterprise software, which digital marketing channel would generally be most effective for lead generation and building credibility?
+a) TikTok challenges and viral videos
+b) Search Engine Optimization (SEO) and LinkedIn marketing
+c) Instagram influencer marketing
+d) Mass email spamming campaigns
+
+90. 22. A SWOT analysis helps an entrepreneur to:
+a) Calculate the exact return on investment for marketing campaigns.
+b) Identify the company's internal Strengths and Weaknesses, and external Opportunities and Threats.
+c) Determine the exact pricing strategy for a new product.
+d) Develop the detailed organizational structure of the start-up.
+
+
+ANSWER KEY
+
+1. (c)
+2. (b)
+3. (b)
+4. (b)
+5. (c)
+6. (b)
+7. (b)
+8. (c)
+9. (b)
+10. (b)
+11. (c)
+12. (b)
+13. (b)
+14. (b)
+15. (b)
+16. (c)
+17. (c)
+18. (b)
+19. (b)
+20. (b)
+21. (c)
+22. (c)
+23. (b)
+24. (b)
+25. (a)
+26. (b)
+27. (c)
+28. (b)
+29. (c)
+30. (b)
+31. (a)
+32. (b)
+33. (b)
+34. (b)
+35. (d)
+36. (c)
+37. (b)
+38. (c)
+39. (b)
+40. (b)
+41. (b)
+42. (b)
+43. (b)
+44. (c)
+45. (b)
+46. (c)
+47. (c)
+48. (b)
+49. (b)
+50. (b)
+51. (c)
+52. (d)
+53. (b)
+54. (b)
+55. (c)
+56. (b)
+57. (c)
+58. (c)
+59. (b)
+60. (c)
+61. (c)
+62. (b)
+63. (b)
+64. (d)
+65. (b)
+66. (b)
+67. (c)
+68. (b)
+69. (b)
+70. (c)
+71. (b)
+72. (c)
+73. (b)
+74. (b)
+75. (b)
+76. (b)
+77. (b)
+78. (c)
+79. (b)
+80. (c)
+81. (d)
+82. (b)
+83. (b)
+84. (c)
+85. (c)
+86. (c)
+87. (c)
+88. (d)
+89. (b)
+90. (b)

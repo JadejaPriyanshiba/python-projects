@@ -131,23 +131,11 @@ maturity = "computer engineering diploma student"
 extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points"
 complexity = "from the basics and essential complexity for theoretical knowledge too"
 wantGemini = True
-preDefineTopics = """Discovering ideas and visualizing the business with Activity map,,
-Idea Generation (subtopic of discovering ideas),,
-Product Identification (subtopic of discovering ideas),,
+preDefineTopics = """Discovering ideas and visualizing the business with Activity map ( subtopics: Idea Generation And Product Identification ),,
 Business Plan- The Marketing Plan and Financial Plan/ Sources of Capital,,
 Business opportunity identification and evaluation,,
-Market research,,
-Questionnaire design (subtopic of Market Research),,
-Sampling (subtopic of Market Research),,
-Market survey (subtopic of Market Research),,
-Data analysis & interpretation (subtopic of Market Research),,
-Marketing Mix (4Ps- product,price, promotion place),,
-Identifying the target market (subtopic of Marketing Mix),,
-Competition evaluation and Strategy adoption (subtopic of Marketing Mix),,
-Market Segmentation (subtopic of Marketing Mix),,
-Marketing, Advertising and Branding (subtopic of Marketing Mix),,
-Digital Marketing (subtopic of Marketing Mix),,
-B2B, E-commerce and GeM(subtopic of Marketing Mix),,
+Market research ( subtopics: Questionnaire design, Sampling, Market survey, Data analysis & interpretation)
+Marketing Mix (4Ps- product,price, promotion place) (subtopics: Identifying the target market, Competition evaluation and Strategy adoption, Market Segmentation, Marketing, Advertising and Branding, Digital Marketing, B2B, E-commerce and GeM ),
 Product Terms- PLC, Mortality Curve and New product Development Steps, Inventory, Supply Chain Management,,
 Importance and concept of Innovation, Sources and Process,,
 Risk analysis and mitigation by SWOT Analysis"""

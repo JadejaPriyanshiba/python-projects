@@ -198,18 +198,21 @@ Only output the questions followed by the answer key. No extra explanations.
     }
 
 
-subject = "Fundamentals of Artificial Intelligence"
-title = "AI Case Studies"
-length = "150 lines"
-maturity = "3rd year computer engineering student"
-extraNotes = "Form it simple to understand, not lengthy, to the points, but more of knowledge with real life examples. Add extra fun facts and extra knowledge spots."
-complexity = "from the basics to in depth real coding knowledge and concepts"
+subject = "Entrepreneurship & Start-ups"
+title = "Business Ideas and their implementation (Idea to Start-up)"
+length = "180 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
 wantGemini = True
-preDefineTopics = """Chatbots,,
-ChatGPT,,
-Recommendation Algorithm,,
-Digital (Voice) Assistant,,
-Virtual Face Filters"""
+preDefineTopics = """Discovering ideas and visualizing the business with Activity map ( subtopics: Idea Generation And Product Identification ),,
+Business Plan- The Marketing Plan and Financial Plan/ Sources of Capital,,
+Business opportunity identification and evaluation,,
+Market research ( subtopics: Questionnaire design, Sampling, Market survey, Data analysis & interpretation)
+Marketing Mix (4Ps- product,price, promotion place) (subtopics: Identifying the target market, Competition evaluation and Strategy adoption, Market Segmentation, Marketing, Advertising and Branding, Digital Marketing, B2B, E-commerce and GeM ),
+Product Terms- PLC, Mortality Curve and New product Development Steps, Inventory, Supply Chain Management,,
+Importance and concept of Innovation, Sources and Process,,
+Risk analysis and mitigation by SWOT Analysis"""
 
 if __name__ == "__main__":
 
