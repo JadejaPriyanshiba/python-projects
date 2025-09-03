@@ -1,0 +1,399 @@
+Topic: 8085 Pin Diagram & Pin Functions
+
+Section: Multiple Choice Questions
+1.  Which of the following 8085 microprocessor pins serves as a multiplexed Address/Data bus?
+(a) A15-A8
+(b) AD7-AD0
+(c) S1-S0
+(d) X1-X2
+2.  The primary function of the ALE (Address Latch Enable) signal in the 8085 microprocessor is to:
+(a) Indicate that an I/O operation is in progress.
+(b) Latch the lower order address from the AD7-AD0 bus.
+(c) Enable the microprocessor to read data from memory.
+(d) Acknowledge an interrupt request.
+3.  What is the state of the IO/M pin when the 8085 microprocessor is performing a memory read operation?
+(a) High (1)
+(b) Low (0)
+(c) Tri-state
+(d) Depends on the READY signal
+4.  The READY pin in the 8085 microprocessor is used for:
+(a) Indicating that the processor is ready to execute an instruction.
+(b) Interrupt acknowledgement.
+(c) Synchronizing the processor with slow peripheral devices.
+(d) Enabling Direct Memory Access (DMA) operations.
+5.  Among the following interrupt pins of the 8085 microprocessor, which one is non-maskable and has the highest priority?
+(a) INTR
+(b) RST 7.5
+(c) TRAP
+(d) RST 5.5
+6.  Which pair of pins in the 8085 microprocessor is used for serial data communication?
+(a) SID and SOD
+(b) S1 and S0
+(c) RD and WR
+(d) X1 and X2
+7.  When the RESET IN pin of the 8085 microprocessor is activated (goes low), what signal is output by the RESET OUT pin?
+(a) A high signal, indicating a successful reset.
+(b) A low signal, indicating a reset condition for other devices.
+(c) The clock signal, to synchronize external components.
+(d) An interrupt acknowledge signal.
+8.  The frequency of the CLK OUT pin in the 8085 microprocessor is:
+(a) Equal to the crystal frequency connected to X1 and X2.
+(b) Half of the crystal frequency connected to X1 and X2.
+(c) Twice the crystal frequency connected to X1 and X2.
+(d) One-third of the crystal frequency connected to X1 and X2.
+9.  During a memory write operation, what are the states of the IO/M, RD, and WR control signals, respectively?
+(a) IO/M=0, RD=1, WR=0
+(b) IO/M=1, RD=0, WR=1
+(c) IO/M=0, RD=0, WR=0
+(d) IO/M=1, RD=1, WR=0
+10. When a peripheral device requests a DMA operation using the HOLD pin, the 8085 microprocessor responds by asserting which pin to grant control of the buses?
+(a) HLDA (Hold Acknowledge)
+(b) READY
+(c) INTA (Interrupt Acknowledge)
+(d) RESET OUT
+11. The upper half of the address bus (A15-A8) in the 8085 microprocessor is:
+(a) Multiplexed with the data bus.
+(b) Used for I/O port addressing only.
+(c) Always carries only the most significant 8 bits of the memory address.
+(d) Bidirectional.
+12. To acknowledge an INTR (Interrupt Request) signal, the 8085 microprocessor outputs a low pulse on which of the following pins?
+(a) TRAP
+(b) INTA
+(c) HLDA
+(d) RST 7.5
+13. The Vcc and Vss pins of the 8085 microprocessor are used for:
+(a) Inputting crystal oscillator signals.
+(b) Providing the operating voltage (+5V) and ground respectively.
+(c) Serial data communication.
+(d) Generating the clock output signal.
+14. What operation is indicated by the status signals S1=1 and S0=1 in the 8085 microprocessor?
+(a) Halt
+(b) Write
+(c) Opcode Fetch
+(d) Read
+15. What is the minimum active time for the RESET IN pin to ensure a proper reset of the 8085 microprocessor?
+(a) One clock cycle
+(b) Three clock cycles
+(c) Ten clock cycles
+(d) Reset IN does not require a minimum active time.
+
+
+Topic: 8085 Microprocessor Architecture
+
+16. Which of the following registers is a 16-bit register in the 8085 Microprocessor?
+(a) Accumulator
+(b) Program Counter
+(c) Instruction Register
+(d) Flag Register
+17. The primary function of the Accumulator register in the 8085 is to:
+(a) Store the address of the next instruction to be executed.
+(b) Hold one of the operands for arithmetic and logical operations.
+(c) Store the address of the top of the stack.
+(d) Point to the next instruction in memory.
+18. What is the total number of address lines in the 8085 Microprocessor?
+(a) 8
+(b) 16
+(c) 20
+(d) 32
+19. The ALE (Address Latch Enable) signal in 8085 is used for:
+(a) Indicating a memory read operation.
+(b) Demultiplexing the address/data bus.
+(c) Signalling the end of an instruction execution.
+(d) Enabling the interrupt request.
+20. Which of the following flags is NOT present in the 8085 Flag Register?
+(a) Zero Flag
+(b) Carry Flag
+(c) Overflow Flag
+(d) Sign Flag
+21. During the Fetch operation of an instruction cycle, the 8085 Microprocessor sends the contents of which register to the address bus?
+(a) Stack Pointer
+(b) Accumulator
+(c) Program Counter
+(d) General Purpose Register B
+22. The 8085 Microprocessor requires a single power supply of:
+(a) +3V
+(b) +5V
+(c) +12V
+(d) -5V
+23. Which of the following is a maskable interrupt in the 8085 Microprocessor?
+(a) TRAP
+(b) RST 7.5
+(c) RST 5.5
+(d) INTR
+24. The READY pin of the 8085 Microprocessor is used to:
+(a) Indicate that an interrupt is pending.
+(b) Synchronize the CPU with slow peripheral devices.
+(c) Signal that data is ready to be written.
+(d) Reset the microprocessor.
+25. What is the purpose of the IO/M (Input/Output or Memory) signal pin in the 8085?
+(a) To specify whether the current operation is an Input or Output operation.
+(b) To indicate whether the current operation is on I/O devices or memory.
+(c) To determine if the current instruction is an I/O instruction or a Memory instruction.
+(d) To select between I/O ports and memory addresses.
+26. The HLDA (Hold Acknowledge) signal is an output from the 8085 Microprocessor that indicates:
+(a) The microprocessor has taken control of the buses.
+(b) The microprocessor has released the buses.
+(c) An interrupt has been acknowledged.
+(d) Data has been successfully held in a register.
+27. What is the operating frequency of an 8085 Microprocessor if it is connected to a 6 MHz crystal oscillator?
+(a) 3 MHz
+(b) 6 MHz
+(c) 12 MHz
+(d) 1.5 MHz
+28. The B, C, D, E, H, L registers in the 8085 can be used as 8-bit registers or can be paired to form 16-bit register pairs. Which of the following is NOT a valid register pair?
+(a) B-C
+(b) D-E
+(c) H-L
+(d) A-L
+29. The SOD (Serial Output Data) pin of 8085 is used for:
+(a) Transmitting 8-bit parallel data serially.
+(b) Receiving serial data.
+(c) Transmitting single-bit serial data.
+(d) Outputting status information.
+30. The function of the RESET IN pin in the 8085 is to:
+(a) Start the execution of a program from a specific address.
+(b) Suspend the current execution temporarily.
+(c) Terminate the current instruction execution.
+(d) Provide an external reset signal to the microprocessor.
+
+
+Topic: 8085 General Purpose Registers
+
+Section: Multiple Choice Questions
+31.  How many 8-bit general-purpose registers are explicitly available to the programmer in the 8085 microprocessor?
+a) 4
+b) 6
+c) 8
+d) 10
+32.  Which of the following is NOT considered a general-purpose register in the 8085 microprocessor architecture?
+a) B
+b) C
+c) A
+d) D
+33.  The individual general-purpose registers (B, C, D, E, H, L) in the 8085 microprocessor are each capable of storing how many bits of data?
+a) 4 bits
+b) 8 bits
+c) 16 bits
+d) 32 bits
+34.  In the 8085 microprocessor, which general-purpose register pair is primarily designated for memory addressing in instructions like MOV M, R or LDAX B?
+a) BC
+b) DE
+c) HL
+d) SP
+35.  When an instruction such as MOV M, B is executed, the 8-bit content of register B is moved to a memory location. Which general-purpose register pair's content specifies this target memory location 'M'?
+a) BC
+b) DE
+c) HL
+d) SP
+36.  The general-purpose registers in 8085 are often paired to facilitate 16-bit operations. Which of the following is a valid and commonly used register pair?
+a) BD
+b) CL
+c) BH
+d) DE
+37.  What is the primary advantage of having general-purpose registers directly within the CPU, compared to storing frequently accessed data in main memory?
+a) They can store larger amounts of data.
+b) They are volatile and reset after power-off.
+c) They offer significantly faster data access and manipulation.
+d) They provide direct control over I/O ports.
+38.  If the HL register pair initially contains the value 2050H and an instruction LXI H, 3000H is executed, what will be the new content of the L register?
+a) 20H
+b) 50H
+c) 30H
+d) 00H
+39.  Consider the instruction DAD B. If the BC register pair contains 1000H and the HL register pair contains 2000H before execution, what will be the content of the HL register pair after this instruction?
+a) 1000H
+b) 2000H
+c) 3000H
+d) 4000H
+40.  Which of the following 8085 instructions directly transfers data between two general-purpose registers without involving memory or the Accumulator as an intermediate?
+a) LDA 2000H
+b) MOV B, C
+c) ADD C
+d) STA 3000H
+41.  A key function of 8085 general-purpose registers is to:
+a) Store the address of the next instruction to be executed.
+b) Act as temporary storage locations for data during program execution.
+c) Hold the result of arithmetic and logic operations exclusively.
+d) Manage external interrupt requests.
+42.  Which of the following operations typically cannot be directly performed by an 8085 general-purpose register (e.g., register B) without involving the Accumulator or an instruction specifically designed for immediate arithmetic with the Accumulator?
+a) Incrementing its content by one.
+b) Moving data from another general-purpose register.
+c) Performing an 8-bit arithmetic addition with an immediate value.
+d) Storing an 8-bit immediate value directly.
+43.  If the Stack Pointer (SP) points to memory location 4000H, and a PUSH B instruction is executed, the contents of which general-purpose registers will be saved onto the stack?
+a) Only register B
+b) Only register C
+c) Registers B and C
+d) Registers H and L
+44.  What is the total number of bits that can be stored across all the general-purpose registers (B, C, D, E, H, L) combined in the 8085 microprocessor?
+a) 6 bits
+b) 16 bits
+c) 48 bits
+d) 64 bits
+45.  In the 8085 architecture, the general-purpose registers facilitate efficient data processing primarily because:
+a) They are larger in capacity than typical memory locations.
+b) They are physically located on a separate chip from the Central Processing Unit.
+c) They are internal to the CPU and have direct, high-speed connections to the Arithmetic Logic Unit.
+d) They utilize a different, more complex addressing mode than main memory.
+
+
+Topic: 8085 Flag Register
+
+Section: Multiple Choice Questions
+46. Which of the following is the primary purpose of the Flag Register in the 8085 microprocessor?
+a) To store the address of the next instruction.
+b) To hold temporary data during arithmetic operations.
+c) To indicate the status of the CPU after an arithmetic or logical operation.
+d) To store interrupt requests from peripheral devices.
+47. How many status flags are available in the 8085 microprocessor's Flag Register?
+a) 3
+b) 5
+c) 7
+d) 8
+48. In the 8085 Flag Register, which bit position is occupied by the Carry Flag (CY)?
+a) D0
+b) D2
+c) D4
+d) D7
+49. The Sign Flag (S) in the 8085 microprocessor is set to 1 if:
+a) The result of an operation is zero.
+b) The result of an operation has an even number of 1s.
+c) The most significant bit (MSB) of the result is 1.
+d) There is a carry out from the D7 bit.
+50. The Zero Flag (Z) in the 8085 microprocessor is set to 1 if:
+a) The result of an operation is 00H.
+b) The result of an operation is non-zero.
+c) The result contains an odd number of 1s.
+d) There is a borrow generated from D0.
+51. What is the condition for the Auxiliary Carry Flag (AC) to be set to 1 in the 8085 microprocessor?
+a) There is a carry out from D7 to D8.
+b) There is a carry from D3 to D4 during an arithmetic operation.
+c) The result of the operation is negative.
+d) The result has an odd parity.
+52. Consider an 8085 instruction that subtracts two numbers. If the operation requires a borrow, which flag will be set to indicate this condition?
+a) Zero Flag (Z)
+b) Parity Flag (P)
+c) Carry Flag (CY)
+d) Auxiliary Carry Flag (AC)
+53. Which flag in the 8085 is specifically designed to aid in Binary Coded Decimal (BCD) arithmetic operations?
+a) Sign Flag (S)
+b) Zero Flag (Z)
+c) Auxiliary Carry Flag (AC)
+d) Carry Flag (CY)
+54. The Parity Flag (P) in the 8085 microprocessor is set to 1 if the result of an operation contains:
+a) An odd number of 1s.
+b) An even number of 1s.
+c) Exactly one 1.
+d) All zeros.
+55. Along with the Accumulator, the Flag Register forms a 16-bit register pair known as:
+a) General Purpose Register (GPR)
+b) Program Counter (PC)
+c) Program Status Word (PSW)
+d) Stack Pointer (SP)
+56. If the 8085 executes the instruction "ADD B" with Accumulator = 80H and Register B = 80H, what will be the state of the Carry Flag (CY) after the execution?
+a) CY = 0
+b) CY = 1
+c) CY will remain unchanged.
+d) Cannot be determined without more information.
+57. Which of the following 8-bit instructions generally does NOT affect the flags in the 8085 microprocessor?
+a) MOV A, B
+b) ADD B
+c) ORA B
+d) SUB B
+58. In the 8085 Flag Register, the bit D1 is:
+a) The Sign Flag.
+b) The Zero Flag.
+c) Always set to 1.
+d) An unused bit, always 0.
+59. Which 8085 conditional jump instruction relies on the state of the Zero Flag (Z)?
+a) JC (Jump if Carry)
+b) JNC (Jump if No Carry)
+c) JZ (Jump if Zero)
+d) JP (Jump if Positive)
+60. If the 8085 executes an arithmetic instruction that results in a carry from bit D7, which flag will be affected?
+a) Auxiliary Carry Flag (AC)
+b) Parity Flag (P)
+c) Sign Flag (S)
+d) Carry Flag (CY)
+
+
+Topic: 8085 Instruction Execution (Fetch, Decode, Execute operations)
+
+Section: Multiple Choice Questions
+61.  During the instruction fetch cycle in the 8085 microprocessor, the Program Counter (PC) contains:
+a)  The data to be operated upon.
+b)  The address of the next instruction to be fetched.
+c)  The address of the current instruction being executed.
+d)  The result of the previous arithmetic operation.
+62.  Which of the following 8085 pins is primarily responsible for indicating that the current machine cycle is an opcode fetch?
+a)  IO/M bar
+b)  S1 and S0
+c)  RD bar
+d)  WR bar
+63.  After an opcode is fetched from memory in the 8085, it is temporarily stored in which register before decoding?
+a)  Accumulator
+b)  Temporary Register
+c)  Instruction Register
+d)  Stack Pointer
+64.  The process of interpreting the fetched opcode and generating appropriate control signals for the execution unit is performed by the:
+a)  Arithmetic Logic Unit (ALU)
+b)  Program Counter
+c)  Instruction Decoder
+d)  General Purpose Registers
+65.  How many T-states are typically required for an 8085 microprocessor to complete an Opcode Fetch machine cycle?
+a)  Two
+b)  Three
+c)  Four
+d)  Five
+66.  During the execute phase of an arithmetic instruction like ADD B, which functional unit of the 8085 is primarily active?
+a)  Instruction Register
+b)  Program Counter
+c)  Arithmetic Logic Unit (ALU)
+d)  Stack Pointer
+67.  When the 8085 needs to read data from a memory location during the execution of an instruction, which control signal is asserted low (active)?
+a)  WR bar
+b)  IO/M bar
+c)  RD bar
+d)  ALE
+68.  Which of the following statements is true regarding the effect of a MOV A, B instruction on the 8085's Flag Register during its execution?
+a)  All flags are updated based on the content of register B.
+b)  Only the Zero flag is affected if A becomes zero.
+c)  No flags are affected by this instruction.
+d)  The Carry flag is always reset to zero.
+69.  The instruction cycle of an 8085 microprocessor consists of a sequence of operations, typically starting with:
+a)  Execute and then Decode.
+b)  Fetch and then Decode.
+c)  Decode and then Fetch.
+d)  Memory Write and then Fetch.
+70.  If an instruction involves loading a 16-bit address into a register pair (e.g., LXI H, 2050H), how many memory read operations are typically required after the opcode fetch to get the complete 16-bit operand?
+a)  One
+b)  Two
+c)  Three
+d)  Four
+71.  Which of the following is NOT directly involved in the instruction fetch phase of the 8085?
+a)  Program Counter
+b)  Address/Data Bus (AD0-AD7, A8-A15)
+c)  Arithmetic Logic Unit (ALU)
+d)  RD bar signal
+72.  During the execution of an instruction that modifies the accumulator's content, which register's status might directly reflect the result's properties (e.g., zero, sign)?
+a)  Instruction Register
+b)  Temporary Register
+c)  Flag Register
+d)  Stack Pointer
+73.  The control signals (RD bar, WR bar, IO/M bar, S1, S0) generated by the Timing and Control Unit are crucial during the instruction execution for:
+a)  Controlling the flow of data between the internal registers only.
+b)  Determining the internal clock frequency.
+c)  Managing external memory and I/O operations.
+d)  Resetting the microprocessor after an interrupt.
+74.  What is the main role of the Address Latch Enable (ALE) signal during the opcode fetch cycle in 8085?
+a)  To enable writing data to memory.
+b)  To latch the lower 8-bits of the address from AD0-AD7.
+c)  To signal that an I/O operation is in progress.
+d)  To enable the instruction decoder.
+75.  Which of these sequences correctly represents the steps of an 8085 instruction cycle for an instruction like MOV M, A (assuming M points to a memory location)?
+a)  Fetch opcode, Decode, Fetch operand, Execute (Write to memory).
+b)  Fetch opcode, Execute (Write to memory), Decode.
+c)  Decode, Fetch opcode, Execute (Write to memory).
+d)  Fetch operand, Fetch opcode, Decode, Execute (Write to memory).
+
+

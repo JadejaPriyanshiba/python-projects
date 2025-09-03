@@ -139,3 +139,54 @@ Marketing Mix (4Ps- product,price, promotion place) (subtopics: Identifying the 
 Product Terms- PLC, Mortality Curve and New product Development Steps, Inventory, Supply Chain Management,,
 Importance and concept of Innovation, Sources and Process,,
 Risk analysis and mitigation by SWOT Analysis"""
+
+#### Computer Organization And Architecture
+"""chapter 1: Basics of Computer Organization And Processor Evolution"""
+subject = "Computer Organization And Architecture"
+title = "Basics of Computer Organization and Processor Evolution"
+length = "200 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points (to the point)"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Observe the characteristic of Intel processor from 4 bit (4004) to i7,,
+Basic CPU Structure (CU, ALU and MU),,
+Various Registers used in CPU & its applications (AC, DR, AR, PC, MAR, MBR, IR),,
+Types of Buses used in CPU,,
+Common / Shared Bus v/sDedicated Bus,,
+Serial Bus v/s Parallel Bus"""
+
+"""chapter 2: 8085 Microprocessor"""
+subject = "Computer Organization And Architecture"
+title = "8085 Microprocessor"
+length = "200 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points (to the point)"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """8085 Pin Diagram & Pin Functions,,
+8085 Microprocessor Architecture,,
+8085 General Purpose Registers,,
+8085 Flag Register,,
+8085 Instruction Execution (Fetch, Decode, Execute operations)"""
+
+"""chapter 3: 8085 Microprocessor"""
+subject = "Computer Organization And Architecture"
+title = "8085 Assembly Language Programming"
+length = "150 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points (to the point)"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Instruction format opcode & Operands,,
+Machine Language Instruction Format: 1-Byte, 2-Byte & 3-Byte,,
+8085 Addressing Modes,,
+Data transfer Instructions,,
+Arithmetical Instructions,,
+Logical Instructions,,
+Branching & Looping Instructions,,
+Stack Instructions,,
+I/O and Machine ControlInstructions,,
+Classification of 8085 Interrupts and its priorities,,
+8085 Vectored interrupts: TRAP, RST7.5, RST 6.5, RST 5.5 and RST Instruction,,
+8085 Non-Vectored Interrupts: INTR"""

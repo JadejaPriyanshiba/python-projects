@@ -1,0 +1,507 @@
+Topic: Observe the characteristic of Intel processor from 4 bit (4004) to i7
+
+Section: Multiple Choice Questions
+1. The Intel 4004 processor, released in 1971, was primarily characterized by its data bus width of:
+a) 8 bits
+b) 4 bits
+c) 16 bits
+d) 32 bits
+2. Which Intel processor generation first introduced a significant move towards integrated graphics processing units (GPUs) directly into the CPU die, a feature prominent in the i-series?
+a) Pentium III
+b) Pentium 4
+c) Core i3/i5/i7 (Nehalem architecture and later)
+d) Xeon E3
+3. The primary purpose of the Program Counter (PC) register in a CPU is to store:
+a) The data currently being processed by the ALU.
+b) The address of the next instruction to be fetched.
+c) The result of the last arithmetic operation.
+d) The address of the data operand.
+4. Hyper-Threading Technology, first introduced in Intel Pentium 4 processors, primarily aims to:
+a) Double the physical number of processor cores.
+b) Allow a single physical core to execute multiple threads concurrently by simulating additional logical cores.
+c) Increase the processor's base clock frequency.
+d) Reduce power consumption by disabling unused cores.
+5. Which of the following best describes a key characteristic of the evolution from Intel's single-core processors (like early Pentiums) to the Core i7 series?
+a) Decreasing transistor count with increasing clock speed.
+b) Shift from CISC to purely RISC architecture.
+c) Introduction of multi-core processing and increasing cache sizes.
+d) Elimination of the Control Unit in favor of distributed processing.
+6. The Arithmetic Logic Unit (ALU) is responsible for performing:
+a) Only arithmetic operations like addition and subtraction.
+b) Only logical operations like AND, OR, NOT.
+c) Both arithmetic and logical operations.
+d) Managing input/output operations.
+7. Compared to a parallel bus, a serial bus typically offers:
+a) Higher data transfer rate over short distances.
+b) Reduced number of physical wires and better signal integrity over long distances.
+c) Only supports unidirectional data flow.
+d) Requires more complex circuitry for data synchronization.
+8. The Intel 8086 processor was significant for being Intel's first:
+a) 4-bit microprocessor.
+b) 16-bit microprocessor with a 20-bit address bus.
+c) Processor to feature Hyper-Threading.
+d) Multi-core processor.
+9. What is the primary advantage of a dedicated bus system compared to a common/shared bus in a computer architecture?
+a) Reduced manufacturing cost.
+b) Simpler design and implementation.
+c) Lower potential for bus contention and higher throughput for specific components.
+d) Increased number of connected devices on the bus.
+10. Which register temporarily holds the data read from or written to memory?
+a) Memory Address Register (MAR)
+b) Instruction Register (IR)
+c) Memory Buffer Register (MBR)
+d) Accumulator (AC)
+11. The term "pipelining" in processor architecture, a feature enhanced in later Intel processors, refers to:
+a) The ability to execute multiple instructions simultaneously on different cores.
+b) Breaking down instruction execution into stages, allowing multiple instructions to be in different stages concurrently.
+c) A technique for integrating the GPU into the CPU.
+d) A method to dynamically increase processor clock speed.
+12. As Intel processors evolved from the 4004 to the i7 series, the transistor count generally followed:
+a) A decreasing trend, due to miniaturization.
+b) An increasing trend, in line with Moore's Law.
+c) A fluctuating trend, depending on market demand.
+d) A constant trend, as the fundamental design remained unchanged.
+13. The Control Unit (CU) within the CPU is primarily responsible for:
+a) Performing arithmetic calculations.
+b) Storing program instructions.
+c) Directing and coordinating the operations of the CPU.
+d) Storing temporary data for quick access.
+14. Which of the following is NOT a typical characteristic or feature introduced or significantly improved in the Intel Core i-series processors compared to earlier generations?
+a) Turbo Boost Technology.
+b) Integrated Memory Controller.
+c) Introduction of a 4-bit architecture.
+d) Multi-level cache hierarchy (L1, L2, L3).
+15. What is the approximate maximum clock speed of the original Intel 4004 processor?
+a) 740 kHz
+b) 7.4 MHz
+c) 74 MHz
+d) 740 MHz
+
+
+Topic: Basic CPU Structure (CU, ALU and MU)
+
+16.  Which functional unit of the CPU is responsible for performing arithmetic and logical operations?
+(a) Control Unit (CU)
+(b) Arithmetic Logic Unit (ALU)
+(c) Memory Unit (MU)
+(d) Input/Output Unit
+17.  The Control Unit (CU) within the CPU primarily performs which of the following tasks?
+(a) Storing data temporarily during processing
+(b) Executing all arithmetic calculations
+(c) Directing and coordinating all operations within the CPU
+(d) Handling communication with external storage devices
+18.  Which component of the CPU acts as a temporary storage area for instructions and data that the CPU is currently processing?
+(a) Arithmetic Logic Unit (ALU)
+(b) Control Unit (CU)
+(c) Registers within the Memory Unit (MU)
+(d) Input/Output Controller
+19.  Which register holds the address of the next instruction to be fetched from memory?
+(a) Accumulator (AC)
+(b) Program Counter (PC)
+(c) Instruction Register (IR)
+(d) Memory Address Register (MAR)
+20.  The Intel 4004 processor, the world's first single-chip microprocessor, was a 4-bit processor primarily designed for which application?
+(a) Server computers
+(b) Personal computers
+(c) Calculators and embedded systems
+(d) Graphical workstations
+21.  The primary purpose of the Memory Address Register (MAR) is to:
+(a) Store the data being read from or written to memory
+(b) Hold the address of the data or instruction to be accessed in memory
+(c) Store the instruction currently being executed
+(d) Accumulate the results of arithmetic operations
+22.  What is the main advantage of a dedicated bus compared to a common/shared bus in a CPU architecture?
+(a) Lower manufacturing cost
+(b) Increased flexibility in adding new components
+(c) Faster data transfer due to fewer contention issues
+(d) Simpler design and implementation
+23.  Which characteristic best describes a parallel bus compared to a serial bus?
+(a) Transmits data bit-by-bit over a single wire
+(b) Uses multiple data lines to transmit several bits simultaneously
+(c) Offers longer transmission distances without signal degradation
+(d) Typically found in external peripheral connections like USB
+24.  What is the function of the Instruction Register (IR) within the CPU?
+(a) To store the address of the instruction currently being executed
+(b) To store the instruction code that has been fetched from memory
+(c) To hold the result of the most recent arithmetic operation
+(d) To provide the address of the next instruction to be fetched
+25.  Which unit is responsible for generating the timing and control signals required to execute instructions and coordinate the entire computer system?
+(a) Arithmetic Logic Unit (ALU)
+(b) Memory Unit (MU)
+(c) Control Unit (CU)
+(d) Data Register (DR)
+26.  The Accumulator (AC) register primarily holds which type of data?
+(a) The address of the next instruction
+(b) The instruction currently being decoded
+(c) Intermediate results of arithmetic and logic operations
+(d) The address of the operand in memory
+27.  Modern Intel i7 processors are known for features like multi-core architecture and Hyper-Threading. What is the primary benefit of these features?
+(a) Reduced power consumption
+(b) Increased single-core clock speed
+(c) Enhanced parallel processing capabilities
+(d) Smaller physical die size
+28.  In the context of the CPU, the term "micro-operations" refers to the elementary operations performed by which specific unit?
+(a) Memory Address Register (MAR)
+(b) Arithmetic Logic Unit (ALU)
+(c) Program Counter (PC)
+(d) Control Unit (CU)
+29.  Which register typically acts as a temporary storage for data that is being transferred between the CPU and main memory?
+(a) Accumulator (AC)
+(b) Instruction Register (IR)
+(c) Memory Buffer Register (MBR) or Data Register (DR)
+(d) Program Counter (PC)
+30.  For high-speed internal data transfer within the CPU, which type of bus is predominantly used due to its ability to move multiple bits concurrently?
+(a) Serial Bus
+(b) Parallel Bus
+(c) Universal Serial Bus (USB)
+(d) PCI Express (PCIe) Bus
+
+
+Topic: Various Registers used in CPU & its applications (AC, DR, AR, PC, MAR, MBR, IR)
+
+Section: Multiple Choice Questions
+31.
+Which CPU register is primarily responsible for storing the memory address of the next instruction to be fetched for execution?
+(a) Instruction Register (IR)
+(b) Accumulator (AC)
+(c) Program Counter (PC)
+(d) Memory Data Register (MDR)
+32.
+During an arithmetic addition operation, which register typically holds one of the operands and stores the result?
+(a) Memory Buffer Register (MBR)
+(b) Address Register (AR)
+(c) Instruction Register (IR)
+(d) Accumulator (AC)
+33.
+In a CPU's interaction with main memory, what is the distinct function of the Memory Address Register (MAR) compared to the Memory Buffer Register (MBR)?
+(a) MAR holds data to be written; MBR holds the address of the data.
+(b) MAR holds the address for memory access; MBR holds the data being transferred to or from memory.
+(c) MAR stores the instruction opcode; MBR stores the operand address.
+(d) MAR points to the next instruction; MBR stores temporary results of ALU.
+34.
+Upon fetching an instruction from memory, which register is immediately loaded with the binary code of that instruction for decoding and execution?
+(a) Program Counter (PC)
+(b) Data Register (DR)
+(c) Instruction Register (IR)
+(d) Address Register (AR)
+35.
+Consider a CPU's instruction fetch cycle. Which sequence accurately describes the involvement of registers?
+(a) PC -> MAR -> MBR -> IR
+(b) IR -> MBR -> MAR -> PC
+(c) MAR -> PC -> IR -> MBR
+(d) MBR -> IR -> PC -> MAR
+36.
+The Address Register (AR) in some CPU architectures serves as a general-purpose register for storing memory addresses. What is its primary role in the CPU's operation, distinct from the Program Counter (PC)?
+(a) It stores the address of the currently executing instruction, whereas PC stores the next.
+(b) It holds data operands for ALU operations, whereas PC manages program flow.
+(c) It specifies memory locations for data access, while PC specifically points to the next instruction.
+(d) It acts as a buffer for data transferred from memory, whereas PC holds system control flags.
+37.
+Which bus directly receives its output from the Memory Address Register (MAR) during a memory read or write operation?
+(a) Data Bus
+(b) Control Bus
+(c) Address Bus
+(d) I/O Bus
+38.
+Before data fetched from memory can be processed by the ALU or stored in another register, it typically resides temporarily in which CPU register?
+(a) Instruction Register (IR)
+(b) Program Counter (PC)
+(c) Memory Buffer Register (MBR)
+(d) Accumulator (AC)
+39.
+When an interrupt occurs, the operating system typically saves the state of the CPU to resume execution later. Which register's content is crucial to save to ensure the program returns to the correct point of execution after the interrupt is handled?
+(a) Accumulator (AC)
+(b) Instruction Register (IR)
+(c) Program Counter (PC)
+(d) Data Register (DR)
+40.
+During a direct memory access (DMA) operation, the CPU may be bypassed for data transfer. However, when the CPU itself is transferring data from a specific memory location into a data register (DR), what is the typical path of the address and data?
+(a) PC to MAR, then MBR to DR.
+(b) AR to MAR, then MBR to DR.
+(c) DR to MAR, then MBR to IR.
+(d) IR to MAR, then MBR to AC.
+41.
+Modern CPUs, such as the Intel i7, contain a significantly larger number of registers compared to early processors like the Intel 4004. What is the primary benefit of having a larger set of general-purpose registers?
+(a) Reduces the need for an Arithmetic Logic Unit (ALU).
+(b) Increases the clock speed of the processor directly.
+(c) Reduces memory access by keeping more data and intermediate results on-chip.
+(d) Simplifies the design of the Control Unit (CU).
+42.
+The Intel 4004 was a 4-bit processor, whereas modern processors like the Intel i7 are 64-bit. How does this evolution primarily affect the CPU registers discussed (AC, DR, AR, PC, MAR, MBR, IR)?
+(a) The number of these fundamental registers has drastically decreased.
+(b) The bit-width (size) of these registers has increased to accommodate larger data and address spaces.
+(c) These registers are no longer distinct units but integrated within the ALU.
+(d) Their functions have been entirely replaced by cache memory.
+43.
+Which register is solely dedicated to holding the memory address that is to be presented to the memory unit for a read or write operation, acting as the interface between the CPU and the address bus?
+(a) Program Counter (PC)
+(b) Instruction Register (IR)
+(c) Address Register (AR)
+(d) Memory Address Register (MAR)
+44.
+Among the following registers, which one is least directly involved in the immediate storage of operands or results for arithmetic and logical operations performed by the ALU?
+(a) Accumulator (AC)
+(b) Data Register (DR)
+(c) Program Counter (PC)
+(d) Memory Buffer Register (MBR)
+45.
+A parallel bus system is characterized by multiple data lines transmitting bits simultaneously. Considering the typical connection between CPU registers and the system buses, which type of bus would predominantly carry the contents of the Memory Buffer Register (MBR)?
+(a) Address Bus
+(b) Control Bus
+(c) Data Bus
+(d) Serial Bus
+
+
+Topic: Types of Buses used in CPU
+
+31
+Which type of bus is primarily responsible for specifying the location of data in memory or an I/O device?
+a) Data Bus
+b) Control Bus
+c) Address Bus
+d) System Bus
+32
+In a CPU's internal architecture, what is the main purpose of the Data Bus?
+a) To carry timing and control signals for operations.
+b) To transfer instructions and data between the CPU and memory.
+c) To specify the memory location or I/O port for data transfer.
+d) To manage the flow of power to different CPU components.
+33
+The Intel 8086 processor had a 20-bit address bus. What was the maximum physical memory it could directly address?
+a) 64 KB
+b) 1 MB
+c) 4 GB
+d) 16 MB
+34
+Which component of the CPU's internal bus structure is used by the Program Counter (PC) to send the address of the next instruction to memory?
+a) Data Bus
+b) Address Bus
+c) Control Bus
+d) I/O Bus
+35
+A "Read" signal is typically found on which type of bus, indicating that the CPU wants to fetch data from a peripheral or memory?
+a) Address Bus
+b) Data Bus
+c) Control Bus
+d) Expansion Bus
+36
+What is a significant advantage of a dedicated bus system over a shared bus system for specific, high-bandwidth peripherals?
+a) Lower cost and simpler design
+b) Reduced wiring complexity
+c) Elimination of bus arbitration logic
+d) Higher potential for simultaneous data transfers and reduced contention
+37
+How does the width of the Data Bus directly affect the CPU's performance?
+a) It determines the maximum memory capacity the CPU can access.
+b) It dictates the number of bits that can be transferred simultaneously in a single operation.
+c) It controls the clock speed of the processor.
+d) It specifies the number of I/O devices that can be connected.
+38
+Considering the evolution from Intel 4004 to modern Intel i7 processors, what characteristic of buses has generally seen a significant increase to support greater computational power?
+a) Only the physical length of the buses.
+b) The voltage levels used for signaling.
+c) Both data bus width and clock frequency.
+d) The number of dedicated I/O buses.
+39
+Which pair of CPU registers primarily interact with the Data Bus for their main function?
+a) Program Counter (PC) and Address Register (AR)
+b) Instruction Register (IR) and Memory Buffer Register (MBR)
+c) Memory Address Register (MAR) and Accumulator (AC)
+d) Accumulator (AC) and Program Counter (PC)
+40
+In a parallel bus, how are multiple bits of data transferred?
+a) One bit at a time, sequentially over a single line.
+b) Simultaneously over multiple, dedicated lines.
+c) Encoded and multiplexed onto a single line.
+d) Using wireless transmission protocols.
+41
+A serial bus, such as USB, typically offers which primary advantage over a parallel bus for external peripherals?
+a) Much higher overall bandwidth for internal CPU operations.
+b) Greater signal integrity over longer distances and fewer pins/wires.
+c) Simpler and faster internal CPU-memory communication.
+d) Reduced need for complex protocol management.
+42
+The Control Unit (CU) primarily utilizes which type of bus to send signals that synchronize operations and manage data flow within the CPU and to memory/I/O?
+a) Data Bus
+b) Address Bus
+c) Control Bus
+d) External Bus
+43
+When the CPU needs to write data to a specific memory location, which sequence correctly identifies the buses involved and their primary function?
+a) Address Bus (location), Control Bus (write signal), Data Bus (data).
+b) Data Bus (location), Address Bus (write signal), Control Bus (data).
+c) Control Bus (location), Data Bus (write signal), Address Bus (data).
+d) Address Bus (data), Data Bus (location), Control Bus (write signal).
+44
+The Memory Address Register (MAR) primarily holds the address of the memory location to be accessed. To which internal CPU bus is the MAR directly connected to output this address?
+a) Data Bus
+b) Control Bus
+c) Address Bus
+d) Internal System Bus
+45
+What is a disadvantage of a wide parallel bus, especially when considering clock speeds increase?
+a) Reduced bandwidth due to signal interference.
+b) Increased latency for data transmission.
+c) Clock skew and electromagnetic interference (EMI) issues over longer distances.
+d) Simpler implementation requiring fewer traces on the PCB.
+
+
+Topic: Common / Shared Bus v/sDedicated Bus
+
+31. Which of the following is a primary disadvantage of a common/shared bus architecture compared to a dedicated bus architecture?
+(a) Higher manufacturing cost
+(b) Increased potential for bus contention
+(c) Slower clock speeds
+(d) Inability to connect multiple devices
+32. A dedicated bus typically offers higher performance primarily because:
+(a) It requires less complex bus arbitration logic
+(b) It can operate at a lower clock frequency
+(c) It allows simultaneous transfers between specific pairs of devices
+(d) It has a smaller physical footprint
+33. In the context of CPU buses, the Address Bus is generally considered to be:
+(a) Bidirectional
+(b) Unidirectional
+(c) Multiplexed for both data and address
+(d) A serial bus
+34. Which statement accurately describes a characteristic of the Data Bus?
+(a) It only carries instructions from memory to the CPU.
+(b) Its width determines the maximum amount of RAM the system can address.
+(c) It is typically bidirectional, allowing data flow in both directions.
+(d) It is primarily used by the Control Unit to send command signals.
+35. The main function of the Control Bus in a computer system is to:
+(a) Transport actual data and instructions between components.
+(b) Specify the memory locations for read/write operations.
+(c) Carry timing and synchronization signals to coordinate operations.
+(d) Provide power supply to various components.
+36. Increasing the width of the data bus in a processor architecture primarily leads to:
+(a) A reduction in the overall number of accessible memory locations.
+(b) Slower memory access times due to increased latency.
+(c) An increase in the amount of data transferred per bus cycle.
+(d) Simplification of the CPU's internal register structure.
+37. Consider a scenario where a high-performance graphics card requires constant, high-bandwidth access to main system memory. Which bus architecture would be most beneficial for this specific connection to avoid bottlenecks?
+(a) A common, shared system bus
+(b) A multiplexed address/data bus
+(c) A dedicated point-to-point bus
+(d) A serial peripheral bus with limited bandwidth
+38. Bus contention is a problem that primarily arises in:
+(a) Dedicated bus architectures, due to direct connections.
+(b) Systems where the data bus is significantly wider than the address bus.
+(c) Shared bus architectures, when multiple devices attempt to use the bus concurrently.
+(d) Serial bus designs that require high clock frequencies.
+39. In the CPU, the Memory Address Register (MAR) is directly responsible for holding the address that will be placed onto the:
+(a) Data bus
+(b) Control bus
+(c) Address bus
+(d) I/O bus
+40. The Memory Buffer Register (MBR), also known as the Memory Data Register (MDR), serves the purpose of:
+(a) Storing the next instruction to be executed.
+(b) Temporarily holding data read from or written to memory.
+(c) Keeping track of the program execution flow.
+(d) Generating the control signals for bus operations.
+41. Which basic CPU component is primarily responsible for generating the signals that manage data flow over the buses and coordinate operations of all other CPU parts?
+(a) Arithmetic Logic Unit (ALU)
+(b) Memory Unit (MU)
+(c) Control Unit (CU)
+(d) Accumulator (AC)
+42. Compared to a parallel bus, a serial bus typically offers:
+(a) Higher data throughput for the same number of physical wires.
+(b) Greater susceptibility to signal degradation over long distances.
+(c) More complex cabling due to multiple data lines.
+(d) Significantly higher clock speeds for individual data bits.
+43. The evolution of Intel processors from the 4-bit 4004 to modern i7 processors has seen significant increases in both bus width and operating frequency. This advancement primarily aims to:
+(a) Reduce the physical size and power consumption of the CPU package.
+(b) Enhance the CPU's ability to process more data and access memory faster.
+(c) Simplify the overall internal architecture of the processor.
+(d) Limit the number of external peripheral devices that can be connected.
+44. A common/shared bus architecture, despite its potential for contention, remains a cost-effective choice for many systems due to:
+(a) Its inherent ability to guarantee high-speed, dedicated transfers.
+(b) The reduced complexity and fewer physical connections required in its design.
+(c) Its superior error-correction capabilities compared to dedicated buses.
+(d) The ability to operate without any bus arbitration logic.
+45. Modern bus technologies like PCI Express (PCIe) utilize dedicated point-to-point serial lanes for each connected device. This design strategy primarily aims to:
+(a) Reduce the overall number of address lines required for system communication.
+(b) Allow multiple devices to share a single high-speed data path efficiently.
+(c) Maximize the individual throughput for each connected device by eliminating sharing.
+(d) Lower the manufacturing cost of motherboards by reducing routing complexity.
+
+
+Topic: Serial Bus v/s Parallel Bus
+
+Section: Multiple Choice Questions
+46. Which of the following is a primary advantage of a parallel bus over a serial bus for short-distance, high-bandwidth communication within a CPU?
+a) Reduced electromagnetic interference
+b) Simpler cabling and fewer pins
+c) Higher data transfer rate per clock cycle
+d) Greater immunity to clock skew
+47. The Intel 4004 processor, a 4-bit CPU, primarily utilized what type of bus architecture internally for data transfer between its components?
+a) Serial bus
+b) Parallel bus
+c) Hybrid bus
+d) Optical bus
+48. Clock skew becomes a significant challenge for parallel buses primarily at which condition?
+a) Very low clock frequencies
+b) Short bus lengths
+c) High clock frequencies and long bus lengths
+d) When data lines are multiplexed
+49. Which statement accurately describes a characteristic of serial buses compared to parallel buses?
+a) They require more physical wires.
+b) They are more susceptible to electromagnetic interference.
+c) They generally have higher bandwidth over long distances.
+d) They suffer more from clock skew issues at high speeds.
+50. In the context of the CPU's internal architecture, the ALU (Arithmetic Logic Unit) typically communicates with various registers (like the Accumulator or Data Register) via what kind of bus?
+a) A dedicated serial bus
+b) A wide parallel data bus
+c) A fiber optic bus
+d) A wireless bus
+51. The Address Register (AR) and Program Counter (PC) primarily utilize which type of bus to send addresses to memory?
+a) Data Bus
+b) Control Bus
+c) Address Bus
+d) Serial Bus Interface
+52. Modern high-speed interconnects like PCI Express (PCIe) and USB are examples of which type of bus architecture, designed to overcome limitations of older designs?
+a) Dedicated parallel bus
+b) Shared parallel bus
+c) Serial bus
+d) Synchronous parallel bus
+53. A computer system employs a common/shared bus architecture. If multiple devices attempt to transmit data simultaneously, which component is primarily responsible for resolving these conflicts?
+a) The ALU
+b) The Control Unit
+c) The Memory Buffer Register
+d) The Instruction Register
+54. The data bus width of the Intel 8086 processor was 16 bits. This represents a significant evolution from the 4-bit Intel 4004 in terms of:
+a) Reduction in power consumption
+b) Increased clock speed capabilities
+c) Higher data throughput per clock cycle
+d) Simpler instruction set architecture
+55. Which bus type typically has lower power consumption and fewer signal integrity issues over long distances due to fewer active traces and reduced cross-talk?
+a) Parallel bus
+b) Synchronous bus
+c) Asynchronous bus
+d) Serial bus
+56. When the CPU fetches an instruction, the Instruction Register (IR) receives the instruction code from the:
+a) Address Bus via the MAR
+b) Data Bus via the MBR
+c) Control Bus directly
+d) Program Counter directly
+57. The primary reason for the shift towards serial bus technologies (like SATA replacing PATA) in external peripheral connections is:
+a) The need for extremely wide bus widths.
+b) Improved performance due to higher clock rates and reduced pin count.
+c) Increased susceptibility to noise.
+d) Simpler addressing schemes for peripherals.
+58. Which register holds the address of the next instruction to be fetched from memory?
+a) Accumulator (AC)
+b) Data Register (DR)
+c) Program Counter (PC)
+d) Instruction Register (IR)
+59. A dedicated bus, in contrast to a common/shared bus, offers:
+a) Higher potential for bus contention.
+b) Simpler hardware implementation.
+c) Improved performance due to dedicated pathways.
+d) Greater flexibility in adding new devices.
+60. The Memory Buffer Register (MBR) is primarily used for:
+a) Storing the address of the next instruction.
+b) Holding the memory address for data access.
+c) Temporarily storing data or instructions read from or written to memory.
+d) Performing arithmetic and logical operations.
+
+

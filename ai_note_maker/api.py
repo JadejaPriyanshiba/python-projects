@@ -197,22 +197,25 @@ Only output the questions followed by the answer key. No extra explanations.
         "answers": answers
     }
 
-
-subject = "Entrepreneurship & Start-ups"
-title = "Business Ideas and their implementation (Idea to Start-up)"
-length = "180 lines"
+subject = "Computer Organization And Architecture"
+title = "8085 Assembly Language Programming"
+length = "150 lines"
 maturity = "computer engineering diploma student"
-extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points (to the point)"
 complexity = "from the basics and essential complexity for theoretical knowledge too"
 wantGemini = True
-preDefineTopics = """Discovering ideas and visualizing the business with Activity map ( subtopics: Idea Generation And Product Identification ),,
-Business Plan- The Marketing Plan and Financial Plan/ Sources of Capital,,
-Business opportunity identification and evaluation,,
-Market research ( subtopics: Questionnaire design, Sampling, Market survey, Data analysis & interpretation)
-Marketing Mix (4Ps- product,price, promotion place) (subtopics: Identifying the target market, Competition evaluation and Strategy adoption, Market Segmentation, Marketing, Advertising and Branding, Digital Marketing, B2B, E-commerce and GeM ),
-Product Terms- PLC, Mortality Curve and New product Development Steps, Inventory, Supply Chain Management,,
-Importance and concept of Innovation, Sources and Process,,
-Risk analysis and mitigation by SWOT Analysis"""
+preDefineTopics = """Instruction format opcode & Operands,,
+Machine Language Instruction Format: 1-Byte, 2-Byte & 3-Byte,,
+8085 Addressing Modes,,
+Data transfer Instructions,,
+Arithmetical Instructions,,
+Logical Instructions,,
+Branching & Looping Instructions,,
+Stack Instructions,,
+I/O and Machine ControlInstructions,,
+Classification of 8085 Interrupts and its priorities,,
+8085 Vectored interrupts: TRAP, RST7.5, RST 6.5, RST 5.5 and RST Instruction,,
+8085 Non-Vectored Interrupts: INTR"""
 
 if __name__ == "__main__":
 

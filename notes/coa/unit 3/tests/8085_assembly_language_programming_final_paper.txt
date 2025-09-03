@@ -1,0 +1,1277 @@
+FINAL QUESTION PAPER
+
+1. 73. Which of the following is an invalid 8085 arithmetic instruction?
+(a) SUB M
+(b) ADC 05H
+(c) ADD 20H
+(d) DAD SP
+
+2. 63. Which 8085 instruction performs an arithmetic addition along with the current status of the Carry flag?
+(a) ADD R
+(b) SUB R
+(c) ADC R
+(d) SBB R
+
+3. 89. Which of the following is NOT an 8085 logical instruction?
+a) ANA R
+b) ORA M
+c) SUB R
+d) XRI data
+
+4. 159. What happens immediately after a maskable interrupt (like RST 6.5) is acknowledged by the 8085 CPU?
+(a) The EI instruction is automatically executed.
+(b) The DI instruction is automatically executed.
+(c) The TRAP interrupt is enabled.
+(d) The microprocessor halts.
+
+5. 143. What is the priority order of maskable interrupts from highest to lowest in 8085?
+(a) RST 7.5, RST 6.5, RST 5.5
+(b) RST 5.5, RST 6.5, RST 7.5
+(c) RST 6.5, RST 7.5, RST 5.5
+(d) RST 7.5, RST 5.5, RST 6.5
+
+6. 79. Which 8085 instruction complements the contents of the Accumulator?
+a) CMC
+b) STC
+c) CMA
+d) CMP R
+
+7. 150. Which pin on the 8085 microprocessor is specifically used for the INTR interrupt request?
+(a) TRAP
+(b) SID
+(c) INTR
+(d) SDO
+
+8. 157. Which instruction is used to enable or disable the maskable vectored interrupts (RST 7.5, RST 6.5, RST 5.5) in 8085?
+(a) EI (Enable Interrupt)
+(b) DI (Disable Interrupt)
+(c) SIM (Set Interrupt Mask)
+(d) RIM (Read Interrupt Mask)
+
+9. 15. In the machine code representation of an 8085 instruction, the opcode is always located at:
+a) The last byte of the instruction
+b) The first byte of the instruction
+c) The middle byte of a 3-byte instruction
+d) It can be anywhere within the instruction bytes
+
+10. 46. Which of the following 8085 instructions copies data from a source register to a destination register without affecting any flags?
+(a) MOV B, A
+(b) ADD B
+(c) SUB C
+(d) CMP D
+
+11. 174. If the INTR line is held high and the interrupt enable flip-flop is set, when does the 8085 actually acknowledge the interrupt?
+a) Immediately upon the rising edge of INTR.
+b) Only after the current instruction completes its execution.
+c) During the next I/O Read operation.
+d) Only if the TRAP interrupt is not active.
+
+12. 137. The highest priority interrupt in the 8085 microprocessor is:
+(a) RST 7.5
+(b) INTR
+(c) RST 5.5
+(d) TRAP
+
+13. 179. Consider a scenario where an external device connected to the INTR pin requires multiple interrupt sources. Which common peripheral chip is designed to manage these sources and provide the appropriate RST instruction to the 8085?
+a) 8255 Programmable Peripheral Interface
+b) 8259 Programmable Interrupt Controller
+c) 8253 Programmable Interval Timer
+d) 8279 Keyboard/Display Controller
+
+14. 7.  Which 8085 instruction format allows operations directly between registers without requiring additional bytes for operands?
+a) 1-byte instruction
+b) 2-byte instruction
+c) 3-byte instruction
+d) Both 2-byte and 3-byte instructions
+
+15. 33.  The 8085 instruction LDA 5000H loads the accumulator with the content of memory location 5000H. What is the addressing mode for the operand 5000H?
+(a) Immediate Addressing Mode
+(b) Register Addressing Mode
+(c) Direct Addressing Mode
+(d) Register Indirect Addressing Mode
+
+16. 119. If the Stack Pointer (SP) contains 10F8H and the memory location 10F8H contains 55H, and 10F9H contains AAН, what will be the content of the DE register pair and the new SP value after executing POP D?
+(a) D = AAН, E = 55H, SP = 10FAH
+(b) D = 55H, E = AAН, SP = 10FAH
+(c) D = AAН, E = 55H, SP = 10F6H
+(d) D = 55H, E = AAН, SP = 10F6H
+
+17. 74. If the Accumulator contains 05H, what is the value in A after executing "SUI 10H"? (Assume two's complement subtraction).
+(a) F5H
+(b) 05H
+(c) EFH
+(d) 0FH
+
+18. 54. If the Stack Pointer (SP) contains 2000H before a POP D instruction, what will be the content of SP after the instruction execution?
+(a) 1FFFH
+(b) 2001H
+(c) 2002H
+(d) 1FFEH
+
+19. 3.  Which of the following 8085 instructions is an example of a 1-byte instruction?
+a) MVI A, 30H
+b) JMP 2000H
+c) ADD B
+d) LXI H, 4000H
+
+20. 171. Which of the following hardware interrupts has the lowest priority in the 8085 microprocessor's interrupt structure?
+a) TRAP
+b) RST 7.5
+c) RST 6.5
+d) INTR
+
+21. 78. When an 8085 logical instruction like ANA, ORA, or XRA is executed, which flag is typically reset to 0, regardless of the operation's outcome?
+a) Zero Flag (ZF)
+b) Carry Flag (CF)
+c) Sign Flag (SF)
+d) Parity Flag (PF)
+
+22. 133. In 8085 I/O instructions (IN and OUT), the only register involved in data transfer with the I/O port is the:
+(a) B register
+(b) C register
+(c) Accumulator
+(d) H register
+
+23. 37.  Which of the following 8085 instructions primarily uses the Implied or Implicit Addressing Mode?
+(a) CMA (Complement Accumulator)
+(b) MVI A, 20H
+(c) LDA 2000H
+(d) MOV A, B
+
+24. 29. What is the primary purpose of the RST n instruction in 8085?
+(a) To reset the microprocessor to its initial state.
+(b) To restart program execution at a fixed memory location corresponding to n.
+(c) To load the program counter with an arbitrary 16-bit value.
+(d) To set a specific flag in the flag register.
+
+25. 149. In the 8085, if the DI instruction is executed, which of the following interrupts remains unaffected and can still interrupt the CPU?
+(a) RST 7.5
+(b) RST 6.5
+(c) TRAP
+(d) INTR
+
+26. 105. The 8085 microprocessor's RST 7.5 instruction, when executed, forces the program control to transfer to the memory address
+(a) 003CH
+(b) 0038H
+(c) 002CH
+(d) 0024H
+
+27. 92. The JMP instruction in 8085 is a
+(a) 1-byte instruction
+(b) 2-byte instruction
+(c) 3-byte instruction
+(d) 4-byte instruction
+
+28. 12. A Branch instruction like "CALL 4000H" requires a specific memory address as its operand. How many bytes does this address typically occupy within the instruction?
+a) 1 byte
+b) 2 bytes
+c) 3 bytes
+d) 4 bytes
+
+29. 6.  In a 2-byte 8085 instruction with immediate addressing, the second byte typically contains:
+a) A 16-bit memory address
+b) An 8-bit data value
+c) A register code
+d) An interrupt vector address
+
+30. 120. Which of the following 8085 instructions implicitly uses the stack to save the Program Counter as part of its operation, especially when used in an interrupt service routine context?
+(a) JMP address
+(b) MOV R1, R2
+(c) RST n (Restart instruction)
+(d) IN port
+
+31. 110. The PUSH PSW instruction saves the contents of which two components onto the stack in the 8085 microprocessor?
+(a) Accumulator and B register
+(b) Program Counter and Stack Pointer
+(c) Accumulator and Flag register
+(d) HL register pair
+
+32. 53. When a PUSH B instruction is executed in 8085, which register pair's content is decremented and then stored onto the stack?
+(a) HL pair
+(b) DE pair
+(c) BC pair
+(d) SP (Stack Pointer)
+
+33. 51. Consider the instruction LHLD 4000H. If memory location 4000H contains 77H and 4001H contains 88H, what will be the contents of the H and L registers after execution?
+(a) H = 77H, L = 88H
+(b) H = 88H, L = 77H
+(c) H = 40H, L = 00H
+(d) H = 77H, L = 77H
+
+34. 161. Consider the following interrupt service routines (ISRs): ISR_TRAP at 0024H, ISR_RST7.5 at 003CH, ISR_RST6.5 at 0034H. If TRAP and RST 7.5 interrupt requests are simultaneously asserted, which ISR will be executed first?
+(a) ISR_RST7.5
+(b) ISR_TRAP
+(c) Both simultaneously
+(d) It depends on the RIM instruction settings.
+
+35. 107. When a PUSH B instruction is executed in the 8085 microprocessor, how does the Stack Pointer (SP) register change?
+(a) SP is incremented by 1
+(b) SP is decremented by 1
+(c) SP is incremented by 2
+(d) SP is decremented by 2
+
+36. 98. RST (Restart) instructions in 8085 are special types of CALL instructions that are primarily used for
+(a) unconditional program jumps
+(b) data transfer between registers
+(c) servicing interrupts
+(d) performing arithmetic operations
+
+37. 19. The instruction LXI H, 4000H uses which addressing mode and occupies how many bytes?
+(a) Immediate, 2 bytes
+(b) Direct, 3 bytes
+(c) Immediate, 3 bytes
+(d) Register, 2 bytes
+
+38. 95. In a typical 8085 software loop, which instruction is commonly used to decrement a counter before checking if the loop should terminate?
+(a) INR R
+(b) DCR R
+(c) ADD R
+(d) SUB R
+
+39. 140. To enable all maskable interrupts in the 8085, which instruction is used?
+(a) DI
+(b) EI
+(c) SIM
+(d) RIM
+
+40. 91. Which of the following is a conditional jump instruction in 8085?
+(a) JMP
+(b) JNZ
+(c) MOV
+(d) LDA
+
+41. 102. An unconditional RET instruction when executed causes the 8085 microprocessor to
+(a) push the current PC value onto the stack
+(b) load the next instruction from address 0000H
+(c) pop the top two bytes from the stack into the Program Counter
+(d) reset all internal registers to zero
+
+42. 117. Consider the following sequence of instructions in an 8085 program:
+LXI SP, 20FFH
+MVI A, 10H
+PUSH B (Assume BC=2233H initially)
+PUSH D (Assume DE=4455H initially)
+POP H
+What will be the content of the H and L registers after the execution of these instructions?
+(a) H = 44H, L = 55H
+(b) H = 22H, L = 33H
+(c) H = 10H, L = 20H
+(d) H = 55H, L = 44H
+
+43. 42.  What is a primary advantage of using Register Addressing Mode in 8085 assembly programming?
+(a) It allows access to any memory location.
+(b) It supports large data values as operands.
+(c) It results in faster execution speed due to no memory access.
+(d) It requires fewer instructions to perform complex tasks.
+
+44. 153. The RST 7.5 interrupt is uniquely characterized by its triggering mechanism. How is it triggered?
+(a) Level-triggered only
+(b) Edge-triggered only (rising edge)
+(c) Both level and edge-triggered
+(d) Software instruction only
+
+45. 118. If the Stack Pointer (SP) contains 2000H, after executing PUSH B (where BC = 1234H), what will be the new content of SP and the data stored at memory locations 1FFFH and 1FFEН?
+(a) SP = 2002H, M(1FFFH) = 34H, M(1FFEН) = 12H
+(b) SP = 1FFEН, M(1FFFH) = 12H, M(1FFEН) = 34H
+(c) SP = 1FFEН, M(1FFFH) = 34H, M(1FFEН) = 12H
+(d) SP = 2002H, M(1FFFH) = 12H, M(1FFEН) = 34H
+
+46. 170. What happens to the Program Counter (PC) when an INTR interrupt is acknowledged and an RST n instruction is supplied by external hardware?
+a) The PC is loaded with 0000H.
+b) The current PC value is pushed onto the stack, and the PC is loaded with 8 * n.
+c) The PC is incremented by 1, and then execution continues.
+d) The PC is loaded with the address of the next instruction.
+
+47. 17. An instruction like MVI A, 45H in the 8085 Microprocessor occupies how many bytes in memory?
+(a) 1 byte
+(b) 2 bytes
+(c) 3 bytes
+(d) 4 bytes
+
+48. 114. In the 8085 microprocessor, in which direction does the stack grow when data is pushed onto it?
+(a) Towards higher memory addresses
+(b) Towards lower memory addresses
+(c) Statically, without changing address
+(d) Randomly, depending on the data type
+
+49. 9.  The instruction "MOV C, A" is a 1-byte instruction. Which addressing mode is primarily used here for the operands?
+a) Immediate addressing
+b) Direct addressing
+c) Register addressing
+d) Implied addressing
+
+50. 55. The IN 05H instruction is used to read data from input port 05H. Where is the read data stored in the 8085 microprocessor?
+(a) H register
+(b) L register
+(c) Accumulator
+(d) Any general purpose register
+
+51. 26. The IN 20H instruction in 8085 is used for what purpose?
+(a) Inputting 20H as data into the accumulator.
+(b) Reading data from input port 20H into the accumulator.
+(c) Incrementing the accumulator by 20H.
+(d) Storing 20H at the memory location specified by HL.
+
+52. 156. If an RST 5.5 interrupt occurs, the program control is transferred to which vector address?
+(a) 002CH
+(b) 003CH
+(c) 0034H
+(d) 0024H
+
+53. 20. In the 8085 instruction ADI 05H, what does "ADI" primarily represent?
+(a) An operand
+(b) An opcode
+(c) An address
+(d) A register
+
+54. 83. If the Accumulator contains 01010101B (55H) and register B contains 10101010B (AAH), what will be the content of the Accumulator after executing ORA B?
+a) 00H
+b) FFH
+c) 55H
+d) AAH
+
+55. 62. After executing the instruction "ADI 05H" with the Accumulator initially containing 0BH, what will be the state of the Carry flag?
+(a) Set to 1
+(b) Reset to 0
+(c) Undefined
+(d) Depends on the Program Counter
+
+56. 81. The RLC instruction in 8085 rotates the Accumulator contents one bit to the left. What happens to the bit shifted out from the most significant bit (MSB)?
+a) It is lost.
+b) It is copied into the Least Significant Bit (LSB) position only.
+c) It is copied into the Carry Flag only.
+d) It is copied into both the LSB position and the Carry Flag.
+
+57. 109. Which of the following register pairs cannot be directly used with the PUSH or POP instructions in the 8085 microprocessor?
+(a) BC
+(b) DE
+(c) HL
+(d) SP
+
+58. 41.  The addressing mode where the opcode itself implicitly specifies the operand or its location without requiring additional address or data bytes is known as:
+(a) Implied Addressing Mode
+(b) Relative Addressing Mode
+(c) Indexed Addressing Mode
+(d) Base Register Addressing Mode
+
+59. 31.  Which addressing mode is used by the instruction MVI A, 45H in 8085 microprocessor?
+(a) Immediate Addressing Mode
+(b) Register Addressing Mode
+(c) Direct Addressing Mode
+(d) Register Indirect Addressing Mode
+
+60. 164. The RST 6.5 interrupt is a:
+(a) Software interrupt
+(b) Hardware interrupt, maskable and level-triggered
+(c) Hardware interrupt, non-maskable and edge-triggered
+(d) Hardware interrupt, maskable and edge-triggered
+
+61. 144. Which 8085 interrupt has a "flip-flop" that can remember a pending request even if the interrupt is currently masked?
+(a) TRAP
+(b) RST 6.5
+(c) RST 7.5
+(d) INTR
+
+62. 108. After a POP D instruction is executed in the 8085 microprocessor, how does the Stack Pointer (SP) register change?
+(a) SP is incremented by 1
+(b) SP is decremented by 1
+(c) SP is incremented by 2
+(d) SP is decremented by 2
+
+63. 18. Which 8085 instruction format typically includes a 16-bit operand as part of its machine code?
+(a) 1-byte instruction
+(b) 2-byte instruction
+(c) 3-byte instruction
+(d) All of the above
+
+64. 94. What is the primary difference between a JMP instruction and a CALL instruction in 8085?
+(a) JMP allows conditional execution, while CALL is always unconditional.
+(b) CALL saves the return address on the stack, while JMP does not.
+(c) JMP is used for inter-segment jumps, while CALL is for intra-segment.
+(d) CALL can only be used with register addressing, JMP with direct addressing.
+
+65. 88. If the Accumulator contains 88H and the instruction CMP B is executed where register B contains 88H, what will be the state of the Zero Flag (ZF) and Carry Flag (CF)?
+a) ZF = 1, CF = 0
+b) ZF = 0, CF = 1
+c) ZF = 1, CF = 1
+d) ZF = 0, CF = 0
+
+66. 50. The STA 3000H instruction transfers the content of the Accumulator to memory location 3000H. How many bytes does this instruction occupy in memory?
+(a) 1 byte
+(b) 2 bytes
+(c) 3 bytes
+(d) 4 bytes
+
+67. 70. If the HL register pair contains 1000H and the BC register pair contains 0100H, what will be the content of HL after executing "DAD B"?
+(a) 1000H
+(b) 0100H
+(c) 1100H
+(d) 0000H
+
+68. 113. What is the primary function of the RET instruction in the 8085 microprocessor?
+(a) It transfers program control to a new address specified by the instruction.
+(b) It increments the Program Counter by 1.
+(c) It retrieves the return address from the stack and loads it into the Program Counter.
+(d) It pushes the current Program Counter onto the stack.
+
+69. 58. Which of the following instructions is NOT primarily classified as a data transfer instruction in 8085?
+(a) MOV B, C
+(b) MVI A, 10H
+(c) ADC B
+(d) LXI H, 1234H
+
+70. 32.  The instruction MOV B, C in 8085 transfers data from register C to register B. This operation uses which of the following addressing modes?
+(a) Immediate Addressing Mode
+(b) Register Addressing Mode
+(c) Direct Addressing Mode
+(d) Implied Addressing Mode
+
+71. 65. The instruction "SUI 20H" uses which of the following addressing modes for its operand?
+(a) Register Addressing
+(b) Direct Addressing
+(c) Immediate Addressing
+(d) Implied Addressing
+
+72. 34.  In the 8085 instruction MOV A, M, the operand 'M' refers to the memory location pointed to by the HL register pair. This is an example of which addressing mode?
+(a) Immediate Addressing Mode
+(b) Direct Addressing Mode
+(c) Implied Addressing Mode
+(d) Register Indirect Addressing Mode
+
+73. 152. What is the vector address for the TRAP interrupt in the 8085 microprocessor?
+(a) 003CH
+(b) 0024H
+(c) 0008H
+(d) 0034H
+
+74. 93. When a CALL instruction is executed, the return address is pushed onto the stack. This return address is the address of the
+(a) next instruction after CALL
+(b) CALL instruction itself
+(c) target address of the subroutine
+(d) previous instruction before CALL
+
+75. 61. What is the primary function of the "ADD R" instruction in 8085 assembly language?
+(a) Adds the content of register R to the Stack Pointer.
+(b) Adds the content of register R to the Accumulator.
+(c) Adds the content of register R to the Program Counter.
+(d) Adds the content of register R to the HL register pair.
+
+76. 68. Which of the following instructions does NOT affect the Carry flag after its execution?
+(a) INR B
+(b) ADD C
+(c) ADI 0FH
+(d) SBB D
+
+77. 44.  Consider the instruction LHLD 4000H. The 16-bit address 4000H specified in the instruction uses which addressing mode?
+(a) Direct Addressing Mode
+(b) Immediate Addressing Mode
+(c) Register Addressing Mode
+(d) Register Indirect Addressing Mode
+
+78. 21. Which of the following 8085 instructions is categorized as a data transfer instruction?
+(a) ADD B
+(b) ORA C
+(c) STA 2500H
+(d) INX H
+
+79. 126. To enable the interrupt system of the 8085 microprocessor, which of the following instructions must be executed?
+(a) DI
+(b) EI
+(c) SIM
+(d) RIM
+
+80. 135. After executing a RIM instruction, if the value in the accumulator is 4CH, what does this indicate regarding the interrupt masks and pending interrupts?
+(a) RST 7.5 is masked, and RST 6.5 is pending
+(b) RST 5.5 is masked, and RST 7.5 is pending
+(c) RST 7.5 is pending, and RST 6.5 is masked
+(d) RST 7.5 is pending, and RST 7.5 is masked
+
+81. 175. What effect does the DI (Disable Interrupt) instruction have on the INTR interrupt?
+a) It permanently disables INTR until a hardware reset.
+b) It prevents the 8085 from checking the INTR pin for requests.
+c) It resets the INTR pin to a low state.
+d) It masks INTR until an EI instruction is executed.
+
+82. 163. Which of the following 8085 interrupts can be used for a critical application like power failure detection, due to its non-maskable and highest priority characteristics?
+(a) RST 5.5
+(b) INTR
+(c) RST 7.5
+(d) TRAP
+
+83. 100. A primary purpose of implementing looping constructs in assembly language programming is to
+(a) increase the size of the program code
+(b) execute a block of code repeatedly
+(c) eliminate the need for data transfer instructions
+(d) directly access I/O ports without specific instructions
+
+84. 64. If the Accumulator (A) contains 80H and register B contains 80H, what will be the content of A and the state of the Zero flag after executing "ADD B"?
+(a) A = 00H, Zero flag = 1
+(b) A = 00H, Zero flag = 0
+(c) A = F0H, Zero flag = 0
+(d) A = 80H, Zero flag = 0
+
+85. 66. Which instruction is used to perform 16-bit addition of the contents of two register pairs in 8085?
+(a) DAD B
+(b) ADD BC
+(c) SUM HL, DE
+(d) ADC DE
+
+86. 147. When an interrupt occurs, what does the 8085 microprocessor typically do before executing the Interrupt Service Routine (ISR)?
+(a) Saves the contents of all general purpose registers.
+(b) Pushes the Program Counter (PC) onto the stack.
+(c) Clears the Accumulator.
+(d) Resets all interrupt flags to zero.
+
+87. 38.  If an 8085 instruction like LXI D, 8000H is executed, which addressing mode is used for the operand 8000H (the 16-bit data to be loaded into the DE pair)?
+(a) Direct Addressing Mode
+(b) Immediate Addressing Mode
+(c) Register Addressing Mode
+(d) Register Indirect Addressing Mode
+
+88. 45.  When designing an 8085 assembly program, you would typically choose Direct Addressing Mode over Register Indirect Addressing Mode when:
+(a) The memory address needs to be calculated dynamically during runtime.
+(b) The memory address is fixed and known during program writing.
+(c) Data needs to be accessed from a CPU register.
+(d) The data itself is part of the instruction.
+
+89. 40.  Which of these 8085 instructions does NOT involve memory access for its data operand?
+(a) LDA 2000H
+(b) MOV A, M
+(c) ADD B
+(d) STA 3000H
+
+90. 43.  Which 8085 addressing mode is typically used when the memory address of the data operand is not fixed but is contained within a register pair, allowing for flexible memory access?
+(a) Direct Addressing Mode
+(b) Immediate Addressing Mode
+(c) Implied Addressing Mode
+(d) Register Indirect Addressing Mode
+
+91. 1.  What does the opcode primarily specify in an 8085 instruction?
+a) The data to be operated upon
+b) The operation to be performed
+c) The memory address for data storage
+d) The addressing mode of the instruction
+
+92. 59. The instruction LXI B, 1234H is a 3-byte instruction. The first byte is the opcode, and the subsequent bytes represent the 16-bit immediate data. What addressing mode is used for the 16-bit data?
+(a) Register addressing
+(b) Direct addressing
+(c) Immediate addressing
+(d) Implied addressing
+
+93. 138. Which of the following 8085 interrupts is both edge-triggered and level-triggered?
+(a) TRAP
+(b) RST 7.5
+(c) RST 6.5
+(d) RST 5.5
+
+94. 146. Which of the following interrupts can be selectively masked using the SIM instruction?
+(a) TRAP and INTR
+(b) RST 7.5, RST 6.5, RST 5.5
+(c) All hardware interrupts
+(d) All software interrupts
+
+95. 180. Unlike TRAP, RST 7.5, RST 6.5, and RST 5.5, the INTR interrupt primarily differs in that:
+a) It is non-maskable by software.
+b) It automatically saves all CPU registers on the stack.
+c) Its vector address is not fixed and must be supplied externally.
+d) It has a higher priority than the TRAP interrupt.
+
+96. 165. What is the main advantage of using vectored interrupts (TRAP, RST 7.5, etc.) over the non-vectored INTR interrupt in 8085?
+(a) Vectored interrupts are always non-maskable.
+(b) Vectored interrupts do not require an external device to provide the ISR address.
+(c) Vectored interrupts have lower priority than INTR.
+(d) Vectored interrupts can only be triggered by software.
+
+97. 142. Which of the following is considered a software interrupt in the 8085?
+(a) TRAP
+(b) RST n (where n is 0 to 7)
+(c) INTR
+(d) RST 7.5
+
+98. 75. The instruction "DCX H" decrements the content of the HL register pair by:
+(a) 1 (one)
+(b) 2 (two)
+(c) 8 (eight)
+(d) 16 (sixteen)
+
+99. 4.  An 8085 instruction like "ADI 05H" is a 2-byte instruction. What does the second byte (05H) represent?
+a) The memory address
+b) The opcode extension
+c) An immediate data operand
+d) A register value
+
+100. 122. Which of the following 8085 instructions sends data from the accumulator to an output port?
+(a) IN 20H
+(b) MOV M, A
+(c) OUT 35H
+(d) STA 4000H
+
+101. 141. If the 8085 receives an INTR signal, the interrupting device provides the vector address via the:
+(a) RST instruction
+(b) INTA signal
+(c) A15-A0 lines
+(d) P0-P7 lines
+
+102. 97. The addressing mode primarily used by 8085 JMP and CALL instructions to specify the target address is
+(a) Register addressing
+(b) Immediate addressing
+(c) Direct addressing
+(d) Implied addressing
+
+103. 25. Which 8085 instruction is used to retrieve data from the top of the stack and place it into a specified register pair?
+(a) PUSH PSW
+(b) POP B
+(c) SPHL
+(d) XTHL
+
+104. 173. What is the primary role of external hardware in handling an INTR request?
+a) To mask the interrupt internally.
+b) To disable the CPU temporarily.
+c) To provide the restart vector (RST instruction) to the CPU.
+d) To reset the Program Counter to zero.
+
+105. 139. The default vector address for the RST 6.5 interrupt in the 8085 microprocessor is:
+(a) 0024H
+(b) 002CH
+(c) 0034H
+(d) 003CH
+
+106. 24. A JMP instruction in 8085 is an example of what type of instruction?
+(a) Data transfer
+(b) Arithmetic
+(c) Branching
+(d) Logical
+
+107. 47. The instruction MVI A, 45H will load the accumulator with the hexadecimal value 45. What type of addressing mode does this instruction primarily use for the data '45H'?
+(a) Register addressing
+(b) Direct addressing
+(c) Immediate addressing
+(d) Implied addressing
+
+108. 5.  Consider the 8085 instruction "STA 2500H". What is the format of this instruction in terms of bytes?
+a) 1-byte instruction
+b) 2-byte instruction
+c) 3-byte instruction
+d) 4-byte instruction
+
+109. 127. Which 8085 instruction is used to disable all maskable interrupts?
+(a) EI
+(b) HLT
+(c) DI
+(d) RIM
+
+110. 111. If the stack top contains 8-bit data FCH at memory location 2000H and 8-bit data 34H at memory location 2001H, and a POP H instruction is executed, what will be the content of the H and L registers respectively? (Assume SP = 2000H initially)
+(a) H = 34H, L = FCH
+(b) H = FCH, L = 34H
+(c) H = 34H, L = 34H
+(d) H = FCH, L = FCH
+
+111. 87. To clear a specific bit (e.g., bit 3) in the Accumulator without affecting other bits, which 8085 logical instruction would be most suitable with an appropriate mask?
+a) ORA
+b) XRA
+c) ANA
+d) CMA
+
+112. 145. The instruction used to read the status of interrupt masks and pending interrupts in 8085 is:
+(a) SIM
+(b) RIM
+(c) EI
+(d) DI
+
+113. 151. Which of the following 8085 vectored interrupts is non-maskable?
+(a) RST 7.5
+(b) RST 6.5
+(c) TRAP
+(d) RST 5.5
+
+114. 11. When an 8085 instruction implicitly uses an operand (e.g., the Accumulator in "CMA"), what is the instruction format usually?
+a) 1-byte instruction
+b) 2-byte instruction
+c) 3-byte instruction
+d) Varies significantly, no general rule
+
+115. 101. If a conditional jump instruction's condition is false, what happens immediately after its execution?
+(a) The program halts.
+(b) The instruction immediately following the conditional jump is executed.
+(c) The program jumps to the beginning of the program.
+(d) The stack pointer is decremented.
+
+116. 52. If the HL pair contains 1234H and the instruction SHLD 5000H is executed, what will be stored at memory location 5000H and 5001H respectively?
+(a) 5000H = 12H, 5001H = 34H
+(b) 5000H = 34H, 5001H = 12H
+(c) 5000H = 00H, 5001H = 00H
+(d) 5000H = 50H, 5001H = 00H
+
+117. 176. Which of the following methods is used to provide the specific service routine address for an INTR interrupt?
+a) Hardwiring the address into the 8085 internal memory.
+b) Using the SIM instruction to program the address.
+c) External hardware places an RST (Restart) instruction on the data bus.
+d) The 8085 automatically jumps to the highest memory location.
+
+118. 103. The main architectural reason why a CALL instruction is slower than a JMP instruction (assuming both are 3-byte) is that CALL
+(a) uses more registers internally
+(b) requires an additional fetch cycle for its operand
+(c) involves pushing the Program Counter onto the stack
+(d) checks the status of all flags before execution
+
+119. 49. After the execution of LDA 2050H, if the memory location 2050H contains the value F8H, what will be the content of the Accumulator?
+(a) 20H
+(b) 50H
+(c) F8H
+(d) Unchanged
+
+120. 148. The TRAP interrupt is usually reserved for:
+(a) Routine peripheral I/O operations.
+(b) Catastrophic events like power failure or memory parity error.
+(c) User-defined custom interrupt routines.
+(d) Time-sensitive scheduled tasks.
+
+121. 30. How many bytes does the CALL 4000H instruction occupy in 8085 memory?
+(a) 1 byte
+(b) 2 bytes
+(c) 3 bytes
+(d) 4 bytes
+
+122. 57. Which of the following 8085 data transfer instructions always involves the Accumulator as either a source or destination for memory access?
+(a) MOV M, R
+(b) MOV R, M
+(c) LDA and STA
+(d) LHLD and SHLD
+
+123. 160. Which interrupt signal is considered both edge and level sensitive for it to be recognized, ensuring that a glitch does not cause an unwanted interrupt?
+(a) RST 7.5
+(b) TRAP
+(c) RST 6.5
+(d) RST 5.5
+
+124. 8.  An instruction like "JMP 3000H" is a 3-byte instruction. What do the second and third bytes represent?
+a) An 8-bit data value
+b) The opcode's extended part
+c) A 16-bit memory address
+d) The program counter's current value
+
+125. 116. What should be the first operation performed with the Stack Pointer (SP) register before using stack instructions (like PUSH/POP/CALL/RET) in an 8085 program?
+(a) Increment SP by 2
+(b) Decrement SP by 2
+(c) Initialize SP with a 16-bit memory address
+(d) Load SP with the content of the Program Counter
+
+126. 48. To initialize the HL register pair with the 16-bit address 2500H, which 8085 instruction would be most appropriate?
+(a) MOV H, 25H; MOV L, 00H
+(b) LXI H, 2500H
+(c) LDA 2500H
+(d) PUSH H
+
+127. 96. The conditional jump instruction JC (Jump if Carry) will transfer program control to the specified address if the
+(a) Zero flag is set
+(b) Carry flag is set
+(c) Parity flag is set
+(d) Sign flag is set
+
+128. 39.  Which addressing mode is most suitable when the 8-bit data required for an operation is a constant and known at the time of writing the program?
+(a) Direct Addressing Mode
+(b) Immediate Addressing Mode
+(c) Register Addressing Mode
+(d) Implied Addressing Mode
+
+129. 77. Which of the following 8085 instructions performs a bitwise Exclusive-OR operation between the Accumulator and an 8-bit immediate data?
+a) XRA R
+b) ORI data
+c) XRI data
+d) ANA data
+
+130. 14. What primarily determines whether an 8085 instruction will be 1-byte, 2-byte, or 3-byte long?
+a) The type of addressing mode used for its operands and the size of the operand.
+b) The clock frequency of the 8085 microprocessor.
+c) The availability of general-purpose registers.
+d) The type of interrupt being serviced.
+
+131. 35.  The 8085 instruction "STA 3050H" is a 3-byte instruction. Which addressing mode is primarily responsible for its 3-byte length in this context?
+(a) Register Addressing Mode
+(b) Immediate Addressing Mode
+(c) Direct Addressing Mode
+(d) Register Indirect Addressing Mode
+
+132. 86. What is the main difference between the RLC (Rotate Left) and RAL (Rotate Left through Carry) instructions in 8085?
+a) RLC rotates through 9 bits including Carry, while RAL only rotates 8 bits.
+b) RLC rotates 8 bits, MSB goes to LSB and Carry, while RAL rotates 9 bits including Carry.
+c) RLC operates on a register other than Accumulator, while RAL operates only on Accumulator.
+d) RLC affects all flags, while RAL only affects the Carry flag.
+
+133. 112. When a CALL instruction is executed, the 8085 microprocessor saves the address of the next instruction in sequence onto the stack. This address is typically the:
+(a) Address of the CALL instruction itself
+(b) Address of the instruction immediately following the CALL instruction
+(c) Target address specified by the CALL instruction
+(d) Address of the last instruction in the subroutine
+
+134. 131. The IN and OUT instructions in 8085 typically use which addressing mode?
+(a) Register addressing
+(b) Direct addressing
+(c) Immediate addressing
+(d) I/O Direct addressing
+
+135. 169. Which instruction is used to enable the INTR interrupt in the 8085 microprocessor?
+a) DI (Disable Interrupt)
+b) EI (Enable Interrupt)
+c) SIM (Set Interrupt Mask)
+d) RIM (Read Interrupt Mask)
+
+136. 177. If an interrupt service routine (ISR) for INTR is being executed, and another INTR request arrives, what is the default behavior of the 8085 if the ISR does not explicitly re-enable interrupts?
+a) The new INTR request is serviced immediately, interrupting the current ISR.
+b) The new INTR request is ignored until a TRAP interrupt occurs.
+c) The new INTR request will be pending and serviced only after the current ISR completes and interrupts are re-enabled.
+d) The 8085 enters a halt state until the new INTR is cleared.
+
+137. 154. What is the purpose of the RST (Restart) instruction in 8085 assembly language?
+(a) To reset the microprocessor
+(b) To perform an unconditional jump to a fixed memory location
+(c) To enable or disable interrupts
+(d) To push the program counter onto the stack and then jump to a fixed memory location
+
+138. 16. Which of the following 8085 instructions is an example of a 1-byte instruction?
+(a) MOV A, B
+(b) MVI A, 25H
+(c) LXI H, 2000H
+(d) JMP 3000H
+
+139. 13. The "PUSH B" instruction in 8085 is a 1-byte instruction. Where is the operand (register pair B/C) specified in this instruction's machine code?
+a) As the second byte
+b) As the third byte
+c) Encoded within the opcode byte itself
+d) It's always implied as the Accumulator
+
+140. 166. Which of the following statements correctly describes the nature of the INTR interrupt in the 8085 microprocessor?
+a) It is a non-maskable, vectored interrupt.
+b) It is a maskable, non-vectored interrupt.
+c) It is a non-maskable, non-vectored interrupt.
+d) It is a maskable, vectored interrupt.
+
+141. 90. To toggle (invert) a specific bit (e.g., bit 7) in the Accumulator without affecting other bits, which 8085 logical instruction would be most suitable with an appropriate mask?
+a) ORA
+b) XRA
+c) ANA
+d) RLC
+
+142. 172. The INTR pin on the 8085 microprocessor is internally sampled during the:
+a) T1 state of every machine cycle.
+b) Last T-state of the last machine cycle of every instruction.
+c) Opcode Fetch machine cycle only.
+d) I/O Read machine cycle.
+
+143. 178. Which 8085 instruction is essential at the end of an Interrupt Service Routine (ISR) to return control to the main program and restore the previous PC value?
+a) JMP (Jump)
+b) CALL (Call subroutine)
+c) RET (Return from subroutine)
+d) RST (Restart)
+
+144. 71. Which instruction effectively calculates "Accumulator = Accumulator - 1"?
+(a) SUB 01H
+(b) DCR A
+(c) SUI 01H
+(d) Both (b) and (c)
+
+145. 72. What happens if an "ADD M" instruction is executed when the HL pair contains 2000H and the memory location 2000H contains 50H, and Accumulator contains 10H?
+(a) Accumulator becomes 60H, memory at 2000H becomes 10H.
+(b) Accumulator becomes 60H, memory at 2000H remains 50H.
+(c) Accumulator becomes 50H, memory at 2000H remains 50H.
+(d) The instruction causes an error as M is not a valid operand.
+
+146. 128. The RIM instruction in 8085 is primarily used for which of the following functions?
+(a) Reading data from a specific input port
+(b) Reading the interrupt mask status and serial input data
+(c) Resetting the interrupt masks
+(d) Reading data from memory location
+
+147. 136. Which of the following is a non-maskable interrupt in the 8085 microprocessor?
+(a) RST 7.5
+(b) INTR
+(c) TRAP
+(d) RST 6.5
+
+148. 167. What signal is activated by the 8085 microprocessor to acknowledge an active INTR request?
+a) HOLD
+b) READY
+c) INTA (Interrupt Acknowledge)
+d) ALE (Address Latch Enable)
+
+149. 27. Which of the following is a non-vectored interrupt in the 8085 microprocessor?
+(a) TRAP
+(b) RST 7.5
+(c) RST 5.5
+(d) INTR
+
+150. 155. Which of the following 8085 interrupts has the highest priority?
+(a) RST 7.5
+(b) TRAP
+(c) RST 6.5
+(d) RST 5.5
+
+151. 67. What is the main purpose of the "DAA" (Decimal Adjust Accumulator) instruction in 8085?
+(a) Converts the Accumulator content to ASCII.
+(b) Converts the Accumulator content to Packed BCD after an addition operation.
+(c) Divides the Accumulator content by 10.
+(d) Subtracts 06H from the Accumulator.
+
+152. 115. The PCHL instruction in the 8085 microprocessor effectively performs which of the following operations?
+(a) Pushes the contents of HL onto the stack.
+(b) Pops data from the stack into HL.
+(c) Loads the content of the HL register pair into the Program Counter.
+(d) Loads the content of the Program Counter into the HL register pair.
+
+153. 56. The instruction OUT F0H transfers the content of the Accumulator to output port F0H. Which of the following statements about this instruction is TRUE?
+(a) It affects the Zero flag.
+(b) It is a 2-byte instruction.
+(c) The port address is specified implicitly.
+(d) It is an arithmetic instruction.
+
+154. 10. Which of the following 8085 instructions explicitly requires its operands to be specified within the instruction bytes as immediate data?
+a) ADD B
+b) LDA 2000H
+c) SUI 0FH
+d) PUSH H
+
+155. 82. Which addressing mode is used by the 8085 instruction CMA (Complement Accumulator)?
+a) Register Addressing
+b) Immediate Addressing
+c) Direct Addressing
+d) Implicit (Implied) Addressing
+
+156. 84. Consider the 8085 instruction RAL (Rotate Accumulator Left through Carry). If the Accumulator is 10101010B and the Carry Flag is 1, what will be the new content of the Accumulator and Carry Flag after RAL?
+a) Accumulator = 01010101B, Carry Flag = 0
+b) Accumulator = 01010100B, Carry Flag = 1
+c) Accumulator = 01010101B, Carry Flag = 1
+d) Accumulator = 10101010B, Carry Flag = 1
+
+157. 162. How does an RST instruction (e.g., RST 7) differ from a CALL instruction (e.g., CALL 0038H) in terms of instruction size?
+(a) RST is a 3-byte instruction, while CALL is a 1-byte instruction.
+(b) RST is a 1-byte instruction, while CALL is a 3-byte instruction.
+(c) Both are 1-byte instructions.
+(d) Both are 3-byte instructions.
+
+158. 123. For IN and OUT instructions in 8085, the 8-bit port address is placed in which of the following during execution?
+(a) Accumulator and B register
+(b) Lower and Upper byte of Program Counter
+(c) Lower and Upper byte of Address Bus
+(d) Data Bus
+
+159. 28. The TRAP interrupt in 8085 is generally considered a:
+(a) Maskable interrupt
+(b) Non-maskable interrupt
+(c) Software interrupt
+(d) Polled interrupt
+
+160. 121. The 8085 instruction used to read data from an input port into the accumulator is:
+(a) OUT
+(b) IN
+(c) LDA
+(d) MOV
+
+161. 60. Which of the following statements about the 8085 MOV instruction is true?
+(a) It can directly transfer data from one memory location to another memory location.
+(b) It can directly transfer a 16-bit immediate value to a register pair.
+(c) It affects all the flags (Zero, Carry, Parity, Sign, Auxiliary Carry).
+(d) It supports register to register, register to memory, and memory to register data transfers.
+
+162. 85. How many bytes does the 8085 instruction XRI F0H occupy in memory?
+a) 1 byte
+b) 2 bytes
+c) 3 bytes
+d) 4 bytes
+
+163. 76. What is the primary purpose of the ANA R instruction in 8085?
+a) To perform bitwise OR operation between Accumulator and register R.
+b) To perform bitwise AND operation between Accumulator and register R.
+c) To add the content of register R to the Accumulator.
+d) To compare the content of Accumulator with register R.
+
+164. 2.  In 8085 assembly language, what is an operand?
+a) A code that defines the instruction type
+b) The data or address on which an operation is performed
+c) A special register used for arithmetic operations
+d) A signal that indicates the completion of an instruction
+
+165. 124. What is the primary function of the HLT instruction in 8085 assembly language?
+(a) Halt the execution and jump to a subroutine
+(b) Halt the CPU execution and enter a wait state until an interrupt occurs
+(c) Halt the CPU execution and reset the program counter
+(d) Halt the CPU for a fixed delay
+
+166. 106. Which of the following best describes the operation of a stack in the 8085 microprocessor?
+(a) First-In, First-Out (FIFO)
+(b) Last-In, First-Out (LIFO)
+(c) Random Access
+(d) Direct Access
+
+167. 132. When the HLT instruction is executed in an 8085 system, the program counter (PC) will:
+(a) Be reset to 0000H
+(b) Point to the next instruction after HLT
+(c) Hold its current value indefinitely
+(d) Point to the interrupt service routine address
+
+168. 158. An RST 3 instruction, when executed, causes the program control to jump to which memory location?
+(a) 0000H
+(b) 0010H
+(c) 0018H
+(d) 0024H
+
+169. 80. What will be the content of the Accumulator after executing the following 8085 instructions?
+MVI A, F0H
+XRI F0H
+a) F0H
+b) 00H
+c) FFH
+d) 0FH
+
+170. 99. Which of the following 8085 instructions will cause a return from a subroutine only if the parity flag is even (set)?
+(a) RPO
+(b) RP
+(c) RZ
+(d) RPE
+
+171. 168. When the 8085 microprocessor acknowledges an INTR request, what type of instruction is expected to be placed on the data bus by the external interrupting device?
+a) A CALL instruction to a fixed memory location.
+b) A JMP instruction to a user-defined address.
+c) An RST (Restart) instruction.
+d) An RET (Return) instruction.
+
+172. 22. The DAD H instruction performs which operation in the 8085?
+(a) Adds the contents of H and L registers.
+(b) Adds the contents of HL pair to HL pair.
+(c) Adds the contents of HL pair to DE pair.
+(d) Adds the contents of HL pair to BC pair.
+
+173. 23. Which 8085 instruction performs a bitwise logical OR operation with the accumulator and a specified register?
+(a) ANA R
+(b) ORA R
+(c) XRA R
+(d) CMP R
+
+174. 130. How many machine cycles does the NOP instruction take in the 8085 microprocessor?
+(a) 1 machine cycle (4 T-states)
+(b) 2 machine cycles (7 T-states)
+(c) 3 machine cycles (10 T-states)
+(d) 4 machine cycles (13 T-states)
+
+175. 104. Which of the following 8085 instructions is most suitable for creating a simple delay loop counter without significantly altering the accumulator or flags related to data manipulation?
+(a) NOP
+(b) MOV R, M
+(c) DCR R
+(d) CMA
+
+176. 36.  In Immediate Addressing Mode, the operand data is obtained from:
+(a) The content of a CPU register
+(b) The memory location specified by a register pair
+(c) Within the instruction itself
+(d) A fixed memory location
+
+177. 134. To enable the Serial Data Output (SOD) line and output a specific bit from the accumulator using the SIM instruction in 8085, the user must:
+(a) Set bit D6 (SOD Enable) and bit D7 (Serial Data Output) in the accumulator before SIM
+(b) Set bit D5 (RST 7.5 mask) and bit D6 (RST 6.5 mask)
+(c) Set bit D4 (RST 6.5 mask) and bit D6 (SOD Enable)
+(d) Set bit D6 (SOD Enable) and bit D7 (Serial Output Data), and D2 (Mask Set Enable)
+
+178. 69. Consider the following 8085 instruction sequence:
+MVI A, 05H
+INR A
+DCR A
+What will be the final content of the Accumulator?
+(a) 07H
+(b) 06H
+(c) 05H
+(d) 04H
+
+179. 129. The SIM instruction in 8085 can be used to perform which of the following operations?
+(a) Only set the interrupt masks for RST 7.5, 6.5, 5.5
+(b) Only enable/disable the Serial Data Output (SOD) line
+(c) Set interrupt masks for RST 7.5, 6.5, 5.5 and control the SOD line
+(d) Read the interrupt mask status
+
+180. 125. The NOP instruction in 8085 assembly language primarily serves what purpose?
+(a) To perform a no-operation for a specific delay
+(b) To clear the accumulator
+(c) To set all flags to zero
+(d) To transfer data from accumulator to memory
+
+
+ANSWER KEY
+
+1. (c)
+2. (c)
+3. (c)
+4. (b)
+5. (a)
+6. (c)
+7. (c)
+8. (c)
+9. (b)
+10. (a)
+11. (b)
+12. (d)
+13. (b)
+14. (a)
+15. (c)
+16. (a)
+17. (a)
+18. (c)
+19. (c)
+20. (d)
+21. (b)
+22. (c)
+23. (a)
+24. (b)
+25. (c)
+26. (a)
+27. (c)
+28. (b)
+29. (b)
+30. (c)
+31. (c)
+32. (c)
+33. (b)
+34. (b)
+35. (d)
+36. (c)
+37. (c)
+38. (b)
+39. (b)
+40. (b)
+41. (c)
+42. (d)
+43. (c)
+44. (b)
+45. (b)
+46. (b)
+47. (b)
+48. (b)
+49. (c)
+50. (c)
+51. (b)
+52. (a)
+53. (b)
+54. (b)
+55. (b)
+56. (d)
+57. (d)
+58. (a)
+59. (a)
+60. (b)
+61. (c)
+62. (c)
+63. (c)
+64. (b)
+65. (a)
+66. (c)
+67. (c)
+68. (c)
+69. (c)
+70. (b)
+71. (c)
+72. (d)
+73. (b)
+74. (a)
+75. (b)
+76. (a)
+77. (a)
+78. (c)
+79. (b)
+80. (d)
+81. (d)
+82. (d)
+83. (b)
+84. (a)
+85. (a)
+86. (b)
+87. (b)
+88. (b)
+89. (c)
+90. (d)
+91. (b)
+92. (c)
+93. (a)
+94. (b)
+95. (c)
+96. (b)
+97. (b)
+98. (a)
+99. (c)
+100. (c)
+101. (b)
+102. (c)
+103. (b)
+104. (c)
+105. (c)
+106. (c)
+107. (c)
+108. (c)
+109. (c)
+110. (a)
+111. (c)
+112. (b)
+113. (c)
+114. (a)
+115. (b)
+116. (b)
+117. (c)
+118. (c)
+119. (c)
+120. (b)
+121. (c)
+122. (c)
+123. (b)
+124. (c)
+125. (c)
+126. (b)
+127. (b)
+128. (b)
+129. (c)
+130. (a)
+131. (c)
+132. (b)
+133. (b)
+134. (d)
+135. (b)
+136. (c)
+137. (d)
+138. (a)
+139. (c)
+140. (b)
+141. (b)
+142. (b)
+143. (c)
+144. (d)
+145. (b)
+146. (b)
+147. (c)
+148. (c)
+149. (d)
+150. (b)
+151. (b)
+152. (c)
+153. (b)
+154. (c)
+155. (d)
+156. (c)
+157. (b)
+158. (c)
+159. (b)
+160. (b)
+161. (d)
+162. (b)
+163. (b)
+164. (b)
+165. (b)
+166. (b)
+167. (b)
+168. (c)
+169. (b)
+170. (d)
+171. (c)
+172. (b)
+173. (b)
+174. (a)
+175. (c)
+176. (c)
+177. (a)
+178. (c)
+179. (c)
+180. (a)
