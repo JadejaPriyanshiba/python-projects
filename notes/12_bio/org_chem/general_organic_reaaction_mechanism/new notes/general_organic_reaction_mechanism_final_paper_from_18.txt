@@ -1,0 +1,1286 @@
+FINAL QUESTION PAPER
+
+1. 26. Which of the following is considered a strong nucleophile, favoring SN2 reactions?
+(a) H2O
+(b) CH3OH
+(c) I-
+(d) CH3COOH
+
+2. 144. Which of the following alkanes will yield only one monobrominated product upon free radical bromination?
+(a) n-Butane
+(b) Isobutane
+(c) Ethane
+(d) Propane
+
+3. 100. The addition of HBr to ethyne (acetylene) gives mainly:
+(a) 1,1-dibromoethane
+(b) 1,2-dibromoethane
+(c) Bromoethene
+(d) 2-bromoethene
+
+4. 55. The hydration of propyne in the presence of H2SO4 and HgSO4 produces:
+(a) Propanal
+(b) Propan-1-ol
+(c) Acetone
+(d) Propanoic acid
+
+5. 131. Which of the following compounds would undergo electrophilic substitution reaction at the slowest rate?
+(a) Toluene
+(b) Anisole
+(c) Nitrobenzene
+(d) Phenol
+
+6. 30. Which of the following statements is NOT a characteristic of an SN1 reaction?
+(a) It involves a carbocation intermediate.
+(b) Its rate depends only on the concentration of the substrate.
+(c) It is favored by polar aprotic solvents.
+(d) It can lead to racemization if the carbon is chiral.
+
+7. 89. The intermediate formed during electrophilic aromatic substitution is a resonance-stabilized carbocation. What is this intermediate commonly known as?
+(a) Carbanion
+(b) Free radical
+(c) Arenium ion or sigma complex
+(d) Enolate ion
+
+8. 97. When bromine water (Br2/H2O) is added to ethene, the major product formed is:
+(a) 1,2-dibromoethane
+(b) 2-bromoethanol
+(c) Ethylene glycol
+(d) Bromoethane
+
+9. 153. Which of the following compounds will exhibit keto-enol tautomerism?
+(a) 2,2-Dimethylpropanal
+(b) Benzophenone
+(c) Cyclohexanone
+(d) Trimethylacetic acid
+
+10. 54. Identify the statement that is INCORRECT regarding the electrophilic addition of HBr to 1-butyne.
+(a) The first addition forms a vinyl carbocation.
+(b) The major product after one equivalent of HBr addition is 2-bromobut-1-ene.
+(c) Markovnikov's rule is followed for the first addition.
+(d) After two equivalents of HBr, the final product is 2,2-dibromobutane.
+
+11. 169. The stability of carbocations follows the order:
+(a) Methyl > Primary > Secondary > Tertiary
+(b) Tertiary > Secondary > Primary > Methyl
+(c) Primary > Secondary > Tertiary > Methyl
+(d) Secondary > Primary > Tertiary > Methyl
+
+12. 7. (R)-3-bromo-3-methylhexane undergoes solvolysis in ethanol. What will be the stereochemical nature of the major product, 3-ethoxy-3-methylhexane?
+(a) Pure (R) enantiomer
+(b) Pure (S) enantiomer
+(c) A racemic mixture
+(d) An optically active mixture with excess (R) enantiomer
+
+13. 40. Which type of solvent typically favors E1 and SN1 reactions over E2 and SN2 reactions?
+(a) Aprotic, polar solvent
+(b) Protic, polar solvent
+(c) Non-polar solvent
+(d) Aprotic, non-polar solvent
+
+14. 31. Which of the following statements is true regarding the E2 elimination mechanism?
+(a) It is a two-step process involving a carbocation intermediate.
+(b) The rate of reaction depends only on the concentration of the substrate.
+(c) It requires an anti-periplanar geometry of the leaving group and the beta-hydrogen.
+(d) It typically gives Hofmann product as the major product.
+
+15. 81. What is the major product when toluene undergoes monobromination in the presence of FeBr3?
+(a) Bromobenzene
+(b) o-Bromotoluene and p-Bromotoluene
+(c) m-Bromotoluene
+(d) Benzyl bromide
+
+16. 18. Which of the following carbocations is most stable and thus favors an SN1 reaction?
+(a) Primary carbocation
+(b) Secondary carbocation
+(c) Tertiary carbocation
+(d) Methyl carbocation
+
+17. 24. Consider the reaction: (CH3)3C-Br + CH3OH -> (CH3)3C-OCH3 + HBr. This reaction is likely to proceed via:
+(a) SN1 mechanism
+(b) SN2 mechanism
+(c) E1 mechanism
+(d) E2 mechanism
+
+18. 161. Pyridin-2-ol and Pyridin-2(1H)-one are tautomers. This interconversion involves the movement of:
+(a) An electron pair.
+(b) A hydroxyl group.
+(c) A proton and an electron pair.
+(d) A methyl group.
+
+19. 91. Which of the following species acts as an electrophile in an electrophilic addition reaction?
+(a) OH-
+(b) CN-
+(c) H+
+(d) NH3
+
+20. 152. Consider the keto-enol tautomerism of 2,4-pentanedione (acetylacetone). Which factor primarily contributes to the high percentage of its enol form at equilibrium?
+(a) Steric hindrance in the keto form.
+(b) Intramolecular hydrogen bonding in the enol form.
+(c) Increased resonance stabilization of the keto form.
+(d) Higher electronegativity of oxygen in the keto form.
+
+21. 125. The correct order of reactivity towards electrophilic substitution for benzene, chlorobenzene, and toluene is:
+(a) Toluene > Benzene > Chlorobenzene
+(b) Benzene > Toluene > Chlorobenzene
+(c) Chlorobenzene > Benzene > Toluene
+(d) Benzene > Chlorobenzene > Toluene
+
+22. 141. Bromination of alkanes via free radical substitution is generally more selective than chlorination. This is primarily due to:
+(a) Bromine being a smaller atom than chlorine.
+(b) The C-H bond breaking in bromination being more endothermic.
+(c) The bromine radical being less reactive and more stable than the chlorine radical.
+(d) Higher concentration of bromine used.
+
+23. 105. Hydroboration-oxidation of propene yields:
+(a) 1-propanol
+(b) 2-propanol
+(c) Propanal
+(d) Propanoic acid
+
+24. 118. Which of the following compounds is most likely to undergo free radical addition polymerization?
+(a) Benzene
+(b) Methane
+(c) Ethene
+(d) Ethyne
+
+25. 101. Which of the following correctly describes the first step of electrophilic addition of HBr to propene?
+(a) HBr attacks the carbocation.
+(b) Br- attacks the pi bond.
+(c) H+ attacks the pi bond to form a carbocation.
+(d) Br. attacks the pi bond.
+
+26. 150. If you perform free radical bromination of 2,2,4-trimethylpentane, how many different monobrominated products (structural isomers) could theoretically be formed?
+(a) 2
+(b) 3
+(c) 4
+(d) 5
+
+27. 159. Which of the following compounds exists predominantly in its enol form due to aromaticity?
+(a) Phenol
+(b) Cyclohex-2-en-1-one
+(c) Acetylacetone
+(d) Acetaldehyde
+
+28. 132. Halogenation of benzene requires a Lewis acid catalyst because:
+(a) The Lewis acid makes the benzene ring more reactive.
+(b) The Lewis acid helps in generating the electrophile (e.g., Br+).
+(c) The Lewis acid removes the halogen from the product.
+(d) The Lewis acid activates the aromatic ring to attack by a nucleophile.
+
+29. 143. Which of the following is NOT a characteristic feature of free radical substitution reactions?
+(a) Proceed through a chain mechanism.
+(b) Involve homolytic bond cleavage.
+(c) Are typically favored by high temperatures or UV light.
+(d) Involve carbocation intermediates.
+
+30. 120. Which of the following is a key difference between electrophilic addition and free radical addition reactions of alkenes?
+(a) Electrophilic addition forms free radicals, while free radical addition forms carbocations.
+(b) Electrophilic addition is always anti-Markovnikov, while free radical addition is always Markovnikov.
+(c) Electrophilic addition proceeds via carbocations, while free radical addition proceeds via free radicals.
+(d) Electrophilic addition requires peroxides, while free radical addition does not.
+
+31. 149. To minimize polysubstitution (formation of di-, tri-substituted products) during the free radical halogenation of an alkane, which of the following conditions is generally employed?
+(a) Use a large excess of alkane.
+(b) Use a large excess of halogen.
+(c) Conduct the reaction at very low temperatures.
+(d) Add an inhibitor.
+
+32. 3. The formation of an equimolar mixture of two enantiomers from an optically active compound is known as:
+(a) Inversion
+(b) Retention
+(c) Racemization
+(d) Diastereomerization
+
+33. 45. In the E2 elimination of 2-bromo-2,3-dimethylbutane, how many distinct alkene products can be formed?
+(a) 1
+(b) 2
+(c) 3
+(d) 4
+
+34. 147. In the reaction of methane with chlorine in the presence of UV light, the highly reactive intermediate formed that attacks methane is:
+(a) Methyl carbocation
+(b) Chloronium ion
+(c) Chlorine free radical
+(d) Methyl carbanion
+
+35. 138. The free radical halogenation of alkanes is typically initiated by:
+(a) Presence of strong acid
+(b) High pressure
+(c) UV light or heat
+(d) Transition metal catalyst
+
+36. 165. Consider the compound cyclopropanone. Which statement about its keto-enol tautomerism is correct?
+(a) It readily forms an enol due to angle strain relief.
+(b) It does not exhibit keto-enol tautomerism due to the absence of alpha-hydrogens.
+(c) It forms an enol but the equilibrium strongly favors the keto form due to high enol instability.
+(d) Its enol form is aromatic, making it highly stable.
+
+37. 166. Homolytic bond fission typically results in the formation of:
+(a) Carbocations
+(b) Carbanions
+(c) Free radicals
+(d) Transition states
+
+38. 77. What is the electrophile generated during the nitration of benzene using concentrated nitric acid and concentrated sulfuric acid?
+(a) NO+
+(b) NO2+
+(c) NO3-
+(d) H3O+
+
+39. 5. A reaction involving the formation of a carbocation intermediate at a chiral carbon typically leads to which stereochemical outcome?
+(a) Complete inversion
+(b) Complete retention
+(c) Racemization
+(d) Formation of a single enantiomer
+
+40. 71. Consider the nucleophilic addition of water to a carbonyl compound to form a hydrate. Which carbonyl compound would form the most stable hydrate?
+(a) Acetone
+(b) Acetaldehyde
+(c) Formaldehyde
+(d) Propanal
+
+41. 12. A racemic mixture is characterized by:
+(a) Having a zero specific rotation.
+(b) Being optically active.
+(c) Containing only one enantiomer.
+(d) Being composed of diastereomers.
+
+42. 67. What type of product is formed when an aldehyde reacts with a primary amine (R-NH2) in the presence of a trace amount of acid?
+(a) Amide
+(b) Imine (Schiff's base)
+(c) Nitrile
+(d) Oxime
+
+43. 76. Which step is generally the rate-determining step in an electrophilic aromatic substitution reaction?
+(a) Formation of the electrophile.
+(b) Attack of the electrophile on the aromatic ring to form a sigma complex.
+(c) Deprotonation of the sigma complex to restore aromaticity.
+(d) Rearrangement of the electrophile.
+
+44. 51. The addition of bromine (Br2) to trans-2-butene typically results in:
+(a) Primarily syn-addition product
+(b) Primarily anti-addition product
+(c) Racemic mixture of syn and anti products
+(d) No reaction due to steric hindrance
+
+45. 137. Which of the following alkyl free radicals is the most stable?
+(a) Methyl radical
+(b) Primary alkyl radical
+(c) Secondary alkyl radical
+(d) Tertiary alkyl radical
+
+46. 108. Arrange the following free radicals in increasing order of their stability:
+I. Methyl radical
+II. Tertiary butyl radical
+III. Isopropyl radical
+IV. Ethyl radical
+(a) I < IV < III < II
+(b) II < III < IV < I
+(c) I < III < IV < II
+(d) IV < I < III < II
+
+47. 157. For a compound to exhibit keto-enol tautomerism, it must possess:
+(a) A carbonyl group and at least one alpha-hydrogen atom.
+(b) A double bond and a hydroxyl group.
+(c) Only a carbonyl group.
+(d) A carbon atom with four different substituents.
+
+48. 79. For the bromination of benzene, which of the following is the correct set of reagents?
+(a) Br2 in CCl4
+(b) Br2 and H2O
+(c) Br2 and FeBr3
+(d) HBr and FeBr3
+
+49. 142. What is the correct order of reactivity of hydrogen atoms towards free radical halogenation?
+(a) Primary H > Secondary H > Tertiary H
+(b) Tertiary H > Secondary H > Primary H
+(c) Secondary H > Primary H > Tertiary H
+(d) Primary H = Secondary H = Tertiary H
+
+50. 70. Which of the following carbonyl compounds will be least reactive towards nucleophilic addition?
+(a) Ethanal
+(b) Propanal
+(c) Butanone
+(d) 2,2-Dimethylpropanal
+
+51. 107. The primary role of organic peroxides in the anti-Markovnikov addition of HBr to alkenes is to:
+(a) Stabilize the carbocation intermediate.
+(b) Act as a Lewis acid to activate the alkene.
+(c) Undergo homolytic cleavage to produce free radicals.
+(d) Catalyze the formation of a nucleophile.
+
+52. 44. Increasing the temperature in an elimination reaction (E1 or E2) generally:
+(a) Favors substitution over elimination.
+(b) Favors elimination over substitution.
+(c) Has no effect on the product ratio.
+(d) Favors SN1 over SN2.
+
+53. 93. The major product formed when propene reacts with HBr is:
+(a) 1-bromopropane
+(b) 2-bromopropane
+(c) 1,2-dibromopropane
+(d) Propyl bromide
+
+54. 27. The energy profile diagram for an SN1 reaction typically shows:
+(a) A single transition state
+(b) One intermediate and one transition state
+(c) One intermediate and two transition states
+(d) No intermediates or transition states
+
+55. 106. Which of the following statements is true regarding free radical addition reactions?
+(a) They involve the initial attack of an electrophile on the pi bond.
+(b) They proceed via carbocation intermediates.
+(c) They are initiated by homolytic fission of a covalent bond.
+(d) They typically follow Markovnikov's rule in the presence of peroxides.
+
+56. 46. Which of the following species acts as an electrophile in the electrophilic addition reaction of propene with HBr?
+(a) Propene
+(b) Bromide ion (Br-)
+(c) Hydrogen ion (H+)
+(d) Water (H2O)
+
+57. 68. Which of the following factors contributes to the lower reactivity of ketones compared to aldehydes towards nucleophilic addition?
+I. Steric hindrance
+II. +I effect of alkyl groups
+III. -I effect of alkyl groups
+(a) I only
+(b) II only
+(c) I and II
+(d) I and III
+
+58. 167. Which of the following species can act as a nucleophile?
+(a) CH3+
+(b) H3O+
+(c) NH3
+(d) BF3
+
+59. 114. Free radical addition reactions typically require which of the following conditions?
+(a) Presence of a strong acid catalyst.
+(b) High pressure and low temperature.
+(c) UV light or peroxides for initiation.
+(d) Polar solvent to stabilize carbocations.
+
+60. 29. The stability of a carbocation is primarily enhanced by:
+(a) Electron-withdrawing inductive effect
+(b) Electron-donating inductive effect and hyperconjugation
+(c) Resonance effect in all cases
+(d) Steric hindrance
+
+61. 56. The stability of carbocations is primarily explained by:
+(a) Inductive effect and resonance effect
+(b) Hyperconjugation and inductive effect
+(c) Resonance effect and hyperconjugation
+(d) All of the above
+
+62. 84. A deactivating group for electrophilic aromatic substitution will generally:
+(a) Increase the electron density in the ring.
+(b) Decrease the electron density in the ring.
+(c) Have no effect on electron density.
+(d) Only direct the incoming electrophile to ortho/para positions.
+
+63. 122. In the nitration of benzene, the electrophile involved is:
+(a) NO2+
+(b) NO+
+(c) N2O4
+(d) HNO3
+
+64. 33. For the reaction of 2-bromopropane with a strong base like sodium ethoxide in ethanol, what is the order of the elimination reaction?
+(a) First order
+(b) Second order
+(c) Zero order
+(d) Depends on the concentration of 2-bromopropane only
+
+65. 53. Which of the following reagents is used in oxymercuration-demercuration, a reaction that follows Markovnikov's rule without carbocation rearrangement?
+(a) BH3, THF followed by H2O2, NaOH
+(b) H2SO4, H2O
+(c) Hg(OAc)2, H2O followed by NaBH4
+(d) Br2 in CCl4
+
+66. 17. Which of the following alkyl halides is most reactive towards SN2 reaction?
+(a) (CH3)3C-Br
+(b) CH3CH2-Br
+(c) (CH3)2CH-Br
+(d) CH3-Br
+
+67. 58. Which of the following alkenes would react fastest with HBr?
+(a) Ethene
+(b) Propene
+(c) 2-Methylpropene
+(d) 1-Butene
+
+68. 130. Considering the stability of carbocations, which intermediate is formed in the electrophilic attack on an aromatic ring?
+(a) A benzylic carbocation.
+(b) A sigma complex (arenium ion).
+(c) A pi complex.
+(d) A primary carbocation.
+
+69. 123. Which of the following groups is an ortho-para directing and activating group in electrophilic aromatic substitution?
+(a) -NO2
+(b) -COOH
+(c) -OH
+(d) -CN
+
+70. 10. For a nucleophilic substitution reaction to show observable inversion, retention, or racemization, the reactant must possess:
+(a) A tertiary carbon atom
+(b) A chiral carbon atom
+(c) A double bond
+(d) An aromatic ring
+
+71. 85. The -NH2 group is a strong activating group and an ortho/para director. Which of the following best explains its directing effect?
+(a) It is electron-withdrawing by induction.
+(b) It can donate electrons to the ring by resonance.
+(c) It is a bulky group that prefers ortho/para.
+(d) It forms a hydrogen bond with the incoming electrophile.
+
+72. 35. Which of the following factors does NOT favor an E1 reaction?
+(a) Weak nucleophile/base
+(b) Protic solvent
+(c) Tertiary alkyl halide
+(d) High concentration of a strong base
+
+73. 36. The E2 reaction of 2-bromobutane with potassium tert-butoxide (a bulky strong base) would primarily yield:
+(a) But-1-ene (Hofmann product)
+(b) But-2-ene (Zaitsev product)
+(c) 2-butanol
+(d) 2-ethoxybutane
+
+74. 78. Which of the following reagent combinations is used for the nitration of benzene?
+(a) Conc. HNO3 and Conc. HCl
+(b) Conc. H2SO4 and Conc. HCl
+(c) Conc. HNO3 and Conc. H2SO4
+(d) Dil. HNO3 and Dil. H2SO4
+
+75. 61. What is the primary characteristic of the carbonyl carbon atom in an aldehyde or ketone that makes it susceptible to nucleophilic attack?
+(a) It is electron-rich due to the oxygen atom.
+(b) It is sp2 hybridized and planar.
+(c) It is electron-deficient due to the electronegativity of the oxygen atom.
+(d) It has a partial negative charge.
+
+76. 156. In the acid-catalyzed enolization of a ketone, which step involves the protonation of the carbonyl oxygen?
+(a) Loss of alpha-hydrogen from the carbon.
+(b) Attack of a nucleophile on the carbonyl carbon.
+(c) Formation of an enolate ion.
+(d) Activation of the carbonyl group for subsequent deprotonation.
+
+77. 180. Which of the following factors generally stabilizes a carbanion?
+(a) Presence of electron-donating groups (+I or +M effect)
+(b) Presence of electron-withdrawing groups (-I or -M effect)
+(c) Increase in steric hindrance
+(d) Formation of an sp hybridized carbon center
+
+78. 96. Anti-Markovnikov addition of HBr to an alkene occurs in the presence of:
+(a) Peroxides
+(b) UV light
+(c) Anhydrous AlCl3
+(d) H2SO4
+
+79. 174. In an E1 elimination reaction, the rate-determining step involves:
+(a) Abstraction of a proton by a base
+(b) Formation of a carbanion
+(c) Formation of a carbocation
+(d) Attack by a nucleophile
+
+80. 66. Nucleophilic addition of sodium bisulfite (NaHSO3) to carbonyl compounds typically forms a crystalline adduct. This reaction is most characteristic for:
+(a) All ketones and aldehydes.
+(b) Aldehydes and methyl ketones.
+(c) Only aldehydes.
+(d) Only methyl ketones.
+
+81. 23. Which type of solvent is generally preferred for SN2 reactions?
+(a) Polar protic
+(b) Non-polar
+(c) Polar aprotic
+(d) Highly acidic
+
+82. 111. A propagation step in a free radical addition reaction involves:
+(a) Formation of two free radicals from a non-radical species.
+(b) Reaction of two free radicals to form a non-radical species.
+(c) Reaction of a free radical with a non-radical species to form a new free radical and a new non-radical species.
+(d) Reaction of a free radical with a non-radical species to form two new non-radical species.
+
+83. 63. Which of the following statements is true regarding the role of an acid catalyst in the nucleophilic addition to carbonyl compounds?
+(a) It deprotonates the nucleophile, making it stronger.
+(b) It increases the steric hindrance around the carbonyl carbon.
+(c) It protonates the carbonyl oxygen, increasing the electrophilicity of the carbonyl carbon.
+(d) It converts the carbonyl group into an enol.
+
+84. 16. The rate of an SN1 reaction depends on the concentration of:
+(a) only the substrate
+(b) only the nucleophile
+(c) both the substrate and the nucleophile
+(d) neither the substrate nor the nucleophile
+
+85. 135. The attacking species in an electrophilic substitution reaction is always:
+(a) Electron-rich
+(b) Electron-deficient
+(c) Neutral
+(d) A free radical
+
+86. 176. The addition of HBr to propene in the absence of peroxides follows:
+(a) Free radical addition mechanism
+(b) Electrophilic addition mechanism
+(c) Nucleophilic addition mechanism
+(d) Elimination mechanism
+
+87. 170. Which electronic effect involves the delocalization of pi electrons through conjugation, where electron-donating groups stabilize carbocations and destabilize carbanions?
+(a) Inductive effect
+(b) Hyperconjugation
+(c) Mesomeric effect (+M)
+(d) Electromeric effect
+
+88. 41. The major product obtained when 1-bromo-1-methylcyclohexane is treated with a strong base like sodium methoxide in methanol at high temperature is:
+(a) 1-methoxy-1-methylcyclohexane
+(b) 1-methylcyclohexene
+(c) Methylenecyclohexane
+(d) 1-methylcyclohexanol
+
+89. 173. An SN2 reaction primarily involves:
+(a) Racemization
+(b) A carbocation intermediate
+(c) A single, concerted step
+(d) A polar protic solvent
+
+90. 6. When (S)-2-chlorobutane reacts with a strong nucleophile like OH- in the presence of a polar aprotic solvent, the major product will predominantly have which configuration?
+(a) (S) configuration
+(b) (R) configuration
+(c) A racemic mixture of (S) and (R) configurations
+(d) An achiral product
+
+91. 52. The acid-catalyzed hydration of 2-methylpropene yields predominantly:
+(a) 2-methyl-1-propanol
+(b) 2-methyl-2-propanol
+(c) 1-butanol
+(d) 2-butanol
+
+92. 8. Which statement is correct regarding Walden inversion?
+(a) It exclusively occurs in SN1 reactions.
+(b) It involves the breaking and formation of bonds simultaneously in a concerted manner.
+(c) It results in a racemic mixture.
+(d) It refers to the preservation of configuration.
+
+93. 140. When propane undergoes free radical monochlorination, how many possible structural isomers of monochloropropane can be formed?
+(a) 1
+(b) 2
+(c) 3
+(d) 4
+
+94. 1. Which of the following terms describes the complete change in the spatial arrangement of bonds around a chiral center during a chemical reaction?
+(a) Racemization
+(b) Inversion
+(c) Retention
+(d) Epimerization
+
+95. 39. Consider the reaction of 2-bromo-2-methylpropane with ethanol (weak base/nucleophile) at elevated temperature. The major organic product will be formed via:
+(a) SN1 mechanism
+(b) SN2 mechanism
+(c) E1 mechanism
+(d) E2 mechanism
+
+96. 99. Which of the following alkenes would react fastest with HBr?
+(a) Ethene
+(b) Propene
+(c) 2-methylpropene
+(d) 1-butene
+
+97. 87. Which of the following aromatic compounds is most reactive towards nitration?
+(a) Nitrobenzene
+(b) Benzoic acid
+(c) Toluene
+(d) Chlorobenzene
+
+98. 127. Aniline does not undergo Friedel-Crafts reactions due to:
+(a) The amino group being an ortho-para director.
+(b) The amino group being a strong activator.
+(c) Formation of a complex with the Lewis acid catalyst (AlCl3).
+(d) Steric hindrance from the amino group.
+
+99. 48. What is the major product when propene reacts with HBr in the absence of peroxides?
+(a) 1-Bromopropane
+(b) 2-Bromopropane
+(c) 1,2-Dibromopropane
+(d) Propane
+
+100. 69. The reaction of propanone with methanol in the presence of dry HCl gas forms:
+(a) Hemiacetal
+(b) Acetal
+(c) Ketal
+(d) Enol
+
+101. 83. Which of the following groups is an activating group for electrophilic aromatic substitution?
+(a) -NO2
+(b) -COOH
+(c) -OCH3
+(d) -CN
+
+102. 20. The SN1 reaction of an optically active alkyl halide typically results in:
+(a) Inversion of configuration
+(b) Retention of configuration
+(c) Complete racemization
+(d) Partial racemization or complete racemization depending on conditions
+
+103. 80. In Friedel-Crafts alkylation of benzene, what is the primary role of a Lewis acid like anhydrous AlCl3?
+(a) To act as a nucleophile.
+(b) To generate the carbocation electrophile.
+(c) To protonate the aromatic ring.
+(d) To abstract a proton from the sigma complex.
+
+104. 95. In the addition of HCl to 3,3-dimethyl-1-butene, the major product will involve:
+(a) Formation of a primary carbocation
+(b) Hydride shift rearrangement
+(c) Methyl shift rearrangement
+(d) Elimination reaction
+
+105. 102. Electron-donating groups attached to the double bond of an alkene generally:
+(a) Decrease the rate of electrophilic addition.
+(b) Increase the rate of electrophilic addition.
+(c) Have no effect on the rate.
+(d) Convert the reaction into a substitution reaction.
+
+106. 124. The product formed when toluene undergoes nitration is primarily:
+(a) m-nitrotoluene
+(b) o-nitrotoluene and p-nitrotoluene
+(c) a mixture of all three isomers
+(d) p-nitrotoluene only
+
+107. 117. Identify the major product of the reaction:
+CH3-CH=CH2 + HBr --(ROOR, heat/light)--> Product
+(a) CH3-CH(Br)-CH3
+(b) CH3-CH2-CH2Br
+(c) CH2(Br)-CH=CH2
+(d) CH3-CH=CH-Br
+
+108. 38. An anti-periplanar arrangement is essential for which of the following elimination reactions?
+(a) E1 reaction
+(b) E2 reaction
+(c) Both E1 and E2 reactions
+(d) Neither E1 nor E2 reactions
+
+109. 22. Which type of solvent is generally preferred for SN1 reactions?
+(a) Polar aprotic
+(b) Non-polar
+(c) Polar protic
+(d) Aprotic non-polar
+
+110. 21. Which of the following is the best leaving group in a nucleophilic substitution reaction?
+(a) -OH
+(b) -Cl
+(c) -F
+(d) -I
+
+111. 25. Carbocation rearrangements are most likely to occur during which type of nucleophilic substitution reaction?
+(a) SN1 reactions
+(b) SN2 reactions
+(c) Both SN1 and SN2 reactions
+(d) Neither SN1 nor SN2 reactions
+
+112. 109. What is the major product formed when propene reacts with HBr in the presence of benzoyl peroxide?
+(a) 2-Bromopropane
+(b) 1-Bromopropane
+(c) 1,2-Dibromopropane
+(d) 2,2-Dibromopropane
+
+113. 104. Which of the following carbocations is most stable?
+(a) CH3+
+(b) CH3CH2+
+(c) (CH3)2CH+
+(d) (CH3)3C+
+
+114. 47. The reactive intermediate formed during the hydrohalogenation of an unsymmetrical alkene following Markovnikov's rule is a:
+(a) Carbocation
+(b) Carbanion
+(c) Free radical
+(d) Alkyl halide
+
+115. 14. If a chiral reactant undergoes a reaction where the new chiral center is formed, and the reaction proceeds via a planar intermediate (e.g., carbocation), what will be the stereochemical outcome if no chiral auxiliary is used?
+(a) Complete retention
+(b) Complete inversion
+(c) A racemic mixture
+(d) Formation of only one enantiomer
+
+116. 98. The intermediate formed during the acid-catalyzed hydration of an alkene is a:
+(a) Carbanion
+(b) Free radical
+(c) Carbocation
+(d) Alkoxide ion
+
+117. 9. A nucleophilic substitution reaction of a chiral alkyl halide produces a product with the same configuration as the reactant. This implies the reaction proceeded with:
+(a) Complete inversion
+(b) Racemization
+(c) Retention of configuration
+(d) Formation of an achiral intermediate
+
+118. 178. The formation of an equimolar mixture of enantiomers from a single enantiomer or an achiral starting material is known as:
+(a) Inversion
+(b) Retention
+(c) Racemization
+(d) Diastereomerization
+
+119. 175. Which statement is true for an E2 elimination reaction?
+(a) It is a two-step process involving a carbocation intermediate.
+(b) The rate depends only on the concentration of the substrate.
+(c) It requires a strong base.
+(d) It is favored by polar protic solvents.
+
+120. 43. Which of the following conditions would favor an E2 elimination over an SN2 reaction for a secondary alkyl halide?
+(a) A weak base in a protic solvent
+(b) A strong, bulky base in an aprotic solvent
+(c) A strong nucleophile in a polar protic solvent
+(d) Low temperature
+
+121. 86. Which of the following substituents is a meta-director for electrophilic aromatic substitution?
+(a) -CH3
+(b) -OH
+(c) -SO3H
+(d) -NH2
+
+122. 2. A reaction is said to involve 'retention of configuration' if:
+(a) The product formed is an enantiomer of the reactant.
+(b) The spatial arrangement of groups around the chiral center in the product is the same as in the reactant.
+(c) A mixture of enantiomers is formed in equal proportions.
+(d) The reactant is converted into a non-chiral product.
+
+123. 133. Sulfonation of benzene is a reversible reaction. Which of the following conditions would favor desulfonation (removal of -SO3H group)?
+(a) Heating with fuming H2SO4.
+(b) Heating with dilute H2SO4 or steam.
+(c) Reaction with SOCl2.
+(d) Reaction with NaOH.
+
+124. 57. When ethene reacts with HBr, the bond broken in ethene is:
+(a) Sigma bond
+(b) Pi bond
+(c) Both sigma and pi bonds
+(d) C-H bond
+
+125. 179. Carbocation rearrangements, such as hydride or alkyl shifts, typically occur to:
+(a) Form a less stable carbocation
+(b) Form a more stable carbocation
+(c) Facilitate nucleophilic attack
+(d) Achieve steric hindrance
+
+126. 34. What is the most stable carbocation intermediate that can be formed during an E1 reaction?
+(a) Primary carbocation
+(b) Secondary carbocation
+(c) Tertiary carbocation
+(d) Methyl carbocation
+
+127. 155. The tautomerism observed in nitromethane (CH3-NO2) is an example of:
+(a) Keto-enol tautomerism
+(b) Lactam-lactim tautomerism
+(c) Nitro-aci-nitro tautomerism
+(d) Amide-iminol tautomerism
+
+128. 4. Which type of nucleophilic substitution reaction typically proceeds with inversion of configuration at the chiral center?
+(a) SN1 reaction
+(b) SN2 reaction
+(c) Both SN1 and SN2 reactions
+(d) Neither SN1 nor SN2 reactions
+
+129. 163. A system where the mobile proton moves between two atoms linked by a single intervening atom is classified as a:
+(a) Dyad system
+(b) Triad system
+(c) Pentad system
+(d) Hexad system
+
+130. 88. Friedel-Crafts alkylation or acylation reactions generally do not occur on strongly deactivated aromatic rings. Which of the following rings would be least reactive towards Friedel-Crafts reactions?
+(a) Anisole
+(b) Chlorobenzene
+(c) Toluene
+(d) Nitrobenzene
+
+131. 50. Which of the following reactions is most likely to involve a carbocation rearrangement?
+(a) Addition of HBr to ethene
+(b) Addition of Br2 to cyclopentene
+(c) Addition of H2O/H+ to 3,3-dimethyl-1-butene
+(d) Hydroboration-oxidation of 1-butene
+
+132. 110. Which of the following represents an initiation step in the free radical addition of HBr to an alkene?
+(a) R-O. + CH2=CH-R' --> R-O-CH2-CH.-R'
+(b) R-O-O-R --> 2 R-O.
+(c) R-O-CH2-CH.-R' + H-Br --> R-O-CH2-CH2-R' + Br.
+(d) Br. + CH2=CH-R' --> Br-CH2-CH.-R'
+
+133. 121. Which of the following best describes an electrophilic substitution reaction?
+(a) A nucleophile replaces an atom or group from the substrate.
+(b) An electrophile replaces an atom or group from the substrate.
+(c) A free radical replaces an atom or group from the substrate.
+(d) Two molecules combine to form a single product.
+
+134. 73. Which of the following nucleophiles is generally considered to be a strong nucleophile for addition to carbonyl compounds under neutral or basic conditions?
+(a) H2O
+(b) CH3OH
+(c) CN-
+(d) H+
+
+135. 94. Arrange the following carbocations in increasing order of stability:
+I. Methyl carbocation
+II. Primary carbocation
+III. Secondary carbocation
+IV. Tertiary carbocation
+(a) I < II < III < IV
+(b) IV < III < II < I
+(c) II < I < III < IV
+(d) I < II < IV < III
+
+136. 65. When a Grignard reagent (RMgX) adds to a ketone followed by hydrolysis, what type of alcohol is formed?
+(a) Primary alcohol
+(b) Secondary alcohol
+(c) Tertiary alcohol
+(d) Both primary and secondary alcohol
+
+137. 103. The addition of Br2 to an alkene proceeds via a cyclic intermediate and results in:
+(a) Syn addition
+(b) Anti addition
+(c) Rearrangement
+(d) Elimination
+
+138. 154. Which of the following compounds is least likely to exhibit keto-enol tautomerism?
+(a) Acetaldehyde
+(b) Acetone
+(c) Benzaldehyde
+(d) Ethyl acetoacetate
+
+139. 160. Tautomerism is a specific type of isomerism where two isomers are in dynamic equilibrium. How does it fundamentally differ from resonance?
+(a) Tautomers involve movement of electrons only, while resonance involves movement of atoms.
+(b) Tautomers are real, distinct molecules in equilibrium, while resonance structures are hypothetical contributors to a single hybrid.
+(c) Tautomers have the same functional groups, while resonance structures have different functional groups.
+(d) Tautomerism involves delocalization of charge, while resonance involves only delocalization of pi electrons.
+
+140. 151. Which of the following statements best describes tautomerism?
+(a) It involves the interconversion of isomers that differ in the arrangement of atoms in space.
+(b) It involves the interconversion of isomers that differ in the position of a proton and a double bond.
+(c) It involves the interconversion of isomers that differ in their connectivity of atoms, leading to different functional groups.
+(d) It involves the delocalization of pi electrons within a molecule without changes in atomic positions.
+
+141. 126. Which of the following is NOT a limitation of Friedel-Crafts alkylation?
+(a) Rearrangement of carbocations can occur.
+(b) Polyalkylation can occur.
+(c) The reaction requires a Lewis acid catalyst.
+(d) It cannot be performed on strongly deactivated aromatic rings.
+
+142. 148. The stability of alkyl free radicals is explained by:
+(a) Inductive effect only
+(b) Resonance effect only
+(c) Hyperconjugation and inductive effect
+(d) Steric hindrance
+
+143. 90. When benzene reacts with 1-chloropropane in the presence of anhydrous AlCl3, the major alkylated product is often isopropylbenzene (cumene) instead of n-propylbenzene. This is an example of:
+(a) Aromatic halogenation
+(b) Carbocation rearrangement
+(c) Free radical substitution
+(d) Nucleophilic attack on benzene
+
+144. 139. In the free radical chlorination of methane, which of the following represents a propagation step?
+(a) Cl2 --> 2Cl.
+(b) CH3. + Cl. --> CH3Cl
+(c) CH4 + Cl. --> CH3. + HCl
+(d) CH3. + CH3. --> CH3-CH3
+
+145. 82. Which position will be preferentially substituted during the mononitration of nitrobenzene?
+(a) Ortho position
+(b) Meta position
+(c) Para position
+(d) Both ortho and para positions equally
+
+146. 59. The electrophilic addition of X2 (halogen) to an alkene in an inert solvent proceeds via which type of intermediate?
+(a) Carbocation
+(b) Carbanion
+(c) Halonium ion
+(d) Free radical
+
+147. 158. The tautomeric forms of DNA bases, particularly guanine and thymine, are crucial because their minor tautomeric forms can lead to:
+(a) Increased solubility in water.
+(b) Changes in the DNA backbone structure.
+(c) Mispairing during DNA replication and transcription.
+(d) Enhanced stability of the double helix.
+
+148. 136. Which type of bond fission primarily occurs during the initiation step of a free radical substitution reaction?
+(a) Heterolytic fission
+(b) Homolytic fission
+(c) Ionic fission
+(d) Electrostatic fission
+
+149. 92. The pi (π) bond in alkenes acts as a:
+(a) Nucleophile
+(b) Electrophile
+(c) Free radical
+(d) Leaving group
+
+150. 13. Consider the reaction: (R)-1-bromo-1-phenylethane + H2O -> 1-phenylethanol. What is the most likely stereochemical outcome for the 1-phenylethanol product?
+(a) Predominantly (R)-1-phenylethanol
+(b) Predominantly (S)-1-phenylethanol
+(c) A racemic mixture of (R) and (S)-1-phenylethanol
+(d) An achiral product
+
+151. 11. Which of the following conditions would generally favor racemization over inversion in a nucleophilic substitution reaction?
+(a) Primary alkyl halide
+(b) Strong nucleophile
+(c) Polar protic solvent
+(d) Polar aprotic solvent
+
+152. 129. Which set of reagents is used for Friedel-Crafts acylation?
+(a) R-Cl / AlCl3
+(b) R-CO-Cl / AlCl3
+(c) HNO3 / H2SO4
+(d) Br2 / FeBr3
+
+153. 37. Which of the following statements is INCORRECT regarding E1 elimination?
+(a) It is a unimolecular reaction.
+(b) Carbocation rearrangements are possible.
+(c) The rate of reaction depends on the concentration of both the substrate and the base.
+(d) It generally forms the more substituted alkene (Zaitsev's product).
+
+154. 171. Hyperconjugation is also known as:
+(a) No-bond resonance
+(b) Pi-bond resonance
+(c) Inductive resonance
+(d) Sigma-bond induction
+
+155. 134. Which of the following groups is a meta-directing and deactivating group?
+(a) -CH3
+(b) -OCH3
+(c) -Cl
+(d) -COOH
+
+156. 162. Which of the following represents a prototropic tautomerism?
+(a) Allylic rearrangement
+(b) Keto-enol tautomerism
+(c) Ring-chain tautomerism
+(d) Valence tautomerism
+
+157. 15. The stereochemical outcome of an SN2 reaction is solely dependent on:
+(a) The stability of the carbocation intermediate.
+(b) The strength of the leaving group.
+(c) The attack of the nucleophile from the backside of the leaving group.
+(d) The polarity of the solvent.
+
+158. 116. The anti-Markovnikov regioselectivity observed in the peroxide-catalyzed addition of HBr to unsymmetrical alkenes is primarily due to the formation of a more stable:
+(a) Carbocation intermediate.
+(b) Free radical intermediate.
+(c) Carbanion intermediate.
+(d) Electrophilic species.
+
+159. 177. The bond fission that generates two species, each with an unpaired electron, is called:
+(a) Heterolytic cleavage
+(b) Homolytic cleavage
+(c) Ionic dissociation
+(d) Electron transfer
+
+160. 112. Which of the following is most likely to be a termination step in the free radical addition of HBr to an alkene?
+(a) R-O. + HBr --> ROH + Br.
+(b) Br. + Br. --> Br2
+(c) Br. + CH2=CH2 --> BrCH2-CH2.
+(d) CH3-CH2. + HBr --> CH3-CH3 + Br.
+
+161. 19. An SN2 reaction proceeds with:
+(a) Racemization
+(b) Retention of configuration
+(c) Inversion of configuration
+(d) Partial racemization
+
+162. 128. In electrophilic aromatic substitution, the rate-determining step involves the formation of:
+(a) a free radical
+(b) a carbocation
+(c) a carbanion
+(d) an alkoxide ion
+
+163. 164. In keto-enol tautomerism, the equilibrium is generally shifted towards the keto form in:
+(a) Highly polar, protic solvents.
+(b) Non-polar solvents.
+(c) Solutions with strong bases.
+(d) Solutions with strong acids.
+
+164. 28. The energy profile diagram for an SN2 reaction typically shows:
+(a) A single transition state
+(b) One intermediate and two transition states
+(c) Two intermediates
+(d) No transition states
+
+165. 60. Which of the following statements is true regarding electrophilic addition reactions?
+(a) They involve the attack of a nucleophile on an electron-rich center.
+(b) They typically involve the breaking of a sigma bond and the formation of two pi bonds.
+(c) They are characteristic reactions of compounds with pi bonds, such as alkenes and alkynes.
+(d) They always result in the formation of a racemic mixture.
+
+166. 168. An electrophile is an electron-deficient species that typically accepts electrons. Which of the following is an electrophile?
+(a) OH-
+(b) CN-
+(c) H2O
+(d) NO2+
+
+167. 72. A compound X reacts with hydrazine (NH2NH2) to form a hydrazone, which upon heating with KOH/ethylene glycol undergoes reduction. This series of reactions is known as:
+(a) Clemmensen reduction
+(b) Wolff-Kishner reduction
+(c) Rosenmund reduction
+(d) Aldol condensation
+
+168. 115. What type of reactive intermediate is formed during the propagation steps of a free radical addition reaction?
+(a) Carbocation
+(b) Carbanion
+(c) Free radical
+(d) Transition state
+
+169. 49. Arrange the following carbocations in increasing order of stability:
+I. Methyl carbocation
+II. Primary carbocation
+III. Secondary carbocation
+IV. Tertiary carbocation
+(a) IV < III < II < I
+(b) I < II < III < IV
+(c) II < I < IV < III
+(d) III < IV < I < II
+
+170. 42. Which carbocation intermediate is formed initially and undergoes a rearrangement during the E1 elimination of 3-bromo-2,2-dimethylbutane?
+(a) CH3-C(CH3)2-CH2-CH2+
+(b) CH3-CH(CH3)-C+(CH3)2
+(c) CH3-C(CH3)2-C+(H)-CH3
+(d) (CH3)3C-C+(H)-CH3
+
+171. 75. In the mechanism of nucleophilic addition to a carbonyl group, which step occurs first when the reaction is base-catalyzed?
+(a) Protonation of the carbonyl oxygen.
+(b) Nucleophilic attack on the carbonyl carbon.
+(c) Removal of a proton from the alpha-carbon.
+(d) Formation of an enolate ion.
+
+172. 74. The nucleophilic addition of hydrogen cyanide to carbonyl compounds is an example of:
+(a) A reversible reaction
+(b) An irreversible reaction
+(c) An acid-catalyzed reaction only
+(d) A reaction that always forms a racemic mixture
+
+173. 146. Consider the free radical mechanism for the reaction:
+R-H + X2 --> R-X + HX
+Which of the following sequence correctly represents the three main steps?
+(a) Propagation, Initiation, Termination
+(b) Termination, Propagation, Initiation
+(c) Initiation, Propagation, Termination
+(d) Initiation, Termination, Propagation
+
+174. 172. Which of the following is a characteristic feature of an SN1 reaction?
+(a) Involves a single transition state
+(b) Rate is dependent on the concentration of both alkyl halide and nucleophile
+(c) Proceeds via a carbocation intermediate
+(d) Leads to inversion of configuration
+
+175. 145. The free radical monochlorination of methane produces chloromethane. What is the main byproduct during the propagation steps?
+(a) HCl
+(b) H2
+(c) CH3-CH3
+(d) Cl2
+
+176. 113. Why does HCl not undergo anti-Markovnikov addition to alkenes in the presence of peroxides, unlike HBr?
+(a) The H-Cl bond is too strong, making the first propagation step endothermic.
+(b) Chlorine radical is too stable to react with the alkene.
+(c) The C-Cl bond formation is highly exothermic, hindering the reaction.
+(d) HCl is a strong acid and reacts differently with peroxides.
+
+177. 32. The rate-determining step in an E1 elimination reaction involves:
+(a) Abstraction of a beta-hydrogen by a strong base.
+(b) Formation of a carbocation by the departure of the leaving group.
+(c) Attack of a nucleophile on the carbon bearing the leaving group.
+(d) Formation of a transition state where all bonds are simultaneously broken and formed.
+
+178. 119. What effect does the presence of light or heat have on the initiation step of a free radical reaction?
+(a) It promotes heterolytic cleavage of the initiator.
+(b) It provides the energy for homolytic cleavage of the initiator.
+(c) It stabilizes the free radicals formed.
+(d) It acts as a catalyst for the overall reaction.
+
+179. 64. The reaction of acetaldehyde with HCN followed by hydrolysis yields a product containing which two functional groups attached to the same carbon atom?
+(a) Carboxylic acid and hydroxyl
+(b) Nitrile and hydroxyl
+(c) Carboxylic acid and aldehyde
+(d) Ketone and hydroxyl
+
+180. 62. Arrange the following carbonyl compounds in decreasing order of reactivity towards nucleophilic addition:
+I. Acetaldehyde (CH3CHO)
+II. Acetone (CH3COCH3)
+III. Formaldehyde (HCHO)
+(a) III > I > II
+(b) I > II > III
+(c) II > I > III
+(d) III > II > I
+
+
+ANSWER KEY
+
+1. (c)
+2. (c)
+3. (a)
+4. (c)
+5. (c)
+6. (c)
+7. (c)
+8. (b)
+9. (c)
+10. (b)
+11. (b)
+12. (c)
+13. (b)
+14. (c)
+15. (b)
+16. (c)
+17. (a)
+18. (c)
+19. (c)
+20. (b)
+21. (a)
+22. (c)
+23. (a)
+24. (c)
+25. (c)
+26. (d)
+27. (a)
+28. (b)
+29. (d)
+30. (c)
+31. (a)
+32. (c)
+33. (b)
+34. (c)
+35. (c)
+36. (c)
+37. (c)
+38. (b)
+39. (c)
+40. (c)
+41. (a)
+42. (b)
+43. (b)
+44. (b)
+45. (d)
+46. (a)
+47. (a)
+48. (c)
+49. (b)
+50. (d)
+51. (c)
+52. (b)
+53. (b)
+54. (c)
+55. (c)
+56. (c)
+57. (c)
+58. (c)
+59. (c)
+60. (b)
+61. (d)
+62. (b)
+63. (a)
+64. (b)
+65. (c)
+66. (d)
+67. (c)
+68. (b)
+69. (c)
+70. (b)
+71. (b)
+72. (d)
+73. (a)
+74. (c)
+75. (c)
+76. (d)
+77. (b)
+78. (a)
+79. (c)
+80. (b)
+81. (c)
+82. (c)
+83. (c)
+84. (a)
+85. (b)
+86. (b)
+87. (c)
+88. (b)
+89. (c)
+90. (b)
+91. (b)
+92. (b)
+93. (b)
+94. (b)
+95. (c)
+96. (c)
+97. (c)
+98. (c)
+99. (b)
+100. (c)
+101. (c)
+102. (d)
+103. (b)
+104. (c)
+105. (b)
+106. (b)
+107. (b)
+108. (b)
+109. (c)
+110. (d)
+111. (a)
+112. (b)
+113. (d)
+114. (a)
+115. (c)
+116. (c)
+117. (c)
+118. (c)
+119. (c)
+120. (b)
+121. (c)
+122. (b)
+123. (b)
+124. (b)
+125. (b)
+126. (c)
+127. (c)
+128. (b)
+129. (b)
+130. (d)
+131. (c)
+132. (b)
+133. (b)
+134. (c)
+135. (a)
+136. (c)
+137. (b)
+138. (c)
+139. (b)
+140. (b)
+141. (c)
+142. (c)
+143. (b)
+144. (c)
+145. (b)
+146. (c)
+147. (c)
+148. (b)
+149. (a)
+150. (c)
+151. (c)
+152. (b)
+153. (c)
+154. (a)
+155. (d)
+156. (b)
+157. (c)
+158. (b)
+159. (b)
+160. (b)
+161. (c)
+162. (b)
+163. (a)
+164. (a)
+165. (c)
+166. (d)
+167. (b)
+168. (c)
+169. (b)
+170. (c)
+171. (b)
+172. (a)
+173. (c)
+174. (c)
+175. (a)
+176. (a)
+177. (b)
+178. (b)
+179. (b)
+180. (a)

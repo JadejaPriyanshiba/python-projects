@@ -12,7 +12,7 @@ getInstantProgressPDF = False
 recommendTopics = False
 getQuestions = True
 getNotes = True
-startIndex = 0
+startIndex = 18
 
 def callModel(prompt, model = "local"):
     # token = cg.getValue("TOKEN")
@@ -199,7 +199,7 @@ Only output the questions followed by the answer key. No extra explanations.
 
 subject = "Organic Chemistry"
 title = "General Organic Reaction Mechanism"
-length = "depending on the complexity"
+length = "50 lines"
 maturity = "12th grade biology student"
 extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, exceptions, chemical equations where needed. add extra knowledge and fun facts too. Also this is for a person who doesnt organic chemistry, so keep a tone that is friendly more like adding jokes, fun statements and all that makes it easier to learn"
 complexity = "from the basics and essential complexity for NEET exam (india)"
