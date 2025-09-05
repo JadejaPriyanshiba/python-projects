@@ -190,3 +190,102 @@ I/O and Machine ControlInstructions,,
 Classification of 8085 Interrupts and its priorities,,
 8085 Vectored interrupts: TRAP, RST7.5, RST 6.5, RST 5.5 and RST Instruction,,
 8085 Non-Vectored Interrupts: INTR"""
+
+
+#### Introduction To Machine Learning
+"""chapter 1: introduction to machine learning"""
+subject = "Introduction To Machine Learning"
+title = "Introduction to machine learning"
+length = "150 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points (to the point)"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Overview of Human Learning and Machine Learning,,
+Types of Machine Learning ( Supervised Machine Learning, Unsupervised Machine Learning, Reinforcement Learning),,
+Applications of Machine Learning,,
+Tools and Technology for Machine Learning"""
+
+"""chapter 2: Python libraries suitable for Machine Learning"""
+subject = "Introduction To Machine Learning"
+title = "Python libraries suitable for Machine Learning, Numpy"
+length = "50 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points (to the point)"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Introduction,,
+Creating Array: array(),,
+Accessing Array: by referring to its index number,,
+Stacking & Splitting: stack(), array_split(),,
+Maths Functions: add(), subtract(), multiply(), divide(), power(), mod(),,
+Statistics Functions: amin(), amax(), mean(), median(), std(), var(), average(), ptp(),,
+Summary And Revision"""
+subject = "Introduction To Machine Learning"
+title = "Python libraries suitable for Machine Learning, Pandas"
+length = "40 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points (to the point)"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Introduction,,
+Series: Series()
+Dataframes: DataFrames(),,
+Read CSV File: read_csv(),,
+Cleaning Empty Cells: dropna(),,
+Cleaning Wrong Data: drop(),,
+Removing Duplicates: duplicated(),,
+Pandas Plotting: plot(),,
+Summary And Revision"""
+subject = "Introduction To Machine Learning"
+title = "Python libraries suitable for Machine Learning, Matplotlib"
+length = "40 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points (to the point)"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Introduction,,
+Pyplot.plot: plot(),,
+Show: show(),,
+Labels: xlabel(), ylabel(),,
+Grid: grid(),,
+Bars: bar(),,
+Histogram: hist(),,
+Subplot: subplot(),,
+pie chart: pie(),,
+Save the plotted images into pdf: savefig(),,
+Summary And Revision"""
+subject = "Introduction To Machine Learning"
+title = "Python libraries suitable for Machine Learning, sklearn"
+length = "100 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points (to the point)"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Introduction,,
+Key concepts and features,,
+Steps to Build a Model in Sklearn: Loading a Dataset- read_csv(), train_test_splittrain_test_split(),,
+Summary And Revision"""
+
+"""chapter 3: Preparing to Model and Preprocessing"""
+subject = "Introduction To Machine Learning"
+title = "Preparing to Model and Preprocessing"
+length = "100 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points (to the point)"
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Introduction,,
+Machine Learning activities (
+Preparing to Model,
+Learning: Data Partition-kfold cross validation, Model Selection,
+Performance Evaluation: confusion matrix,
+Performance Improvement: Ensemble ),,
+Types of Data (
+Qualitative/Categorical Data: Nominal, Ordinal
+Quantitative/Numeric Data: Interval, Ratio ),,
+Data quality and remediation (
+Handling outliers,
+Handling missing values ),,
+Data Pre-Processing ( Dimensionality reduction Feature subset selection: Filter, Wrapper, Hybrid, Embedded ),,
+Summary And Revision"""

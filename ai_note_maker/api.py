@@ -197,26 +197,43 @@ Only output the questions followed by the answer key. No extra explanations.
         "answers": answers
     }
 
-subject = "Computer Organization And Architecture"
-title = "8085 Assembly Language Programming"
-length = "150 lines"
-maturity = "computer engineering diploma student"
-extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, examples and understanding. Also keep it more knowledgeable but in short simple statements and points (to the point)"
-complexity = "from the basics and essential complexity for theoretical knowledge too"
+subject = "Organic Chemistry"
+title = "General Organic Reaction Mechanism"
+length = "depending on the complexity"
+maturity = "12th grade biology student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, exceptions, chemical equations where needed. add extra knowledge and fun facts too. Also this is for a person who doesnt organic chemistry, so keep a tone that is friendly more like adding jokes, fun statements and all that makes it easier to learn"
+complexity = "from the basics and essential complexity for NEET exam (india)"
 wantGemini = True
-preDefineTopics = """Instruction format opcode & Operands,,
-Machine Language Instruction Format: 1-Byte, 2-Byte & 3-Byte,,
-8085 Addressing Modes,,
-Data transfer Instructions,,
-Arithmetical Instructions,,
-Logical Instructions,,
-Branching & Looping Instructions,,
-Stack Instructions,,
-I/O and Machine ControlInstructions,,
-Classification of 8085 Interrupts and its priorities,,
-8085 Vectored interrupts: TRAP, RST7.5, RST 6.5, RST 5.5 and RST Instruction,,
-8085 Non-Vectored Interrupts: INTR"""
-
+preDefineTopics = """Introduction to Reaction Mechanisms,,
+Bond Fission: Homolytic and Heterolytic,,
+Electron Movement: Curly Arrows,,
+Reagents: Nucleophiles and Electrophiles,,
+Electronic Displacement Effects,,
+Inductive Effect (+I, -I),,
+Resonance Effect (Mesomeric Effect, +M, -M),,
+Hyperconjugation,,
+Reactive Intermediates,,
+Carbocations (Stability, Rearrangements),,
+Carbanions (Stability),,
+Free Radicals (Stability),,
+Types of Organic Reactions,,
+Substitution Reactions,,
+Addition Reactions,,
+Elimination Reactions,,
+Rearrangement Reactions,,
+Reaction Energetics: Energy Diagrams,,
+Inversion, Retention, Racemization,,
+Nucleophilic Substitution Mechanisms (SN1 and SN2),,
+Elimination Mechanisms (E1 and E2),,
+Electrophilic Addition Mechanisms (Alkenes, Alkynes),,
+Nucleophilic Addition Mechanisms (Carbonyl Compounds),,
+Electrophilic Aromatic Substitution (EAS),,
+Electrophilc Addition Reaction,,
+Free Radical Addition Reaction,,
+Electrophilic Substitution Reaction,,
+Free Radical Substitution Reaction,,
+Tautomerism,,
+Summary (quick revision)"""
 if __name__ == "__main__":
 
     if(not isDebug):

@@ -1,0 +1,796 @@
+FINAL QUESTION PAPER
+
+1. 48. Consider the following NumPy arrays:
+import numpy as np
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+What will be the shape of the array resulting from np.stack((a, b), axis=0)?
+a) (6,)
+b) (2, 3)
+c) (3, 2)
+d) (1, 6)
+
+2. 97. Consider a NumPy array data = np.array([10, 20, 30, 40, 50]). What is the result of data[1:4]?
+(a) [10, 20, 30]
+(b) [20, 30, 40]
+(c) [20, 30, 40, 50]
+(d) [10, 20, 30, 40]
+
+3. 58. If a = np.array([10, 20]) and b = np.array([30, 40]), what is the output of np.stack((a, b), axis=1)?
+a) [[10, 30], [20, 40]]
+b) [[10, 20], [30, 40]]
+c) [10, 20, 30, 40]
+d) An error, as 1D arrays cannot be stacked along axis=1.
+
+4. 82. Given a 2D NumPy array arr = numpy.array([[1, 2, 3], [4, 5, 6]]), what would numpy.amax(arr, axis=0) return?
+a) numpy.array([3, 6])
+b) numpy.array([4, 5, 6])
+c) numpy.array([1, 2, 3])
+d) numpy.array([4, 5, 6])
+
+5. 88. If you have a NumPy array `arr = numpy.array([5, 10, 15, 20])`, what will `numpy.var(arr)` return?
+a) 50.0
+b) 31.25
+c) 62.5
+d) 25.0
+
+6. 81. Which of the following statistical functions allows for the calculation of a weighted average?
+a) numpy.mean()
+b) numpy.median()
+c) numpy.average()
+d) numpy.std()
+
+7. 85. Consider the array data = numpy.array([1, 2, 3, 4, 5, 6, 7, 8]). If you want to find the maximum value, which function should you use?
+a) numpy.min(data)
+b) numpy.amax(data)
+c) numpy.mean(data)
+d) numpy.ptp(data)
+
+8. 41.  Consider the 2D array:
+import numpy as np
+data_2d = np.array([[10, 20, 30],
+[40, 50, 60]])
+Which option will correctly retrieve the value 50?
+a) data_2d[1, 1]
+b) data_2d[2, 2]
+c) data_2d[1][1]
+d) Both (a) and (c)
+
+9. 43.  For a NumPy array arr, which of the following expressions is NOT a valid way to access elements by index?
+a) arr[0]
+b) arr[-1]
+c) arr[[0, 1]] (advanced indexing)
+d) arr['first']
+
+10. 69.  A data scientist wants to find the remainder of each element in a feature vector 'X' when divided by a constant 'C'. Which Numpy function should be used?
+(a) np.divide()
+(b) np.remainder()
+(c) np.floor()
+(d) np.absolute()
+
+11. 27. When creating a NumPy array using numpy.array(), what is the default behavior if the input sequence contains elements of different numeric types (e.g., integers and floats)?
+a) It will raise a TypeError.
+b) It will convert all elements to the smallest common type, usually integer.
+c) It will convert all elements to the largest common type, usually float.
+d) It will create an array of 'object' dtype.
+
+12. 53. What type of object does numpy.array_split() return?
+a) A single NumPy array.
+b) A tuple of NumPy arrays.
+c) A list of NumPy arrays.
+d) A dictionary mapping section indices to NumPy arrays.
+
+13. 84. What is the default behavior of most NumPy statistical functions (e.g., mean, median, std) if the input array contains NaN (Not a Number) values?
+a) They will automatically ignore the NaN values.
+b) They will raise a ValueError.
+c) They will return NaN.
+d) They will replace NaN with zero before calculation.
+
+14. 55. Given a 2D array:
+import numpy as np
+data = np.arange(12).reshape(3, 4)
+If you apply sections = np.array_split(data, 2, axis=0), what will be the shape of sections[0]?
+a) (1, 4)
+b) (2, 4)
+c) (3, 2)
+d) (4, 2)
+
+15. 70.  If arr = np.array([4, 9, 16]), what is the output of np.power(arr, 0.5)?
+(a) [2.0, 3.0, 4.0]
+(b) [2, 3, 4]
+(c) [16, 81, 256]
+(d) [0.5, 0.5, 0.5]
+
+16. 18. To create a 2-dimensional NumPy array from the Python nested list [[1, 2, 3], [4, 5, 6]], which of the following is the correct syntax?
+a) import numpy as np; arr = np.array([1, 2, 3], [4, 5, 6])
+b) import numpy as np; arr = np.array([[1, 2, 3], [4, 5, 6]])
+c) import numpy as np; arr = np.array((1, 2, 3), (4, 5, 6))
+d) import numpy as np; arr = np.array({1:2, 3:4})
+
+17. 51. If you have a 1D array arr = np.arange(7) and you perform np.array_split(arr, 3), what will be the sizes of the resulting sub-arrays?
+a) [3, 2, 2]
+b) [2, 2, 3]
+c) [7, 0, 0]
+d) [3, 3, 1]
+
+18. 29. What does the .ndim attribute of a NumPy array, created by numpy.array(), represent?
+a) The number of elements in the array.
+b) The data type of the array elements.
+c) The number of dimensions (axes) of the array.
+d) The shape of the array (number of elements along each dimension).
+
+19. 67.  When using functions like np.add(), what is the purpose of the 'out' parameter?
+(a) It specifies the output data type of the result.
+(b) It determines if the operation should be in-place.
+(c) It provides an optional output array in which to place the result.
+(d) It defines the starting index for the operation.
+
+20. 56. Which of the following is TRUE regarding the 'axis' parameter in numpy.stack()?
+a) It specifies the axis along which arrays are joined and must be an existing axis.
+b) It specifies the index of the new axis that is created by stacking.
+c) It specifies the axis after which the new axis is inserted for the stacked array.
+d) It determines the number of arrays to be stacked.
+
+21. 17. Which of the following Python data structures is most commonly used as direct input for creating a NumPy array using numpy.array()?
+a) A dictionary
+b) A set
+c) A list or a tuple
+d) A string
+
+22. 63.  Given two Numpy arrays:
+import numpy as np
+arr1 = np.array([12, 10, 8])
+arr2 = np.array([3, 2, 4])
+What is the result of np.divide(arr1, arr2)?
+(a) [4.0, 5.0, 2.0]
+(b) [4, 5, 2]
+(c) [0.25, 0.2, 0.5]
+(d) Error: Non-broadcastable arrays.
+
+23. 71.  Consider an array A = np.array([1, 2, 3, 4]). What is the value of np.mean(np.multiply(A, A))?
+(a) 2.5
+(b) 5.0
+(c) 7.5
+(d) 15.0
+
+24. 4. Given a NumPy array arr = np.array([5, 10, 15, 20]), what is the correct way to access the element with the value 15?
+a) arr[2]
+b) arr(2)
+c) arr.index(15)
+d) arr[3]
+
+25. 52. For two 1D arrays a and b, which numpy function is equivalent to np.stack((a, b), axis=0)?
+a) np.hstack((a, b))
+b) np.vstack((a, b))
+c) np.dstack((a, b))
+d) np.concatenate((a, b), axis=0)
+
+26. 83. When is the median generally preferred over the mean as a measure of central tendency in a dataset?
+a) When the dataset is perfectly symmetrical.
+b) When the dataset has a normal distribution.
+c) When the dataset contains significant outliers.
+d) When the dataset is small.
+
+27. 57. What is the main advantage of using numpy.array_split() over numpy.split()?
+a) array_split() can handle an uneven number of elements across sections without raising an error.
+b) array_split() is faster for large arrays.
+c) array_split() can split along any axis, while split() is limited to axis=0.
+d) array_split() returns a single concatenated array, while split() returns a list.
+
+28. 36.  If you try to access an element using an index that is beyond the valid range of a NumPy array (e.g., arr[10] for an array of size 5), what kind of error will typically occur?
+a) TypeError
+b) IndexError
+c) ValueError
+d) KeyError
+
+29. 16. What is the primary purpose of the numpy.array() function in the NumPy library?
+a) To perform complex mathematical operations on lists.
+b) To create a NumPy array object from a Python sequence (like a list or tuple).
+c) To convert a NumPy array back into a Python list.
+d) To display the dimensions of an existing NumPy array.
+
+30. 73.  In Numpy, when performing np.divide(A, B) where A is a 2D array and B is a 1D array, what mechanism allows this operation to proceed without an immediate shape mismatch error (assuming compatible dimensions)?
+(a) Array indexing
+(b) Array splitting
+(c) Broadcasting
+(d) Stacking
+
+31. 77. In NumPy, which function calculates the arithmetic average of array elements, by default treating all elements equally?
+a) numpy.average()
+b) numpy.mean()
+c) numpy.average_equal()
+d) numpy.arithmetic_mean()
+
+32. 104. Which NumPy function is best suited for creating an identity matrix (a square matrix with ones on the main diagonal and zeros elsewhere)?
+(a) np.zeros()
+(b) np.ones()
+(c) np.diag()
+(d) np.eye()
+
+33. 80. What does the numpy.ptp() function calculate for an array?
+a) The sum of all elements from peak to peak.
+b) The difference between the maximum and minimum values.
+c) The average of the highest and lowest values.
+d) The product of the highest and lowest values.
+
+34. 42.  When accessing a single element from a NumPy array (e.g., arr[0]), what is the data type of the returned value?
+a) A new NumPy array of dimension 0.
+b) A standard Python list.
+c) A scalar value (e.g., Python int, float).
+d) It depends on the original array's data type, but always a NumPy array.
+
+35. 44.  If a NumPy array arr has shape (2, 3), which index refers to the rows?
+a) The first index (e.g., the '0' in arr[0, 1]).
+b) The second index (e.g., the '1' in arr[0, 1]).
+c) Neither, rows are accessed implicitly.
+d) Rows are always accessed by negative indices.
+
+36. 9. If data_a = np.array([10, 20, 30]) and data_b = np.array([2, 5, 3]), what is the output of np.multiply(data_a, data_b)?
+a) [5, 4, 10]
+b) [12, 25, 33]
+c) [8, 15, 27]
+d) [20, 100, 90]
+
+37. 13. What is the purpose of the NumPy function np.ptp() when applied to an array?
+a) It calculates the sum of all positive elements.
+b) It returns the difference between the maximum and minimum values in the array.
+c) It computes the percentile-to-percentile range.
+d) It determines the standard deviation of the array.
+
+38. 28. Consider an array created with arr = np.array([10, 20, 30]). To calculate the mean of its elements using a NumPy statistical function, which function would you most directly apply to 'arr'?
+a) np.add(arr)
+b) np.mean(arr)
+c) arr.sum()
+d) np.average()
+
+39. 15. What is the fundamental data structure provided by NumPy that efficiently handles large numerical datasets?
+a) Python List
+b) Pandas DataFrame
+c) NumPy ndarray
+d) SciPy Sparse Matrix
+
+40. 92. Which of the following NumPy functions is used to create an array with a specified data type and initialize all its elements to zero?
+(a) np.ones()
+(b) np.empty()
+(c) np.zeros()
+(d) np.full()
+
+41. 90. In the context of Machine Learning, why are functions like numpy.mean() and numpy.std() crucial for data preprocessing?
+a) They are used for visualizing data in 3D plots.
+b) They help in feature scaling (e.g., standardization) to improve model performance.
+c) They convert numerical data into categorical data.
+d) They are primarily used for generating random numbers for model initialization.
+
+42. 54. Consider two 2D arrays:
+import numpy as np
+arr1 = np.array([[1, 2], [3, 4]])
+arr2 = np.array([[5, 6], [7, 8]])
+What will be the shape of the array resulting from np.stack((arr1, arr2), axis=1)?
+a) (2, 2, 2)
+b) (4, 2)
+c) (2, 4)
+d) (2, 2)
+
+43. 102. To calculate the element-wise remainder of division of two arrays, which NumPy function would you use?
+(a) np.divide()
+(b) np.remainder()
+(c) np.mod()
+(d) Both (b) and (c) are correct.
+
+44. 21. Consider the following code:
+import numpy as np
+arr = np.array([True, False, True])
+What will be the data type (dtype) of arr?
+a) int32
+b) bool
+c) object
+d) str
+
+45. 37.  For a 1D NumPy array arr with 5 elements, which of the following correctly accesses the last element?
+a) arr[4]
+b) arr[-1]
+c) arr[len(arr) - 1]
+d) All of the above
+
+46. 103. What is the output of np.amax(np.array([[10, 20], [30, 40]]), axis=0)?
+(a) 40
+(b) [20, 40]
+(c) [30, 40]
+(d) [10, 30]
+
+47. 79. The numpy.std() function measures the spread or dispersion of data points. What is its mathematical relationship to numpy.var()?
+a) numpy.std() is the square of numpy.var().
+b) numpy.std() is the square root of numpy.var().
+c) numpy.std() is half of numpy.var().
+d) numpy.std() is twice numpy.var().
+
+48. 94. To vertically stack two 1-D NumPy arrays, which function would you typically use?
+(a) np.concatenate()
+(b) np.hstack()
+(c) np.vstack()
+(d) np.stack()
+
+49. 45.  Which of the following correctly describes how to access elements in a multi-dimensional NumPy array using a sequence of indices?
+a) Indices must always be provided as a single tuple (e.g., arr[(0, 1)]).
+b) Indices can be provided as a comma-separated list within single brackets (e.g., arr[0, 1]).
+c) Indices can be provided as separate bracket pairs for each dimension (e.g., arr[0][1]).
+d) Both (b) and (c) are valid and commonly used.
+
+50. 3. To create a 1-dimensional NumPy array from a Python list [10, 20, 30], which of the following is the correct syntax?
+a) np.create_array([10, 20, 30])
+b) np.array([10, 20, 30])
+c) np.make_array(10, 20, 30)
+d) np.list_to_array([10, 20, 30])
+
+51. 23. Which of the following array creations will result in an array with 3 dimensions?
+a) np.array([1, 2, 3])
+b) np.array([[1, 2], [3, 4]])
+c) np.array([[[1], [2]], [[3], [4]]])
+d) np.array(5)
+
+52. 24. What is the expected shape of a NumPy array created using np.array(((1,2),(3,4),(5,6)))?
+a) (2, 3)
+b) (3, 2)
+c) (3,)
+d) (6,)
+
+53. 25. If you provide a mixed-type list like np.array([1, 'hello', 3]) to the numpy.array() function, what will be the resulting data type (dtype) of the array?
+a) int64 (with 'hello' being converted to 0)
+b) float64 (with 'hello' causing an error)
+c) object (all elements treated as generic Python objects)
+d) str (all elements converted to strings)
+
+54. 47. The numpy.array_split() function is primarily used for which operation?
+a) Combining multiple arrays into a single array.
+b) Splitting an array into multiple sub-arrays of (potentially) unequal size.
+c) Transposing the dimensions of an array.
+d) Reshaping an array without changing its data.
+
+55. 99. What does the 'shape' attribute of a NumPy array represent?
+(a) The total number of elements in the array
+(b) The number of dimensions of the array
+(c) A tuple indicating the size of the array in each dimension
+(d) The data type of the array elements
+
+56. 91. What is the primary purpose of the NumPy library in the context of Machine Learning?
+(a) Data visualization
+(b) Efficient numerical operations on large arrays
+(c) Web development
+(d) Text processing
+
+57. 78. Consider a NumPy array arr = numpy.array([10, 20, 30, 40, 50]). What will numpy.median(arr) return?
+a) 25.0
+b) 30.0
+c) 35.0
+d) 40.0
+
+58. 68.  Which of the following operations would result in an error if executed with the given arrays?
+import numpy as np
+arr_a = np.array([[1, 2], [3, 4]])
+arr_b = np.array([5, 6, 7])
+(a) np.add(arr_a, 1)
+(b) np.subtract(arr_a, arr_a)
+(c) np.multiply(arr_a, arr_b)
+(d) np.power(arr_a, 2)
+
+59. 89. Which of the following statistical functions returns the largest value in an array?
+a) numpy.min()
+b) numpy.amax()
+c) numpy.mean()
+d) numpy.ptp()
+
+60. 19. If you create a NumPy array using np.array([1, 2.5, 3]), what will be the resulting data type (dtype) of the array elements?
+a) int64
+b) float64
+c) object
+d) bool
+
+61. 1. Which of the following is the primary advantage of using NumPy arrays over standard Python lists for numerical computations in Machine Learning?
+a) NumPy arrays can store elements of different data types efficiently.
+b) NumPy operations are generally slower than Python list operations.
+c) NumPy arrays provide faster and more memory-efficient operations on large datasets.
+d) NumPy arrays automatically handle missing data without explicit programming.
+
+62. 22. Which argument is used in the numpy.array() function to explicitly specify the data type of the array elements upon creation?
+a) type
+b) datatype
+c) dtype
+d) kind
+
+63. 35.  What is the index number used to access the very first element of any NumPy array, regardless of its dimension?
+a) 1
+b) 0
+c) -1
+d) It depends on the array's dimension.
+
+64. 105. In the context of NumPy, what does 'broadcasting' refer to?
+(a) Sending array data over a network.
+(b) The ability of NumPy to perform operations on arrays of different shapes.
+(c) Converting an array to a specific data type.
+(d) Splitting an array into multiple smaller arrays.
+
+65. 62.  Which of the following Numpy functions performs element-wise multiplication between two arrays?
+(a) np.sum()
+(b) np.multiply()
+(c) np.dot()
+(d) np.product()
+
+66. 72.  Which mathematical function in Numpy is typically used for applying a 'bias' term element-wise to an array of feature values in machine learning?
+(a) np.multiply()
+(b) np.add()
+(c) np.subtract()
+(d) np.power()
+
+67. 65.  What is the output of np.mod(np.array([10, -10, 7]), 3)?
+(a) [1, -1, 1]
+(b) [1, 2, 1]
+(c) [1, 1, 1]
+(d) [1, -2, 1]
+
+68. 66.  Consider the code:
+import numpy as np
+x = np.array([2, 4, 6])
+y = 3
+result = np.subtract(x, y)
+What will result contain?
+(a) [ -1, 1, 3]
+(b) [-1, 1, 3]
+(c) [-1. -1. -1.]
+(d) Error due to incompatible shapes.
+
+69. 101. Which of the following is NOT a valid argument for the 'axis' parameter in NumPy statistical functions like sum() or mean() for a 2D array?
+(a) 0
+(b) 1
+(c) 'column'
+(d) None (meaning sum/mean over the entire array)
+
+70. 11. Which NumPy function is used to compute the arithmetic mean of all elements in an array?
+a) np.average()
+b) np.mean()
+c) np.median()
+d) np.sum()
+
+71. 7. To split a NumPy array 'my_array' into three equal sub-arrays horizontally, which function would you primarily use?
+a) np.hsplit(my_array, 3)
+b) np.array_split(my_array, 3)
+c) np.vsplit(my_array, 3)
+d) np.split(my_array, 3, axis=0)
+
+72. 60. Consider the following code snippet:
+import numpy as np
+arr_data = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
+splits = np.array_split(arr_data, 3, axis=0)
+What will be the shape of splits[1]?
+a) (1, 3)
+b) (2, 3)
+c) (3, 1)
+d) (4, 1)
+
+73. 40.  If arr is a NumPy array created by arr = np.array([1, 2, 3]), what will be the result of arr[1.0]?
+a) It will return the element at index 1 (value 2).
+b) It will raise a TypeError because indices must be integers.
+c) It will raise a ValueError because 1.0 is not a valid index.
+d) It will implicitly convert 1.0 to 1 and return the element at index 1.
+
+74. 75.  Given arr = np.array([7, 8]), what is the result of np.add(np.power(arr, 2), np.subtract(arr, 5))?
+(a) [49, 64]
+(b) [44, 67]
+(c) [51, 67]
+(d) [47, 61]
+
+75. 76. Which NumPy function is used to find the minimum value of an array?
+a) numpy.min()
+b) numpy.amin()
+c) numpy.minimum()
+d) numpy.smallest()
+
+76. 10. What does the NumPy function np.power([2, 3], 3) calculate?
+a) [6, 9]
+b) [8, 27]
+c) [2, 3, 2, 3, 2, 3]
+d) An error, as it requires two arrays of the same shape.
+
+77. 6. Which NumPy function is used to combine two or more arrays along a new axis?
+a) np.concatenate()
+b) np.merge()
+c) np.stack()
+d) np.join()
+
+78. 74.  What is the main advantage of using Numpy's element-wise mathematical functions (like np.add, np.multiply) over standard Python loops for large arrays in scientific computing and machine learning?
+(a) They consume less memory.
+(b) They allow for easier debugging.
+(c) They are significantly faster due to vectorized operations implemented in C.
+(d) They support a wider range of data types.
+
+79. 98. Which NumPy function is used to calculate the variance of the elements in an array?
+(a) np.std()
+(b) np.var()
+(c) np.ptp()
+(d) np.average()
+
+80. 46. What is the primary purpose of the numpy.stack() function?
+a) To divide an array into multiple sub-arrays.
+b) To join a sequence of arrays along a new axis.
+c) To flatten a multi-dimensional array into a 1D array.
+d) To perform element-wise addition on two arrays.
+
+81. 59. You have a 2D array arr = np.arange(9).reshape(3, 3). If you want to split this array into 3 sections horizontally (column-wise), which function and parameter combination would you use?
+a) np.array_split(arr, 3, axis=0)
+b) np.array_split(arr, 3, axis=1)
+c) np.split(arr, [1, 2], axis=0)
+d) np.vsplit(arr, 3)
+
+82. 39.  Given a 2D NumPy array arr, what does arr[0] typically return?
+a) The first element of the array.
+b) The first row of the array.
+c) The first column of the array.
+d) An error, as 2D arrays require two indices.
+
+83. 50. Which of the following statements best describes the difference between numpy.stack() and numpy.concatenate()?
+a) stack() creates a new axis, while concatenate() joins arrays along an existing axis.
+b) concatenate() creates a new axis, while stack() joins arrays along an existing axis.
+c) Both functions perform the exact same operation.
+d) stack() works only with 1D arrays, while concatenate() works with any dimension.
+
+84. 12. For the array arr = np.array([10, 1, 7, 20, 5]), what will np.amin(arr) return?
+a) 10
+b) 20
+c) 1
+d) 5
+
+85. 14. Which statistical function would you use in NumPy to measure the spread of data points around the mean in an array?
+a) np.average()
+b) np.median()
+c) np.std()
+d) np.sum()
+
+86. 38.  Which statement about negative indexing in NumPy arrays is true?
+a) Negative indexing is only applicable to 1D arrays.
+b) arr[-1] always refers to the first element of the array.
+c) Negative indices count elements from the end of the array.
+d) Negative indexing is not supported in NumPy.
+
+87. 2. What does the acronym "NumPy" primarily stand for in the context of Python programming?
+a) Numerical Python
+b) New Python
+c) Number Pyrotechnics
+d) Numerous Python
+
+88. 93. Given a NumPy array arr = np.array([[1, 2, 3], [4, 5, 6]]), what will be the output of arr[0, 1]?
+(a) 1
+(b) 2
+(c) 4
+(d) 5
+
+89. 20. What is a significant advantage of creating numerical data structures using numpy.array() instead of standard Python lists for Machine Learning applications?
+a) NumPy arrays consume more memory but are easier to debug.
+b) NumPy arrays are mutable, while Python lists are immutable.
+c) NumPy arrays are homogeneous in data type and provide vectorized operations, leading to better performance.
+d) Python lists support more mathematical functions directly than NumPy arrays.
+
+90. 33.  A 2D NumPy array is defined as:
+import numpy as np
+matrix = np.array([[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]])
+To access the element with value 8, which of the following index combinations is correct?
+a) matrix[2, 1]
+b) matrix[1, 2]
+c) matrix[2][1]
+d) matrix[1][2]
+
+91. 49. Given the array:
+import numpy as np
+arr = np.array([10, 20, 30, 40, 50, 60])
+What will be the output of len(np.array_split(arr, 3))?
+a) 2
+b) 3
+c) 6
+d) An error, as it cannot be split equally.
+
+92. 34.  Consider a 3D NumPy array:
+import numpy as np
+cube = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+What is the value accessed by cube[0, 1, 0]?
+a) 1
+b) 3
+c) 5
+d) 7
+
+93. 96. If you have two NumPy arrays, arr1 = np.array([1, 2, 3]) and arr2 = np.array([4, 5, 6]), what will np.multiply(arr1, arr2) return?
+(a) [5, 7, 9]
+(b) [4, 10, 18]
+(c) [[1, 2, 3], [4, 5, 6]]
+(d) An error due to dimension mismatch
+
+94. 86. A computer engineering diploma student is analyzing sensor data where some readings are abnormally high due to sensor malfunction. Which statistical measure would be most robust to these extreme values to represent the typical sensor reading?
+a) Mean
+b) Variance
+c) Median
+d) Standard Deviation
+
+95. 100. If arr = np.array([1, 2, 3, 4, 5, 6]), what will np.array_split(arr, 3) return?
+(a) [array([1, 2]), array([3, 4]), array([5, 6])]
+(b) [array([1, 2, 3]), array([4, 5, 6])]
+(c) [array([1]), array([2]), array([3]), array([4]), array([5]), array([6])]
+(d) An error, as arrays can only be split into equal parts.
+
+96. 87. What does a low standard deviation typically indicate about a dataset?
+a) The data points are spread out widely from the mean.
+b) The data points are clustered closely around the mean.
+c) The dataset is skewed.
+d) The dataset contains many outliers.
+
+97. 26. Which of these is NOT a direct argument to the numpy.array() function for creating an array?
+a) object
+b) dtype
+c) copy
+d) shape
+
+98. 95. Which of the following NumPy functions calculates the standard deviation of array elements?
+(a) np.mean()
+(b) np.average()
+(c) np.std()
+(d) np.var()
+
+99. 5. If you have a 2D NumPy array matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]), what will matrix[0, 1] return?
+a) 1
+b) 2
+c) 4
+d) [1, 2, 3]
+
+100. 30. Which of the following code snippets correctly creates a NumPy array with elements 1, 2, 3, and 4 and then multiplies each element by 2?
+a) import numpy as np; arr = np.array([1, 2, 3, 4]); result = arr * 2
+b) import numpy as np; arr = np.array([1, 2, 3, 4]); result = np.multiply(arr, 2)
+c) import numpy as np; arr = [1, 2, 3, 4]; result = arr * 2
+d) Both a) and b) are correct.
+
+101. 32.  Given the NumPy array:
+import numpy as np
+data = np.array([5, 15, 25, 35, 45, 55])
+Which of the following expressions correctly accesses the element 45 using negative indexing?
+a) data[-1]
+b) data[-2]
+c) data[-3]
+d) data[4]
+
+102. 8. Given arr1 = np.array([1, 2, 3]) and arr2 = np.array([4, 5, 6]), what will be the result of np.add(arr1, arr2)?
+a) [1, 2, 3, 4, 5, 6]
+b) [5, 7, 9]
+c) [4, 10, 18]
+d) An error, as arrays cannot be added this way.
+
+103. 64.  If you want to calculate 2 raised to the power of each element in an array [1, 2, 3], which Numpy function would you use?
+(a) np.exp()
+(b) np.sqrt()
+(c) np.power()
+(d) np.log()
+
+104. 61.  Consider the following Python code snippet:
+import numpy as np
+a = np.array([10, 20, 30])
+b = np.array([3, 5, 7])
+result = np.add(a, b)
+What will be the output of print(result)?
+(a) [10 20 30 3 5 7]
+(b) [13 25 37]
+(c) [3 5 7]
+(d) Error: Operands could not be broadcast together.
+
+105. 31.  Consider the following NumPy array:
+import numpy as np
+arr = np.array([10, 20, 30, 40, 50])
+What will be the output of arr[2]?
+a) 10
+b) 20
+c) 30
+d) 40
+
+
+ANSWER KEY
+
+1. (b)
+2. (b)
+3. (a)
+4. (d)
+5. (b)
+6. (c)
+7. (b)
+8. (d)
+9. (d)
+10. (b)
+11. (c)
+12. (c)
+13. (c)
+14. (b)
+15. (a)
+16. (b)
+17. (a)
+18. (c)
+19. (c)
+20. (b)
+21. (c)
+22. (a)
+23. (c)
+24. (a)
+25. (b)
+26. (c)
+27. (a)
+28. (b)
+29. (b)
+30. (c)
+31. (b)
+32. (d)
+33. (b)
+34. (c)
+35. (a)
+36. (d)
+37. (b)
+38. (b)
+39. (c)
+40. (c)
+41. (b)
+42. (a)
+43. (d)
+44. (b)
+45. (d)
+46. (c)
+47. (b)
+48. (c)
+49. (d)
+50. (b)
+51. (c)
+52. (b)
+53. (d)
+54. (b)
+55. (c)
+56. (b)
+57. (b)
+58. (c)
+59. (b)
+60. (b)
+61. (c)
+62. (c)
+63. (b)
+64. (b)
+65. (b)
+66. (b)
+67. (b)
+68. (b)
+69. (c)
+70. (b)
+71. (b)
+72. (a)
+73. (b)
+74. (c)
+75. (b)
+76. (b)
+77. (c)
+78. (c)
+79. (b)
+80. (b)
+81. (b)
+82. (b)
+83. (a)
+84. (c)
+85. (c)
+86. (c)
+87. (a)
+88. (b)
+89. (c)
+90. (a)
+91. (b)
+92. (b)
+93. (b)
+94. (c)
+95. (a)
+96. (b)
+97. (d)
+98. (c)
+99. (b)
+100. (d)
+101. (b)
+102. (b)
+103. (c)
+104. (b)
+105. (c)
