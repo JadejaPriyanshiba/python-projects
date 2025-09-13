@@ -12,7 +12,7 @@ getInstantProgressPDF = False
 recommendTopics = False
 getQuestions = True
 getNotes = True
-startIndex = 18
+startIndex = 0
 
 def callModel(prompt, model = "local"):
     # token = cg.getValue("TOKEN")
@@ -197,42 +197,19 @@ Only output the questions followed by the answer key. No extra explanations.
         "answers": answers
     }
 
-subject = "Organic Chemistry"
-title = "General Organic Reaction Mechanism"
-length = "50 lines"
-maturity = "12th grade biology student"
-extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, exceptions, chemical equations where needed. add extra knowledge and fun facts too. Also this is for a person who doesnt organic chemistry, so keep a tone that is friendly more like adding jokes, fun statements and all that makes it easier to learn"
-complexity = "from the basics and essential complexity for NEET exam (india)"
+subject = "Physics"
+title = "ELectric Current"
+length = "100 lines"
+maturity = "11th grade student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, add extra knowledge and fun facts too. Make the structure more point vise shorter but knowledgeable and to the point simple statements."
+complexity = "from the basics and essential complexity for MCQ based exam (india)"
 wantGemini = True
-preDefineTopics = """Introduction to Reaction Mechanisms,,
-Bond Fission: Homolytic and Heterolytic,,
-Electron Movement: Curly Arrows,,
-Reagents: Nucleophiles and Electrophiles,,
-Electronic Displacement Effects,,
-Inductive Effect (+I, -I),,
-Resonance Effect (Mesomeric Effect, +M, -M),,
-Hyperconjugation,,
-Reactive Intermediates,,
-Carbocations (Stability, Rearrangements),,
-Carbanions (Stability),,
-Free Radicals (Stability),,
-Types of Organic Reactions,,
-Substitution Reactions,,
-Addition Reactions,,
-Elimination Reactions,,
-Rearrangement Reactions,,
-Reaction Energetics: Energy Diagrams,,
-Inversion, Retention, Racemization,,
-Nucleophilic Substitution Mechanisms (SN1 and SN2),,
-Elimination Mechanisms (E1 and E2),,
-Electrophilic Addition Mechanisms (Alkenes, Alkynes),,
-Nucleophilic Addition Mechanisms (Carbonyl Compounds),,
-Electrophilic Aromatic Substitution (EAS),,
-Electrophilc Addition Reaction,,
-Free Radical Addition Reaction,,
-Electrophilic Substitution Reaction,,
-Free Radical Substitution Reaction,,
-Tautomerism,,
+preDefineTopics = """Introduction And Basics,,
+Ohm's Law and application,,
+Charge, interaction of charges, Coulomb's force,,
+Electric field, electric potential, electric flux, electric current,,
+Resistance, conductance, resistivity, conductivity, series and parallel combination of resistors,,
+Capacitance, parallel plate capacitor, series and parallel combination of capacitors,,
 Summary (quick revision)"""
 if __name__ == "__main__":
 

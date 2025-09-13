@@ -1,0 +1,742 @@
+FINAL QUESTION PAPER
+
+1. 53. If the drift velocity of free electrons in a conductor is doubled while the number density of electrons and the cross-sectional area remain constant, the current flowing through the conductor will:
+(a) Halve
+(b) Double
+(c) Remain unchanged
+(d) Quadruple
+
+2. 61. The reciprocal of electrical resistance is known as:
+(a) Inductance
+(b) Capacitance
+(c) Conductance
+(d) Reactance
+
+3. 22. A resistor of 10 Ohm has a current of 2 A flowing through it. What is the potential difference across the resistor?
+(a) 5 V
+(b) 12 V
+(c) 20 V
+(d) 0.2 V
+
+4. 97. Two resistors, R1 and R2, are connected in series. Their equivalent resistance is:
+(a) R1 * R2
+(b) (R1 + R2) / (R1 * R2)
+(c) R1 + R2
+(d) 1/R1 + 1/R2
+
+5. 44. Two identical spheres, one charged with +5 microcoulombs and the other with -3 microcoulombs, are brought into contact and then separated. What will be the charge on each sphere after separation?
+(a) +5 microcoulombs and -3 microcoulombs
+(b) +1 microcoulomb and +1 microcoulomb
+(c) +2 microcoulombs and +2 microcoulombs
+(d) +4 microcoulombs and -2 microcoulombs
+
+6. 25. Two resistors of 4 Ohm and 6 Ohm are connected in series to a 20 V battery. What is the total current flowing in the circuit?
+(a) 2 A
+(b) 5 A
+(c) 1 A
+(d) 0.5 A
+
+7. 45. Consider three charges q1, q2, and q3 at the vertices of an equilateral triangle. If q1 and q2 are positive and q3 is negative, what is the direction of the net force on q3?
+(a) Towards q1
+(b) Towards q2
+(c) Along the bisector of the angle between the lines connecting q3 to q1 and q2, pointing outwards.
+(d) Along the bisector of the angle between the lines connecting q3 to q1 and q2, pointing inwards.
+
+8. 85. Three capacitors of capacitances C1, C2, and C3 are connected such that C1 and C2 are in parallel, and this combination is in series with C3. The equivalent capacitance of this arrangement is:
+(a) C1 + C2 + C3
+(b) (C1+C2)C3 / (C1+C2+C3)
+(c) C1C2 / (C1+C2) + C3
+(d) C1 + C2 + 1/C3
+
+9. 66. Which of the following quantities has the unit Siemens?
+(a) Resistivity
+(b) Conductivity
+(c) Conductance
+(d) Resistance
+
+10. 10. Which material allows electric current to flow through it easily?
+(a) Insulator
+(b) Semiconductor
+(c) Conductor
+(d) Dielectric
+
+11. 43. Which of the following statements about electric charge is incorrect?
+(a) Charge is conserved.
+(b) Charge is always an integral multiple of the elementary charge.
+(c) Like charges repel each other.
+(d) The total charge of an isolated system can change over time.
+
+12. 7.  The SI unit of electric resistance is:
+(a) Ampere
+(b) Volt
+(c) Ohm
+(d) Watt
+
+13. 8.  What is the approximate magnitude of the charge of a single electron?
+(a) 1.6 x 10^-19 C
+(b) -1.6 x 10^-19 C
+(c) 9.1 x 10^-31 C
+(d) 6.25 x 10^18 C
+
+14. 46. A current of 2 A flows through a conductor for 1 minute. The amount of charge that passes through the conductor is:
+(a) 120 C
+(b) 60 C
+(c) 2 C
+(d) 30 C
+
+15. 74. If a current I flows through a resistor R, the power dissipated is P. If the current is doubled, the power dissipated will be:
+(a) 2P
+(b) P/2
+(c) 4P
+(d) P/4
+
+16. 105. For a metallic conductor, as the temperature increases, its resistance generally:
+(a) Increases
+(b) Decreases
+(c) Remains constant
+(d) First increases then decreases
+
+17. 72. A resistor R dissipates power P when connected to a certain voltage V. If another identical resistor is connected in series with the first one to the same voltage V, the total power dissipated will be:
+(a) P
+(b) 2P
+(c) P/2
+(d) P/4
+
+18. 58. Two point charges +q and -q are placed at a distance 'r' from each other. The magnitude of the force between them is:
+(a) kq squared/r
+(b) kq squared/r squared
+(c) kq/r squared
+(d) k(2q)/r squared
+(where k is Coulomb's constant)
+
+19. 3.  The conventional direction of electric current is taken as the direction of flow of:
+(a) Electrons
+(b) Negative ions
+(c) Positive charge
+(d) Neutral atoms
+
+20. 100. The SI unit of electric potential difference is:
+(a) Joule
+(b) Watt
+(c) Volt
+(d) Coulomb
+
+21. 59. The electric field E and electric potential V at a point are related by:
+(a) E = -dV/dr
+(b) E = dV/dr
+(c) V = -dE/dr
+(d) V = dE/dr
+
+22. 54. The capacitance of a capacitor is a measure of its ability to:
+(a) Dissipate energy
+(b) Store electric charge
+(c) Conduct electricity
+(d) Generate magnetic fields
+
+23. 52. Three resistors, each of resistance R, are connected in series. Their equivalent resistance is then connected in parallel with another resistor of resistance R. The equivalent resistance of the entire combination is:
+(a) R/3
+(b) 3R/4
+(c) 4R/3
+(d) R
+
+24. 36. A charge Q is placed at the center of a square. Charges q are placed at each of the four corners of the square. The net force on the charge Q is:
+(a) Proportional to Qq
+(b) Directed towards one of the corners
+(c) Zero
+(d) Dependent on the side length of the square only
+
+25. 38. When a plastic comb rubbed with dry hair attracts tiny pieces of paper, it demonstrates:
+(a) Magnetic force
+(b) Gravitational force
+(c) Nuclear force
+(d) Electrostatic force
+
+26. 9.  Potential difference between two points in an electric circuit is a measure of:
+(a) The amount of current flowing between the points.
+(b) The work done in moving a unit positive charge from one point to another.
+(c) The total resistance between the points.
+(d) The power dissipated between the points.
+
+27. 73. The material property that opposes the flow of electric current is called:
+(a) Conductance
+(b) Resistivity
+(c) Conductivity
+(d) Permittivity
+
+28. 1.  What is the SI unit of electric charge?
+(a) Ampere
+(b) Volt
+(c) Coulomb
+(d) Ohm
+
+29. 14. The SI unit of electric power is:
+(a) Joule
+(b) Watt
+(c) Volt-Ampere-hour
+(d) Kilowatt-hour
+
+30. 65. If a 10 V potential difference is applied across a resistor and a current of 2 A flows through it, the resistance of the resistor is:
+(a) 0.2 Ohm
+(b) 5 Ohm
+(c) 20 Ohm
+(d) 12 Ohm
+
+31. 34. A positively charged glass rod is brought near an uncharged isolated metal sphere. If the sphere is grounded momentarily while the rod is still nearby, and then the rod is removed, the sphere will be:
+(a) Positively charged
+(b) Negatively charged
+(c) Uncharged
+(d) Charged with an unpredictable sign
+
+32. 99. The relationship between electric field (E) and electric potential (V) is given by:
+(a) E = -dV/dr
+(b) E = dV/dr
+(c) E = -V*r
+(d) E = V/r
+
+33. 88. A parallel plate capacitor has capacitance C in air. When a dielectric medium of dielectric constant k is introduced completely filling the space between the plates, the new capacitance becomes:
+(a) C/k
+(b) kC
+(c) C+k
+(d) C-k
+
+34. 103. Two capacitors, C1 and C2, are connected in parallel. Their equivalent capacitance is:
+(a) (C1 * C2) / (C1 + C2)
+(b) C1 + C2
+(c) 1/C1 + 1/C2
+(d) C1 * C2
+
+35. 27. The resistance R of a wire of length L and area of cross-section A is given by R = rho * (L/A), where rho is the resistivity. If the length of the wire is doubled and its area of cross-section is halved, its new resistance will be:
+(a) R/4
+(b) 4R
+(c) R
+(d) 2R
+
+36. 13. If a 12V battery is connected across a resistor and a current of 2A flows through it, what is the resistance of the resistor?
+(a) 0.16 Ohm
+(b) 6 Ohm
+(c) 24 Ohm
+(d) 10 Ohm
+
+37. 31. Which of the following is a fundamental property of electric charge?
+(a) It is always positive.
+(b) It is quantized.
+(c) It can be destroyed.
+(d) It is independent of the number of electrons.
+
+38. 32. The SI unit of electric charge is:
+(a) Ampere
+(b) Volt
+(c) Coulomb
+(d) Ohm
+
+39. 102. Two capacitors, C1 and C2, are connected in series. Their equivalent capacitance is:
+(a) C1 + C2
+(b) (C1 * C2) / (C1 + C2)
+(c) 1/C1 + 1/C2
+(d) C1 * C2
+
+40. 96. The SI unit of electrical resistivity is:
+(a) Ohm-meter
+(b) Ohm per meter
+(c) Ohm
+(d) Siemens
+
+41. 77. The capacitance of a parallel plate capacitor increases with:
+(a) increasing the distance between the plates
+(b) decreasing the plate area
+(c) increasing the permittivity of the dielectric between the plates
+(d) increasing the potential difference across the plates
+
+42. 89. Which of the following statements is true for a capacitor connected to a DC source?
+(a) It conducts current continuously.
+(b) It offers infinite resistance to DC current after it is fully charged.
+(c) It allows only AC current to pass through.
+(d) It acts as a short circuit for DC current.
+
+43. 12. In metallic conductors, electric current is due to the flow of:
+(a) Protons
+(b) Electrons
+(c) Positive ions
+(d) Holes
+
+44. 78. A capacitor stores electrical energy in the form of:
+(a) kinetic energy
+(b) potential energy of the electric field
+(c) magnetic energy
+(d) chemical energy
+
+45. 49. The work done in moving a unit positive charge from one point to another in an electric field is called:
+(a) Electric field intensity
+(b) Electric potential difference
+(c) Electric flux
+(d) Electric current
+
+46. 63. A wire of resistance R is stretched to twice its original length. Assuming its volume remains constant, its new resistance will be:
+(a) R/4
+(b) 2R
+(c) 4R
+(d) R/2
+
+47. 60. A wire of resistance 10 Ohm is stretched to twice its original length. Assuming no change in density, its new resistance will be:
+(a) 10 Ohm
+(b) 20 Ohm
+(c) 40 Ohm
+(d) 5 Ohm
+
+48. 37. The minimum possible charge on an object is:
+(a) 1.6 x 10^-19 C
+(b) 3.2 x 10^-19 C
+(c) 6.25 x 10^18 C
+(d) Any fraction of 1.6 x 10^-19 C
+
+49. 47. Ohm's Law states that:
+(a) V = IR, when temperature is constant.
+(b) V = IR, under all conditions.
+(c) I = VR, when temperature is constant.
+(d) R = VI, when temperature is constant.
+
+50. 35. Coulomb's law for the force between two point charges is inversely proportional to:
+(a) The distance between the charges
+(b) The square of the distance between the charges
+(c) The product of the magnitudes of the charges
+(d) The square of the product of the magnitudes of the charges
+
+51. 76. The SI unit of capacitance is:
+(a) Farad
+(b) Volt per Coulomb
+(c) Joule per Coulomb
+(d) Ampere
+
+52. 81. A parallel plate capacitor is charged by a battery and then the battery is disconnected. If a dielectric slab is inserted between the plates, which of the following quantities will decrease?
+(a) Charge on the plates
+(b) Capacitance
+(c) Potential difference across the plates
+(d) Electric field intensity
+
+53. 30. A bulb is rated 60 W, 220 V. When it is connected to a 110 V supply, assuming its resistance remains constant, the power consumed will be:
+(a) 60 W
+(b) 30 W
+(c) 15 W
+(d) 120 W
+
+54. 24. Which of the following is an example of a non-ohmic device?
+(a) Copper wire
+(b) Nichrome wire
+(c) Diode
+(d) Resistor
+
+55. 62. Which of the following statements is true regarding the resistivity of a material?
+(a) It depends on the length of the conductor.
+(b) It depends on the cross-sectional area of the conductor.
+(c) It depends on the nature of the material and temperature.
+(d) It depends on the voltage applied across the conductor.
+
+56. 16. Which of the following statements correctly defines Ohm's Law?
+(a) The current flowing through a conductor is inversely proportional to the potential difference across its ends.
+(b) The resistance of a conductor is directly proportional to the current flowing through it.
+(c) The potential difference across the ends of a conductor is directly proportional to the current flowing through it, provided physical conditions remain unchanged.
+(d) The power dissipated in a conductor is directly proportional to the square of the current flowing through it.
+
+57. 95. The resistance of a wire of uniform cross-section depends on:
+(a) Its length only
+(b) Its area of cross-section only
+(c) Its material only
+(d) All of the above
+
+58. 84. A parallel plate capacitor has its plates separated by a distance 'd'. If the distance between the plates is doubled, its capacitance will:
+(a) double
+(b) halve
+(c) remain unchanged
+(d) quadruple
+
+59. 98. Three resistors, each of resistance R, are connected in parallel. Their equivalent resistance is:
+(a) 3R
+(b) R/3
+(c) 1/3R
+(d) 3/R
+
+60. 68. The resistivity of a semiconductor generally:
+(a) Increases with increasing temperature.
+(b) Decreases with increasing temperature.
+(c) Remains constant with temperature.
+(d) First increases then decreases with temperature.
+
+61. 28. For most metallic conductors, as the temperature increases, their electrical resistance:
+(a) Increases
+(b) Decreases
+(c) Remains unchanged
+(d) First decreases then increases
+
+62. 23. If a current of 3 A flows through a resistor of 5 Ohm, the power dissipated in the resistor is:
+(a) 15 W
+(b) 45 W
+(c) 25 W
+(d) 75 W
+
+63. 26. Two resistors of 2 Ohm and 2 Ohm are connected in parallel to a 6 V battery. What is the equivalent resistance of the parallel combination?
+(a) 4 Ohm
+(b) 1 Ohm
+(c) 0.5 Ohm
+(d) 2 Ohm
+
+64. 29. The reciprocal of resistance is called conductance. Its SI unit is:
+(a) Ohm
+(b) Siemen
+(c) Volt
+(d) Farad
+
+65. 17. The SI unit for electrical resistance is:
+(a) Ampere
+(b) Volt
+(c) Ohm
+(d) Watt
+
+66. 86. A capacitor is charged to a potential V and stores energy U. If the potential is increased to 2V, the energy stored will be:
+(a) U/2
+(b) 2U
+(c) 4U
+(d) U
+
+67. 75. The specific resistance of a conductor depends only on its:
+(a) Length and cross-sectional area
+(b) Material and temperature
+(c) Length, cross-sectional area, and temperature
+(d) Mass and volume
+
+68. 87. If the plates of a charged parallel plate capacitor are suddenly pulled apart, increasing the distance between them, and the capacitor is isolated (not connected to any battery), then:
+(a) The charge on the plates decreases.
+(b) The potential difference between the plates decreases.
+(c) The capacitance increases.
+(d) The electric field between the plates remains constant.
+
+69. 67. When resistors are connected in series, which quantity remains the same through each resistor?
+(a) Voltage
+(b) Current
+(c) Power
+(d) Heat generated
+
+70. 33. Two point charges, +Q and -Q, are separated by a distance r. The force between them is F. If the distance is doubled, the new force will be:
+(a) 2F
+(b) F/2
+(c) F/4
+(d) 4F
+
+71. 15. What term describes the opposition offered by a material to the flow of electric current?
+(a) Conductance
+(b) Resistivity
+(c) Resistance
+(d) Conductivity
+
+72. 2.  Electric current is defined as:
+(a) The rate of flow of electric potential
+(b) The rate of flow of electric charge
+(c) The total amount of charge in a circuit
+(d) The work done per unit charge
+
+73. 82. The energy stored in a capacitor with capacitance C and potential difference V across its plates is given by:
+(a) (1/2)CV
+(b) CV^2
+(c) (1/2)CV^2
+(d) (1/2)C^2V
+
+74. 56. Two capacitors of capacitance C1 and C2 are connected in parallel. The equivalent capacitance is:
+(a) (C1 C2)/(C1 + C2)
+(b) C1 + C2
+(c) |C1 - C2|
+(d) (C1 + C2)/(C1 C2)
+
+75. 91. If 5 C of charge flows through a cross-section of a conductor in 2 seconds, the current flowing is:
+(a) 0.4 A
+(b) 2.5 A
+(c) 10 A
+(d) 0.2 A
+
+76. 20. A material's intrinsic property that opposes the flow of electric current is called:
+(a) Resistance
+(b) Conductance
+(c) Resistivity
+(d) Conductivity
+
+77. 79. Two capacitors of capacitance 3 uF and 6 uF are connected in series. The equivalent capacitance of the combination is:
+(a) 9 uF
+(b) 2 uF
+(c) 0.5 uF
+(d) 18 uF
+
+78. 90. The breakdown voltage of a capacitor refers to:
+(a) the maximum current it can withstand.
+(b) the maximum voltage it can withstand without dielectric breakdown.
+(c) the voltage at which it completely discharges.
+(d) the voltage at which it starts conducting current.
+
+79. 40. Two point charges q1 and q2 are located at positions r1 and r2 respectively. The force exerted by q1 on q2 is given by:
+(a) F12 = (1/(4πε0)) (q1q2/|r1-r2|)
+(b) F12 = (1/(4πε0)) (q1q2/|r1-r2|^2)
+(c) F12 = (1/(4πε0)) (q1q2/|r1-r2|^3) (r2-r1)
+(d) F12 = (1/(4πε0)) (q1q2/|r1-r2|^2) (r2-r1)/|r2-r1|
+
+80. 71. Two resistors, R1 and R2, are connected in series. An identical parallel combination of R1 and R2 is then connected in series with the first combination. The total equivalent resistance of this circuit will be:
+(a) (R1 + R2) + (R1R2 / (R1 + R2))
+(b) 2(R1 + R2)
+(c) (R1R2 / (R1 + R2)) + (R1R2 / (R1 + R2))
+(d) (R1 + R2) / 2
+
+81. 94. Ohm's Law states that for a metallic conductor at constant temperature:
+(a) V = I/R
+(b) R = V/I
+(c) I = V*R
+(d) V = I*R
+
+82. 42. How many electrons constitute one Coulomb of charge?
+(a) 1.6 x 10^-19
+(b) 6.25 x 10^18
+(c) 9 x 10^9
+(d) 1
+
+83. 92. The SI unit of electric charge is:
+(a) Ampere
+(b) Volt
+(c) Coulomb
+(d) Farad
+
+84. 39. The value of the electrostatic constant 'k' in Coulomb's Law (F = k q1q2/r^2) in vacuum is approximately:
+(a) 9 x 10^9 N m^2/C^2
+(b) 8.85 x 10^-12 C^2/N m^2
+(c) 1/(4 pi) N m^2/C^2
+(d) 9 x 10^-9 N m^2/C^2
+
+85. 69. A wire of uniform cross-section and length L has a resistance R. If it is cut into five equal pieces, and these pieces are connected in parallel, the equivalent resistance of the combination will be:
+(a) R/5
+(b) 5R
+(c) R/25
+(d) 25R
+
+86. 70. The relationship between resistivity (rho) and conductivity (sigma) is:
+(a) sigma = rho
+(b) sigma = 1/rho
+(c) sigma = rho^2
+(d) sigma = 1/rho^2
+
+87. 5.  If 1 Ampere current flows through a conductor for 1 second, the amount of charge that passes through the cross-section is:
+(a) 1 Joule
+(b) 1 Volt
+(c) 1 Coulomb
+(d) 1 Watt
+
+88. 41. If a dielectric medium is introduced between two point charges, the electrostatic force between them:
+(a) Increases
+(b) Decreases
+(c) Remains unchanged
+(d) Becomes zero
+
+89. 48. The electric field at a point is always:
+(a) Parallel to the equipotential surface passing through that point.
+(b) Perpendicular to the equipotential surface passing through that point.
+(c) Tangential to the equipotential surface passing through that point.
+(d) In the direction of increasing electric potential.
+
+90. 51. Which of the following materials has the highest resistivity?
+(a) Copper
+(b) Silver
+(c) Nichrome
+(d) Silicon
+
+91. 50. A hollow conducting sphere of radius R has a charge Q on its surface. The electric flux passing through a concentric spherical Gaussian surface of radius r (r < R) is:
+(a) Q/epsilon0
+(b) Q/(2epsilon0)
+(c) Zero
+(d) Q/(4pi epsilon0 R squared)
+
+92. 101. The capacitance of a parallel plate capacitor with plate area A and separation d, filled with a dielectric of constant K, is:
+(a) epsilon_0 * A / d
+(b) K * epsilon_0 * A / d
+(c) epsilon_0 * d / A
+(d) K * epsilon_0 * d / A
+
+93. 6.  Ohm's Law states that the current flowing through a conductor is directly proportional to the:
+(a) Resistance
+(b) Applied potential difference
+(c) Length of the conductor
+(d) Area of cross-section
+
+94. 104. The quantization of electric charge implies that:
+(a) Charge cannot be destroyed
+(b) Charge is always conserved
+(c) Charge exists in discrete integral multiples of the elementary charge
+(d) Charge can only exist in even multiples of the elementary charge
+
+95. 18. Ohm's Law is valid only when:
+(a) The conductor is made of a semiconductor material.
+(b) The temperature of the conductor varies significantly.
+(c) The physical conditions (like temperature, mechanical strain) of the conductor remain constant.
+(d) The potential difference is very high.
+
+96. 93. Conventional current flows in the direction of:
+(a) Electron flow
+(b) Positive charge flow
+(c) Net charge flow
+(d) Neutral particle flow
+
+97. 55. A parallel plate capacitor has plate area A and separation d. If a dielectric slab of dielectric constant K and thickness d is introduced between the plates, the capacitance becomes:
+(a) C0/K
+(b) KC0
+(c) C0 + K
+(d) K/C0
+(where C0 is the capacitance without the dielectric)
+
+98. 11. According to Coulomb's Law, the force between two point charges is inversely proportional to the:
+(a) Distance between them
+(b) Square of the distance between them
+(c) Product of their magnitudes
+(d) Permittivity of the medium
+
+99. 21. The resistance of a metallic wire depends on all of the following factors EXCEPT:
+(a) Length of the wire
+(b) Area of cross-section of the wire
+(c) Material of the wire
+(d) The potential difference across its ends
+
+100. 64. Three resistors, 2 Ohm, 3 Ohm, and 6 Ohm, are connected in parallel. The equivalent resistance of the combination is:
+(a) 11 Ohm
+(b) 1 Ohm
+(c) 6 Ohm
+(d) 0.5 Ohm
+
+101. 80. If three capacitors, each of capacitance C, are connected in parallel, the equivalent capacitance of the combination will be:
+(a) C/3
+(b) C
+(c) 3C
+(d) 1/3C
+
+102. 19. For an ohmic conductor, a graph between potential difference (V) and current (I) is:
+(a) A straight line passing through the origin.
+(b) A parabola.
+(c) An exponential curve.
+(d) A straight line with a negative slope.
+
+103. 57. The potential difference across a 10 microFarad capacitor carrying a charge of 50 microCoulomb is:
+(a) 0.5 V
+(b) 5 V
+(c) 500 V
+(d) 2 V
+
+104. 83. When capacitors are connected in series across a voltage source:
+(a) the charge on each capacitor is the same
+(b) the potential difference across each capacitor is the same
+(c) the equivalent capacitance is greater than the largest individual capacitance
+(d) the total charge stored is the sum of charges on individual capacitors
+
+105. 4.  Which of the following statements is true regarding electric charge?
+(a) It is quantized and cannot be created or destroyed.
+(b) It is continuous and can be created or destroyed.
+(c) It is quantized but can be created or destroyed.
+(d) It is continuous but cannot be created or destroyed.
+
+
+ANSWER KEY
+
+1. (b)
+2. (c)
+3. (c)
+4. (c)
+5. (b)
+6. (a)
+7. (d)
+8. (b)
+9. (c)
+10. (c)
+11. (d)
+12. (c)
+13. (a)
+14. (a)
+15. (c)
+16. (a)
+17. (c)
+18. (b)
+19. (c)
+20. (c)
+21. (a)
+22. (b)
+23. (b)
+24. (c)
+25. (d)
+26. (b)
+27. (b)
+28. (c)
+29. (b)
+30. (b)
+31. (b)
+32. (a)
+33. (b)
+34. (b)
+35. (b)
+36. (b)
+37. (b)
+38. (c)
+39. (b)
+40. (a)
+41. (c)
+42. (b)
+43. (b)
+44. (b)
+45. (b)
+46. (c)
+47. (c)
+48. (a)
+49. (a)
+50. (b)
+51. (a)
+52. (c)
+53. (c)
+54. (c)
+55. (c)
+56. (c)
+57. (d)
+58. (b)
+59. (b)
+60. (b)
+61. (a)
+62. (b)
+63. (b)
+64. (b)
+65. (c)
+66. (c)
+67. (b)
+68. (d)
+69. (b)
+70. (c)
+71. (c)
+72. (b)
+73. (c)
+74. (b)
+75. (b)
+76. (c)
+77. (b)
+78. (b)
+79. (d)
+80. (a)
+81. (d)
+82. (b)
+83. (c)
+84. (a)
+85. (c)
+86. (b)
+87. (c)
+88. (b)
+89. (b)
+90. (c)
+91. (c)
+92. (b)
+93. (b)
+94. (c)
+95. (c)
+96. (b)
+97. (b)
+98. (b)
+99. (d)
+100. (b)
+101. (c)
+102. (a)
+103. (b)
+104. (a)
+105. (a)
