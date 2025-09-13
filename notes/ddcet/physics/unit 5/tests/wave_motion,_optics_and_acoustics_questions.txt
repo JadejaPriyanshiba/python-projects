@@ -1,0 +1,800 @@
+Topic: Introduction
+
+Section: Multiple Choice Questions
+1. Which of the following is the primary characteristic of a wave?
+(a) Transfer of matter
+(b) Transfer of energy without transfer of matter
+(c) Transfer of momentum only
+(d) Transfer of both matter and energy
+2. Which of the following is a non-mechanical wave?
+(a) Sound wave
+(b) Water wave
+(c) Light wave
+(d) Seismic wave
+3. In a transverse wave, the particles of the medium oscillate:
+(a) Parallel to the direction of wave propagation
+(b) Perpendicular to the direction of wave propagation
+(c) At an angle of 45 degrees to the direction of wave propagation
+(d) In a circular path
+4. The product of frequency (f) and wavelength (λ) of a wave gives its:
+(a) Amplitude
+(b) Period
+(c) Speed
+(d) Intensity
+5. The maximum displacement of a particle of the medium from its equilibrium position due to a wave is called its:
+(a) Wavelength
+(b) Frequency
+(c) Amplitude
+(d) Period
+6. Which of the following statements about sound waves is correct?
+(a) They are electromagnetic waves.
+(b) They can travel through vacuum.
+(c) They are longitudinal waves.
+(d) They are transverse waves in air.
+7. Electromagnetic waves travel in vacuum with a speed of approximately:
+(a) 3 x 10^8 m/s
+(b) 3 x 10^5 m/s
+(c) 3 x 10^2 m/s
+(d) It depends on their frequency.
+8. When a wave passes from one medium to another, which of the following properties remains unchanged?
+(a) Wavelength
+(b) Speed
+(c) Frequency
+(d) Amplitude
+9. The time taken by a particle of the medium to complete one oscillation is called the:
+(a) Wavelength
+(b) Frequency
+(c) Speed
+(d) Period
+10. If the frequency of a wave is doubled, and its speed remains constant, its wavelength will:
+(a) Be halved
+(b) Be doubled
+(c) Remain unchanged
+(d) Be quadrupled
+11. The SI unit of intensity of a wave is:
+(a) Watt per meter (W/m)
+(b) Joule per second (J/s)
+(c) Watt per square meter (W/m^2)
+(d) Newton per square meter (N/m^2)
+12. Which of these is an example of a longitudinal wave?
+(a) Light waves
+(b) Water ripples
+(c) Sound waves in air
+(d) Waves on a stretched string
+13. The phase difference between two points on a progressive wave separated by one full wavelength is:
+(a) 0 degrees or 0 radians
+(b) 90 degrees or pi/2 radians
+(c) 180 degrees or pi radians
+(d) 360 degrees or 2pi radians
+14. The speed of sound in a medium primarily depends on the medium's:
+(a) Temperature and density
+(b) Frequency of the sound
+(c) Amplitude of the sound
+(d) Wavelength of the sound
+15. Which of the following is NOT a property of electromagnetic waves?
+(a) They are transverse in nature.
+(b) They can be polarized.
+(c) They require a material medium for propagation.
+(d) They travel at the speed of light in vacuum.
+
+
+Topic: Types of waves, (progressive, stationary, mechanical, non-mechanical, transverse, longitudinal)
+
+Section: Multiple Choice Questions
+16. Which of the following statements accurately describes a mechanical wave?
+(a) It can propagate through a vacuum.
+(b) It requires a material medium for its propagation.
+(c) It always travels at the speed of light in a vacuum.
+(d) Its energy is always carried by oscillating electric and magnetic fields.
+17. Which of the following is an example of a non-mechanical wave?
+(a) Sound waves in air
+(b) Water ripples
+(c) Seismic P-waves
+(d) X-rays
+18. In a transverse wave, the particles of the medium oscillate:
+(a) In the same direction as the wave propagation.
+(b) Perpendicular to the direction of wave propagation.
+(c) At an angle of 45 degrees to the direction of wave propagation.
+(d) In a circular path.
+19. An example of a longitudinal wave is:
+(a) Light waves
+(b) Radio waves
+(c) Sound waves in air
+(d) Ocean waves on the surface
+20. The phenomenon of polarization is exclusively exhibited by which type of wave?
+(a) Longitudinal waves
+(b) Mechanical waves
+(c) Transverse waves
+(d) Stationary waves
+21. A key characteristic distinguishing a progressive wave from a stationary wave is:
+(a) Progressive waves have fixed positions of maximum and minimum displacement, while stationary waves do not.
+(b) Stationary waves transfer energy across the medium, while progressive waves do not.
+(c) Progressive waves transfer energy through the medium, while stationary waves do not exhibit net energy transfer through the medium.
+(d) Stationary waves can only be formed in a vacuum, while progressive waves require a medium.
+22. In a stationary wave, the points where the amplitude of oscillation is maximum are called:
+(a) Nodes
+(b) Antinodes
+(c) Crests
+(d) Troughs
+23. If the frequency of a wave is doubled and its speed remains constant, its wavelength will:
+(a) Double
+(b) Halve
+(c) Remain unchanged
+(d) Quadruple
+24. The speed of a mechanical wave in a medium depends primarily on:
+(a) The amplitude of the wave.
+(b) The frequency of the wave.
+(c) The properties of the medium (elasticity and inertia).
+(d) The wavelength of the wave.
+25. The frequency of a wave is determined by:
+(a) The medium through which it travels.
+(b) The amplitude of the wave.
+(c) The source that generates the wave.
+(d) The speed of the wave.
+26. Which of the following is a wave that is both mechanical and transverse?
+(a) Sound wave in a solid
+(b) Light wave in vacuum
+(c) Surface waves on water
+(d) Ultrasound waves in tissue
+27. The maximum displacement of particles of the medium from their mean position during wave propagation is called:
+(a) Wavelength
+(b) Frequency
+(c) Amplitude
+(d) Phase
+28. Compared to sound waves, electromagnetic waves:
+(a) Require a medium for propagation.
+(b) Travel at a slower speed in vacuum.
+(c) Do not transfer energy.
+(d) Can be polarized.
+29. When a progressive wave reflects from a denser medium, which of the following typically undergoes a phase change of pi radians (180 degrees)?
+(a) Frequency
+(b) Wavelength
+(c) Amplitude
+(d) Displacement
+30. A wave is described as having particles oscillating parallel to the direction of energy propagation. This wave is most accurately classified as a:
+(a) Transverse wave
+(b) Stationary wave
+(c) Electromagnetic wave
+(d) Longitudinal wave
+
+
+Topic: Frequency, wavelength, periodic time and their relations
+
+Section: Multiple Choice Questions
+31.  If the periodic time of a wave is 0.02 seconds, what is its frequency?
+(a) 50 Hz
+(b) 0.02 Hz
+(c) 20 Hz
+(d) 500 Hz
+32.  A sound wave travels at a speed of 340 m/s and has a frequency of 680 Hz. What is its wavelength?
+(a) 0.5 m
+(b) 2 m
+(c) 1 m
+(d) 4 m
+33.  Which of the following properties of a wave remains unchanged when it passes from one medium to another?
+(a) Wavelength
+(b) Speed
+(c) Frequency
+(d) Amplitude
+34.  In a transverse wave, the particles of the medium oscillate:
+(a) Parallel to the direction of wave propagation.
+(b) Perpendicular to the direction of wave propagation.
+(c) In a circular path.
+(d) Without any definite direction.
+35.  The speed of electromagnetic waves in vacuum is given by:
+(a) c = 1 / (μ0ε0)
+(b) c = √(μ0ε0)
+(c) c = 1 / √(μ0ε0)
+(d) c = μ0ε0
+36.  If the amplitude of a progressive wave is doubled, how does its intensity change?
+(a) It remains the same.
+(b) It doubles.
+(c) It becomes four times.
+(d) It becomes half.
+37.  The reciprocal of the periodic time of a wave is known as its:
+(a) Wavelength
+(b) Speed
+(c) Amplitude
+(d) Frequency
+38.  Which of the following is a characteristic of longitudinal waves only?
+(a) They can be polarized.
+(b) They require a medium for propagation.
+(c) They exhibit compressions and rarefactions.
+(d) They can travel through vacuum.
+39.  A wave is described by the equation y(x,t) = A sin(kx - ωt). The term 'k' represents the:
+(a) Angular frequency
+(b) Wave speed
+(c) Angular wave number
+(d) Phase constant
+40.  Which type of wave is an ordinary light wave?
+(a) Mechanical longitudinal wave
+(b) Mechanical transverse wave
+(c) Electromagnetic longitudinal wave
+(d) Electromagnetic transverse wave
+41.  Total internal reflection occurs when light travels from:
+(a) A rarer medium to a denser medium.
+(b) A denser medium to a rarer medium, and the angle of incidence is less than the critical angle.
+(c) A denser medium to a rarer medium, and the angle of incidence is greater than the critical angle.
+(d) Any medium to vacuum.
+42.  The phenomenon of echo is a direct consequence of:
+(a) Refraction of sound
+(b) Reflection of sound
+(c) Diffraction of sound
+(d) Interference of sound
+43.  For which of the following applications are ultrasonic waves primarily used?
+(a) Remote controls for televisions
+(b) Communication with satellites
+(c) Sonar and medical imaging
+(d) Heating food in microwave ovens
+44.  If the frequency of a wave source is 100 Hz, how many waves are produced by the source in one minute?
+(a) 100
+(b) 600
+(c) 6000
+(d) 1000
+45.  The relationship between angular frequency (ω) and linear frequency (f) is:
+(a) ω = f / (2π)
+(b) ω = 2πf
+(c) ω = πf
+(d) ω = f
+
+
+Topic: Properties and applications of electromagnetic waves (ordinary light, LASER) and sound waves (ultrasonic wave, audible wave)
+
+Section: Multiple Choice Questions
+46. Which of the following statements is true regarding electromagnetic waves and sound waves?
+(a) Both are longitudinal waves.
+(b) Both can travel through a vacuum.
+(c) Electromagnetic waves are transverse, while sound waves are longitudinal.
+(d) Sound waves are transverse, while electromagnetic waves are longitudinal.
+47. The speed of light in vacuum is approximately:
+(a) 3 x 10 power 5 m/s
+(b) 3 x 10 power 8 km/s
+(c) 3 x 10 power 8 m/s
+(d) 3 x 10 power 9 m/s
+48. Which property is NOT characteristic of a LASER beam?
+(a) High monochromaticity
+(b) High divergence
+(c) High coherence
+(d) High directionality
+49. Ultrasonic waves are commonly used in:
+(a) Radio broadcasting
+(b) SONAR systems
+(c) Optical microscopes
+(d) X-ray imaging
+50. If the refractive index of a medium is 1.5, what is the speed of light in that medium? (Speed of light in vacuum = c)
+(a) 1.5 c
+(b) c / 1.5
+(c) c
+(d) c - 1.5
+51. Total Internal Reflection (TIR) occurs when light travels from:
+(a) Denser to rarer medium at an angle of incidence less than the critical angle.
+(b) Rarer to denser medium at an angle of incidence greater than the critical angle.
+(c) Denser to rarer medium at an angle of incidence greater than the critical angle.
+(d) Rarer to denser medium at any angle of incidence.
+52. Sound waves in air are best described as:
+(a) Transverse and electromagnetic.
+(b) Longitudinal and mechanical.
+(c) Transverse and mechanical.
+(d) Longitudinal and electromagnetic.
+53. The approximate frequency range for human audible sound is:
+(a) Below 20 Hz
+(b) Above 20,000 Hz
+(c) 20 Hz to 20,000 Hz
+(d) 200 Hz to 2,000 Hz
+54. For a wave propagating through a medium, which of the following expressions correctly relates its speed (v), frequency (f), and wavelength (lambda)?
+(a) v = f times lambda
+(b) f = v + lambda
+(c) lambda = v - f
+(d) v = f / lambda
+55. The intensity of a wave is directly proportional to the:
+(a) Amplitude
+(b) Square of the amplitude
+(c) Wavelength
+(d) Frequency
+56. Optical fibers primarily work on the principle of:
+(a) Reflection
+(b) Refraction
+(c) Total Internal Reflection
+(d) Diffraction
+57. The persistence of sound in a large hall due to multiple reflections is known as:
+(a) Echo
+(b) Resonance
+(c) Reverberation
+(d) Diffraction
+58. The critical angle for a pair of media is the angle of incidence in the denser medium for which the angle of refraction in the rarer medium is:
+(a) 0 degrees
+(b) 45 degrees
+(c) 90 degrees
+(d) 180 degrees
+59. Which of the following waves requires a material medium for its propagation?
+(a) Radio waves
+(b) X-rays
+(c) Sound waves
+(d) Light waves
+60. An electromagnetic wave consists of:
+(a) Only an electric field oscillating perpendicular to the direction of propagation.
+(b) Only a magnetic field oscillating perpendicular to the direction of propagation.
+(c) Mutually perpendicular oscillating electric and magnetic fields, both perpendicular to the direction of propagation.
+(d) Mutually perpendicular oscillating electric and magnetic fields, both parallel to the direction of propagation.
+
+
+Topic: Amplitude, intensity, phase and wave equations
+
+Section: Multiple Choice Questions
+61. Which of the following correctly defines the amplitude of a wave?
+(a) The total distance covered by a particle in one complete oscillation.
+(b) The maximum displacement of a particle from its mean position.
+(c) The distance between two consecutive crests or troughs.
+(d) The number of oscillations per unit time.
+62. The intensity (I) of a wave is directly proportional to which of the following?
+(a) The amplitude (A) of the wave.
+(b) The square of the amplitude (A^2) of the wave.
+(c) The cube of the amplitude (A^3) of the wave.
+(d) The square root of the amplitude (sqrt(A)) of the wave.
+63. The phase of a wave at a given point and time describes:
+(a) The maximum displacement of the particle at that instant.
+(b) The energy carried by the wave at that point.
+(c) The state of oscillation (position and direction of motion) of the particle at that point and time.
+(d) The speed at which the wave travels.
+64. A progressive wave is represented by the equation y(x,t) = 0.05 sin(200t - 4x) in SI units. What is the angular frequency of the wave?
+(a) 0.05 rad/s
+(b) 4 rad/s
+(c) 200 rad/s
+(d) 50 rad/s
+65. For the wave given by y(x,t) = 0.05 sin(200t - 4x) in SI units, what is the wavelength of the wave?
+(a) pi/2 m
+(b) 2pi m
+(c) 4pi m
+(d) pi/4 m
+66. What is the phase difference between two particles separated by a distance of lambda/4 in a progressive wave?
+(a) pi/4 rad
+(b) pi/2 rad
+(c) pi rad
+(d) 2pi rad
+67. If the time period of a wave is T and its angular frequency is omega, which of the following relations is correct?
+(a) T = 2pi * omega
+(b) T = omega / (2pi)
+(c) T = 2pi / omega
+(d) T = 1 / omega
+68. If the intensity of a wave at a distance r from a point source is I, what will be its intensity at a distance 2r from the same source, assuming no energy loss?
+(a) I/2
+(b) I/4
+(c) 2I
+(d) 4I
+69. A sound wave is described by y(x,t) = A sin(kx - omega t). If the displacement amplitude is A and the wave number is k, what is the unit of k?
+(a) m
+(b) s
+(c) rad/m
+(d) rad/s
+70. When a transverse wave reflects from a denser medium (fixed end), what is the phase change experienced by the reflected wave?
+(a) 0 rad
+(b) pi/2 rad
+(c) pi rad
+(d) 2pi rad
+71. Two waves are given by y1 = A sin(kx - omega t) and y2 = A cos(kx - omega t). What is the phase difference between these two waves?
+(a) 0
+(b) pi/4 rad
+(c) pi/2 rad
+(d) pi rad
+72. If the amplitude of a wave is doubled, how many times does its energy density increase?
+(a) 2 times
+(b) 4 times
+(c) 8 times
+(d) Remains unchanged
+73. The equation of a wave is given by y = 0.2 sin(300t - 1.5x), where y and x are in meters and t in seconds. What is the speed of the wave?
+(a) 200 m/s
+(b) 1.5 m/s
+(c) 300 m/s
+(d) 450 m/s
+74. If the maximum pressure variation in a sound wave is P_max, which quantity is proportional to the square of P_max?
+(a) Amplitude of displacement
+(b) Wavelength
+(c) Intensity
+(d) Frequency
+75. Consider two waves with intensities I1 and I2, such that I1 = 16 I2. If their amplitudes are A1 and A2 respectively, what is the ratio A1/A2?
+(a) 2
+(b) 4
+(c) 8
+(d) 16
+
+
+Topic: Reflection, refraction, Snell's law, absolute refractive index, relative refractive index, total internal reflection, critical angle, optical fiber (construction, properties and applications)
+
+Section: Multiple Choice Questions
+76. When light passes from a rarer medium to a denser medium, which of the following quantities decreases?
+(a) Frequency
+(b) Wavelength
+(c) Speed
+(d) Both (b) and (c)
+77. Snell's Law states that for a given pair of media and for light of a given colour, the ratio of sine of angle of incidence to the sine of angle of refraction is a constant. This constant is known as the:
+(a) Absolute refractive index
+(b) Relative refractive index
+(c) Critical angle
+(d) Dispersion constant
+78. The absolute refractive index of a medium is defined as the ratio of the speed of light in vacuum to the speed of light in that medium. If the speed of light in water is 2.25 x 10^8 m/s, what is the absolute refractive index of water? (Speed of light in vacuum = 3 x 10^8 m/s)
+(a) 1.25
+(b) 1.33
+(c) 1.50
+(d) 1.67
+79. Total Internal Reflection occurs when light travels from:
+(a) A rarer medium to a denser medium, and the angle of incidence is greater than the critical angle.
+(b) A denser medium to a rarer medium, and the angle of incidence is greater than the critical angle.
+(c) A rarer medium to a denser medium, and the angle of incidence is less than the critical angle.
+(d) A denser medium to a rarer medium, and the angle of incidence is less than the critical angle.
+80. The critical angle for a pair of media is the angle of incidence in the denser medium for which the angle of refraction in the rarer medium is:
+(a) 0 degrees
+(b) 45 degrees
+(c) 90 degrees
+(d) 180 degrees
+81. Optical fibers work on the principle of:
+(a) Refraction
+(b) Reflection
+(c) Total Internal Reflection
+(d) Dispersion
+82. An optical fiber consists of a central core and an outer cladding. For efficient light transmission, the refractive index of the core must be:
+(a) Greater than the refractive index of the cladding.
+(b) Less than the refractive index of the cladding.
+(c) Equal to the refractive index of the cladding.
+(d) Independent of the refractive index of the cladding.
+83. Which of the following optical instruments commonly uses the principle of Total Internal Reflection?
+(a) Simple microscope
+(b) Compound microscope
+(c) Periscope
+(d) Prism binocular
+84. If the refractive index of medium 1 with respect to medium 2 is n12, then the refractive index of medium 2 with respect to medium 1 (n21) is:
+(a) n12
+(b) 1/n12
+(c) n12^2
+(d) sqrt(n12)
+85. When light passes from air into glass, which of the following remains unchanged?
+(a) Speed
+(b) Wavelength
+(c) Frequency
+(d) Amplitude
+86. If the refractive index of a medium is 1.5, what is the critical angle for light passing from this medium to air? (sin 41.8 degrees approx 1/1.5)
+(a) 30 degrees
+(b) 41.8 degrees
+(c) 45 degrees
+(d) 60 degrees
+87. Which of the following statements about electromagnetic waves is INCORRECT?
+(a) They do not require a material medium for propagation.
+(b) They are transverse in nature.
+(c) Their speed in vacuum is constant for all wavelengths.
+(d) They are mechanical waves.
+88. A major advantage of optical fibers over metallic cables for data transmission is:
+(a) Lower bandwidth
+(b) Higher signal loss
+(c) Immunity to electromagnetic interference
+(d) Higher power consumption
+89. A coin at the bottom of a tank of water (refractive index = 4/3) appears to be at a depth of 12 cm. What is the actual depth of the coin?
+(a) 9 cm
+(b) 12 cm
+(c) 16 cm
+(d) 20 cm
+90. A ray of light is incident normally on a plane boundary separating two media. The angle of refraction will be:
+(a) 0 degrees
+(b) 45 degrees
+(c) 90 degrees
+(d) Dependent on the refractive indices of the media.
+
+
+Topic: Reverberation, Reverberation time, Sabine's formula, echo, absorption coefficient
+
+Section: Multiple Choice Questions
+91. What is reverberation?
+(a) The phenomenon of sound bouncing off a single surface.
+(b) The persistence of sound in a large enclosure after the source has stopped.
+(c) The reflection of sound from multiple surfaces in quick succession, creating a distinct repeat.
+(d) The bending of sound waves around an obstacle.
+92. An echo is distinguished from reverberation primarily by:
+(a) The frequency of the sound wave.
+(b) The time delay between the original sound and the reflected sound.
+(c) The amplitude of the reflected sound.
+(d) The type of surface from which sound reflects.
+93. According to Sabine's formula, the reverberation time (T) of a hall is directly proportional to:
+(a) The total absorbing area of the hall.
+(b) The absorption coefficient of the materials in the hall.
+(c) The volume of the hall.
+(d) The frequency of the sound.
+94. The absorption coefficient of a material is a measure of:
+(a) How much sound energy is reflected by the material.
+(b) How much sound energy is transmitted through the material.
+(c) How much sound energy is absorbed by the material.
+(d) How much sound energy is refracted by the material.
+95. The SI unit of absorption coefficient is:
+(a) metre squared (m^2)
+(b) sabin
+(c) dimensionless
+(d) metre (m)
+96. To reduce the reverberation time in a large auditorium, which of the following measures would be most effective?
+(a) Increasing the volume of the auditorium.
+(b) Decreasing the total absorbing area.
+(c) Replacing hard, reflective surfaces with soft, porous materials.
+(d) Increasing the intensity of the sound source.
+97. Which of the following materials typically has a high absorption coefficient for sound?
+(a) Concrete
+(b) Polished marble
+(c) Thick curtains or carpets
+(d) Glass
+98. For a distinct echo to be heard by a listener, the minimum time interval between the original sound and the reflected sound should be approximately:
+(a) 0.01 seconds
+(b) 0.1 seconds
+(c) 1 second
+(d) 10 seconds
+99. If the reverberation time of a hall is too short, the sound inside the hall would appear:
+(a) Muffled and unclear.
+(b) Too loud and sustained.
+(c) Dry and dull.
+(d) Having a distinct echo.
+100. A person shouts and hears an echo after 2 seconds. If the speed of sound in air is 340 m/s, what is the distance to the reflecting surface?
+(a) 170 m
+(b) 340 m
+(c) 680 m
+(d) 85 m
+101. The primary purpose of using acoustic panels on the walls of a recording studio is to:
+(a) Increase the reflection of sound.
+(b) Reduce sound transmission to the outside.
+(c) Control reverberation and prevent echoes.
+(d) Amplify the sound within the studio.
+102. How does an increase in temperature generally affect the speed of sound in air?
+(a) It decreases the speed of sound.
+(b) It increases the speed of sound.
+(c) It has no effect on the speed of sound.
+(d) It depends on the humidity, not temperature.
+103. Sabine's formula for reverberation time (T) is given by:
+(a) T = 0.161 * (V / A)
+(b) T = A / (0.161 * V)
+(c) T = 0.161 * (A / V)
+(d) T = V / (0.161 * A)
+Where V is volume and A is total absorption.
+104. In an empty auditorium, the reverberation time is generally:
+(a) Longer than when it is full.
+(b) Shorter than when it is full.
+(c) The same as when it is full.
+(d) Dependent only on the sound source.
+105. The unit of reverberation time is:
+(a) Hertz (Hz)
+(b) Metre (m)
+(c) Second (s)
+(d) Decibel (dB)
+
+
+Topic: Summary (quick revision)
+
+Section: Multiple Choice Questions
+106. What type of wave requires a material medium for its propagation?
+(a) Electromagnetic wave
+(b) Mechanical wave
+(c) Light wave
+(d) Radio wave
+107. If the frequency of a wave is doubled, and its speed remains constant, what happens to its wavelength?
+(a) It doubles
+(b) It becomes half
+(c) It remains unchanged
+(d) It quadruples
+108. In a transverse wave, the particles of the medium oscillate:
+(a) Parallel to the direction of wave propagation
+(b) Perpendicular to the direction of wave propagation
+(c) At an angle of 45 degrees to the direction of wave propagation
+(d) In circles
+109. The speed of all electromagnetic waves in vacuum is:
+(a) Dependent on their wavelength
+(b) Dependent on their frequency
+(c) Constant for all, approximately 3 x 10^8 m/s
+(d) Slower than sound waves
+110. When a light ray passes from an optically rarer medium to an optically denser medium, it:
+(a) Bends away from the normal
+(b) Bends towards the normal
+(c) Does not bend at all
+(d) Is totally internally reflected
+111. For total internal reflection to occur, the light must travel from:
+(a) A rarer medium to a denser medium
+(b) A denser medium to a rarer medium
+(c) Any medium to vacuum
+(d) Vacuum to any medium
+112. Which of the following describes an ultrasonic wave?
+(a) Sound wave with frequency below 20 Hz
+(b) Sound wave with frequency between 20 Hz and 20,000 Hz
+(c) Sound wave with frequency above 20,000 Hz
+(d) Electromagnetic wave used for imaging
+113. The intensity of a wave is directly proportional to the square of its:
+(a) Wavelength
+(b) Frequency
+(c) Amplitude
+(d) Speed
+114. Two waves are said to be in phase if their particles at corresponding points:
+(a) Have the same amplitude but different frequencies
+(b) Have the same displacement and velocity at the same time
+(c) Move in opposite directions
+(d) Have a phase difference of 90 degrees
+115. According to the law of reflection, the angle of incidence is:
+(a) Greater than the angle of reflection
+(b) Less than the angle of reflection
+(c) Equal to the angle of reflection
+(d) Independent of the angle of reflection
+116. The absolute refractive index of a medium is defined as the ratio of:
+(a) Speed of light in the medium to speed of light in vacuum
+(b) Speed of light in vacuum to speed of light in the medium
+(c) Speed of light in one medium to speed of light in another medium
+(d) Wavelength of light in vacuum to wavelength of light in the medium
+117. Reverberation time is the time taken for the sound intensity in a room to fall by a factor of:
+(a) 100
+(b) 1000
+(c) 10^6
+(d) 10^-6
+118. For a distinct echo to be heard, the minimum distance between the source of sound and the reflecting surface at 22 degrees Celsius (speed of sound approx 344 m/s) should be approximately:
+(a) 1.72 m
+(b) 17.2 m
+(c) 34.4 m
+(d) 3.44 m
+119. The principle behind the working of an optical fiber is:
+(a) Refraction
+(b) Diffraction
+(c) Total Internal Reflection
+(d) Interference
+120. Which of the following is a characteristic property of LASER light?
+(a) It is polychromatic
+(b) It is highly divergent
+(c) It is incoherent
+(d) It is highly monochromatic
+
+
+Topic: Introduction and basics
+
+Section: Multiple Choice Questions
+1. What is the primary characteristic of a wave?
+(a) It transfers matter from one point to another.
+(b) It transfers energy without transferring matter.
+(c) It causes permanent displacement of a medium.
+(d) It requires a vacuum to propagate efficiently.
+2. Which of the following is an example of a longitudinal wave?
+(a) Light waves
+(b) Water waves on the surface
+(c) Sound waves in air
+(d) Radio waves
+3. The distance between two consecutive crests or troughs of a wave is called its:
+(a) Amplitude
+(b) Frequency
+(c) Wavelength
+(d) Period
+4. If the frequency of a wave is 100 Hz and its wavelength is 2 meters, what is its speed?
+(a) 50 m/s
+(b) 100 m/s
+(c) 200 m/s
+(d) 0.02 m/s
+5. The maximum displacement of particles of the medium from their equilibrium position during wave propagation is known as the wave's:
+(a) Wavelength
+(b) Frequency
+(c) Amplitude
+(d) Speed
+6. Which type of wave can travel through a vacuum?
+(a) Sound waves
+(b) Water waves
+(c) Electromagnetic waves
+(d) Seismic waves
+7. The time taken for one complete oscillation of a particle in a medium transmitting a wave is called the:
+(a) Frequency
+(b) Period
+(c) Wavelength
+(d) Amplitude
+8. When a wave travels from a rarer medium to a denser medium, which of the following quantities remains constant?
+(a) Wavelength
+(b) Speed
+(c) Frequency
+(d) Amplitude
+9. Sound waves propagate fastest in which of the following media at a given temperature?
+(a) Air
+(b) Water
+(c) Steel
+(d) Vacuum
+10. Which of the following statements about electromagnetic waves is true?
+(a) They are longitudinal waves.
+(b) They require a material medium to travel.
+(c) They travel at different speeds in a vacuum depending on their frequency.
+(d) They consist of oscillating electric and magnetic fields perpendicular to each other and to the direction of propagation.
+11. The phenomenon where two or more waves overlap to form a resultant wave of greater, smaller, or the same amplitude is called:
+(a) Diffraction
+(b) Refraction
+(c) Interference
+(d) Polarization
+12. The loudness of a sound is primarily determined by its:
+(a) Frequency
+(b) Wavelength
+(c) Amplitude
+(d) Speed
+13. Which part of the electromagnetic spectrum has wavelengths longer than visible light but shorter than radio waves?
+(a) Ultraviolet
+(b) X-rays
+(c) Infrared
+(d) Gamma rays
+14. A wave travels 150 meters in 5 seconds. Its speed is:
+(a) 750 m/s
+(b) 30 m/s
+(c) 150 m/s
+(d) 5 m/s
+15. The relationship between the speed of light (c), its frequency (f), and its wavelength (lambda) is given by:
+(a) f = c * lambda
+(b) lambda = c * f
+(c) c = f / lambda
+(d) c = f * lambda
+
+
+Topic: Modes of heat transfer
+
+16. Which mode of heat transfer involves the transfer of energy through direct contact and vibration of particles without any actual movement of the material itself?
+(a) Convection
+(b) Conduction
+(c) Radiation
+(d) Absorption
+17. Heat from the Sun reaches the Earth predominantly through which mode of heat transfer?
+(a) Conduction
+(b) Convection
+(c) Radiation
+(d) Diffusion
+18. In which mode of heat transfer does the bulk movement of fluid (liquid or gas) play a significant role?
+(a) Conduction
+(b) Convection
+(c) Radiation
+(d) Evaporation
+19. A metal spoon placed in a hot cup of tea quickly becomes warm. This is an example of heat transfer primarily by:
+(a) Convection
+(b) Radiation
+(c) Conduction
+(d) Condensation
+20. Which of the following statements is true regarding the specific heat capacity of a substance?
+(a) It is the amount of heat required to raise the temperature of 1 kg of a substance by 1 degree Celsius.
+(b) It is the amount of heat required to melt 1 kg of a substance.
+(c) It is the amount of heat absorbed during a phase change.
+(d) It is the rate at which heat is transferred.
+21. What is the equivalent temperature of 27 degrees Celsius on the Kelvin scale?
+(a) 27 K
+(b) 273 K
+(c) 300 K
+(d) 327 K
+22. Which of the following materials is generally considered the best conductor of heat?
+(a) Wood
+(b) Air
+(c) Copper
+(d) Water
+23. The gaps left between railway tracks are primarily to account for:
+(a) Thermal expansion
+(b) Thermal conductivity
+(c) Specific heat capacity
+(d) Convection currents
+24. A person feels warmer when standing near a bonfire. The primary mode of heat transfer responsible for this feeling is:
+(a) Conduction
+(b) Convection from the flames
+(c) Radiation
+(d) Convection from the surrounding air
+25. Why do cooking utensils often have wooden or plastic handles?
+(a) To make them lighter
+(b) To make them aesthetically pleasing
+(c) Because wood and plastic are poor conductors of heat
+(d) Because wood and plastic are good conductors of heat
+26. On a cold winter day, why do two thin blankets keep us warmer than one thick blanket of the same material?
+(a) Two blankets have a higher specific heat capacity.
+(b) The air trapped between the two thin blankets acts as an insulator.
+(c) The surface area for heat radiation is increased.
+(d) Two blankets absorb more heat from the environment.
+27. Water has a very high specific heat capacity. This property makes it suitable for which of the following applications?
+(a) As a good electrical conductor
+(b) As a coolant in engines
+(c) As a material for cooking utensils
+(d) As a good thermal insulator
+28. The process of heat transfer that does not require any material medium is:
+(a) Conduction
+(b) Convection
+(c) Radiation
+(d) Both conduction and convection
+29. If 0 degrees Celsius is equivalent to 32 degrees Fahrenheit, then what is 100 degrees Celsius equivalent to in Fahrenheit?
+(a) 180 degrees F
+(b) 212 degrees F
+(c) 273 degrees F
+(d) 373 degrees F
+30. Which of the following scenarios primarily demonstrates convection?
+(a) Heating a solid metal rod at one end.
+(b) Feeling the warmth of a light bulb from a distance.
+(c) Boiling water in a pot, where hot water rises and cold water sinks.
+(d) Sunlight passing through a window and warming a room.
+
+

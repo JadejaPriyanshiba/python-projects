@@ -289,3 +289,55 @@ Handling outliers,
 Handling missing values ),,
 Data Pre-Processing ( Dimensionality reduction Feature subset selection: Filter, Wrapper, Hybrid, Embedded ),,
 Summary And Revision"""
+
+
+########## ========== DDCET ========== ##########
+#### physics
+"""Wave motion, options and acoustics"""
+subject = "Physics"
+title = "Wave motion, optics and acoustics"
+length = "100 lines"
+maturity = "11th grade student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, add extra knowledge and fun facts too. Make the structure more point vise shorter but knowledgeable and to the point simple statements."
+complexity = "from the basics and essential complexity for MCQ based exam (india)"
+wantGemini = True
+preDefineTopics = """Introduction and basics,,
+Types of waves, (progressive, stationary, mechanical, non-mechanical, transverse, longitudinal),,
+Frequency, wavelength, periodic time and their relations,,
+Properties and applications of electromagnetic waves (ordinary light, LASER) and sound waves (ultrasonic wave, audible wave),,
+Amplitude, intensity, phase and wave equations,,
+Reflection, refraction, Snell's law, absolute refractive index, relative refractive index, total internal reflection, critical angle, optical fiber (construction, properties and applications),,
+Reverberation, Reverberation time, Sabine's formula, echo, absorption coefficient,,
+Summary (quick revision)"""
+
+"""Heat and thermometry"""
+subject = "Physics"
+title = "Heat And thermometry"
+length = "100 lines"
+maturity = "11th grade student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, add extra knowledge and fun facts too. Make the structure more point vise shorter but knowledgeable and to the point simple statements."
+complexity = "from the basics and essential complexity for MCQ based exam (india)"
+wantGemini = True
+preDefineTopics = """Introduction and basics,,
+Modes of heat transfer,,
+Various temperature scale, conversion of temperature, Kelvin - Celsius, Kelvin - Fahrenheit, Fahrenheit - Celsius and vice versa,,
+Heat capacity and specific heat,,
+Thermal conductivity, coefficient of thermal conductivity, linear thermal expansion,,
+Summary (quick revision)"""
+
+"""Electric Current"""
+subject = "Physics"
+title = "ELectric Current"
+length = "100 lines"
+maturity = "11th grade student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, add extra knowledge and fun facts too. Make the structure more point vise shorter but knowledgeable and to the point simple statements."
+complexity = "from the basics and essential complexity for MCQ based exam (india)"
+wantGemini = True
+preDefineTopics = """Introduction And Basics,,
+Ohm's Law and application,,
+Charge, interaction of charges, Coulomb's force,,
+Electric field, electric potential, electric flux, electric current,,
+Resistance, conductance, resistivity, conductivity, series and parallel combination of resistors,,
+Capacitance, parallel plate capacitor, series and parallel combination of capacitors,,
+Summary (quick revision)"""
+
