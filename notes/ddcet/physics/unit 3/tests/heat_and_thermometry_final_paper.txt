@@ -1,0 +1,530 @@
+FINAL QUESTION PAPER
+
+1. 15. Absolute zero temperature on the Celsius scale is approximately:
+(a) 0 degrees C
+(b) -273.15 degrees C
+(c) 100 degrees C
+(d) 273.15 degrees C
+
+2. 66. A bimetallic strip bends on heating because of:
+(a) Uniform thermal expansion of both metals.
+(b) Different coefficients of linear expansion of the two metals.
+(c) Change in the specific heat of the metals.
+(d) Convection currents within the strip.
+
+3. 28. The color of a surface significantly affects its ability to absorb and emit thermal radiation. Which type of surface is generally the best emitter of thermal radiation?
+(a) A polished silver surface.
+(b) A white, rough surface.
+(c) A dull black surface.
+(d) A transparent glass surface.
+
+4. 53. If a rod of initial length L0 is heated such that its temperature changes by dT, and its coefficient of linear expansion is alpha, the change in its length (dL) is given by:
+a) dL = L0 / (alpha * dT)
+b) dL = alpha * dT / L0
+c) dL = L0 * alpha * dT
+d) dL = L0 * dT / alpha
+
+5. 35. Convert a temperature of 68 degrees Fahrenheit to the Kelvin scale.
+(a) 293.15 K
+(b) 273.15 K
+(c) 300.15 K
+(d) 283.15 K
+
+6. 18. Heat transfer in fluids (liquids and gases) primarily occurs through the actual movement of particles from hotter regions to colder regions. This process is known as:
+(a) Conduction
+(b) Convection
+(c) Radiation
+(d) Diffusion
+
+7. 32. Convert a temperature of 253 K to the Celsius scale.
+(a) -20 C
+(b) 20 C
+(c) -20.15 C
+(d) 253 C
+
+8. 10. What is the S.I. unit of specific heat capacity?
+(a) Joule per kilogram (J/kg)
+(b) Joule per Kelvin (J/K)
+(c) Joule per kilogram-Kelvin (J/kg K)
+(d) Watt per meter-Kelvin (W/m K)
+
+9. 74. If a substance has a high specific heat capacity, it means:
+(a) It heats up and cools down quickly.
+(b) It heats up and cools down slowly.
+(c) It can store a large amount of heat with a small temperature change.
+(d) Both (b) and (c).
+
+10. 69. In a double-pane window, the air trapped between the two glass panes reduces heat transfer primarily by:
+(a) Minimizing radiation only.
+(b) Minimizing conduction and convection.
+(c) Maximizing conduction.
+(d) Eliminating all forms of heat transfer.
+
+11. 62. The SI unit of specific heat capacity is:
+(a) Joule per kilogram per Kelvin
+(b) Calorie per gram per degree Celsius
+(c) Joule per degree Celsius
+(d) Watt per meter per Kelvin
+
+12. 40. Which of the following statements about the Kelvin scale is true?
+(a) It has negative temperatures.
+(b) It is a relative temperature scale.
+(c) Its zero point corresponds to the absence of all thermal energy.
+(d) Its freezing point of water is 273 K.
+
+13. 3. Which mode of heat transfer primarily involves the actual movement of particles in fluids?
+(a) Conduction
+(b) Convection
+(c) Radiation
+(d) Absorption
+
+14. 67. Which of the following substances has the highest specific heat capacity?
+(a) Iron
+(b) Copper
+(c) Water
+(d) Mercury
+
+15. 39. Absolute zero is defined as 0 Kelvin. What is the equivalent temperature in degrees Celsius?
+(a) -273.15 C
+(b) 0 C
+(c) -32 C
+(d) -100 C
+
+16. 59. Two rods, P and Q, of the same length and cross-sectional area are joined end-to-end. If their thermal conductivities are kP and kQ respectively, and kP > kQ, then the temperature drop across rod P will be:
+a) Greater than the temperature drop across rod Q.
+b) Less than the temperature drop across rod Q.
+c) Equal to the temperature drop across rod Q.
+d) Insufficient information to determine.
+
+17. 11. The amount of heat required to raise the temperature of an entire substance by 1 degree Celsius (or 1 Kelvin) is known as its:
+(a) Specific heat capacity
+(b) Latent heat
+(c) Thermal conductivity
+(d) Heat capacity
+
+18. 8. The boiling point of water at standard atmospheric pressure is 212 degrees Fahrenheit. What is this temperature in degrees Celsius?
+(a) 0 degrees C
+(b) 100 degrees C
+(c) 32 degrees C
+(d) 180 degrees C
+
+19. 42. A mercury thermometer shows a reading of -4 degrees Fahrenheit. What is this temperature in degrees Celsius?
+(a) -20 C
+(b) -32 C
+(c) -4 C
+(d) 20 C
+
+20. 13. A metal rod is heated, and its length increases. This phenomenon is called:
+(a) Thermal contraction
+(b) Linear thermal expansion
+(c) Specific heat
+(d) Thermal conductivity
+
+21. 73. The thermal conductivity of a material is a measure of:
+(a) Its ability to absorb heat energy.
+(b) Its ability to transfer heat by conduction.
+(c) Its ability to reflect heat radiation.
+(d) Its ability to expand upon heating.
+
+22. 14. The S.I. unit of thermal conductivity is:
+(a) J/s m K
+(b) W/m K
+(c) J/K
+(d) J/kg K
+
+23. 19. The shiny inner surface and the evacuated space between the walls of a thermos flask are designed to reduce heat transfer mainly by:
+(a) Conduction and Convection, respectively.
+(b) Radiation and Conduction, respectively.
+(c) Convection and Radiation, respectively.
+(d) Radiation and Convection, respectively.
+
+24. 1. What fundamentally defines heat?
+(a) The average kinetic energy of molecules in a substance.
+(b) The energy transferred due to a temperature difference.
+(c) A measure of the hotness or coldness of an object.
+(d) The total internal energy of a system.
+
+25. 23. Metals are generally excellent conductors of heat due to:
+(a) The presence of free electrons.
+(b) Their high density.
+(c) Their crystalline structure.
+(d) Their ability to expand significantly upon heating.
+
+26. 29. Linear thermal expansion describes the change in length of a material due to a change in temperature. This phenomenon is primarily relevant in:
+(a) Determining the rate of heat flow through a vacuum.
+(b) Calculating the energy required to change the state of a substance.
+(c) Designing bridges and railway tracks to accommodate temperature fluctuations.
+(d) Explaining the formation of convection currents in liquids.
+
+27. 70. Absolute zero temperature is defined as:
+(a) The freezing point of water.
+(b) The boiling point of water.
+(c) The temperature at which molecular motion ceases.
+(d) The temperature at which all substances become gases.
+
+28. 31. What is the equivalent temperature of 50 degrees Celsius on the Kelvin scale?
+(a) 323.15 K
+(b) 223.15 K
+(c) 300.00 K
+(d) 273.15 K
+
+29. 41. The temperature of a furnace is measured as 1832 degrees Fahrenheit. What is this temperature in degrees Celsius?
+(a) 1000 C
+(b) 900 C
+(c) 1200 C
+(d) 980 C
+
+30. 37. An object's temperature increases by 20 degrees Celsius. What is the corresponding temperature increase in Kelvin?
+(a) 20 K
+(b) 293.15 K
+(c) 200 K
+(d) 273.15 K
+
+31. 26. Among the common temperature scales (Celsius, Fahrenheit, Kelvin), which one does NOT have negative values for any temperature above absolute zero?
+(a) Celsius
+(b) Fahrenheit
+(c) Kelvin
+(d) All three can have negative values.
+
+32. 20. Which of the following statements about thermal conductivity (k) is correct?
+(a) It is a measure of a material's ability to transfer heat by convection.
+(b) It is generally higher for gases than for metals.
+(c) It determines the rate of heat transfer by conduction through a material.
+(d) It is independent of the temperature difference across the material.
+
+33. 17. Which of the following modes of heat transfer does NOT require a material medium for its propagation?
+(a) Conduction
+(b) Convection
+(c) Radiation
+(d) Both (a) and (b)
+
+34. 54. Gaps are left between railway tracks to:
+a) Increase friction.
+b) Allow for thermal expansion in summer.
+c) Prevent theft of metal.
+d) Reduce noise during train movement.
+
+35. 21. Which of the following scenarios is the best example of heat transfer predominantly by convection?
+(a) The handle of a metal spoon becoming hot after being placed in a hot cup of tea.
+(b) Feeling the warmth from a campfire without touching the flames.
+(c) The circulation of air in a room due to a heater placed on the floor.
+(d) The Earth being warmed by the Sun's rays.
+
+36. 49. Which of the following materials has the highest coefficient of thermal conductivity?
+a) Wood
+b) Glass
+c) Copper
+d) Air
+
+37. 33. A healthy human body temperature is approximately 37 degrees Celsius. What is this temperature in degrees Fahrenheit?
+(a) 98.6 F
+(b) 96.8 F
+(c) 89.6 F
+(d) 100 F
+
+38. 57. On a cold day, a metal object feels colder to touch than a wooden object of the same temperature because:
+a) Metal has a lower specific heat capacity.
+b) Metal has a higher thermal conductivity.
+c) Wood has a higher specific heat capacity.
+d) Wood has a higher thermal conductivity.
+
+39. 71. A block of metal is heated from 20 degrees Celsius to 80 degrees Celsius. If its initial length was 100 cm and its coefficient of linear expansion is 2 x 10^-5 per degree Celsius, what is the increase in its length?
+(a) 0.012 cm
+(b) 0.12 cm
+(c) 1.2 cm
+(d) 12 cm
+
+40. 56. In metals, heat conduction is primarily due to:
+a) Vibrations of lattice atoms only.
+b) Movement of free electrons only.
+c) Both vibrations of lattice atoms and movement of free electrons.
+d) Electromagnetic radiation.
+
+41. 63. Which of the following modes of heat transfer does not require a material medium?
+(a) Conduction
+(b) Convection
+(c) Radiation
+(d) Both Conduction and Convection
+
+42. 75. Convert 68 degrees Fahrenheit to Celsius.
+(a) 10 degrees Celsius
+(b) 20 degrees Celsius
+(c) 30 degrees Celsius
+(d) 40 degrees Celsius
+
+43. 64. At what temperature do Celsius and Fahrenheit scales read the same value?
+(a) 0 degrees
+(b) 32 degrees
+(c) -40 degrees
+(d) 100 degrees
+
+44. 2. Temperature is a measure of:
+(a) The total heat content of a body.
+(b) The average potential energy of molecules.
+(c) The average kinetic energy of the molecules in a substance.
+(d) The rate of heat transfer.
+
+45. 52. The SI unit of the coefficient of linear thermal expansion is:
+a) K
+b) K-1
+c) m K-1
+d) J K-1
+
+46. 65. The coefficient of linear thermal expansion for a material represents:
+(a) The fractional change in length per unit change in temperature.
+(b) The total change in length for any temperature change.
+(c) The fractional change in volume per unit change in temperature.
+(d) The total change in volume for any temperature change.
+
+47. 45. How many degrees Celsius are equivalent to a temperature difference of 54 degrees Fahrenheit?
+(a) 30 C
+(b) 54 C
+(c) 18 C
+(d) 97.2 C
+
+48. 27. Why do cooking utensils often have handles made of wood or plastic, while their bodies are made of metal?
+(a) Wood and plastic are more durable than metal at high temperatures.
+(b) Metal is a good conductor of heat, while wood and plastic are poor conductors.
+(c) Wood and plastic are lighter, making the utensils easier to handle.
+(d) Metals expand more than wood or plastic when heated, preventing handles from becoming loose.
+
+49. 7. Convert 27 degrees Celsius to Kelvin.
+(a) 273 K
+(b) 300 K
+(c) 246 K
+(d) 27 K
+
+50. 50. In the analogy between heat flow and electric current, the quantity analogous to electrical resistance is:
+a) Thermal conductivity.
+b) Thermal diffusivity.
+c) Thermal resistance.
+d) Temperature gradient.
+
+51. 30. Considering the three modes of heat transfer, which mode is typically the slowest for significant heat transfer?
+(a) Conduction, especially in gases.
+(b) Convection, especially in turbulent fluids.
+(c) Radiation, especially through a vacuum.
+(d) All modes transfer heat at similar rates.
+
+52. 5. The process by which heat from the Sun reaches the Earth is primarily:
+(a) Conduction
+(b) Convection
+(c) Radiation
+(d) Absorption
+
+53. 34. The boiling point of water is 212 degrees Fahrenheit. What is this temperature in degrees Celsius?
+(a) 100 C
+(b) 90 C
+(c) 112 C
+(d) 0 C
+
+54. 44. A temperature reading of 373.15 K is equivalent to which of the following?
+(a) 0 C and 32 F
+(b) 100 C and 212 F
+(c) 273.15 C and 373.15 F
+(d) 0 C and 0 F
+
+55. 46. Thermal conductivity is a measure of a material's ability to:
+a) Absorb heat energy.
+b) Store heat energy.
+c) Transfer heat energy by conduction.
+d) Radiate heat energy.
+
+56. 16. What is the primary mode of heat transfer in opaque solids?
+(a) Convection
+(b) Conduction
+(c) Radiation
+(d) Evaporation
+
+57. 48. The rate of heat flow through a uniform rod by conduction is directly proportional to:
+a) Its length.
+b) Its cross-sectional area.
+c) The time for which heat flows.
+d) The specific heat capacity of the material.
+
+58. 55. When a solid material is heated, its density generally:
+a) Increases.
+b) Decreases.
+c) Remains unchanged.
+d) First increases, then decreases.
+
+59. 36. At what temperature do the Celsius and Fahrenheit scales read the same numerical value?
+(a) -40
+(b) 0
+(c) 32
+(d) -273
+
+60. 51. Linear thermal expansion refers to the change in an object's:
+a) Volume due to temperature change.
+b) Surface area due to temperature change.
+c) Length due to temperature change.
+d) Density due to temperature change.
+
+61. 38. If the temperature of a substance decreases by 10 degrees Celsius, what is the corresponding decrease in degrees Fahrenheit?
+(a) 18 F
+(b) 10 F
+(c) 5.56 F
+(d) 32 F
+
+62. 4. Heat transfer through a solid wall primarily occurs via:
+(a) Convection
+(b) Radiation
+(c) Conduction
+(d) Evaporation
+
+63. 43. Which temperature corresponds to the freezing point of water on the Fahrenheit scale?
+(a) 0 F
+(b) 32 F
+(c) 100 F
+(d) 212 F
+
+64. 72. Which of the following is an example of heat transfer by convection?
+(a) Heat from the sun reaching the Earth.
+(b) A metal spoon becoming hot when left in a hot cup of tea.
+(c) Boiling water in a pot on a stove.
+(d) Heat radiating from a light bulb.
+
+65. 9. If a body has a high specific heat capacity, it means:
+(a) It heats up quickly.
+(b) It cools down quickly.
+(c) It requires a large amount of heat to change its temperature significantly.
+(d) It is a good thermal conductor.
+
+66. 24. The phenomenon of sea breezes occurring during the day (wind blowing from sea to land) is primarily due to:
+(a) Conduction
+(b) Convection
+(c) Radiation
+(d) Evaporation
+
+67. 61. Which of the following statements correctly differentiates between heat and temperature?
+(a) Heat is a form of energy, while temperature is a measure of the average kinetic energy of particles.
+(b) Heat is a measure of the average kinetic energy of particles, while temperature is a form of energy.
+(c) Both heat and temperature are forms of energy.
+(d) Both heat and temperature measure the same physical quantity.
+
+68. 60. A 10 m long steel rod is subjected to a temperature increase of 20 K. If the coefficient of linear expansion for steel is 1.2 x 10^-5 K-1, the change in its length will be:
+a) 2.4 mm
+b) 2.4 cm
+c) 0.24 mm
+d) 0.24 cm
+
+69. 25. The rate of heat conduction through a slab of material is directly proportional to:
+(a) Its thickness.
+(b) The thermal resistance of the material.
+(c) The cross-sectional area perpendicular to the heat flow.
+(d) The specific heat capacity of the material.
+
+70. 68. If the temperature of an object increases by 10 degrees Celsius, what is the equivalent increase in Kelvin?
+(a) 10 K
+(b) 273.15 K
+(c) 283.15 K
+(d) 100 K
+
+71. 47. The SI unit of the coefficient of thermal conductivity is:
+a) J s-1 m-1 K-1
+b) W m-1 K-1
+c) J m-1 s K-1
+d) W m K-1
+
+72. 6. Which of the following temperature scales does not have negative values for temperature in its standard range of use?
+(a) Celsius scale
+(b) Fahrenheit scale
+(c) Kelvin scale
+(d) Both (a) and (b)
+
+73. 12. Which of the following materials is generally considered a good thermal insulator?
+(a) Copper
+(b) Aluminum
+(c) Air
+(d) Iron
+
+74. 58. If alpha is the coefficient of linear expansion, then the coefficient of volume expansion (gamma) for an isotropic solid is approximately:
+a) alpha
+b) 2 alpha
+c) 3 alpha
+d) alpha^2
+
+75. 22. A perfectly black body is characterized by its ability to:
+(a) Reflect all incident radiation and absorb none.
+(b) Transmit all incident radiation without absorption or reflection.
+(c) Absorb all incident radiation and, when heated, emit radiation most efficiently.
+(d) Absorb only specific wavelengths of radiation.
+
+
+ANSWER KEY
+
+1. (b)
+2. (b)
+3. (c)
+4. (c)
+5. (a)
+6. (b)
+7. (c)
+8. (c)
+9. (d)
+10. (b)
+11. (a)
+12. (c)
+13. (b)
+14. (c)
+15. (a)
+16. (b)
+17. (d)
+18. (b)
+19. (a)
+20. (b)
+21. (b)
+22. (b)
+23. (d)
+24. (b)
+25. (a)
+26. (c)
+27. (c)
+28. (a)
+29. (a)
+30. (a)
+31. (c)
+32. (c)
+33. (c)
+34. (b)
+35. (c)
+36. (c)
+37. (a)
+38. (b)
+39. (b)
+40. (c)
+41. (c)
+42. (b)
+43. (c)
+44. (c)
+45. (b)
+46. (a)
+47. (a)
+48. (b)
+49. (b)
+50. (c)
+51. (a)
+52. (c)
+53. (a)
+54. (b)
+55. (c)
+56. (b)
+57. (b)
+58. (b)
+59. (a)
+60. (c)
+61. (a)
+62. (c)
+63. (b)
+64. (c)
+65. (c)
+66. (b)
+67. (a)
+68. (a)
+69. (c)
+70. (a)
+71. (b)
+72. (c)
+73. (c)
+74. (c)
+75. (c)
