@@ -140,6 +140,50 @@ Product Terms- PLC, Mortality Curve and New product Development Steps, Inventory
 Importance and concept of Innovation, Sources and Process,,
 Risk analysis and mitigation by SWOT Analysis"""
 
+"""chapter 3: Management Practices"""
+subject = "Entrepreneurship and startups"
+title = "Management Practices"
+length = "200 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, add extra knowledge and fun facts too. Make the structure knowledgeable and to the point simple statements."
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Industry, Commerce and Business,,
+Types of ownership in the organization -Definition, Characteristics, Merits & Demerits,,
+Different Leadership Models,,
+Functions of Management- Merits & Demerits ( Planning, Company's Organization Structure, Directing, Controlling, Staffing- Recruitment and management of talent),,
+Financial organization and management,,
+Differences between Management,,
+and Administration"""
+
+"""chapter 4: Support Agencies And Incubators"""
+subject = "Entrepreneurship and startups"
+title = "Support Agencies and Incubators"
+length = "250 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, add extra knowledge and fun facts too. Make the structure knowledgeable and to the point simple statements."
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """State & National Level Support agencies and Current Promotional Schemes for new Enterprise,,
+Start-up Incubation and modalities,,
+Communication of Ideas to potential investors - Investor Pitch,,
+Legal Issues (Contracts, Copyrights, Insurance, IPR, Licensing, Patents, Trade Secrets, Trademarks)"""
+
+"""chapter 5: project proposals and exit strategies"""
+subject = "Entrepreneurship and startups"
+title = " Project Proposal & Exit strategies"
+length = "200 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, add extra knowledge and fun facts too. Make the structure knowledgeable and to the point simple statements."
+complexity = "from the basics and essential complexity for theoretical knowledge too"
+wantGemini = True
+preDefineTopics = """Project Planning ( Project planning and report, Feasibility study, Project cost estimation, Breakeven point, Return on investment and Return on sales),,
+Corporate Social Responsibilities and Economic performance,,
+Business Ethics,,
+Ex-Im policies,,
+Succession and harvesting strategy,,
+Bankruptcy and avoidance,,"""
+
 #### Computer Organization And Architecture
 """chapter 1: Basics of Computer Organization And Processor Evolution"""
 subject = "Computer Organization And Architecture"

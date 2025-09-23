@@ -10,7 +10,7 @@ import sys
 isDebug = True
 getInstantProgressPDF = False
 recommendTopics = False
-getQuestions = True
+getQuestions = False
 getNotes = True
 startIndex = 0
 
@@ -197,21 +197,20 @@ Only output the questions followed by the answer key. No extra explanations.
         "answers": answers
     }
 
-subject = "Physics"
-title = "Wave motion, optics and acoustics"
-length = "150 lines"
-maturity = "11th grade student"
-extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, add extra knowledge and fun facts too. Make the structure more point vise shorter but knowledgeable and to the point simple statements."
-complexity = "from the basics and essential complexity for MCQ based exam (india)"
+subject = "Entrepreneurship and startups"
+title = " Project Proposal & Exit strategies"
+length = "200 lines"
+maturity = "computer engineering diploma student"
+extraNotes = "cover from simple to in depth knowledge, adding real world knowledge, add extra knowledge and fun facts too. Make the structure knowledgeable and to the point simple statements."
+complexity = "from the basics and essential complexity for theoretical knowledge too"
 wantGemini = True
-preDefineTopics = """Introduction and basics,,
-Types of waves, (progressive, stationary, mechanical, non-mechanical, transverse, longitudinal),,
-Frequency, wavelength, periodic time and their relations,,
-Properties and applications of electromagnetic waves (ordinary light, LASER) and sound waves (ultrasonic wave, audible wave),,
-Amplitude, intensity, phase and wave equations,,
-Reflection, refraction, Snell's law, absolute refractive index, relative refractive index, total internal reflection, critical angle, optical fiber (construction, properties and applications),,
-Reverberation, Reverberation time, Sabine's formula, echo, absorption coefficient,,
-Summary (quick revision)"""
+preDefineTopics = """Project Planning ( Project planning and report, Feasibility study, Project cost estimation, Breakeven point, Return on investment and Return on sales),,
+Corporate Social Responsibilities and Economic performance,,
+Business Ethics,,
+Ex-Im policies,,
+Succession and harvesting strategy,,
+Bankruptcy and avoidance,,"""
+
 if __name__ == "__main__":
 
     if(not isDebug):

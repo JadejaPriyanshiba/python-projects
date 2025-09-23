@@ -1,4 +1,36 @@
-/.DS_Store
-/.venv
-/.env
-*.venv
+# /.DS_Store
+# /.venv
+# /.env
+# *.venv
+
+# # Byte-compiled / optimized / DLL files
+# **/__pycache__
+# *.py[cod]
+# *$py.class
+# **/__pycache__/
+# **/*.pyc
+
+# # VSCode settings
+# .vscode/
+
+# # macOS
+# .DS_Store
+
+.env
+
+# macOS system files
+.DS_Store
+
+# Virtual environments
+.venv/
+.env/
+*.venv/
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# VSCode settings
+.vscode/

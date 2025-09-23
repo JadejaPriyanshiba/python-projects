@@ -1,16 +1,12 @@
 # you can directly setup with command
 # $ make setup (in the ai_note_maker directory)
+.PHONY: setup
+
 setup:
 	echo "Creating virtual environment..."
-	python3 -m venv .venv
-
-	echo "Activating virtual environment..."
-	source .venv/bin/activate
-
-	echo "Installing dependencies using pyproject.toml..."
-	pip install --upgrade pip
-	pip install reportlab python-dotenv requests transformers accelerate google-generativeai
-
-	echo 
+	python3 -m venv .venv && \
+	. .venv/bin/activate && \
+	pip install --upgrade pip && \
+	pip install reportlab python-dotenv requests transformers accelerate google-generativeai PyPDF2 && \
 	echo "Setup complete."
 
