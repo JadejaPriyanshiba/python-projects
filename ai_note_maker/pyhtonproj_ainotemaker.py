@@ -27,7 +27,6 @@ from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.units import inch
 from PyPDF2 import PdfMerger
 
-### enter your keys here
 token = "";
 api_URL = "";
 gemini_token = ""
@@ -35,42 +34,56 @@ google_search_api_key = ""
 google_search_cx = ""
 search_result_count = 5
 isDebug = True
-addImages = True
+addImages = False
 imagesLimit = 3
 getInstantProgressPDF = False
 recommendTopics = False
 getQuestions = False
-getNotes = True
+getNotes = False
+getFlashCards = True
 startIndex = 0
 
 # instant defaults on my git file : https://github.com/JadejaPriyanshiba/python-projects/blob/main/ai_note_maker/config/instant_default.py
 
-subject = "AI ML And biotechnology"
-title = "AI And LLM Approach to prevent Type 1 diabetes (T1D) and myasthenia gravis"
-length = "300 lines"
-maturity = "for a PDF student researching about these diseases exploring these finding hidden patterns and eager to know more"
+# subject = "AI ML And biotechnology"
+# title = "AI And LLM Approach to prevent Type 1 diabetes (T1D) and myasthenia gravis"
+# length = "300 lines"
+# maturity = "for a PDF student researching about these diseases exploring these finding hidden patterns and eager to know more"
 
-extraNotes = "make it more knowledgeable and in depth that can help a researching student about this, you acn diacuss the relation, hidden and main detals, possiblity of realtions or some facts, everything important that is required for being best"
+# extraNotes = "make it more knowledgeable and in depth that can help a researching student about this, you acn diacuss the relation, hidden and main detals, possiblity of realtions or some facts, everything important that is required for being best"
 
+# complexity = "in depth research and knowledge"
+
+# wantGemini = True
+
+# preDefineTopics = """Type 1 Diabetes (T1D) Pathogenesis (brief context for modeling),,
+# Myasthenia Gravis (MG) Pathogenesis (brief context for modeling),,
+# Genomic, Proteomic, and Metabolomic Biomarker Discovery in T1D and MG,,
+# Immunological Phenotyping and Immune Cell Trajectories,,
+# Electronic Health Record (EHR) Data Mining for T1D and MG,,
+# Multi-omics Data Integration Techniques,,
+# Identifying Hidden Patterns in Complex Autoimmune Data,,
+# Machine Learning (ML) Fundamentals for Healthcare Applications,,
+# Deep Learning Architectures for Medical Data,,
+# Large Language Model (LLM) Capabilities and Limitations in Biomedical Research,,
+# NLP for Literature Mining and Hypothesis Generation in T1D and MG,,
+# Predictive Modeling for Presymptomatic T1D and MG,,
+# AI-driven Early Warning Systems for T1D and MG,,
+# Personalized Prevention Strategies using AI/ML,,
+# Explainable AI (XAI) for Transparent Autoimmune Prediction,,"""
+
+subject = "Computer Architecture And Organization"
+title = "Input-Output Organization"
+length = "100 lines"
+maturity = "for computer engineering diploma student"
+extraNotes = "make it more knowledgeable and in depth, make statements point-wise, short, and to the point were needed"
 complexity = "in depth research and knowledge"
-
 wantGemini = True
+preDefineTopics = """Input-Output Interface,,
+Programmed I/O and Interrupt initiated I/O,,
+CPU-IOP communication,,
+Quick Summary"""
 
-preDefineTopics = """Type 1 Diabetes (T1D) Pathogenesis (brief context for modeling),,
-Myasthenia Gravis (MG) Pathogenesis (brief context for modeling),,
-Genomic, Proteomic, and Metabolomic Biomarker Discovery in T1D and MG,,
-Immunological Phenotyping and Immune Cell Trajectories,,
-Electronic Health Record (EHR) Data Mining for T1D and MG,,
-Multi-omics Data Integration Techniques,,
-Identifying Hidden Patterns in Complex Autoimmune Data,,
-Machine Learning (ML) Fundamentals for Healthcare Applications,,
-Deep Learning Architectures for Medical Data,,
-Large Language Model (LLM) Capabilities and Limitations in Biomedical Research,,
-NLP for Literature Mining and Hypothesis Generation in T1D and MG,,
-Predictive Modeling for Presymptomatic T1D and MG,,
-AI-driven Early Warning Systems for T1D and MG,,
-Personalized Prevention Strategies using AI/ML,,
-Explainable AI (XAI) for Transparent Autoimmune Prediction,,"""
 
 def moveElement(array, fromIndex, toIndex):
     if( not (isinstance(array, list) and isinstance(fromIndex, int) and isinstance(toIndex, int))):
@@ -666,11 +679,11 @@ from IPython.display import HTML, display
 # ========================== 🎨 Style Configuration ========================== #
 style_config = {
     "light": {
-        "primary_color": "#5D866C",
-        "secondary_color": "#C2A68C",
-        "background_color": "#C2A68C",
-        "text_color": "#F5F5F0",
-        "card_color": "#5D866C"
+        "primary_color": "#70B2B2",
+        "secondary_color": "#9ECFD4",
+        "background_color": "#016B61",
+        "text_color": "#ECF4E8",
+        "card_color": "#B7B89F"
     },
     "dark": {
         "primary_color": "#90CAF9",
@@ -877,6 +890,317 @@ def generate_notes_page(chapter_name, topics, answers, all_questions, api_key, c
 
     print(f"Notes page saved as {filename}")
 
+import base64
+from IPython.display import HTML, display
+
+def generate_flash_cards(
+    subject,
+    title,
+    topics,
+    maturity,
+    extraNotes,
+    complexity,
+    num_cards=15,
+    card_type="question",
+    theme="light",
+    custom_prompt=None
+):
+    """
+    Generate interactive flashcards with collapsible topic sections,
+    light/dark mode, shuffle, and progress tracking.
+    """
+
+    # -------------------------------
+    # 1. STYLE CONFIG
+    # -------------------------------
+    style = style_config
+    colors = style.get(theme, style["light"])
+
+    # -------------------------------
+    # 2. GENERATE FLASHCARDS PER TOPIC
+    # -------------------------------
+    all_flashcards_html = ""
+    total_cards = 0
+
+    for topic in topics:
+        # Build prompt per topic
+        if card_type == "question":
+            prompt = f"""
+            Generate {num_cards} flashcards for the subject "{subject}"
+            covering topic "{topic}" for a {maturity}.
+
+            Each card:
+            - Front: Question/concept
+            - Back: Answer/explanation with examples
+
+            Format:
+            ---Card---
+            Front: <Question>
+            Back: <Answer>
+            """
+        elif card_type == "revision":
+            prompt = f"""
+            Generate {num_cards} revision flashcards for "{topic}" in {subject}.
+            Each card:
+            - Front: Topic/keyword
+            - Back: Explanation/connection
+
+            Format:
+            ---Card---
+            Front: <Topic>
+            Back: <Explanation>
+            """
+        elif card_type == "custom" and custom_prompt:
+            prompt = f"{custom_prompt}\nSubject: {subject}\nTopic: {topic}\nTitle: {title}\nMaturity: {maturity}\nNotes: {extraNotes}\nComplexity: {complexity}"
+        else:
+            raise ValueError("Invalid card_type or missing custom_prompt for 'custom' mode.")
+
+        # Call Gemini API (replace with your function)
+        flashcards_text = connectGemini2Flash(prompt)
+        flashcards_text = re.sub(r"\*\*(.*?)\*\*", r"<b>\1</b>", flashcards_text)
+        flashcards_text = re.sub(r"\*(.*?)\*", r"<i>\1</i>", flashcards_text)
+        flashcards_text.replace("*","")
+        # Parse cards
+        cards = []
+        for block in flashcards_text.split('---Card---'):
+            if 'Front:' in block and 'Back:' in block:
+                front = block.split('Front:')[1].split('Back:')[0].strip()
+                back = block.split('Back:')[1].strip()
+                cards.append({"front": front, "back": back})
+        flashcards = cards[:num_cards]
+        total_cards += len(flashcards)
+
+        # Build HTML for this topic
+        topic_html_cards = ""
+        for idx, card in enumerate(flashcards, start=1):
+            topic_html_cards += f"""
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card {idx}</h3>
+                        <p>{card["front"]}</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>{card["back"]}</p>
+                    </div>
+                </div>
+            </div>
+            """
+
+        # Collapsible section per topic
+        all_flashcards_html += f"""
+        <button class="accordion">{topic}</button>
+        <div class="panel">
+            {topic_html_cards}
+        </div>
+        """
+
+    # -------------------------------
+    # 3. HTML TEMPLATE
+    # -------------------------------
+    html_template = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{subject} - {title}</title>
+        <link href="{style['font_url']}" rel="stylesheet">
+        <style>
+            :root {{
+                --primary-color: {colors["primary_color"]};
+                --secondary-color: {colors["secondary_color"]};
+                --bg-color: {colors["background_color"]};
+                --text-color: {colors["text_color"]};
+                --card-color: {colors["card_color"]};
+                --border-radius: {style["border_radius"]};
+                --box-shadow: {style["box_shadow"]};
+            }}
+            body {{
+                font-family: '{style['font_family']}', sans-serif;
+                background: var(--bg-color);
+                color: var(--text-color);
+                text-align: center;
+                margin: 0;
+                padding: 0 10px;
+                transition: background 0.5s ease, color 0.5s ease;
+            }}
+            h1 {{ margin-top: 25px; }}
+
+            button {{
+                background: var(--primary-color);
+                color: var(--text-color);
+                border: none;
+                padding: 10px 16px;
+                border-radius: var(--border-radius);
+                cursor: pointer;
+                font-size: 14px;
+                margin: 4px;
+                box-shadow: var(--box-shadow);
+                transition: transform 0.2s;
+            }}
+            button:hover {{ transform: scale(1.05); background: var(--secondary-color); }}
+
+            .flashcard {{
+                width: 90%;
+                max-width: 340px;
+                min-height: 220px;
+                margin: 20px auto;
+                perspective: 1000px;
+                cursor: pointer;
+                border-radius: var(--border-radius);
+                box-shadow: var(--box-shadow);
+                position: relative;
+            }}
+
+            .flashcard-inner {{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                transition: transform 0.6s;
+                transform-style: preserve-3d;
+            }}
+
+            .flashcard.flipped .flashcard-inner {{
+                transform: rotateY(180deg);
+            }}
+
+            .flashcard .front, .flashcard .back {{
+                position: absolute;
+                width: 100%;
+                height: 220px;  /* fixed height */
+                backface-visibility: hidden;
+                border-radius: var(--border-radius);
+                padding: 20px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start; /* top-align content */
+                align-items: flex-start;     /* left-align content */
+                background: var(--card-color);
+                color: var(--text-color);
+                overflow-y: auto;  /* scroll if content exceeds height */
+            }}
+
+            .flashcard .back {{
+                transform: rotateY(180deg);
+            }}
+
+
+            /* Accordion */
+            .accordion {{
+                background-color: var(--primary-color);
+                color: var(--text-color);
+                cursor: pointer;
+                padding: 10px;
+                width: 90%;
+                max-width: 360px;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 16px;
+                transition: background-color 0.3s;
+                margin: 10px auto;
+            }}
+            .accordion.active, .accordion:hover {{ background-color: var(--secondary-color); }}
+            .panel {{
+                padding: 0 10px;
+                display: none;
+                overflow: hidden;
+                background-color: var(--bg-color);
+            }}
+
+            #progress {{ margin-top: 10px; font-weight: bold; }}
+        </style>
+    </head>
+
+    <body>
+        <h1>{subject} - {title}</h1>
+        <div class="controls">
+            <button onclick="toggleTheme()">Toggle Theme</button>
+            <button onclick="shuffleCards()">Shuffle Cards</button>
+            <div id="progress">You've reviewed 0 / {total_cards} cards</div>
+        </div>
+
+        <div id="cardContainer">{all_flashcards_html}</div>
+
+        <script>
+            let flippedCount = 0;
+            let totalCards = {total_cards};
+            let darkMode = {str(theme=="dark").lower()};
+
+            function flipCard(card) {{
+                card.classList.toggle('flipped');
+                flippedCount = document.querySelectorAll('.flipped').length;
+                document.getElementById('progress').innerText = `You've reviewed ${'{'}flippedCount{'}'} / ${'{'}totalCards{'}'} cards`;
+            }}
+
+            function shuffleCards() {{
+                const panels = document.querySelectorAll('.panel');
+                panels.forEach(panel => {{
+                    const cards = Array.from(panel.children);
+                    for (let i = cards.length - 1; i > 0; i--) {{
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [cards[i], cards[j]] = [cards[j], cards[i]];
+                    }}
+                    panel.innerHTML = '';
+                    cards.forEach(c => panel.appendChild(c));
+                }});
+            }}
+
+            function toggleTheme() {{
+                darkMode = !darkMode;
+                const root = document.documentElement;
+                if (darkMode) {{
+                    root.style.setProperty('--primary-color', '{style["dark"]["primary_color"]}');
+                    root.style.setProperty('--secondary-color', '{style["dark"]["secondary_color"]}');
+                    root.style.setProperty('--bg-color', '{style["dark"]["background_color"]}');
+                    root.style.setProperty('--text-color', '{style["dark"]["text_color"]}');
+                    root.style.setProperty('--card-color', '{style["dark"]["card_color"]}');
+                }} else {{
+                    root.style.setProperty('--primary-color', '{style["light"]["primary_color"]}');
+                    root.style.setProperty('--secondary-color', '{style["light"]["secondary_color"]}');
+                    root.style.setProperty('--bg-color', '{style["light"]["background_color"]}');
+                    root.style.setProperty('--text-color', '{style["light"]["text_color"]}');
+                    root.style.setProperty('--card-color', '{style["light"]["card_color"]}');
+                }}
+            }}
+
+            // Accordion logic
+            const acc = document.getElementsByClassName("accordion");
+            for (let i = 0; i < acc.length; i++) {{
+                acc[i].addEventListener("click", function() {{
+                    this.classList.toggle("active");
+                    const panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {{
+                        panel.style.display = "none";
+                    }} else {{
+                        panel.style.display = "block";
+                    }}
+                }});
+            }}
+        </script>
+    </body>
+    </html>
+    """
+
+    # -------------------------------
+    # 4. SAVE HTML + DOWNLOAD BUTTON
+    # -------------------------------
+    filename = f"{title.lower().replace(' ','_')}_flashcards.html"
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(html_template)
+
+    b64_html = base64.b64encode(html_template.encode()).decode()
+    download_html = f'<a download="{filename}" href="data:text/html;base64,{b64_html}" target="_blank"><button style="padding:10px 20px; font-size:16px;">⬇️ Download {title} Flashcards</button></a>'
+
+    display(HTML(download_html))
+    print(f"✅ Flashcards generated successfully! Saved as '{filename}'.")
+    return html_template
+
+
+
+
 if __name__ == "__main__":
 
     if(not isDebug):
@@ -1023,3 +1347,5 @@ if __name__ == "__main__":
         ans = generate_final_questionpaper_pdf(title=title, final_paper=final_paper, answer_key=answer_key)
     if addImages:
         generate_notes_page(title, topics, answers, all_questions, google_search_api_key, google_search_cx, images_limit=3)
+    if getFlashCards:
+        generate_flash_cards(title=title, topics=topics, complexity=complexity, maturity=maturity, extraNotes=extraNotes, subject=subject, num_cards=10)
