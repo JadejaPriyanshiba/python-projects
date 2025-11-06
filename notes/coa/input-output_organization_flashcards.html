@@ -1,0 +1,906 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Computer Architecture And Organization - Input-Output Organization</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <style>
+            :root {
+                --primary-color: #70B2B2;
+                --secondary-color: #9ECFD4;
+                --bg-color: #016B61;
+                --text-color: #ECF4E8;
+                --card-color: #B7B89F;
+                --border-radius: 12px;
+                --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            }
+            body {
+                font-family: 'Poppins', sans-serif;
+                background: var(--bg-color);
+                color: var(--text-color);
+                text-align: center;
+                margin: 0;
+                padding: 0 10px;
+                transition: background 0.5s ease, color 0.5s ease;
+            }
+            h1 { margin-top: 25px; }
+
+            button {
+                background: var(--primary-color);
+                color: var(--text-color);
+                border: none;
+                padding: 10px 16px;
+                border-radius: var(--border-radius);
+                cursor: pointer;
+                font-size: 14px;
+                margin: 4px;
+                box-shadow: var(--box-shadow);
+                transition: transform 0.2s;
+            }
+            button:hover { transform: scale(1.05); background: var(--secondary-color); }
+
+            .flashcard {
+                width: 90%;
+                max-width: 340px;
+                min-height: 220px;
+                margin: 20px auto;
+                perspective: 1000px;
+                cursor: pointer;
+                border-radius: var(--border-radius);
+                box-shadow: var(--box-shadow);
+                position: relative;
+            }
+
+            .flashcard-inner {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                transition: transform 0.6s;
+                transform-style: preserve-3d;
+            }
+
+            .flashcard.flipped .flashcard-inner {
+                transform: rotateY(180deg);
+            }
+
+            .flashcard .front, .flashcard .back {
+                position: absolute;
+                width: 100%;
+                height: 220px;  /* fixed height */
+                backface-visibility: hidden;
+                border-radius: var(--border-radius);
+                padding: 20px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start; /* top-align content */
+                align-items: flex-start;     /* left-align content */
+                background: var(--card-color);
+                color: var(--text-color);
+                overflow-y: auto;  /* scroll if content exceeds height */
+            }
+
+            .flashcard .back {
+                transform: rotateY(180deg);
+            }
+
+
+            /* Accordion */
+            .accordion {
+                background-color: var(--primary-color);
+                color: var(--text-color);
+                cursor: pointer;
+                padding: 10px;
+                width: 90%;
+                max-width: 360px;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 16px;
+                transition: background-color 0.3s;
+                margin: 10px auto;
+            }
+            .accordion.active, .accordion:hover { background-color: var(--secondary-color); }
+            .panel {
+                padding: 0 10px;
+                display: none;
+                overflow: hidden;
+                background-color: var(--bg-color);
+            }
+
+            #progress { margin-top: 10px; font-weight: bold; }
+        </style>
+    </head>
+
+    <body>
+        <h1>Computer Architecture And Organization - Input-Output Organization</h1>
+        <div class="controls">
+            <button onclick="toggleTheme()">Toggle Theme</button>
+            <button onclick="shuffleCards()">Shuffle Cards</button>
+            <div id="progress">You've reviewed 0 / 40 cards</div>
+        </div>
+
+        <div id="cardContainer">
+        <button class="accordion">Input-Output Interface</button>
+        <div class="panel">
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 1</h3>
+                        <p>What is the primary purpose of an Input-Output (I/O) Interface in a computer system?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>The primary purpose of an I/O Interface is to act as a bridge or mediator between the CPU (and memory) and the various peripheral I/O devices (like keyboards, printers, hard drives). It solves several fundamental problems:
+    1.  <b>Speed Mismatch:</b> CPU operates much faster than most I/O devices. The interface temporarily buffers data.
+    2.  <b>Data Format Mismatch:</b> Different devices use different data formats (e.g., serial vs. parallel). The interface converts data.
+    3.  <b>Control Requirements:</b> Each device has unique control signals and operational procedures. The interface translates generic CPU commands into device-specific commands.
+    4.  <b>Signal Level Mismatch:</b> Electrical signal characteristics can differ. The interface ensures compatibility.
+    5.  <b>Synchronization:</b> Coordinates data transfer between asynchronous components.
+    <i>Example:</i> A keyboard sends data serially, but the CPU processes it in parallel. The keyboard interface handles this conversion and synchronization.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 2</h3>
+                        <p>List and explain at least four key functions performed by an I/O Interface.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>An I/O interface performs several crucial functions:
+    1.  <b>Data Buffering:</b> Temporarily stores data during transfer to compensate for speed differences between the CPU and the peripheral device.
+        <i>   </i>Example:* An output buffer in a printer interface holds data until the printer mechanism is ready to print it.
+    2.  <b>Error Detection:</b> Monitors the data transfer for errors (e.g., parity errors, data overflow) and reports them to the CPU.
+        <i>   </i>Example:* A network interface card can detect corrupted packets and request retransmission.
+    3.  <b>Address Decoding:</b> Decodes the I/O address sent by the CPU to select the specific peripheral device or register within that device.
+        <i>   </i>Example:* When the CPU wants to access the keyboard's data register, the interface ensures only the keyboard's circuitry is activated.
+    4.  <b>Status Reporting:</b> Provides status information about the I/O device (e.g., "device ready," "data available," "error") to the CPU.
+        <i>   </i>Example:* The CPU reads a status register to know if a disk drive operation has completed or if new data has arrived from a sensor.
+    5.  <b>Control Signal Generation:</b> Generates the appropriate control signals required by the peripheral device to perform its operations.
+        <i>   </i>Example:* Sending a "motor start" command to a CD-ROM drive or a "reset" command to a peripheral.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 3</h3>
+                        <p>Explain the difference between Memory-Mapped I/O and Isolated I/O addressing.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>These are two methods for the CPU to address and communicate with I/O devices:
+    *   <b>Memory-Mapped I/O:</b>
+        *   I/O devices and main memory share a single, unified address space.
+        *   The CPU treats I/O device registers (ports) as if they were memory locations.
+        *   Standard memory access instructions (e.g., `LOAD`, `STORE`, `MOV`) are used to interact with I/O devices.
+        <i>   </i>Advantage:* Simpler instruction set, no special I/O instructions needed.
+        <i>   </i>Disadvantage:* Reduces the available address space for main memory.
+        <i>   </i>Example:* Many RISC architectures (like ARM) use memory-mapped I/O.
+    *   <b>Isolated I/O (or Port-Mapped I/O):</b>
+        *   I/O devices have a separate address space distinct from main memory.
+        *   The CPU uses special I/O instructions (e.g., `IN`, `OUT` in x86 architecture) to communicate with I/O devices. These instructions assert different control signals on the bus to differentiate between memory and I/O access.
+        <i>   </i>Advantage:* Doesn't reduce memory address space, clear distinction between memory and I/O.
+        <i>   </i>Disadvantage:* Requires special I/O instructions and dedicated control signals.
+        <i>   </i>Example:* The x86 architecture uses isolated I/O for its peripheral ports.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 4</h3>
+                        <p>Describe Programmed I/O (PIO) and its main disadvantage.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p><b>Programmed I/O (PIO)</b> is a method where the CPU directly controls and manages every aspect of the I/O operation.
+    *   The CPU initiates the I/O command and then continuously <b>polls</b> (repeatedly checks) the status register of the I/O device to see if it's ready for data transfer or if the operation is complete.
+    *   The CPU remains busy in a wait loop until the I/O device finishes its task.
+    *   <b>Process:</b> CPU issues command -> CPU repeatedly reads status register -> when device is ready, CPU reads/writes data -> repeat for next data unit.
+    *   <b>Main Disadvantage:</b> It is highly inefficient because the CPU spends a significant amount of time "busy-waiting" for slow I/O devices. This wastes valuable CPU cycles that could be used for other computations, leading to poor system performance, especially for frequent or bulk data transfers.
+    <i>   </i>Example:* If a CPU uses PIO to send a large file to a printer, it would constantly check "Is the printer ready for the next byte?" for every single byte, idling for the printer's slow response.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 5</h3>
+                        <p>Explain Interrupt-Driven I/O and state its primary advantage over Programmed I/O.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p><b>Interrupt-Driven I/O</b> is a method where the I/O device notifies the CPU when it needs attention, rather than the CPU continuously checking.
+    *   The CPU initiates an I/O operation and then immediately proceeds with other tasks.
+    *   When the I/O device completes its operation (e.g., data is ready to be read, an output buffer is empty), it generates an <b>interrupt signal</b> to the CPU.
+    *   The CPU suspends its current task, saves its context (registers, program counter), and jumps to a specific <b>Interrupt Service Routine (ISR)</b> associated with that device to handle the I/O event.
+    *   After the ISR finishes, the CPU restores its context and resumes the interrupted task.
+    *   <b>Primary Advantage over Programmed I/O:</b> It dramatically improves CPU utilization and system efficiency. The CPU doesn't waste time busy-waiting; instead, it performs useful work until an interrupt signals that I/O attention is required, making the system more responsive and capable of multitasking.
+    <i>   </i>Example:* When you press a key, the keyboard controller generates an interrupt. The CPU stops its current work, executes the keyboard ISR to read the character, and then resumes its previous task, all without constant polling.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 6</h3>
+                        <p>What is Direct Memory Access (DMA), and what specific problem does it solve in I/O operations?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p><b>Direct Memory Access (DMA)</b> is a hardware-controlled data transfer technique that allows peripheral devices to exchange data directly with main memory without direct CPU intervention for each data unit.
+    *   It utilizes a dedicated component called a <b>DMA Controller (DMAC)</b>.
+    *   <b>Process:</b>
+        1.  The CPU programs the DMAC with the source address, destination memory address, and the size of the data block to be transferred.
+        2.  The CPU then instructs the I/O device to start the transfer and is freed to perform other tasks.
+        3.  The DMAC takes control of the system bus (often by requesting bus mastership from the CPU) and manages the direct block transfer between the I/O device and memory.
+        4.  Once the entire block transfer is complete, the DMAC notifies the CPU via an interrupt.
+    *   <b>Problem Solved:</b> DMA solves the problem of high CPU overhead and inefficiency during <b>large block data transfers</b>. For operations like loading a large file from a hard drive or sending a significant amount of data to a network card, requiring the CPU to manage each byte/word individually (as in PIO or even interrupt-driven I/O for every byte) would be extremely slow and bottleneck the system. DMA offloads this repetitive task, allowing the CPU to focus on computation.
+    <i>   </i>Example:* When you load a large video file, the CPU sets up the DMA transfer, and the DMA controller handles moving the video data directly from the hard drive controller to RAM, freeing the CPU to prepare the video for playback.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 7</h3>
+                        <p>Define an I/O Port and differentiate between its common types.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>An <b>I/O Port</b> is a specific addressable location (typically a register) within an I/O interface that the CPU uses to communicate with an I/O device. It serves as a gateway for the CPU to send commands, retrieve status, and transfer data.
+    *   Common types of I/O ports (registers):
+        1.  <b>Data Port (Data Register):</b> Used for the actual transfer of data between the CPU and the I/O device.
+            <i>   </i>Example:* A buffer register where data typed on a keyboard is stored until the CPU reads it, or where data to be sent to a printer is written by the CPU.
+        2.  <b>Status Port (Status Register):</b> Provides information about the current state of the I/O device or the interface. The CPU reads this to determine if the device is ready, if data is available, if an error occurred, etc.
+            <i>   </i>Example:* Contains bits indicating "printer busy," "keyboard buffer full," "disk operation complete."
+        3.  <b>Control Port (Control Register):</b> Used by the CPU to send commands to the I/O device or to configure its operation. The CPU writes to this port to initiate actions or set modes.
+            <i>   </i>Example:* Contains bits to enable/disable interrupts, set data transfer rates, select operation modes (e.g., 8-bit or 16-bit transfer), or issue a "reset" command.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 8</h3>
+                        <p>What is I/O Handshaking and why is it necessary in I/O operations?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p><b>I/O Handshaking</b> is a control mechanism that uses an exchange of control signals between two asynchronous devices (e.g., CPU and a peripheral) to ensure reliable and synchronized data transfer. It establishes a protocol for mutual agreement before and during data exchange.
+    *   It typically involves signals like "Data Valid," "Ready," "Acknowledge," etc.
+    *   <b>Why it's necessary:</b>
+        *   <b>Speed Mismatch:</b> I/O devices and the CPU operate at vastly different and often unpredictable speeds. Handshaking prevents the faster device from sending data before the slower device is ready to receive it, or from reading data before it has been fully transmitted.
+        *   <b>Asynchronous Nature:</b> I/O devices operate independently and asynchronously from the CPU. Handshaking provides the necessary coordination to prevent data loss or corruption due to timing issues.
+        *   <b>Reliability:</b> It ensures that data is only consumed when the receiver is prepared and often provides confirmation that the data was successfully received, enhancing data integrity.
+    <i>   </i>Example:* When a CPU wants to send data to a printer, the CPU asserts a "Data Valid" line. The printer, when ready, reads the data and then asserts an "Acknowledge" line. Only after receiving the acknowledgment does the CPU de-assert "Data Valid" and prepare for the next data transfer.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 9</h3>
+                        <p>Describe the structure and purpose of an I/O Bus in a computer system.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>An <b>I/O Bus</b> is a set of parallel electrical conductors (wires) and associated control logic that serves as a common communication pathway connecting the CPU, main memory, and various I/O devices (via their interfaces).
+    *   <b>Purpose:</b> The primary purpose of an I/O bus is to provide a standardized, shared, and efficient channel for data, address, and control signal exchange between the central processing unit and all connected peripheral components. It simplifies the system's architecture by centralizing communication.
+    *   <b>Structure/Components of an I/O Bus:</b> An I/O bus typically consists of three main groups of lines:
+        1.  <b>Data Lines (Data Bus):</b> Carry the actual data being transferred between components. The width (number of lines) determines how many bits can be transferred simultaneously (e.g., 8, 16, 32, 64 bits).
+        2.  <b>Address Lines (Address Bus):</b> Used by the CPU to specify the particular I/O port or memory location it wants to access. The number of lines determines the maximum addressable space.
+        3.  <b>Control Lines (Control Bus):</b> Carry signals that manage and coordinate the data transfer, including:
+            *   Read/Write signals (to indicate direction of data flow)
+            *   Device Select signals (to activate a specific device)
+            *   Clock signals (for timing and synchronization)
+            *   Interrupt lines (for devices to signal the CPU)
+            *   Bus Request/Grant lines (for DMA controllers to request bus control).
+    <i>   </i>Example:* PCI Express (PCIe) is a widely used modern I/O bus that connects high-speed peripherals like graphics cards, NVMe SSDs, and network adapters to the CPU and memory.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 10</h3>
+                        <p>Compare and contrast Polling and Interrupts as methods for CPU-I/O communication, highlighting their typical use cases.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>Polling and Interrupts are two fundamental methods for a CPU to manage I/O operations:
+    *   <b>Polling (Programmed I/O):</b>
+        *   <b>Mechanism:</b> The CPU repeatedly checks the status register of an I/O device in a loop until the device is ready or the operation is complete.
+        *   <b>CPU Utilization:</b> Low, as the CPU spends cycles "busy-waiting" (wasting time) while the I/O device performs its (slow) task.
+        *   <b>Hardware Complexity:</b> Simpler hardware design for the I/O interface.
+        *   <b>Response Time:</b> Can be very fast for critical, short events if polled frequently, but can be slow if polling is infrequent or if the I/O device is very slow.
+        *   <b>Use Cases:</b> Simpler, low-cost embedded systems where the CPU isn't heavily loaded, or for very low-speed devices where the CPU has little else to do.
+            <i>   </i>Example:* A microcontroller continuously checking if a button has been pressed or if a sensor value is available.
+    *   <b>Interrupts (Interrupt-Driven I/O):</b>
+        *   <b>Mechanism:</b> The CPU initiates an I/O operation and then continues with other tasks. The I/O device signals the CPU (via an interrupt) only when it needs attention or completes its task.
+        *   <b>CPU Utilization:</b> High, as the CPU performs useful work until an interrupt occurs, leading to better multitasking.
+        *   <b>Hardware Complexity:</b> More complex hardware (interrupt controller) and software (Interrupt Service Routines, context switching).
+        *   <b>Response Time:</b> Generally efficient for asynchronous events. Can have a slight overhead due to context switching, but overall improves system throughput.
+        *   <b>Use Cases:</b> Most modern general-purpose computer systems, high-speed peripherals, events that occur unpredictably, and situations where CPU cannot afford to wait.
+            <i>   </i>Example:* Keyboard input, mouse movement, network packet arrival, disk operation completion.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <button class="accordion">Programmed I/O and Interrupt initiated I/O</button>
+        <div class="panel">
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 1</h3>
+                        <p>What is <b>Programmed I/O (PIO)</b> in computer architecture?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>Programmed I/O is a method where the CPU directly controls an I/O operation. The CPU constantly monitors the status of the I/O device (e.g., checking a status register) to determine if it's ready for data transfer. It polls the device until it's ready, consuming CPU cycles.
+
+<b>Example:</b> A simple microcontroller reading a button press. The CPU repeatedly checks the input pin's status until it detects a press.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 2</h3>
+                        <p>Explain the typical <b>steps involved in a Programmed I/O operation</b> for writing data to a device.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>The typical steps are:
+1.  The CPU issues a <b>command</b> to the I/O device (e.g., "write data").
+2.  The CPU then enters a <b>loop</b>, continuously <b>polling</b> a status register of the I/O device.
+3.  It checks a specific <b>status bit</b> (e.g., 'busy' or 'ready' bit) to see if the device is ready to accept data.
+4.  Once the status bit indicates the device is ready, the CPU <b>writes the data</b> to the device's data register.
+5.  The CPU might then poll again to confirm the operation completed successfully or start the next data transfer.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 3</h3>
+                        <p>What are the <b>main disadvantages</b> of using Programmed I/O?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>The main disadvantages of Programmed I/O are:
+*   <b>CPU Busy-Waiting:</b> The CPU spends a significant amount of time in a loop, repeatedly checking the device status. This is called 'busy-waiting'.
+*   <b>Inefficient CPU Utilization:</b> While busy-waiting, the CPU cannot perform other useful tasks, leading to wasted CPU cycles.
+*   <b>Poor for Slow Devices:</b> It's highly inefficient for slow I/O devices (like keyboards, printers, or disk drives) because the CPU waits for extended periods.
+*   <b>No Multitasking:</b> It makes multitasking very difficult or impossible, as the CPU is fully dedicated to a single I/O operation.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 4</h3>
+                        <p>In what <b>scenarios or types of systems</b> might Programmed I/O still be a suitable or preferred choice?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>Programmed I/O can still be suitable in specific scenarios:
+*   <b>Simple Microcontrollers/Embedded Systems:</b> In very basic embedded systems with minimal resources and no need for multitasking, PIO is simpler to implement.
+*   <b>Very Fast I/O Devices:</b> If the I/O device is extremely fast, and the CPU needs to keep up with its data rate, the polling overhead might be negligible or even necessary.
+*   <b>Debugging:</b> Sometimes, PIO is used during the debugging phase of a system due to its straightforward nature.
+*   <b>Direct Control where Predictability is Key:</b> In certain real-time control applications where precise timing for direct CPU control is needed, and busy-waiting doesn't impact other critical tasks.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 5</h3>
+                        <p>What is <b>Interrupt-Initiated I/O</b>?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>Interrupt-Initiated I/O is a method where the I/O device, rather than the CPU, initiates the communication when it is ready for data transfer or when an operation is complete. When the device is ready, it sends an <b>interrupt signal</b> to the CPU, causing the CPU to temporarily suspend its current task and attend to the I/O request.
+
+<b>Example:</b> A hard disk drive completing a read operation will send an interrupt to the CPU, signaling that the data is ready to be transferred to memory.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 6</h3>
+                        <p>Describe the <b>sequence of events</b> when an I/O device initiates an interrupt for data transfer.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>The sequence of events is:
+1.  <b>I/O Operation Starts:</b> The CPU issues a command to an I/O device and then proceeds with other tasks.
+2.  <b>Device Completes Operation:</b> The I/O device performs its task (e.g., reads data from disk) and signals completion by asserting an <b>interrupt request (IRQ)</b> line to the CPU.
+3.  <b>CPU Acknowledges Interrupt:</b> At the end of its current instruction cycle, the CPU detects the IRQ. It then saves the current state (context) of the running program (e.g., program counter, registers).
+4.  <b>CPU Jumps to ISR:</b> The CPU determines which device caused the interrupt and jumps to a specific memory location where the <b>Interrupt Service Routine (ISR)</b> for that device is stored.
+5.  <b>ISR Handles I/O:</b> The ISR executes, performing the necessary I/O operations (e.g., reading data from the device's data register).
+6.  <b>ISR Clears Interrupt:</b> The ISR sends an acknowledgment to the device and/or clears the interrupt request flag.
+7.  <b>CPU Restores Context:</b> After the ISR completes, the CPU restores the saved context of the interrupted program.
+8.  <b>CPU Resumes Original Task:</b> The CPU resumes execution of the interrupted program from where it left off.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 7</h3>
+                        <p>What is an <b>Interrupt Service Routine (ISR)</b> and why is it crucial in Interrupt-Initiated I/O?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>An <b>Interrupt Service Routine (ISR)</b> (also known as an Interrupt Handler) is a special software routine or function specifically designed to handle a particular type of interrupt. It's crucial because:
+*   <b>Event Handling:</b> It contains the instructions to perform the necessary actions for the event that caused the interrupt (e.g., read data from an input buffer, write data to an output buffer, clear an error condition).
+*   <b>Device Specificity:</b> Each I/O device typically has its own ISR, allowing the system to respond appropriately to different types of interrupts.
+*   <b>System Stability:</b> By promptly and correctly handling interrupts, the ISR ensures the system can respond to external events and maintain stability without crashing or data loss.
+
+<b>Example:</b> For a keyboard interrupt, the ISR would read the character from the keyboard's data register and place it into a system buffer.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 8</h3>
+                        <p>List the key <b>advantages of using Interrupt-Initiated I/O</b> over Programmed I/O.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>The key advantages of Interrupt-Initiated I/O are:
+*   <b>Efficient CPU Utilization:</b> The CPU is not tied up busy-waiting; it can perform other tasks while the I/O device is processing. It's only interrupted when needed.
+*   <b>Multitasking/Concurrency:</b> It allows the CPU to manage multiple tasks concurrently, as it can switch between different programs or processes when an interrupt occurs.
+*   <b>Responsiveness:</b> The system can respond quickly to external events or device completion signals, improving overall system responsiveness.
+*   <b>Better Performance:</b> For systems with slow I/O devices, it dramatically improves overall system performance by freeing up the CPU.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 9</h3>
+                        <p>What are some <b>challenges or overheads</b> associated with Interrupt-Initiated I/O?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>While efficient, Interrupt-Initiated I/O has its own challenges and overheads:
+*   <b>Context Switching Overhead:</b> Saving the CPU's current state and restoring it after the ISR adds a time overhead (context switch).
+*   <b>Increased Complexity:</b> Requires more complex hardware (interrupt controller) and software (ISR design, interrupt vector table).
+*   <b>Interrupt Latency:</b> There's a delay between when an interrupt occurs and when the CPU starts executing the ISR, which can be critical in real-time systems.
+*   <b>Priority Management:</b> Multiple devices can interrupt simultaneously, requiring a mechanism for prioritizing interrupts.
+*   <b>Reentrancy Issues:</b> ISRs must be carefully designed to be reentrant if higher-priority interrupts can interrupt lower-priority ISRs.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 10</h3>
+                        <p><b>Compare and contrast Programmed I/O and Interrupt-Initiated I/O</b> based on CPU utilization and implementation complexity.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p><b>CPU Utilization:</b>
+*   <b>Programmed I/O (PIO):</b> Very inefficient. The CPU spends most of its time "busy-waiting" by polling the device status. It cannot perform other tasks during I/O.
+*   <b>Interrupt-Initiated I/O (IIO):</b> Highly efficient. The CPU is free to execute other instructions and is only interrupted when the I/O device requires attention, maximizing CPU throughput.
+
+<b>Implementation Complexity:</b>
+*   <b>Programmed I/O (PIO):</b> Relatively simple. Requires minimal hardware support (status/data registers) and simpler software logic (polling loop).
+*   <b>Interrupt-Initiated I/O (IIO):</b> More complex. Requires dedicated hardware (interrupt controller, interrupt lines) and more sophisticated software (Interrupt Service Routines, interrupt vector tables, context switching logic).</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <button class="accordion">CPU-IOP communication</button>
+        <div class="panel">
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 1</h3>
+                        <p>What is an I/O Processor (IOP) and its primary purpose in a computer system?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>An IOP (also known as an I/O Channel or I/O Controller) is a specialized processor that handles I/O operations independently of the main CPU. Its primary purpose is to <b>offload the CPU</b> from the tedious and time-consuming tasks of managing I/O devices (e.g., hard drives, network cards, USB ports). This allows the CPU to focus on computation, improving overall system performance.
+<i>Example:</i> When you copy a large file from a USB drive to your hard drive, the IOP manages the data transfer between these devices and main memory, freeing the CPU to run other applications.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 2</h3>
+                        <p>How does an IOP reduce the CPU's involvement in data transfer compared to direct CPU-controlled I/O (like Programmed I/O)?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>In direct CPU-controlled I/O (Programmed I/O), the CPU continuously checks the status of I/O devices and moves data byte-by-byte or word-by-word. This keeps the CPU busy and waiting. An IOP, on the other hand, takes over the <b>entire data transfer operation</b> after receiving initial commands from the CPU. It handles error checking, buffering, and device communication autonomously, often using Direct Memory Access (DMA) to transfer data directly to/from memory without CPU intervention for each data unit.
+<i>Example:</i> When printing a document, with an IOP, the CPU just tells the IOP "print this document starting at memory address X". The IOP then manages sending data to the printer until completion, notifying the CPU only when done.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 3</h3>
+                        <p>Define Direct Memory Access (DMA) and explain why it's crucial for efficient CPU-IOP communication.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>Direct Memory Access (DMA) is a method that allows an I/O device (often controlled by an IOP or DMAC) to read or write data directly to and from main memory <b>without the constant involvement of the CPU</b>. It's crucial because it significantly speeds up I/O operations by bypassing the CPU, freeing it to perform other tasks. This reduces the CPU overhead associated with large data transfers, such as reading files from a hard drive or sending/receiving network packets.
+<i>Example:</i> When loading a large game texture from the hard drive, the graphics card's DMA controller directly pulls the data into system RAM, rather than the CPU having to manually move each piece of data.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 4</h3>
+                        <p>Briefly describe the typical sequence of events involved in a DMA transfer initiated by the CPU.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>1.  <b>CPU Programs DMAC/IOP:</b> CPU writes commands to the DMA Controller (DMAC) or IOP, specifying memory address, data count, and I/O device.
+2.  <b>CPU Relinquishes Bus:</b> CPU signals DMAC/IOP to start, DMAC/IOP requests bus control.
+3.  <b>DMAC/IOP Takes Control:</b> After bus arbitration, DMAC/IOP gains control of the system bus.
+4.  <b>Data Transfer:</b> DMAC/IOP directly transfers data between the I/O device and main memory, without CPU intervention.
+5.  <b>DMAC/IOP Notifies CPU:</b> Once transfer is complete, DMAC/IOP sends an interrupt to the CPU.
+6.  <b>CPU Acknowledges:</b> CPU processes the interrupt, checks status, and proceeds.
+<i>Example:</i> Copying a file: CPU tells hard drive IOP to read 1MB from disk to RAM address 0x100000. IOP takes over, reads data, writes to RAM, then interrupts CPU when 1MB is transferred.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 5</h3>
+                        <p>What is the specific function of a DMA Controller (DMAC) within an IOP, or as a standalone component?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>A DMA Controller (DMAC) is a hardware component specifically designed to <b>manage DMA transfers</b>. Its function is to take control of the system bus, negotiate with the memory controller, and facilitate direct data transfer between an I/O device and main memory. It contains registers for memory address, byte count, and control signals. DMACs can be integrated into IOPs or exist as dedicated chips. They handle the low-level details of bus arbitration and data movement, allowing the IOP or CPU to simply specify the transfer parameters.
+<i>Example:</i> In modern systems, DMAC functionality is often integrated into peripheral controllers (like network cards or USB controllers), which then act like specialized IOPs to manage direct data flow.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 6</h3>
+                        <p>How does the CPU issue commands to an IOP (e.g., start a transfer, configure a device)?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>The CPU issues commands to an IOP by <b>writing specific values to the IOP's command registers or control registers</b>, which are typically memory-mapped or I/O-mapped. These registers act as mailboxes or control panels. The CPU writes a command code (e.g., "READ_SECTORS," "WRITE_FILE," "INIT_DEVICE") and often parameters like memory addresses and data lengths into these registers. The IOP continuously monitors these registers and executes the command once detected.
+<i>Example:</i> To tell a disk IOP to read data, the CPU might write the starting disk sector number, the destination memory address, and the number of sectors to read into specific registers within the disk controller. Then, it writes a "START_READ" command to a command register.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 7</h3>
+                        <p>How does an IOP report its status or the completion of an operation back to the CPU?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>IOPs typically report status and completion using two main mechanisms:
+1.  <b>Status Registers:</b> The IOP updates specific status registers (memory-mapped or I/O-mapped) to indicate its current state (e.g., busy, idle, error encountered) or the result of the last operation. The CPU can periodically <i>poll</i> these registers.
+2.  <b>Interrupts:</b> This is the most common and efficient method. Upon completion of a task, or if an error occurs, the IOP generates an interrupt signal to the CPU. The CPU then suspends its current task, jumps to an Interrupt Service Routine (ISR) for that IOP, reads the status registers to understand the event, and takes appropriate action.
+<i>Example:</i> After a DMA transfer of data from a network card to memory is complete, the network IOP sends an interrupt. The CPU's ISR then checks the network card's status register to confirm successful reception or an error.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 8</h3>
+                        <p>In the context of CPU-IOP communication, briefly explain the difference between Memory-Mapped I/O and I/O-Mapped I/O for accessing IOP registers.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>These are two ways the CPU can access an IOP's internal registers (command, status, data buffers):
+1.  <b>Memory-Mapped I/O:</b> The IOP's registers are assigned unique addresses within the <b>main memory address space</b>. The CPU uses regular memory read/write instructions (e.g., `MOV`) to access these registers, treating them just like any memory location.
+2.  <b>I/O-Mapped I/O (Port-Mapped I/O):</b> The IOP's registers are assigned addresses within a <b>separate I/O address space</b>. The CPU uses special I/O instructions (e.g., `IN`, `OUT` on x86 architectures) to access these registers. This requires dedicated control lines on the bus to distinguish between memory and I/O access.
+<i>Example:</i> On an x86 PC, the CPU might use `MOV` to access a graphics card's registers (memory-mapped) but `IN/OUT` to communicate with a legacy serial port controller (I/O-mapped).</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 9</h3>
+                        <p>Why is bus arbitration a critical process when an IOP performs a DMA transfer?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>Bus arbitration is critical because during a DMA transfer, the IOP (or its DMAC) needs to take control of the <b>system bus</b> to directly access main memory. The system bus is a shared resource, and the CPU also needs it for fetching instructions and data. Bus arbitration is the process where various devices (CPU, IOPs, other masters) request and are granted access to the bus. Without it, conflicts would occur, leading to data corruption or system crashes. The arbiter ensures that only one device is the "bus master" at any given time, preventing simultaneous access.
+<i>Example:</i> When a hard drive IOP wants to write data to RAM via DMA, it asserts a "bus request" signal. The bus arbiter then grants it the "bus grant" signal, momentarily pausing the CPU's access to the bus until the DMA transfer is complete.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 10</h3>
+                        <p>List two significant advantages of using an I/O Processor (IOP) in a computer system.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>1.  <b>CPU Offloading & Increased Performance:</b> IOPs offload I/O management from the main CPU. This frees the CPU to perform complex computations, execute applications, and manage other tasks, leading to higher overall system throughput and responsiveness.
+2.  <b>Improved I/O Efficiency:</b> IOPs can optimize I/O operations by handling low-level details, buffering, error correction, and multiple device interactions concurrently. They can manage entire blocks of data transfer (especially with DMA) more efficiently than the CPU could byte-by-byte, making I/O faster.
+3.  <b>Scalability & Modularity:</b> IOPs allow for easier expansion and management of I/O devices. New devices can often be integrated by adding a new IOP or modifying existing ones without extensive changes to the core CPU design or operating system.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <button class="accordion">Quick Summary</button>
+        <div class="panel">
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 1</h3>
+                        <p>What is the primary difference between <b>Computer Architecture</b> and <b>Computer Organization</b>?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p><b>Computer Architecture</b> defines the <i>functional behavior</i> of a computer system as seen by a programmer (e.g., instruction set, addressing modes, registers). It's <i>what</i> the system does.
+<b>Computer Organization</b> describes the <i>structural relationships</i> between hardware components and how they are interconnected to implement the architecture. It's <i>how</i> the system is built.
+<i>Example:</i> Architecture defines <i>that</i> there's an ADD instruction; Organization defines <i>how</i> the ALU performs the addition and how operands are routed to it.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 2</h3>
+                        <p>List the five basic functional units of a computer system and their primary roles.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>1.  <b>Input Unit:</b> Enters data and instructions into the system (e.g., keyboard, mouse).
+    2.  <b>Output Unit:</b> Displays or presents processing results (e.g., monitor, printer).
+    3.  <b>Memory Unit:</b> Stores data and programs (e.g., RAM, ROM).
+    4.  <b>Arithmetic Logic Unit (ALU):</b> Performs arithmetic (add, subtract) and logical (AND, OR) operations.
+    5.  <b>Control Unit (CU):</b> Directs and coordinates all operations within the computer, fetches instructions, and generates control signals.
+<i>Example:</i> When you type a number (Input), it's stored in Memory, processed by the ALU under the CU's direction, and displayed on the screen (Output).</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 3</h3>
+                        <p>Explain the "Stored Program Concept" and its significance.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>The <b>Stored Program Concept</b> (pioneered by John von Neumann) states that both instructions (the program) and data are stored in the same main memory. The CPU can then fetch instructions from memory, decode them, and execute them sequentially.
+<i>Significance:</i> It allows a computer to be general-purpose, programmable, and easily reconfigured by simply changing the software, rather than requiring hardware rewiring for each new task.
+<i>Example:</i> A word processor program and the document you're typing are both stored in RAM and accessed by the CPU.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 4</h3>
+                        <p>Describe the three main phases of the CPU's "Instruction Cycle".</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>The Instruction Cycle is the basic operation cycle of a CPU for processing an instruction:
+    1.  <b>Fetch:</b> The Control Unit retrieves the next instruction from memory, using the address stored in the Program Counter (PC).
+    2.  <b>Decode:</b> The fetched instruction is interpreted to determine the operation to be performed and the operands required.
+    3.  <b>Execute:</b> The specified operation is performed by the ALU or other functional units, potentially involving data from registers or memory.
+<i>Example:</i> Fetch "ADD R1, R2", Decode it as an addition operation, then Execute by sending the contents of R1 and R2 to the ALU and storing the result back in R1.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 5</h3>
+                        <p>What is the purpose of a "Memory Hierarchy" in a computer system? Provide an example.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>A <b>Memory Hierarchy</b> is a multi-tiered structure of storage devices, organized by speed, cost, and capacity. Its purpose is to provide faster average data access times to the CPU while keeping the overall system cost down. Faster, smaller, more expensive memory (like cache) is closer to the CPU; slower, larger, cheaper memory (like hard drives) is further away.
+<i>Example:</i> <b>Registers</b> (fastest/smallest) -> <b>L1 Cache</b> -> <b>L2 Cache</b> -> <b>Main Memory (RAM)</b> -> <b>Secondary Storage (SSD/HDD)</b> (slowest/largest).</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 6</h3>
+                        <p>Name at least three essential CPU registers and their functions.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>CPU registers are small, high-speed storage locations within the CPU used for temporary storage during processing.
+    1.  <b>Program Counter (PC):</b> Stores the memory address of the <i>next</i> instruction to be fetched.
+    2.  <b>Instruction Register (IR):</b> Holds the instruction <i>currently</i> being executed.
+    3.  <b>Accumulator (AC):</b> A general-purpose register often used to store intermediate results of arithmetic/logical operations.
+    <i>(Other examples: Memory Address Register (MAR), Memory Buffer Register (MBR), General Purpose Registers (GPRs)).</i>
+<i>Example:</i> When an instruction is fetched, the PC is updated, and the instruction itself is placed into the IR for decoding and execution.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 7</h3>
+                        <p>Explain the function of the three main types of buses in a typical computer system.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>Buses are shared communication pathways that connect different components of a computer.
+    1.  <b>Address Bus:</b> Carries memory addresses from the CPU to memory or I/O devices, specifying <i>where</i> data should be read from or written to (unidirectional from CPU).
+    2.  <b>Data Bus:</b> Carries the actual data being transferred between the CPU, memory, and I/O devices (bidirectional).
+    3.  <b>Control Bus:</b> Carries control signals (e.g., read/write signals, clock signals, interrupt requests) from the CPU to coordinate and manage operations (bidirectional).
+<i>Example:</i> The CPU places an address on the Address Bus, sends a "read" signal on the Control Bus, and data from that address is returned on the Data Bus.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 8</h3>
+                        <p>Briefly differentiate between Programmed I/O and Interrupt-driven I/O.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>Both are methods for the CPU to manage data transfer with Input/Output (I/O) devices.
+    1.  <b>Programmed I/O:</b> The CPU continuously monitors (polls) the status of an I/O device until it's ready for data transfer. This method wastes CPU time as the CPU idles waiting.
+    2.  <b>Interrupt-driven I/O:</b> The CPU initiates an I/O operation and then continues with other tasks. The I/O device signals the CPU with an "interrupt" when it's ready for data transfer or when an operation is complete. This is more efficient.
+<i>Example:</i> Programmed I/O is like repeatedly asking "Are you done yet?"; Interrupt-driven I/O is like saying "Tell me when you're done."</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 9</h3>
+                        <p>What is Direct Memory Access (DMA) and when is it typically used?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p><b>Direct Memory Access (DMA)</b> is a hardware feature that allows certain I/O devices (like disk controllers, network cards) to access main system memory directly, independently of the CPU. The CPU initiates the transfer, and then a dedicated DMA controller takes over, freeing the CPU to perform other tasks.
+<i>When used:</i> It's typically used for large block data transfers between high-speed I/O devices and memory (e.g., loading a large file from disk or transferring data to a graphics card), significantly improving system performance by reducing CPU overhead.
+<i>Example:</i> When loading a large game file from an SSD into RAM, DMA handles the bulk data transfer without constantly involving the CPU.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flashcard" onclick="flipCard(this)">
+                <div class="flashcard-inner">
+                    <div class="front">
+                        <h3>Card 10</h3>
+                        <p>Name two common metrics used to measure CPU performance and what they represent.</p>
+                    </div>
+                    <div class="back">
+                        <h3>Answer</h3>
+                        <p>1.  <b>Clock Speed (or Clock Rate):</b> Measures the number of cycles per second a CPU can perform, typically in Gigahertz (GHz). A higher clock speed generally means faster execution of individual operations.
+    2.  <b>CPI (Cycles Per Instruction):</b> The average number of clock cycles required to execute a single instruction. A lower CPI indicates more efficient instruction execution, meaning the CPU can complete more instructions per clock cycle.
+    <i>(Alternative: <b>MIPS</b> - Millions of Instructions Per Second: A measure of how many millions of instructions a CPU can execute per second. Higher MIPS generally means better overall throughput.)</i>
+<i>Example:</i> A CPU with 3 GHz clock speed and a CPI of 2 generally processes instructions faster than a 2 GHz CPU with a CPI of 3.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+
+        <script>
+            let flippedCount = 0;
+            let totalCards = 40;
+            let darkMode = false;
+
+            function flipCard(card) {
+                card.classList.toggle('flipped');
+                flippedCount = document.querySelectorAll('.flipped').length;
+                document.getElementById('progress').innerText = `You've reviewed ${flippedCount} / ${totalCards} cards`;
+            }
+
+            function shuffleCards() {
+                const panels = document.querySelectorAll('.panel');
+                panels.forEach(panel => {
+                    const cards = Array.from(panel.children);
+                    for (let i = cards.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [cards[i], cards[j]] = [cards[j], cards[i]];
+                    }
+                    panel.innerHTML = '';
+                    cards.forEach(c => panel.appendChild(c));
+                });
+            }
+
+            function toggleTheme() {
+                darkMode = !darkMode;
+                const root = document.documentElement;
+                if (darkMode) {
+                    root.style.setProperty('--primary-color', '#90CAF9');
+                    root.style.setProperty('--secondary-color', '#9ECFD4');
+                    root.style.setProperty('--bg-color', '#121212');
+                    root.style.setProperty('--text-color', '#EDEDED');
+                    root.style.setProperty('--card-color', '#1E1E1E');
+                } else {
+                    root.style.setProperty('--primary-color', '#70B2B2');
+                    root.style.setProperty('--secondary-color', '#9ECFD4');
+                    root.style.setProperty('--bg-color', '#016B61');
+                    root.style.setProperty('--text-color', '#ECF4E8');
+                    root.style.setProperty('--card-color', '#B7B89F');
+                }
+            }
+
+            // Accordion logic
+            const acc = document.getElementsByClassName("accordion");
+            for (let i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    const panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

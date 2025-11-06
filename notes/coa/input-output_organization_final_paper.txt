@@ -1,0 +1,388 @@
+FINAL QUESTION PAPER
+
+1. 29. A typical I/O instruction that a CPU might execute to initiate data transfer to a device under Programmed I/O would involve:
+(a) A JUMP instruction to an ISR address.
+(b) A CALL instruction to a memory location.
+(c) A LOAD/STORE instruction to an I/O port address.
+(d) A HALT instruction to pause CPU operations.
+
+2. 45.  An I/O Processor (IOP) typically communicates with the CPU by:
+a) Directly accessing the CPU's internal registers without permission.
+b) Exchanging messages, status information, and data blocks via main memory.
+c) Continuously sending interrupts to the CPU for every data transfer.
+d) Using a separate dedicated bus that bypasses main memory entirely for data transfer.
+
+3. 27. A benefit of Interrupt-initiated I/O over Programmed I/O, concerning CPU efficiency, is that:
+(a) The CPU is completely idle during I/O operations.
+(b) The CPU can perform other tasks while waiting for I/O completion, only reacting when an interrupt occurs.
+(c) It eliminates the need for an Interrupt Service Routine.
+(d) It requires less complex hardware for the I/O interface.
+
+4. 24. Which statement accurately differentiates between polling and interrupt-driven I/O?
+(a) Polling is more efficient for high-speed, bursty data transfers, while interrupts are better for continuous streaming.
+(b) Polling involves the CPU actively checking device status, whereas interrupts allow devices to signal the CPU when ready.
+(c) Polling requires a dedicated I/O processor, while interrupts are handled directly by the CPU.
+(d) Interrupts result in higher CPU overhead than polling for devices that are frequently ready.
+
+5. 60. From an efficiency standpoint, for large block data transfers, which I/O mechanism generally offers the best performance by minimizing CPU overhead?
+a) Programmed I/O using polling.
+b) Interrupt-initiated I/O with frequent interrupts.
+c) Direct Memory Access (DMA).
+d) Memory-mapped I/O without any controller.
+
+6. 3.  A status register in an I/O interface typically contains information about:
+a) The data to be transferred to or from the I/O device.
+b) The operational mode or configuration of the I/O device.
+c) The current state of the I/O device, such as busy, ready, or error conditions.
+d) The address of the next instruction to be executed after an I/O operation.
+
+7. 48. An I/O interface unit primarily serves which of the following functions?
+a) To execute application programs directly from peripheral devices.
+b) To convert data from peripheral format to CPU bus format and vice-versa.
+c) To accelerate the CPU's internal clock frequency during I/O operations.
+d) To manage the power supply and cooling for external devices.
+
+8. 41.  When a CPU services an interrupt, which critical pieces of information must it typically save to allow proper resumption of the interrupted program?
+a) Only the contents of the data registers.
+b) The Program Counter (PC) and the Processor Status Register (PSR).
+c) The contents of the cache memory.
+d) Only the address of the Interrupt Service Routine (ISR).
+
+9. 36.  In the context of asynchronous data transfer between the CPU and an I/O device, what is the primary purpose of handshaking signals?
+a) To synchronize the CPU clock with the I/O device clock for faster transfer.
+b) To ensure reliable data transfer by signaling data availability and acknowledgment between sender and receiver.
+c) To establish a direct memory access (DMA) channel for the I/O device.
+d) To indicate an error condition during data transmission.
+
+10. 37.  Consider an I/O write operation using Programmed I/O. Which of the following sequences best describes the CPU's actions?
+a) CPU reads data from status register, writes data to data register, then writes command to control register.
+b) CPU writes command to control register, writes data to data register, then checks status register.
+c) CPU checks status register, writes data to data register, then writes command to control register.
+d) CPU writes data to data register, then checks status register, and finally writes command to control register.
+
+11. 16. What is the primary characteristic of Programmed I/O (P_IO) regarding CPU involvement?
+(a) The CPU is interrupted only when data transfer is complete.
+(b) The CPU continuously checks the status of the I/O device until it is ready.
+(c) The CPU delegates all I/O operations to a dedicated I/O Processor.
+(d) The I/O device directly accesses main memory without CPU intervention.
+
+12. 54. Which of the following is NOT a typical register found within an I/O interface?
+a) Data Register
+b) Status Register
+c) Control Register
+d) Program Counter Register
+
+13. 32.  In Programmed I/O, how does the CPU determine if a peripheral device is ready for data transfer?
+a) By waiting for an interrupt signal from the device.
+b) By continuously polling the status register of the I/O interface.
+c) By directly reading data from the device's data register.
+d) By consulting the operating system's device driver table.
+
+14. 2.  In memory-mapped I/O, how does the CPU differentiate between a memory location and an I/O device register?
+a) By using separate instruction sets for memory and I/O.
+b) By assigning unique addresses to I/O devices that are distinct from memory addresses within a single address space.
+c) By checking a dedicated control signal on the I/O bus.
+d) The CPU does not differentiate; it treats them identically.
+
+15. 25. The mechanism that allows the CPU to temporarily ignore certain interrupt requests, typically for lower-priority events, is known as:
+(a) Interrupt acknowledgement
+(b) Interrupt vectoring
+(c) Interrupt masking
+(d) Interrupt nesting
+
+16. 34.  When an I/O device generates an interrupt, what is the immediate action typically taken by the CPU if interrupts are enabled?
+a) The CPU immediately stops its current task and restarts from the beginning.
+b) The CPU completes its current instruction, saves the program counter and processor status, and jumps to the Interrupt Service Routine.
+c) The CPU ignores the interrupt until the current program finishes execution.
+d) The CPU requests the operating system to poll all I/O devices to identify the source.
+
+17. 20. Which register within an I/O Interface is typically used by the CPU to determine if an I/O device is ready for data transfer or has completed an operation?
+(a) Data register
+(b) Address register
+(c) Program counter
+(d) Status register
+
+18. 14. Explain the concept of handshaking in asynchronous data transfer. Illustrate with a simple two-signal handshaking exchange between a sender and a receiver.
+
+19. 1.  Which of the following is the primary reason for including an I/O interface between the CPU and I/O devices?
+a) To increase the CPU's processing speed.
+b) To resolve the discrepancies in data transfer rates and formats between the CPU and peripheral devices.
+c) To store large amounts of data temporarily during I/O operations.
+d) To reduce the number of address lines required for memory access.
+
+20. 49. The main drawback of Programmed I/O is that the CPU:
+a) Cannot access memory during I/O operations.
+b) Spends significant time waiting or polling the I/O device.
+c) Requires a dedicated I/O processor for every device.
+d) Is unable to handle multiple I/O devices simultaneously.
+
+21. 28. Which component is crucial for managing multiple interrupt requests from various I/O devices and deciding which one to forward to the CPU?
+(a) A dedicated memory controller
+(b) An arithmetic logic unit (ALU)
+(c) An interrupt controller (e.g., PIC)
+(d) A cache memory unit
+
+22. 6.  State whether the following statement is True or False:
+In an interrupt-driven I/O system, the CPU polls the status register of I/O devices to detect completion of an I/O operation.
+
+23. 12. Outline the sequence of steps taken by the CPU when it receives an interrupt request from an I/O device in a single-level interrupt system.
+
+24. 9.  Explain the primary purpose of an I/O interface in a computer system and list two essential functions it performs.
+
+25. 23. What is the role of an Interrupt Vector Table (IVT) in an interrupt-initiated I/O system?
+(a) It stores the data to be transferred between the CPU and I/O device.
+(b) It maps interrupt numbers to the starting addresses of their corresponding Interrupt Service Routines.
+(c) It contains a list of all available I/O devices connected to the system.
+(d) It specifies the priority levels for different CPU instructions.
+
+26. 15. Discuss the function of an Input-Output Processor (IOP) in enhancing system performance. How does the CPU communicate with an IOP to initiate and monitor I/O operations?
+
+27. 53. What is the fundamental characteristic of Direct Memory Access (DMA) operations?
+a) All data transfers must be explicitly supervised and executed by the CPU.
+b) Data transfer occurs directly between a peripheral device and main memory without CPU intervention.
+c) DMA operations are only used for very small data transfers to minimize CPU overhead.
+d) DMA controllers are typically integrated within the CPU chip itself and require no external components.
+
+28. 52. In a memory-mapped I/O system, how are I/O devices typically accessed by the CPU?
+a) Through special I/O instructions that are distinct from memory access instructions.
+b) By assigning unique interrupt vectors to each I/O device.
+c) By treating I/O device registers as if they were memory locations.
+d) By using a separate dedicated I/O bus that is isolated from the memory bus.
+
+29. 55. When an I/O device issues an interrupt, the CPU typically suspends its current task and jumps to a specific routine to handle the request. This routine is called the:
+a) Bootstrap Loader
+b) Interrupt Service Routine (ISR)
+c) BIOS Setup Utility
+d) System Call Handler
+
+30. 59. A device driver in an operating system primarily interacts with which component to manage a peripheral device?
+a) The CPU's internal cache memory.
+b) The I/O interface registers.
+c) The main system clock generator.
+d) The power supply unit of the peripheral.
+
+31. 8.  State whether the following statement is True or False:
+Daisy chaining is a method used for establishing priority among multiple interrupting I/O devices by serially connecting their interrupt request lines.
+
+32. 4.  Which of the following describes the 'DAV' (Data Valid) signal in a full handshaking asynchronous data transfer protocol?
+a) A signal from the device to the interface indicating it is ready to receive data.
+b) A signal from the interface to the device indicating that data has been placed on the data bus.
+c) A signal from the device to the interface acknowledging receipt of data.
+d) A signal used to reset the I/O device.
+
+33. 43.  What is the primary purpose of the CPU's Interrupt Mask Register?
+a) To store the addresses of all pending interrupts.
+b) To enable or disable specific interrupt lines or all interrupts.
+c) To prioritize interrupt requests from various devices.
+d) To temporarily store data being transferred during an interrupt.
+
+34. 13. Compare and contrast the advantages and disadvantages of memory-mapped I/O versus I/O-mapped I/O (isolated I/O) from the perspective of a system designer.
+
+35. 10. Differentiate between programmed I/O and interrupt-initiated I/O with respect to CPU utilization and response time for a slow peripheral device.
+
+36. 18. Which of the following is a significant drawback of Programmed I/O compared to Interrupt-initiated I/O for high-speed devices?
+(a) Increased complexity of the I/O interface.
+(b) Higher power consumption of I/O devices.
+(c) Excessive CPU busy-waiting, leading to low CPU utilization for other tasks.
+(d) Inability to transfer multiple bytes in a single operation.
+
+37. 5.  During Programmed I/O, if an I/O device is not ready for data transfer, the CPU will typically:
+a) Issue an interrupt request and wait for the device.
+b) Halt its operation until the device becomes ready.
+c) Continuously poll the device's status register in a busy-wait loop.
+d) Delegate the I/O operation to a Direct Memory Access (DMA) controller.
+
+38. 58. In a typical I/O interface, a Status Register is used by the CPU to:
+a) Send commands to the I/O device.
+b) Write data to be transferred to the I/O device.
+c) Read information about the current state of the I/O device.
+d) Store the address of the next instruction to be executed.
+
+39. 57. The "cycle stealing" mode in DMA refers to a mechanism where the DMA controller:
+a) Steals CPU cycles to perform arithmetic operations.
+b) Temporarily takes control of the system bus for one data word transfer, then returns it to the CPU.
+c) Continuously holds the bus until the entire block of data is transferred.
+d) Accesses memory locations without proper authorization from the operating system.
+
+40. 47. In the context of I/O operations, which technique involves the CPU constantly checking the status flags of a peripheral device until it is ready for data transfer?
+a) Direct Memory Access (DMA)
+b) Interrupt-initiated I/O
+c) Programmed I/O
+d) Channel-based I/O
+
+41. 38.  What is the main disadvantage of Programmed I/O for high-speed data transfers, such as disk operations?
+a) It requires complex dedicated hardware for each I/O device.
+b) It places a significant burden on the CPU, causing it to waste many cycles polling status registers.
+c) It cannot handle multiple I/O devices simultaneously.
+d) It is susceptible to data corruption due to lack of error checking.
+
+42. 21. What is the purpose of "handshaking" signals in Programmed I/O between the CPU and an I/O device?
+(a) To establish a direct memory access (DMA) channel.
+(b) To ensure synchronized data transfer and mutual acknowledgment of readiness.
+(c) To prioritize interrupt requests from multiple devices.
+(d) To dynamically adjust the clock speed of the I/O device.
+
+43. 26. What is the primary impact of Programmed I/O on CPU utilization for devices that are slow or frequently busy?
+(a) It allows the CPU to perform other tasks while waiting for I/O, improving utilization.
+(b) It forces the CPU into a busy-wait loop, significantly decreasing its availability for other tasks.
+(c) It offloads I/O processing entirely to a dedicated I/O Processor, freeing the CPU.
+(d) It eliminates the need for any CPU intervention in I/O operations.
+
+44. 22. When an I/O device requires service in an interrupt-driven system, what signal does it typically send to the CPU or an interrupt controller?
+(a) A data-ready signal
+(b) A memory-write signal
+(c) An interrupt request (IRQ) signal
+(d) A clock synchronization signal
+
+45. 33.  Which of the following describes the key characteristic of memory-mapped I/O?
+a) I/O devices have a separate address space from main memory, accessed via dedicated I/O instructions.
+b) I/O devices and main memory share the same address space, accessed via regular memory instructions.
+c) Data transfer to and from I/O devices is exclusively handled by a DMA controller.
+d) Peripheral devices directly access main memory without CPU intervention.
+
+46. 19. The main function of an I/O Interface is to:
+(a) Execute application programs for the user.
+(b) Convert CPU signals into a format understood by I/O devices and vice-versa.
+(c) Directly control the internal operations of the CPU.
+(d) Manage virtual memory paging for I/O buffers.
+
+47. 11. Describe the roles of the three main types of registers (data, status, and control) found within a typical I/O interface. How do these registers facilitate communication between the CPU and the I/O device?
+
+48. 17. In Interrupt-initiated I/O, when does the CPU typically begin executing the Interrupt Service Routine (ISR)?
+(a) Immediately after the I/O device signals its readiness, without completing the current instruction.
+(b) After completing the current instruction and saving the context of the interrupted program.
+(c) Only when the operating system explicitly schedules the ISR.
+(d) When the I/O device directly places data into a dedicated buffer in memory.
+
+49. 44.  A common drawback of simple interrupt-driven I/O for very high-speed, large volume data transfers is:
+a) The CPU must constantly monitor the device's status register.
+b) The overhead of context switching for each byte or word transfer can become significant.
+c) It requires more complex hardware than Programmed I/O.
+d) It prevents the CPU from executing any other instructions during the transfer.
+
+50. 56. An I/O Processor (IOP) distinguishes itself from a simple I/O controller primarily by its ability to:
+a) Only handle a single peripheral device at a time.
+b) Execute a full set of arithmetic and logical instructions.
+c) Execute its own I/O programs independently of the CPU.
+d) Directly control the CPU's internal register set.
+
+51. 50. Compared to Programmed I/O, Interrupt-initiated I/O improves system efficiency by:
+a) Eliminating the need for any CPU involvement in data transfer.
+b) Allowing the CPU to execute other tasks until an I/O device requests service.
+c) Providing a dedicated data bus for all peripheral communications.
+d) Increasing the data transfer rate by buffering all I/O data in the CPU cache.
+
+52. 31.  What is the primary role of an Input/Output Processor (IOP) in a computer system?
+a) To execute arithmetic and logical operations for the CPU.
+b) To manage and execute I/O instructions independently of the CPU, thereby offloading the CPU.
+c) To function as the main memory controller.
+d) To generate display signals for the monitor.
+
+53. 39.  In an isolated I/O scheme, when the CPU wants to communicate with an I/O port, which of the following typically distinguishes I/O instructions from memory instructions on the control bus?
+a) A dedicated I/O/M' signal line that indicates an I/O operation.
+b) The use of a different clock signal for I/O operations.
+c) A separate data bus for I/O transfers.
+d) The presence of a larger address bus for I/O ports.
+
+54. 42.  In a vectored interrupt system, how does the CPU efficiently determine which device requested the interrupt after acknowledging it?
+a) By polling each I/O device's status register.
+b) By receiving a unique address (vector) from the interrupting device, which points to its ISR.
+c) By checking a fixed memory location for the ISR address.
+d) By consulting a pre-defined table in ROM for all possible interrupt sources.
+
+55. 35.  Which component is primarily responsible for arbitrating multiple simultaneous interrupt requests from various I/O devices and forwarding them to the CPU according to priority?
+a) The Arithmetic Logic Unit (ALU).
+b) The System Clock Generator.
+c) The Interrupt Controller.
+d) The Cache Memory.
+
+56. 40.  Which mechanism allows an I/O device to directly transfer data to or from main memory without continuous CPU intervention, after initial setup by the CPU?
+a) Programmed I/O.
+b) Interrupt-initiated I/O.
+c) Direct Memory Access (DMA).
+d) Polling.
+
+57. 30. Consider a system where a single, critical sensor generates data infrequently but requires immediate processing. Which I/O method would be most appropriate to minimize latency and CPU overhead for other tasks?
+(a) Programmed I/O with continuous polling
+(b) Direct Memory Access (DMA)
+(c) Interrupt-initiated I/O
+(d) Memory-mapped I/O without any status checking
+
+58. 7.  Fill in the blank:
+A dedicated hardware component that handles the data transfer between an I/O device and memory without continuous CPU intervention is known as a ______________________.
+
+59. 51. A specialized electronic circuit that controls a specific peripheral device, such as a disk drive or a network card, is known as a(n):
+a) Central Processing Unit (CPU)
+b) Memory Management Unit (MMU)
+c) I/O Controller (or Device Controller)
+d) Arithmetic Logic Unit (ALU)
+
+60. 46. Which of the following best describes the primary role of Input-Output (I/O) organization in a computer system?
+a) To perform arithmetic and logical operations for peripheral devices.
+b) To manage the storage and retrieval of data exclusively within the CPU registers.
+c) To bridge the communication gap between the CPU/memory and external peripheral devices.
+d) To optimize the internal clock speed of the processor for faster computations.
+
+
+ANSWER KEY
+
+1. (c)
+2. (b)
+3. (b)
+4. (b)
+5. (c)
+6. (c)
+7. (b)
+8. (b)
+9. (b)
+10. (c)
+11. (b)
+12. (d)
+13. (b)
+14. (b)
+15. (c)
+16. (b)
+17. (d)
+18. Handshaking is a control mechanism used in asynchronous data transfer to ensure reliable communication between sender and receiver, where devices do not share a common clock. It involves an exchange of control signals to coordinate data transfer, acknowledging readiness and data validity.
+19. (b)
+20. (b)
+21. (c)
+22. False
+23. (1) I/O device asserts an interrupt request signal.
+24. An I/O interface acts as an intermediary between the CPU and peripheral devices, bridging the differences in operating characteristics. Essential functions include: (1) Address decoding to select the specific I/O device or register. (2) Data buffering to accommodate speed differences. (3) Control and status handling to manage device operation and report its state. (4) Signal conversion to match electrical characteristics. (Any two of these or similar valid functions)
+25. (b)
+26. An Input-Output Processor (IOP) is a specialized processor that relieves the CPU from managing the details of I/O operations, thus enhancing system performance by allowing the CPU to focus on computation. It acts as an independent data channel.
+27. (b)
+28. (c)
+29. (b)
+30. (b)
+31. True
+32. (b)
+33. (b)
+34. Memory-mapped I/O:
+35. Programmed I/O: CPU continuously polls the device's status, leading to low CPU utilization as the CPU is busy waiting. Response time for a slow device can be inefficient due to busy-waiting.
+36. (c)
+37. (c)
+38. (c)
+39. (b)
+40. (c)
+41. (b)
+42. (b)
+43. (b)
+44. (c)
+45. (b)
+46. (b)
+47. Data Register: Temporarily holds data being transferred between the CPU and the I/O device.
+48. (b)
+49. (b)
+50. (c)
+51. (b)
+52. (b)
+53. (a)
+54. (b)
+55. (c)
+56. (c)
+57. (c)
+58. DMA Controller (or Direct Memory Access Controller)
+59. (c)
+60. (c)
